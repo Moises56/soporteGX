@@ -1,0 +1,450 @@
+spec_i([ proc,149,l('Find GAMProperty'),'K2BFSG\FindGAMProperty',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BFSG.FindGAMProperty')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BFSG\GAMPropertyHelper'))).
+rule_i(0,prop('ObjDesc','Find GAMProperty')).
+rule_i(0,prop('ObjName','FindGAMProperty')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Properties','Id','Found','Property' ],[])).
+rule_i(0,parmio([ [ 'Properties',in ],[ 'Id',in ],[ 'Found',out ],[ 'Property',out ] ])).
+rule_i(0,output('FIL')).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',14 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',13 ]).
+attri_i('Propertyiterator',[ 'PropertyIterator',o('GeneXusSecurity\GAMProperty'),0,0,'',0,l('Property Iterator'),'',12 ]).
+attri_i('Property',[ 'Property',o('GeneXusSecurity\GAMProperty'),0,0,'',0,l('Property'),'',11 ]).
+attri_i('Found',[ 'Found',boolean,4,0,'',0,l('Found'),'',10 ]).
+attri_i('Id',[ 'Id',char,60,0,'',0,l('Id'),'',9 ]).
+attri_i('Properties',[ 'Properties',o(objectcollection('GeneXusSecurity\GAMProperty')),0,0,'',0,l('Properties'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(218,[ 'GeneXusSecurityCommon\GAMPropertyId' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Found',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 2,2 ],1,1,cmd,0,[ t('',114,2,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Properties',23,2,26),t('Count',3,2,0) ],29,2,0) ]).
+b_line_i([ 2,3 ],1,1,cmd,0,[ t('',107,2,0),t('Propertyiterator',23,0,0),t(=,10,0,0),t([ t('Properties',23,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(3,1,1,cmd,1,[ t('',109,3,0),t([ t('Propertyiterator',23,3,5),t('Id',3,3,23) ],29,3,23),t(=,10,1,26),t('Id',23,1,28) ]).
+b_line_i(4,1,1,cmd,1,[ t('',107,4,0),t('Property',23,1,0),t(=,10,1,0),t('Propertyiterator',23,1,0) ]).
+b_line_i(5,1,1,cmd,1,[ t('',107,5,0),t('Found',23,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(6,1,1,cmd,1,[ t('',140,6,0) ]).
+b_line_i(7,1,1,cmd,1,[ t('',111,7,0) ]).
+b_line_i([ 8,1 ],1,1,cmd,1,[ t('',107,8,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 8,2 ],1,1,cmd,1,[ t('',115,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Id',idBasedOn,218,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 14,75,0 ],name,'GeneXusSecurity\GAMProperty').
+struct_dt_i([ 14,75,0 ],'ObjName','GAMProperty').
+struct_dt_i([ 14,75,0 ],'ObjDesc','GAMProperty').
+struct_dt_i([ 14,75,0 ],'ExoType','0').
+struct_dt_i([ 14,75,0 ],'ObjNamespace','GeneXus.Security').
+struct_dt_i([ 14,75,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,75,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,75,0 ],'ExoNameCSHARP','GAMProperty').
+struct_dt_i([ 14,75,0 ],'AssemblyName','GeneXus.Security.dll').
+struct_dt_i([ 14,75,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,75,0 ],'ExoNameNETCORE','GAMProperty').
+struct_dt_i([ 14,75,0 ],'NetCoreAssemblyName','GeneXus.Security.dll').
+struct_dt_i([ 14,75,0 ],'NetCorePackageName','').
+struct_dt_i([ 14,75,0 ],'ExoConstructorParametersNETCORE',context).
+struct_dt_i([ 14,75,0 ],'PackageName','genexus.security').
+struct_dt_i([ 14,75,0 ],'RequireName','').
+struct_dt_i([ 14,75,0 ],'ExoNameJS','').
+struct_dt_i([ 14,75,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,75,0 ],'Folder',o(120,'GeneXusSecurity')).
+struct_dt_i([ 14,75,0 ],'FullyQualifiedName','GeneXusSecurity.GAMProperty').
+struct_dt_i([ 14,75,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,75,0 ],isexternal,'True').
+struct_dt_i([ 14,75,0 ],fullname,'GeneXusSecurity\GAMProperty').
+ 
+struct_dt_elem_i([ 14,75,0 ],1,name,'Id').
+struct_dt_elem_i([ 14,75,0 ],1,camelname,'Id').
+struct_dt_elem_i([ 14,75,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,75,0 ],1,length,60).
+struct_dt_elem_i([ 14,75,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,75,0 ],1,type,[ 5,60,0 ]).
+struct_dt_elem_i([ 14,75,0 ],1,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,75,0 ],1,'IntName','Id').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoItemDesc','Property identification').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoItemType','Character').
+struct_dt_elem_i([ 14,75,0 ],1,basedon,218).
+struct_dt_elem_i([ 14,75,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,75,0 ],1,'ControlType','2').
+struct_dt_elem_i([ 14,75,0 ],1,'InputType','0').
+struct_dt_elem_i([ 14,75,0 ],1,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoNameCSHARP','Id').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoNameNETCORE','Id').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_elem_i([ 14,75,0 ],1,'ExoNameJS','').
+struct_dt_elem_i([ 14,75,0 ],2,name,'Token').
+struct_dt_elem_i([ 14,75,0 ],2,camelname,'Token').
+struct_dt_elem_i([ 14,75,0 ],2,externalType,'').
+struct_dt_elem_i([ 14,75,0 ],2,length,40).
+struct_dt_elem_i([ 14,75,0 ],2,decimals,0).
+struct_dt_elem_i([ 14,75,0 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 14,75,0 ],2,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,75,0 ],2,'IntName','Token').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoItemDesc','Token to complement the identifier property').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoItemType','Character').
+struct_dt_elem_i([ 14,75,0 ],2,basedon,219).
+struct_dt_elem_i([ 14,75,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,75,0 ],2,'ControlType','2').
+struct_dt_elem_i([ 14,75,0 ],2,'InputType','0').
+struct_dt_elem_i([ 14,75,0 ],2,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoNameCSHARP','Token').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoNameNETCORE','Token').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_elem_i([ 14,75,0 ],2,'ExoNameJS','').
+struct_dt_elem_i([ 14,75,0 ],3,name,'Value').
+struct_dt_elem_i([ 14,75,0 ],3,camelname,'Value').
+struct_dt_elem_i([ 14,75,0 ],3,externalType,'').
+struct_dt_elem_i([ 14,75,0 ],3,length,2048).
+struct_dt_elem_i([ 14,75,0 ],3,decimals,100).
+struct_dt_elem_i([ 14,75,0 ],3,type,[ 13,2048,100 ]).
+struct_dt_elem_i([ 14,75,0 ],3,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,75,0 ],3,'IntName','Value').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoItemDesc','Property value').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoItemType','VarChar').
+struct_dt_elem_i([ 14,75,0 ],3,basedon,220).
+struct_dt_elem_i([ 14,75,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,75,0 ],3,'ControlType','2').
+struct_dt_elem_i([ 14,75,0 ],3,'InputType','0').
+struct_dt_elem_i([ 14,75,0 ],3,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoNameCSHARP','Value').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoNameNETCORE','Value').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_elem_i([ 14,75,0 ],3,'ExoNameJS','').
+ 
+struct_dt_method_i([ 14,75,0 ],1,name,tostring).
+struct_dt_method_i([ 14,75,0 ],1,camelname,'ToString').
+struct_dt_method_i([ 14,75,0 ],1,externalType,'').
+struct_dt_method_i([ 14,75,0 ],1,length,9999).
+struct_dt_method_i([ 14,75,0 ],1,decimals,0).
+struct_dt_method_i([ 14,75,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,75,0 ],1,'IntName','ToString').
+struct_dt_method_i([ 14,75,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,75,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,75,0 ],1,basedon,'').
+struct_dt_method_i([ 14,75,0 ],1,'XmlName','ToString').
+struct_dt_method_i([ 14,75,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,75,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,75,0 ],1,'ExoNameCSHARP','ToString').
+struct_dt_method_i([ 14,75,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,75,0 ],1,'ExoNameNETCORE','ToString').
+struct_dt_method_i([ 14,75,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,75,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,75,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,75,0 ],2,name,tojsonstring).
+struct_dt_method_i([ 14,75,0 ],2,camelname,'ToJsonString').
+struct_dt_method_i([ 14,75,0 ],2,externalType,'').
+struct_dt_method_i([ 14,75,0 ],2,length,9999).
+struct_dt_method_i([ 14,75,0 ],2,decimals,0).
+struct_dt_method_i([ 14,75,0 ],2,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,75,0 ],2,'IntName','ToJsonString').
+struct_dt_method_i([ 14,75,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,75,0 ],2,'ExoItemType','Character').
+struct_dt_method_i([ 14,75,0 ],2,basedon,'').
+struct_dt_method_i([ 14,75,0 ],2,'XmlName','ToJsonString').
+struct_dt_method_i([ 14,75,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,75,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,75,0 ],2,'ExoNameCSHARP','ToJsonString').
+struct_dt_method_i([ 14,75,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,75,0 ],2,'ExoNameNETCORE','ToJsonString').
+struct_dt_method_i([ 14,75,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,75,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,75,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,75,0 ],3,name,fromjsonstring).
+struct_dt_method_i([ 14,75,0 ],3,camelname,'FromJsonString').
+struct_dt_method_i([ 14,75,0 ],3,externalType,'').
+struct_dt_method_i([ 14,75,0 ],3,length,8).
+struct_dt_method_i([ 14,75,0 ],3,decimals,0).
+struct_dt_method_i([ 14,75,0 ],3,type,[ 15,8,0 ]).
+struct_dt_method_i([ 14,75,0 ],3,'IntName','FromJsonString').
+struct_dt_method_i([ 14,75,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,75,0 ],3,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,75,0 ],3,basedon,'').
+struct_dt_method_i([ 14,75,0 ],3,'XmlName','FromJsonString').
+struct_dt_method_i([ 14,75,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,75,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,75,0 ],3,'ExoNameCSHARP','FromJsonString').
+struct_dt_method_i([ 14,75,0 ],3,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,75,0 ],3,'ExoNameNETCORE','FromJsonString').
+struct_dt_method_i([ 14,75,0 ],3,'ExoItemExtTypeNETCORE',bool).
+struct_dt_method_i([ 14,75,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,75,0 ],3,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,75,3 ],1,name,json).
+struct_dt_param_i([ 14,75,3 ],1,camelname,'Json').
+struct_dt_param_i([ 14,75,3 ],1,externalType,'').
+struct_dt_param_i([ 14,75,3 ],1,length,9999).
+struct_dt_param_i([ 14,75,3 ],1,decimals,0).
+struct_dt_param_i([ 14,75,3 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,75,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,75,3 ],1,'IntName','Json').
+struct_dt_param_i([ 14,75,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,75,3 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,75,3 ],1,basedon,'').
+struct_dt_param_i([ 14,75,3 ],1,'ExoItemExtTypeCSHARP',string).
+struct_dt_param_i([ 14,75,3 ],1,'ExoItemExtTypeNETCORE',string).
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,149,'K2BFSG\FINDGAMPROPERTY','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurity','AssemblyName','GeneXusSecurity.dll').
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

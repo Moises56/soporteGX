@@ -1,0 +1,968 @@
+spec_i([ web,27,l('K2 BT_UIConfiguration Aries'),'K2BTools\DesignSystems\Aries\UIConfiguration',0,eng,'18_0_5-175581' ]).
+ 
+struct_i(2,1,[ 'K2bt_extendedcontrolvalues','K2bt_extendedcontrolvaluesitem',[ t('K2bt_extendedcontrolvaluesitem',23),t('Value',3) ],[ t('K2bt_extendedcontrolvaluesitem',23),t('Description',3) ],'Colorvariant','K2bt_basecoloroptions','K2bt_basecoloroption',[ t('K2bt_basecoloroption',23),t('Id',3) ],[ t('K2bt_basecoloroption',23),t('Colorcode',3) ],[ t('K2bt_basecoloroption',23),t('Description',3) ],'Basecolor',[ t('K2bt_extendedcontrolvaluesitem',23),t('Imageurl',3) ],'Language' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Basecolor','Colorvariant','Language' ] ]).
+ 
+lac_i(2,[ [ 'Basecolor','Colorvariant','Language' ] ]).
+ 
+ 
+lits_i(l('K2BT_Palette'),5,10).
+ 
+cls_i([ 0,0 ],[ 5,21 ]).
+ 
+pos_i('Basecolor',[ 0,0,0 ]).
+pos_i('Colorvariant',[ 0,0,0 ]).
+pos_i('Language',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('K2BTools_IsLayout','0')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BTools.DesignSystems.Aries.UIConfiguration')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('URLAccess','No')).
+rule_i(0,prop('WEB_COMP','Yes')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('Folder',o(8,'K2BTools\DesignSystems\Aries\MasterPages'))).
+rule_i(0,prop('ObjDesc','K2 BT_UIConfiguration Aries')).
+rule_i(0,prop('ObjName','UIConfiguration')).
+rule_i(0,maingen(15)).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('X',[ x,int,4,0,'ZZZ9',0,x,'',12 ]).
+attri_i('Language',[ 'Language',char,20,0,'',0,l('Language'),'',11 ]).
+attri_i('K2bt_extendedcontrolvaluesitem',[ 'K2BT_ExtendedControlValuesItem',o('K2BT_ExtendedControlValues.Item'),0,0,'',0,l('K2 BT_Extended Control Values Item'),'',10 ]).
+attri_i('K2bt_extendedcontrolvalues',[ 'K2BT_ExtendedControlValues',o(objectcollection('K2BT_ExtendedControlValues.Item')),0,0,'',0,l('K2 BT_Extended Control Values'),'',9 ]).
+attri_i('K2bt_basecoloroptions',[ 'K2BT_BaseColorOptions',o(objectcollection('K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color')),0,0,'',0,l('K2 BT_Base Color Options'),'',8 ]).
+attri_i('K2bt_basecoloroption',[ 'K2BT_BaseColorOption',o('K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color'),0,0,'',0,l('K2 BT_Base Color Option'),'',7 ]).
+attri_i('Colorvariant',[ 'ColorVariant',char,20,0,'',0,l('Color Variant'),'',6 ]).
+attri_i('Basecolor',[ 'BaseColor',char,20,0,'',0,l('Base Color'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,'Basecolor',yes,udp,o(1,'K2BTools\GetDesignSystemOptionValue'),[],45,'Basecolor',[ [ t([ 95,'BaseColor' ],44) ] ]).
+function_i(2,'Colorvariant',yes,udp,o(1,'K2BTools\GetDesignSystemOptionValue'),[],15,'Colorvariant',[ [ t([ 95,'ColorVariant' ],44) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(2,95,'"color-variant"','ColorVariant',l('Color Variant'),[ none ]).
+enum_value_i(2,95,'"base-color"','BaseColor',l('Base Color'),[ none ]).
+ 
+enum_value_info_i(2,95,'K2BTools\DesignSystemOptions').
+ 
+enum_type_i(2,95,char,20,0).
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,57).
+b_group_i(2,3,lit,0,58,62).
+b_group_i(2,4,lit,0,63,67).
+b_group_i(2,5,lit,0,68,72).
+b_group_i(2,6,lit,0,73,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,2,0),t([ t('Configurationcontents',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',107,4,0),t('K2bt_extendedcontrolvalues',23,1,0),t(=,10,1,0),t([ 'K2BT_ExtendedControlValues',[ t('(',0,4,35),t(')',4,4,36) ],n ],46,1,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',107,5,0),t('K2bt_extendedcontrolvaluesitem',23,1,0),t(=,10,1,0),t([ 'K2BT_ExtendedControlValues.Item',[ t('(',0,5,39),t(')',4,5,40) ],n ],46,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',107,6,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Value',3,1,0) ],29,1,0),t(=,10,1,0),t('"light"',3,1,0) ]).
+b_line_i(7,2,2,cmd,1,[ t('',107,7,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Light"',3,1,0),t(')',4,1,0) ]).
+b_line_i(8,2,2,cmd,1,[ t('',107,8,0),t([ t('K2bt_extendedcontrolvalues',23,8,2),t('add(',1,8,30) ],31,8,2),t('K2bt_extendedcontrolvaluesitem',23,1,35),t(')',4,1,66) ]).
+b_line_i(10,2,2,cmd,1,[ t('',107,10,0),t('K2bt_extendedcontrolvaluesitem',23,1,0),t(=,10,1,0),t([ 'K2BT_ExtendedControlValues.Item',[ t('(',0,10,39),t(')',4,10,40) ],n ],46,1,0) ]).
+b_line_i(11,2,2,cmd,1,[ t('',107,11,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Value',3,1,0) ],29,1,0),t(=,10,1,0),t('"dark"',3,1,0) ]).
+b_line_i(12,2,2,cmd,1,[ t('',107,12,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Dark"',3,1,0),t(')',4,1,0) ]).
+b_line_i(13,2,2,cmd,1,[ t('',107,13,0),t([ t('K2bt_extendedcontrolvalues',23,13,2),t('add(',1,13,30) ],31,13,2),t('K2bt_extendedcontrolvaluesitem',23,1,35),t(')',4,1,66) ]).
+b_line_i(14,2,2,cmd,1,[ t('',107,14,0),t([ t('Colorvariant',23,14,2),t('setvalues(',1,14,16) ],31,14,2),t('K2bt_extendedcontrolvalues',23,1,27),t(')',4,1,54) ]).
+b_line_i(15,2,2,cmd,1,[ t('',107,15,0),t('Colorvariant',23,1,0),t(=,10,1,0),t('udp(',1,1,0),t('Colorvariant',3,1,0),t(15,3,1,0),t([ 95,'ColorVariant' ],44,1,0),t(')',4,1,0) ]).
+b_line_i(17,2,2,cmd,1,[ t('',107,17,0),t('K2bt_basecoloroptions',23,1,0),t(=,10,1,0),t([ 'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions',[ t('(',0,17,30),t(')',4,17,31) ],n ],46,1,0) ]).
+b_line_i(18,2,2,cmd,1,[ t('',107,18,0),t('K2bt_basecoloroption',23,1,0),t(=,10,1,0),t([ 'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color',[ t('(',0,18,29),t(')',4,18,30) ],n ],46,1,0) ]).
+b_line_i(19,2,2,cmd,1,[ t('',107,19,0),t([ t('K2bt_basecoloroption',23,1,0),t('Id',3,1,0) ],29,1,0),t(=,10,1,0),t('"violet"',3,1,0) ]).
+b_line_i(20,2,2,cmd,1,[ t('',107,20,0),t([ t('K2bt_basecoloroption',23,1,0),t('Colorcode',3,1,0) ],29,1,0),t(=,10,1,0),t('"#6015af"',3,1,0) ]).
+b_line_i(21,2,2,cmd,1,[ t('',107,21,0),t([ t('K2bt_basecoloroption',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Violet"',3,1,0),t(')',4,1,0) ]).
+b_line_i(22,2,2,cmd,1,[ t('',107,22,0),t([ t('K2bt_basecoloroptions',23,22,2),t('add(',1,22,25) ],31,22,2),t('K2bt_basecoloroption',23,1,30),t(')',4,1,51) ]).
+b_line_i(23,2,2,cmd,1,[ t('',107,23,0),t('K2bt_basecoloroption',23,1,0),t(=,10,1,0),t([ 'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color',[ t('(',0,23,29),t(')',4,23,30) ],n ],46,1,0) ]).
+b_line_i(24,2,2,cmd,1,[ t('',107,24,0),t([ t('K2bt_basecoloroption',23,1,0),t('Id',3,1,0) ],29,1,0),t(=,10,1,0),t('"violetflat"',3,1,0) ]).
+b_line_i(25,2,2,cmd,1,[ t('',107,25,0),t([ t('K2bt_basecoloroption',23,1,0),t('Colorcode',3,1,0) ],29,1,0),t(=,10,1,0),t('"#5a6ee0"',3,1,0) ]).
+b_line_i(26,2,2,cmd,1,[ t('',107,26,0),t([ t('K2bt_basecoloroption',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Violet Flat"',3,1,0),t(')',4,1,0) ]).
+b_line_i(27,2,2,cmd,1,[ t('',107,27,0),t([ t('K2bt_basecoloroptions',23,27,2),t('add(',1,27,25) ],31,27,2),t('K2bt_basecoloroption',23,1,30),t(')',4,1,51) ]).
+b_line_i(28,2,2,cmd,1,[ t('',107,28,0),t('K2bt_basecoloroption',23,1,0),t(=,10,1,0),t([ 'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color',[ t('(',0,28,29),t(')',4,28,30) ],n ],46,1,0) ]).
+b_line_i(29,2,2,cmd,1,[ t('',107,29,0),t([ t('K2bt_basecoloroption',23,1,0),t('Id',3,1,0) ],29,1,0),t(=,10,1,0),t('"green"',3,1,0) ]).
+b_line_i(30,2,2,cmd,1,[ t('',107,30,0),t([ t('K2bt_basecoloroption',23,1,0),t('Colorcode',3,1,0) ],29,1,0),t(=,10,1,0),t('"#2A898E"',3,1,0) ]).
+b_line_i(31,2,2,cmd,1,[ t('',107,31,0),t([ t('K2bt_basecoloroption',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Green"',3,1,0),t(')',4,1,0) ]).
+b_line_i(32,2,2,cmd,1,[ t('',107,32,0),t([ t('K2bt_basecoloroptions',23,32,2),t('add(',1,32,25) ],31,32,2),t('K2bt_basecoloroption',23,1,30),t(')',4,1,51) ]).
+b_line_i(33,2,2,cmd,1,[ t('',107,33,0),t('K2bt_basecoloroption',23,1,0),t(=,10,1,0),t([ 'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color',[ t('(',0,33,29),t(')',4,33,30) ],n ],46,1,0) ]).
+b_line_i(34,2,2,cmd,1,[ t('',107,34,0),t([ t('K2bt_basecoloroption',23,1,0),t('Id',3,1,0) ],29,1,0),t(=,10,1,0),t('"skyblue"',3,1,0) ]).
+b_line_i(35,2,2,cmd,1,[ t('',107,35,0),t([ t('K2bt_basecoloroption',23,1,0),t('Colorcode',3,1,0) ],29,1,0),t(=,10,1,0),t('"#5CCEDF"',3,1,0) ]).
+b_line_i(36,2,2,cmd,1,[ t('',107,36,0),t([ t('K2bt_basecoloroption',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Sky Blue"',3,1,0),t(')',4,1,0) ]).
+b_line_i(37,2,2,cmd,1,[ t('',107,37,0),t([ t('K2bt_basecoloroptions',23,37,2),t('add(',1,37,25) ],31,37,2),t('K2bt_basecoloroption',23,1,30),t(')',4,1,51) ]).
+b_line_i(38,2,2,cmd,1,[ t('',107,38,0),t('K2bt_basecoloroption',23,1,0),t(=,10,1,0),t([ 'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color',[ t('(',0,38,29),t(')',4,38,30) ],n ],46,1,0) ]).
+b_line_i(39,2,2,cmd,1,[ t('',107,39,0),t([ t('K2bt_basecoloroption',23,1,0),t('Id',3,1,0) ],29,1,0),t(=,10,1,0),t('"red"',3,1,0) ]).
+b_line_i(40,2,2,cmd,1,[ t('',107,40,0),t([ t('K2bt_basecoloroption',23,1,0),t('Colorcode',3,1,0) ],29,1,0),t(=,10,1,0),t('"#A83453"',3,1,0) ]).
+b_line_i(41,2,2,cmd,1,[ t('',107,41,0),t([ t('K2bt_basecoloroption',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"Red"',3,1,0),t(')',4,1,0) ]).
+b_line_i(42,2,2,cmd,1,[ t('',107,42,0),t([ t('K2bt_basecoloroptions',23,42,2),t('add(',1,42,25) ],31,42,2),t('K2bt_basecoloroption',23,1,30),t(')',4,1,51) ]).
+b_line_i(43,2,2,cmd,1,[ t('',107,43,0),t([ t('Basecolor',23,43,2),t('setoptions(',1,43,13) ],31,43,2),t('K2bt_basecoloroptions',23,1,25),t(')',4,1,47) ]).
+b_line_i(45,2,2,cmd,1,[ t('',107,45,0),t('Basecolor',23,1,0),t(=,10,1,0),t('udp(',1,1,0),t('Basecolor',3,1,0),t(45,3,1,0),t([ 95,'BaseColor' ],44,1,0),t(')',4,1,0) ]).
+b_line_i(47,2,2,cmd,1,[ t('',107,47,0),t('K2bt_extendedcontrolvalues',23,1,0),t(=,10,1,0),t([ 'K2BT_ExtendedControlValues',[ t('(',0,47,35),t(')',4,47,36) ],n ],46,1,0) ]).
+b_line_i(48,2,2,cmd,1,[ t('',107,48,0),t('K2bt_extendedcontrolvaluesitem',23,1,0),t(=,10,1,0),t([ 'K2BT_ExtendedControlValues.Item',[ t('(',0,48,39),t(')',4,48,40) ],n ],46,1,0) ]).
+b_line_i(49,2,2,cmd,1,[ t('',107,49,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Value',3,1,0) ],29,1,0),t(=,10,1,0),t('"English"',3,1,0) ]).
+b_line_i(50,2,2,cmd,1,[ t('',107,50,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('getmessagetext(',1,1,0),t('"K2BT_English"',3,1,0),t(')',4,1,0) ]).
+b_line_i(51,2,2,cmd,1,[ t('',107,51,0),t([ t('K2bt_extendedcontrolvaluesitem',23,1,0),t('Imageurl',3,1,0) ],29,1,0),t(=,10,1,0),t([ t(i(98,'cd19377b-aadb-4458-91ca-fe8f890d88cb'),69,1,0),t('link(',1,1,0) ],31,1,0),t(')',4,1,0) ]).
+b_line_i(52,2,2,cmd,1,[ t('',107,52,0),t([ t('K2bt_extendedcontrolvalues',23,52,2),t('add(',1,52,30) ],31,52,2),t('K2bt_extendedcontrolvaluesitem',23,1,35),t(')',4,1,66) ]).
+b_line_i(53,2,2,cmd,1,[ t('',107,53,0),t([ t('Language',23,53,2),t('setvalues(',1,53,12) ],31,53,2),t('K2bt_extendedcontrolvalues',23,1,23),t(')',4,1,50) ]).
+b_line_i(54,2,2,cmd,1,[ t('',107,54,0),t('Language',23,1,0),t(=,10,1,0),t('getlanguage(',1,1,0),t(')',4,1,0) ]).
+b_line_i(55,2,2,cmd,1,[ t('',147,55,0) ]).
+b_line_i(57,2,2,cmd,1,[ t('',146,57,0),t([ t('Colorvariant',23,57,7),t('Controlvaluechanged',3,57,21) ],29,57,21) ]).
+b_line_i(58,2,3,cmd,1,[ t('',107,58,0),t([ t(o(14,'GeneXus\Common\UI\DesignSystem'),72,58,2),t('setoption(',1,58,15) ],31,58,15),t([ 95,'ColorVariant' ],44,58,26),t(',',7,1,58),t('Colorvariant',23,1,60),t(')',4,1,73) ]).
+b_line_i(59,2,3,cmd,1,[ t('',104,59,0),t(o(1,'K2BTools\SetDesignSystemOptionValue'),28,1,2),t([ 95,'ColorVariant' ],44,59,29),t(',',7,1,0),t('Colorvariant',23,1,63) ]).
+b_line_i(60,2,3,cmd,1,[ t('',147,60,0) ]).
+b_line_i(62,2,3,cmd,1,[ t('',146,62,0),t([ t('Basecolor',23,62,7),t('Controlvaluechanged',3,62,18) ],29,62,18) ]).
+b_line_i(63,2,4,cmd,1,[ t('',107,63,0),t([ t(o(14,'GeneXus\Common\UI\DesignSystem'),72,63,2),t('setoption(',1,63,15) ],31,63,15),t([ 95,'BaseColor' ],44,63,26),t(',',7,1,55),t('Basecolor',23,1,57),t(')',4,1,67) ]).
+b_line_i(64,2,4,cmd,1,[ t('',104,64,0),t(o(1,'K2BTools\SetDesignSystemOptionValue'),28,1,2),t([ 95,'BaseColor' ],44,64,29),t(',',7,1,0),t('Basecolor',23,1,60) ]).
+b_line_i(65,2,4,cmd,1,[ t('',147,65,0) ]).
+b_line_i(67,2,4,cmd,1,[ t('',146,67,0),t([ t('Language',23,67,7),t('Controlvaluechanged',3,67,17) ],29,67,17) ]).
+b_line_i(68,2,5,cmd,1,[ t('',107,68,0),t('X',23,1,0),t(=,10,1,0),t('setlanguage(',1,1,0),t('Language',23,1,0),t(')',4,1,0) ]).
+b_line_i(69,2,5,cmd,1,[ t('',107,69,0),t([ t('Form',3,69,2),t('refresh(',1,69,7) ],31,69,7),t(')',4,1,16) ]).
+b_line_i(70,2,5,cmd,1,[ t('',147,70,0) ]).
+b_line_i(72,2,5,cmd,1,[ t('',146,72,0),t([ t('Toggleconfigurationmenu',3,72,7),t('Click',3,72,31) ],29,72,31) ]).
+b_line_i(73,2,6,cmd,1,[ t('',107,73,0),t([ t('Configurationcontents',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('.NOT.',8,1,0),t([ t('Configurationcontents',3,1,0),t('Visible',3,1,0) ],29,1,0) ]).
+b_line_i(74,2,6,cmd,1,[ t('',147,74,0) ]).
+b_line_i(1000,2,6,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,6,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,6,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(5,8,html_i(1,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,t(l('K2BT_Palette'),3))).
+html_sub_i(11,13,html_i(1,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,usercontrol(15))).
+html_sub_i(11,16,html_i(2,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,usercontrol(18))).
+html_sub_i(9,19,html_i(1,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,usercontrol(23))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(3,style,'flex-direction:column;').
+html_tags_i(3,'data-gx-flex','').
+html_tags_i(4,style,'flex-grow:1;').
+html_tags_i(5,style,'flex-direction:column;').
+html_tags_i(5,'data-gx-flex','').
+html_tags_i(8,style,'flex-grow:1;').
+html_tags_i(9,style,'flex-direction:column;').
+html_tags_i(9,'data-gx-flex','').
+html_tags_i(10,style,'flex-grow:1;').
+html_tags_i(12,'ControlType','').
+html_tags_i(13,'data-gx-att','var:5').
+html_tags_i(15,'ReadOnly','False').
+html_tags_i(15,'Class','d4876646-98dd-419b-8c1c-896f83c48368-5').
+html_tags_i(15,'ReturnOnClick',false).
+html_tags_i(15,'LayoutClass','gx-form-item').
+html_tags_i(15,invitemsg,'').
+html_tags_i(15,'data-gx-att','var:5').
+html_tags_i(16,'data-gx-att','var:6').
+html_tags_i(18,'ReturnOnClick',false).
+html_tags_i(18,'data-gx-att','var:6').
+html_tags_i(18,'USE_DATEPICKER','True').
+html_tags_i(18,'ReadOnly','False').
+html_tags_i(18,'LayoutClass','gx-form-item').
+html_tags_i(18,invitemsg,'').
+html_tags_i(18,'FLAT_DATEPICKER','False').
+html_tags_i(19,style,'flex-grow:1;').
+html_tags_i(21,'data-gx-att','var:11').
+html_tags_i(23,'ReturnOnClick',false).
+html_tags_i(23,'data-gx-att','var:11').
+html_tags_i(23,'USE_DATEPICKER','True').
+html_tags_i(23,'ReadOnly','False').
+html_tags_i(23,'LayoutClass','gx-form-item').
+html_tags_i(23,invitemsg,'').
+html_tags_i(23,'FLAT_DATEPICKER','False').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','ControlBeautify_ParentCollapsableTable',v,[ str ]).
+html_comp_i(3,'Id','Maintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class','',v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','Flex',v,[ str ]).
+html_comp_i(5,'Id','Contenttable',v,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','',v,[ str ]).
+html_comp_i(6,'Id','',d,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class','K2BT_UIConfigurationButton',v,[ str ]).
+html_comp_i(7,'Id','Toggleconfigurationmenu',v,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','ControlBeautify_CollapsableTable K2BT_UIConfigurationSection K2BT_EditableForm',v,[ str ]).
+html_comp_i(9,'Id','Configurationcontents',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class','',v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','K2BT_NGA K2BToolsTable_TopAttributeContainer K2BT_FormGroup',v,[ str ]).
+html_comp_i(11,'Id','Palettecontainer',v,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Caption',l('K2BT_Palette'),d,[ str ]).
+html_comp_i(12,'Id','Textblock_palette',v,[ str ]).
+html_comp_i(12,'Class','K2BT_LabelTop Label',v,[ str ]).
+html_comp_i(12,'Event','',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(12,'Font','',d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Usercontroltype','K2BColorOptionPicker',d,[ str ]).
+html_comp_i(15,'Constructorname','K2BColorOptionPicker',d,[ str ]).
+html_comp_i(15,'Showmethodname',show,d,[ str ]).
+html_comp_i(15,'Attid',[ t('Basecolor',23) ],v,[ params ]).
+html_comp_i(15,'Enabled',-1,d,[ bool ]).
+html_comp_i(15,'Containerclass','',d,[ str ]).
+html_comp_i(15,'Setattid','SetAttribute',d,[ str ]).
+html_comp_i(15,'Getattid','GetAttribute',d,[ str ]).
+html_comp_i(15,'Controlname','&Basecolor',d,[ str ]).
+html_comp_i(15,'Captionvalue','',d,[ str ]).
+html_comp_i(15,'Captionclass','gx-form-item AttributeLabel',v,[ str ]).
+html_comp_i(15,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(15,'Captionposition','Top',v,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Visible',-1,d,[ bool ]).
+html_comp_i(15,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(15,'Jssupportfiles',[ [ t('''K2BColorOptionPicker\K2BColorOptionPickerRender.js''',3) ] ],d,[ params ]).
+html_comp_i(15,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(15,'Jssharedsupportfiles',[ [ t('''shared/K2BToolsCommon.js''',3) ] ],d,[ params ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(17,'Id','',d,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Usercontroltype','K2BToggleBar',d,[ str ]).
+html_comp_i(18,'Constructorname','K2BToggleBar',d,[ str ]).
+html_comp_i(18,'Showmethodname',show,d,[ str ]).
+html_comp_i(18,'Attid',[ t('Colorvariant',23) ],v,[ params ]).
+html_comp_i(18,'Class','Attribute_Trn',v,[ str ]).
+html_comp_i(18,'Includeemptyitem',0,v,[ bool ]).
+html_comp_i(18,'Emptyitemtext','',d,[ str ]).
+html_comp_i(18,'Noresultsfoundtext','',d,[ str ]).
+html_comp_i(18,'Togglestyle','SmallChip',d,[ str ]).
+html_comp_i(18,'Enabled',-1,d,[ bool ]).
+html_comp_i(18,'Setattid','SetAttribute',d,[ str ]).
+html_comp_i(18,'Getattid','GetAttribute',d,[ str ]).
+html_comp_i(18,'Controlname','&Colorvariant',d,[ str ]).
+html_comp_i(18,'Captionvalue','',d,[ str ]).
+html_comp_i(18,'Captionclass','gx-form-item Attribute_TrnLabel',v,[ str ]).
+html_comp_i(18,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(18,'Captionposition','Top',v,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Visible',-1,d,[ bool ]).
+html_comp_i(18,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(18,'Jssupportfiles',[ [ t('''K2BToggleBar\K2BToggleBarRender.js''',3) ] ],d,[ params ]).
+html_comp_i(18,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(18,'Jssharedsupportfiles',[ [ t('''shared/K2BToolsCommon.js''',3) ] ],d,[ params ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','',v,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','K2BT_NGA K2BToolsTable_TopAttributeContainer',v,[ str ]).
+html_comp_i(20,'Id','Languagecontainer',v,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(22,'Id','',d,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Usercontroltype','K2BToggleBar',d,[ str ]).
+html_comp_i(23,'Constructorname','K2BToggleBar',d,[ str ]).
+html_comp_i(23,'Showmethodname',show,d,[ str ]).
+html_comp_i(23,'Attid',[ t('Language',23) ],v,[ params ]).
+html_comp_i(23,'Class','Attribute_Trn',v,[ str ]).
+html_comp_i(23,'Includeemptyitem',0,v,[ bool ]).
+html_comp_i(23,'Emptyitemtext','',d,[ str ]).
+html_comp_i(23,'Noresultsfoundtext','',d,[ str ]).
+html_comp_i(23,'Togglestyle','SmallChip',d,[ str ]).
+html_comp_i(23,'Enabled',-1,d,[ bool ]).
+html_comp_i(23,'Setattid','SetAttribute',d,[ str ]).
+html_comp_i(23,'Getattid','GetAttribute',d,[ str ]).
+html_comp_i(23,'Controlname','&Language',d,[ str ]).
+html_comp_i(23,'Captionvalue',l('Language'),d,[ str ]).
+html_comp_i(23,'Captionclass','gx-form-item Attribute_TrnLabel',v,[ str ]).
+html_comp_i(23,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(23,'Captionposition','Top',v,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Visible',-1,d,[ bool ]).
+html_comp_i(23,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(23,'Jssupportfiles',[ [ t('''K2BToggleBar\K2BToggleBarRender.js''',3) ] ],d,[ params ]).
+html_comp_i(23,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(23,'Jssharedsupportfiles',[ [ t('''shared/K2BToolsCommon.js''',3) ] ],d,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(7,1,div(7),[ ctlname('Toggleconfigurationmenu') ]).
+lit_i(6,1,div(6),[ ctlname('') ]).
+lit_i(12,1,t(l('K2BT_Palette'),3),[ ctlname('Textblock_palette') ]).
+lit_i(15,1,usercontrol(15),[ ctlname('&Basecolor'),ctrltype(k2bcoloroptionpicker),el([ t('Basecolor',23) ]),containers([]) ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(18,1,usercontrol(18),[ ctlname('&Colorvariant'),ctrltype(k2btogglebar),el([ t('Colorvariant',23) ]),containers([]) ]).
+lit_i(17,1,div(17),[ ctlname('') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(11,1,div(11),[ ctlname('Palettecontainer') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(23,1,usercontrol(23),[ ctlname('&Language'),ctrltype(k2btogglebar),el([ t('Language',23) ]),containers([]) ]).
+lit_i(22,1,div(22),[ ctlname('') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('Languagecontainer') ]).
+lit_i(19,1,div(19),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('Configurationcontents') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(5,1,div(5),[ ctlname('Contenttable') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Maintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,61,0 ],name,'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions').
+struct_dt_i([ 26,61,0 ],namespace,test).
+struct_dt_i([ 26,61,0 ],'ObjName','ColorOptions').
+struct_dt_i([ 26,61,0 ],'ObjDesc','Color Options').
+struct_dt_i([ 26,61,0 ],'ExternalName','ColorOptions').
+struct_dt_i([ 26,61,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,61,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,61,0 ],collection,'True').
+struct_dt_i([ 26,61,0 ],datatype,[ 26,61,91 ]).
+struct_dt_i([ 26,61,0 ],'CollectionItemName','Color').
+struct_dt_i([ 26,61,0 ],'XmlName','').
+struct_dt_i([ 26,61,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,61,0 ],'XmlNamespace','').
+struct_dt_i([ 26,61,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,61,0 ],'JsonName','').
+struct_dt_i([ 26,61,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,91 ],name,'Color').
+struct_dt_i([ 26,61,91 ],namespace,'test.ColorOptions').
+struct_dt_i([ 26,60,0 ],name,'K2BT_ExtendedControlValues').
+struct_dt_i([ 26,60,0 ],namespace,test).
+struct_dt_i([ 26,60,0 ],'ObjName','K2BT_ExtendedControlValues').
+struct_dt_i([ 26,60,0 ],'ObjDesc','K2 BT_Extended Control Values').
+struct_dt_i([ 26,60,0 ],'ExternalName','K2BT_ExtendedControlValues').
+struct_dt_i([ 26,60,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,60,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,60,0 ],collection,'True').
+struct_dt_i([ 26,60,0 ],datatype,[ 26,60,90 ]).
+struct_dt_i([ 26,60,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,60,0 ],'XmlName','').
+struct_dt_i([ 26,60,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,60,0 ],'XmlNamespace','').
+struct_dt_i([ 26,60,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,60,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,60,0 ],'JsonName','').
+struct_dt_i([ 26,60,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,60,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,60,90 ],name,'Item').
+struct_dt_i([ 26,60,90 ],namespace,'test.K2BT_ExtendedControlValues').
+struct_dt_i([ 14,5,0 ],name,'GeneXus\Common\UI\DesignSystem').
+struct_dt_i([ 14,5,0 ],'ObjName','DesignSystem').
+struct_dt_i([ 14,5,0 ],'ObjDesc','Design System').
+struct_dt_i([ 14,5,0 ],'ExoType','0').
+struct_dt_i([ 14,5,0 ],'ObjNamespace','').
+struct_dt_i([ 14,5,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,5,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,5,0 ],'ExoNameCSHARP','').
+struct_dt_i([ 14,5,0 ],'AssemblyName','').
+struct_dt_i([ 14,5,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,5,0 ],'ExoNameNETCORE','').
+struct_dt_i([ 14,5,0 ],'NetCoreAssemblyName','').
+struct_dt_i([ 14,5,0 ],'NetCorePackageName','').
+struct_dt_i([ 14,5,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,5,0 ],'PackageName','').
+struct_dt_i([ 14,5,0 ],'ExoNameJS','gx.core.ds').
+struct_dt_i([ 14,5,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,5,0 ],'Folder',o(120,'GeneXus\Common\UI')).
+struct_dt_i([ 14,5,0 ],'FullyQualifiedName','GeneXus.Common.UI.DesignSystem').
+struct_dt_i([ 14,5,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,5,0 ],isexternal,'True').
+struct_dt_i([ 26,61,0 ],fullname,'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions').
+struct_dt_i([ 26,61,91 ],fullname,'K2BTools\ControlTypes\ColorOptionPicker\ColorOptions.Color').
+struct_dt_i([ 26,60,0 ],fullname,'K2BT_ExtendedControlValues').
+struct_dt_i([ 26,60,90 ],fullname,'K2BT_ExtendedControlValues.Item').
+struct_dt_i([ 14,5,0 ],fullname,'GeneXus\Common\UI\DesignSystem').
+ 
+struct_dt_elem_i([ 26,61,91 ],1,name,'Id').
+struct_dt_elem_i([ 26,61,91 ],1,camelname,id).
+struct_dt_elem_i([ 26,61,91 ],1,length,20).
+struct_dt_elem_i([ 26,61,91 ],1,decimals,0).
+struct_dt_elem_i([ 26,61,91 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,61,91 ],1,pic,'').
+struct_dt_elem_i([ 26,61,91 ],1,collection,'False').
+struct_dt_elem_i([ 26,61,91 ],1,'ExternalName',id).
+struct_dt_elem_i([ 26,61,91 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,61,91 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,61,91 ],1,'XmlName','').
+struct_dt_elem_i([ 26,61,91 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,91 ],1,soaptype,'').
+struct_dt_elem_i([ 26,61,91 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,91 ],1,'JsonName','').
+struct_dt_elem_i([ 26,61,91 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,91 ],2,name,'Description').
+struct_dt_elem_i([ 26,61,91 ],2,camelname,description).
+struct_dt_elem_i([ 26,61,91 ],2,length,20).
+struct_dt_elem_i([ 26,61,91 ],2,decimals,0).
+struct_dt_elem_i([ 26,61,91 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,61,91 ],2,pic,'').
+struct_dt_elem_i([ 26,61,91 ],2,collection,'False').
+struct_dt_elem_i([ 26,61,91 ],2,'ExternalName',description).
+struct_dt_elem_i([ 26,61,91 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,61,91 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,61,91 ],2,'XmlName','').
+struct_dt_elem_i([ 26,61,91 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,91 ],2,soaptype,'').
+struct_dt_elem_i([ 26,61,91 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,91 ],2,'JsonName','').
+struct_dt_elem_i([ 26,61,91 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,91 ],3,name,'Colorcode').
+struct_dt_elem_i([ 26,61,91 ],3,camelname,colorCode).
+struct_dt_elem_i([ 26,61,91 ],3,length,20).
+struct_dt_elem_i([ 26,61,91 ],3,decimals,0).
+struct_dt_elem_i([ 26,61,91 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,61,91 ],3,pic,'').
+struct_dt_elem_i([ 26,61,91 ],3,collection,'False').
+struct_dt_elem_i([ 26,61,91 ],3,'ExternalName',colorCode).
+struct_dt_elem_i([ 26,61,91 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,61,91 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,61,91 ],3,'XmlName','').
+struct_dt_elem_i([ 26,61,91 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,91 ],3,soaptype,'').
+struct_dt_elem_i([ 26,61,91 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,91 ],3,'JsonName','').
+struct_dt_elem_i([ 26,61,91 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,90 ],1,name,'Value').
+struct_dt_elem_i([ 26,60,90 ],1,camelname,value).
+struct_dt_elem_i([ 26,60,90 ],1,length,20).
+struct_dt_elem_i([ 26,60,90 ],1,decimals,0).
+struct_dt_elem_i([ 26,60,90 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,60,90 ],1,pic,'').
+struct_dt_elem_i([ 26,60,90 ],1,collection,'False').
+struct_dt_elem_i([ 26,60,90 ],1,'ExternalName',value).
+struct_dt_elem_i([ 26,60,90 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,60,90 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,60,90 ],1,'XmlName','').
+struct_dt_elem_i([ 26,60,90 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,90 ],1,soaptype,'').
+struct_dt_elem_i([ 26,60,90 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,90 ],1,'JsonName','').
+struct_dt_elem_i([ 26,60,90 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,90 ],2,name,'Description').
+struct_dt_elem_i([ 26,60,90 ],2,camelname,description).
+struct_dt_elem_i([ 26,60,90 ],2,length,20).
+struct_dt_elem_i([ 26,60,90 ],2,decimals,0).
+struct_dt_elem_i([ 26,60,90 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,60,90 ],2,pic,'').
+struct_dt_elem_i([ 26,60,90 ],2,collection,'False').
+struct_dt_elem_i([ 26,60,90 ],2,'ExternalName',description).
+struct_dt_elem_i([ 26,60,90 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,60,90 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,60,90 ],2,'XmlName','').
+struct_dt_elem_i([ 26,60,90 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,90 ],2,soaptype,'').
+struct_dt_elem_i([ 26,60,90 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,90 ],2,'JsonName','').
+struct_dt_elem_i([ 26,60,90 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,90 ],3,name,'Imageurl').
+struct_dt_elem_i([ 26,60,90 ],3,camelname,imageUrl).
+struct_dt_elem_i([ 26,60,90 ],3,length,20).
+struct_dt_elem_i([ 26,60,90 ],3,decimals,0).
+struct_dt_elem_i([ 26,60,90 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,60,90 ],3,pic,'').
+struct_dt_elem_i([ 26,60,90 ],3,collection,'False').
+struct_dt_elem_i([ 26,60,90 ],3,'ExternalName',imageUrl).
+struct_dt_elem_i([ 26,60,90 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,60,90 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,60,90 ],3,'XmlName','').
+struct_dt_elem_i([ 26,60,90 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,90 ],3,soaptype,'').
+struct_dt_elem_i([ 26,60,90 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,90 ],3,'JsonName','').
+struct_dt_elem_i([ 26,60,90 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,90 ],4,name,'Detail').
+struct_dt_elem_i([ 26,60,90 ],4,camelname,detail).
+struct_dt_elem_i([ 26,60,90 ],4,length,20).
+struct_dt_elem_i([ 26,60,90 ],4,decimals,0).
+struct_dt_elem_i([ 26,60,90 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,60,90 ],4,pic,'').
+struct_dt_elem_i([ 26,60,90 ],4,collection,'False').
+struct_dt_elem_i([ 26,60,90 ],4,'ExternalName',detail).
+struct_dt_elem_i([ 26,60,90 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,60,90 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,60,90 ],4,'XmlName','').
+struct_dt_elem_i([ 26,60,90 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,90 ],4,soaptype,'').
+struct_dt_elem_i([ 26,60,90 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,90 ],4,'JsonName','').
+struct_dt_elem_i([ 26,60,90 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,90 ],5,name,'Trailingtext').
+struct_dt_elem_i([ 26,60,90 ],5,camelname,trailingText).
+struct_dt_elem_i([ 26,60,90 ],5,length,20).
+struct_dt_elem_i([ 26,60,90 ],5,decimals,0).
+struct_dt_elem_i([ 26,60,90 ],5,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,60,90 ],5,pic,'').
+struct_dt_elem_i([ 26,60,90 ],5,collection,'False').
+struct_dt_elem_i([ 26,60,90 ],5,'ExternalName',trailingText).
+struct_dt_elem_i([ 26,60,90 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,60,90 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,60,90 ],5,'XmlName','').
+struct_dt_elem_i([ 26,60,90 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,90 ],5,soaptype,'').
+struct_dt_elem_i([ 26,60,90 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,90 ],5,'JsonName','').
+struct_dt_elem_i([ 26,60,90 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,90 ],6,name,'Items').
+struct_dt_elem_i([ 26,60,90 ],6,camelname,items).
+struct_dt_elem_i([ 26,60,90 ],6,length,4).
+struct_dt_elem_i([ 26,60,90 ],6,decimals,0).
+struct_dt_elem_i([ 26,60,90 ],6,type,[ [ 26,60,0 ],4,0 ]).
+struct_dt_elem_i([ 26,60,90 ],6,pic,'').
+struct_dt_elem_i([ 26,60,90 ],6,collection,'False').
+struct_dt_elem_i([ 26,60,90 ],6,'ExternalName',items).
+struct_dt_elem_i([ 26,60,90 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,60,90 ],6,'XmlName','').
+struct_dt_elem_i([ 26,60,90 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,90 ],6,soaptype,'').
+struct_dt_elem_i([ 26,60,90 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,90 ],6,'JsonName','').
+struct_dt_elem_i([ 26,60,90 ],6,'JsonInclude',idJsonNoProperty).
+ 
+struct_dt_method_i([ 14,5,0 ],1,name,setoption).
+struct_dt_method_i([ 14,5,0 ],1,camelname,'SetOption').
+struct_dt_method_i([ 14,5,0 ],1,externalType,'').
+struct_dt_method_i([ 14,5,0 ],1,length,8).
+struct_dt_method_i([ 14,5,0 ],1,decimals,0).
+struct_dt_method_i([ 14,5,0 ],1,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,5,0 ],1,'IntName','SetOption').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemType','None').
+struct_dt_method_i([ 14,5,0 ],1,basedon,'').
+struct_dt_method_i([ 14,5,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,5,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,5,0 ],1,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,5,0 ],1,'ExoNameJS',setOption).
+struct_dt_method_i([ 14,5,0 ],2,name,clearoption).
+struct_dt_method_i([ 14,5,0 ],2,camelname,'ClearOption').
+struct_dt_method_i([ 14,5,0 ],2,externalType,'').
+struct_dt_method_i([ 14,5,0 ],2,length,8).
+struct_dt_method_i([ 14,5,0 ],2,decimals,0).
+struct_dt_method_i([ 14,5,0 ],2,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,5,0 ],2,'IntName','ClearOption').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemType','None').
+struct_dt_method_i([ 14,5,0 ],2,basedon,'').
+struct_dt_method_i([ 14,5,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,5,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,5,0 ],2,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,5,0 ],2,'ExoNameJS',clearOption).
+ 
+struct_dt_param_i([ 14,5,1 ],1,name,name).
+struct_dt_param_i([ 14,5,1 ],1,camelname,'Name').
+struct_dt_param_i([ 14,5,1 ],1,externalType,'').
+struct_dt_param_i([ 14,5,1 ],1,length,20).
+struct_dt_param_i([ 14,5,1 ],1,decimals,0).
+struct_dt_param_i([ 14,5,1 ],1,type,[ 5,20,0 ]).
+struct_dt_param_i([ 14,5,1 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,5,1 ],1,'IntName','Name').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,5,1 ],1,basedon,'').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,5,1 ],2,name,value).
+struct_dt_param_i([ 14,5,1 ],2,camelname,'Value').
+struct_dt_param_i([ 14,5,1 ],2,externalType,'').
+struct_dt_param_i([ 14,5,1 ],2,length,20).
+struct_dt_param_i([ 14,5,1 ],2,decimals,0).
+struct_dt_param_i([ 14,5,1 ],2,type,[ 5,20,0 ]).
+struct_dt_param_i([ 14,5,1 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,5,1 ],2,'IntName','Value').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,5,1 ],2,basedon,'').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,5,2 ],1,name,name).
+struct_dt_param_i([ 14,5,2 ],1,camelname,'Name').
+struct_dt_param_i([ 14,5,2 ],1,externalType,'').
+struct_dt_param_i([ 14,5,2 ],1,length,20).
+struct_dt_param_i([ 14,5,2 ],1,decimals,0).
+struct_dt_param_i([ 14,5,2 ],1,type,[ 5,20,0 ]).
+struct_dt_param_i([ 14,5,2 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,5,2 ],1,'IntName','Name').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,5,2 ],1,basedon,'').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemExtTypeNETCORE','').
+ 
+ 
+ 
+sub_info_i(146,'Start',1,55,[ [ 'Colorvariant','Basecolor','Language' ],[ [ t('Configurationcontents',3),t('Visible',3) ],'Colorvariant','Basecolor','Language' ] ]).
+sub_info_i(146,[ t('Colorvariant',23,57,7),t('Controlvaluechanged',3,57,21) ],57,60,[ [ 'Colorvariant' ],[] ]).
+sub_info_i(146,[ t('Basecolor',23,62,7),t('Controlvaluechanged',3,62,18) ],62,65,[ [ 'Basecolor' ],[] ]).
+sub_info_i(146,[ t('Language',23,67,7),t('Controlvaluechanged',3,67,17) ],67,70,[ [ 'Language' ],[] ]).
+sub_info_i(146,[ t('Toggleconfigurationmenu',3,72,7),t('Click',3,72,31) ],72,74,[ [ [ t('Configurationcontents',3),t('Visible',3) ] ],[ [ t('Configurationcontents',3),t('Visible',3) ] ] ]).
+ 
+pgm_parm_i(proc,16,'K2BTOOLS\SETDESIGNSYSTEMOPTIONVALUE',[ [ svchar,128,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'OptionName',in,[] ],[ 'OptionValue',in,[] ] ]).
+pgm_parm_i(proc,15,'K2BTOOLS\GETDESIGNSYSTEMOPTIONVALUE',[ [ svchar,128,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'OptionName',in,[] ],[ 'OptionValue',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,27,'K2BTOOLS\DESIGNSYSTEMS\ARIES\UICONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,16,'K2BTOOLS\SETDESIGNSYSTEMOPTIONVALUE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,15,'K2BTOOLS\GETDESIGNSYSTEMOPTIONVALUE','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common\UI','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common\UI','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

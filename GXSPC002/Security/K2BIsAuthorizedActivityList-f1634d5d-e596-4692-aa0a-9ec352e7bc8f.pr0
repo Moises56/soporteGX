@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bisauthorizedactivitylist_Services_Execute",
+    "Description": "K2 BIs Authorized Activity List Services",
+    "ProgramName": "k2bisauthorizedactivitylist",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,391 @@
+spec_i([ proc,30,l('K2 BGet Search Result From Data'),'K2BGetSearchResultFromData',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BGetSearchResultFromData')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BToolsSearch'))).
+rule_i(0,prop('ObjDesc','K2 BGet Search Result From Data')).
+rule_i(0,prop('ObjName','K2BGetSearchResultFromData')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Searchresultitem','Searchcriteria','K2bsearchresult' ],[])).
+rule_i(0,parmio([ [ 'Searchresultitem',in ],[ 'Searchcriteria',in ],[ 'K2bsearchresult',out ] ])).
+rule_i(0,output('FIL')).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i('Searchresultimage_GXI',[ 'Searchresultimage_GXI',svchar,2048,0,'',0,'',[],14 ]).
+attri_i('Searchresulttitle',[ 'SearchResultTitle',char,50,0,'',0,l('Search Result Title'),'',13 ]).
+attri_i('Searchresultitem',[ 'SearchResultItem',o(searchresultitem),4,0,'',0,l('Search Result Item'),'',12 ]).
+attri_i('Searchresultimage',[ 'SearchResultImage',bits,1024,0,'',0,l('Search Result Image'),'',11 ]).
+attri_i('Searchresultdescription',[ 'SearchResultDescription',char,400,0,'',0,l('Search Result Description'),'',10 ]).
+attri_i('Searchcriteria',[ 'SearchCriteria',char,150,0,'',0,l('Search Criteria'),'',9 ]).
+attri_i('K2bsearchresult',[ 'K2BSearchResult',o('K2BSearchResult.Item'),0,0,'',0,l('K2 BSearch Result'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Searchresultimage_GXI','Searchresultimage','Searchresultimage_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(112,[ 'K2BSearchCriteria' ]).
+dom_info_i(113,[ 'K2BSearchResultDescription' ]).
+dom_info_i(111,[ 'K2BImage' ]).
+dom_info_i(110,[ 'K2BDescription' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('K2bsearchresult',23,0,0),t(=,10,0,0),t([ 'K2BSearchResult.Item',[ t('(',0,2,134),t(')',4,2,135) ],n ],46,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,3,0),t([ t('K2bsearchresult',23,0,0),t('Searchresulttitle',3,0,0) ],29,0,0),t(=,10,0,0),t('Searchresulttitle',23,0,0) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t([ t('K2bsearchresult',23,0,0),t('Searchresultdescription',3,0,0) ],29,0,0),t(=,10,0,0),t('Searchresultdescription',23,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,5,0),t([ t('K2bsearchresult',23,0,0),t('Searchresultimage',3,0,0) ],29,0,0),t(=,10,0,0),t('Searchresultimage',23,0,0) ]).
+b_line_i([ 5,1 ],1,1,cmd,0,[ t('',107,5,0),t([ t('K2bsearchresult',23,0,0),t('Searchresultimage_gxi',3,0,0) ],29,0,0),t(=,10,0,0),t('Searchresultimage_GXI',23,0,0) ]).
+b_line_i(6,1,1,cmd,1,[ t('',107,6,0),t([ t('K2bsearchresult',23,1,0),t('Searchresultlink',3,1,0) ],29,1,0),t(=,10,1,0),t([ t('Searchresultitem',23,1,0),t('Viewer',3,1,0) ],29,1,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Searchcriteria',idBasedOn,112,v).
+var_prop_i(2,'Searchresultdescription',idBasedOn,113,v).
+var_prop_i(2,'Searchresultimage',idBasedOn,111,v).
+var_prop_i(2,'Searchresulttitle',idBasedOn,110,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,72,0 ],name,'K2BSearchResult').
+struct_dt_i([ 26,72,0 ],namespace,test).
+struct_dt_i([ 26,72,0 ],'ObjName','K2BSearchResult').
+struct_dt_i([ 26,72,0 ],'ObjDesc','K2 BSearch Result').
+struct_dt_i([ 26,72,0 ],'ExternalName','K2BSearchResult').
+struct_dt_i([ 26,72,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,72,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,72,0 ],collection,'True').
+struct_dt_i([ 26,72,0 ],datatype,[ 26,72,103 ]).
+struct_dt_i([ 26,72,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,72,0 ],'XmlName','').
+struct_dt_i([ 26,72,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,72,0 ],'XmlNamespace','').
+struct_dt_i([ 26,72,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,72,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,72,0 ],'JsonName','').
+struct_dt_i([ 26,72,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,72,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,72,103 ],name,'Item').
+struct_dt_i([ 26,72,103 ],namespace,'test.K2BSearchResult').
+struct_dt_i([ 26,72,0 ],fullname,'K2BSearchResult').
+struct_dt_i([ 26,72,103 ],fullname,'K2BSearchResult.Item').
+ 
+struct_dt_elem_i([ 26,72,103 ],1,name,'Searchresulttitle').
+struct_dt_elem_i([ 26,72,103 ],1,camelname,'SearchResultTitle').
+struct_dt_elem_i([ 26,72,103 ],1,basedon,110).
+struct_dt_elem_i([ 26,72,103 ],1,length,50).
+struct_dt_elem_i([ 26,72,103 ],1,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,72,103 ],1,pic,'').
+struct_dt_elem_i([ 26,72,103 ],1,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],1,'ExternalName','SearchResultTitle').
+struct_dt_elem_i([ 26,72,103 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],1,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],1,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],1,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],2,name,'Searchresultimage').
+struct_dt_elem_i([ 26,72,103 ],2,camelname,'SearchResultImage').
+struct_dt_elem_i([ 26,72,103 ],2,basedon,111).
+struct_dt_elem_i([ 26,72,103 ],2,length,4).
+struct_dt_elem_i([ 26,72,103 ],2,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],2,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,72,103 ],2,pic,'').
+struct_dt_elem_i([ 26,72,103 ],2,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],2,'ExternalName','SearchResultImage').
+struct_dt_elem_i([ 26,72,103 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],2,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],2,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],2,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],3,name,'Searchresultimage_gxi').
+struct_dt_elem_i([ 26,72,103 ],3,camelname,'SearchResultImage_GXI').
+struct_dt_elem_i([ 26,72,103 ],3,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],3,isadd,'True').
+struct_dt_elem_i([ 26,72,103 ],3,length,2048).
+struct_dt_elem_i([ 26,72,103 ],3,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],3,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,72,103 ],4,name,'Searchresultdescription').
+struct_dt_elem_i([ 26,72,103 ],4,camelname,'SearchResultDescription').
+struct_dt_elem_i([ 26,72,103 ],4,basedon,113).
+struct_dt_elem_i([ 26,72,103 ],4,length,400).
+struct_dt_elem_i([ 26,72,103 ],4,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],4,type,[ 5,400,0 ]).
+struct_dt_elem_i([ 26,72,103 ],4,pic,'').
+struct_dt_elem_i([ 26,72,103 ],4,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],4,'ExternalName','SearchResultDescription').
+struct_dt_elem_i([ 26,72,103 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],4,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],4,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],4,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],5,name,'Searchresultlink').
+struct_dt_elem_i([ 26,72,103 ],5,camelname,'SearchResultLink').
+struct_dt_elem_i([ 26,72,103 ],5,basedon,8).
+struct_dt_elem_i([ 26,72,103 ],5,length,1000).
+struct_dt_elem_i([ 26,72,103 ],5,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],5,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,72,103 ],5,pic,'').
+struct_dt_elem_i([ 26,72,103 ],5,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],5,'ExternalName','SearchResultLink').
+struct_dt_elem_i([ 26,72,103 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],5,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],5,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],5,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],5,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,30,'K2BGETSEARCHRESULTFROMDATA','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

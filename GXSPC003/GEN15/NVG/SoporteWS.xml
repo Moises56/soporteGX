@@ -1,0 +1,163 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>96</ObjId>
+<ObjName>SoporteWS</ObjName>
+<ObjDesc>Soporte WS</ObjDesc>
+<ObjPgmName>SoporteWS</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0030</MsgCode>
+<Message>
+<Token>Line </Token>
+<Token>4</Token>
+<Token>. Attribute </Token>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute>
+<Token> should not be assigned in an insert group. It has the Autonumber property set to on.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>SOAP</CallProtocol>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>3</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>soporte</TableName>
+<Description>soporte</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>soporte</TableName>
+<Description>soporte</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>soporte</TableName>
+<Description>soporte</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>hostName</AttriName>
+<Description>host Name</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>serie</AttriName>
+<Description>serie</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ipv4</AttriName>
+<Description>ipv4</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>mac</AttriName>
+<Description>mac</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>modelo</AttriName>
+<Description>modelo</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>nombreUsuario</AttriName>
+<Description>nombre Usuario</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>nombreDepartamento</AttriName>
+<Description>nombre Departamento</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>17</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>soporte</TableName>
+<Description>soporte</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ISOPORTE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute>
+<Token>.</Token>
+<Token>getoldvalue(</Token>
+<Token>)</Token>
+<Icon>client</Icon></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>soporte</TableName>
+<Description>soporte</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>soporteID</AttriName>
+<Description>soporte ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

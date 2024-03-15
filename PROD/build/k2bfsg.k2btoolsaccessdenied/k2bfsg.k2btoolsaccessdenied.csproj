@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>k2bfsg.k2btoolsaccessdenied</AssemblyName>
+		<ProjectGuid>{0397ce08-f83c-49c2-a931-eb54b6fd0cf9}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2bfsg\k2btoolsaccessdenied.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\logout_implementation.cs" />
+		<Compile Include = "$(WebDirectory)\k2btools\getdesignsystemoptions.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

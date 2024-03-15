@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>k2bisauthorizedactivitylist</AssemblyName>
+		<ProjectGuid>{f1634d5d-e596-4692-aa0a-9ec352e7bc8f}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2bfsg\getgampermissionnameforactivity.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivitylist.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

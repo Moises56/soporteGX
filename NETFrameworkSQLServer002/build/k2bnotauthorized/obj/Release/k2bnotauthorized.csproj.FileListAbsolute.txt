@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bnotauthorized.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bnotauthorized\obj\Release\k2bnotauthorized.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bnotauthorized\obj\Release\k2bnotauthorized.dll

@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\gamexamplenotauthorized.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexamplenotauthorized\obj\Release\gamexamplenotauthorized.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexamplenotauthorized\obj\Release\gamexamplenotauthorized.dll

@@ -1,0 +1,6 @@
+<div class="K2BT_Stepper">
+	<span data-k2btools-stepper-id="readonly" class="Readonly{{gxTpr_AttributeClass}}{{AttributeClass}}{{^AttributeClass}}Attribute_Trn{{/AttributeClass}}"></span>
+	<span data-k2btools-stepper-id="decrease" class="K2BT_Stepper_Button K2BT_Stepper_Decrease">−</span>
+	<input data-k2btools-stepper-id="input" class="form-control {{gxTpr_AttributeClass}}{{AttributeClass}}{{^AttributeClass}}Attribute_Trn{{/AttributeClass}} K2BT_StepperValue" type="numeric" data-gx-binding="value" />
+	<span data-k2btools-stepper-id="increase" class="K2BT_Stepper_Button K2BT_Stepper_Increase">+</span>
+</div>

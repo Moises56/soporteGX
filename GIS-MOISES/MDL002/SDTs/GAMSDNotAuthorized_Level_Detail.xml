@@ -1,0 +1,43 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>GAMSDNotAuthorized_Level_DetailSdt</name>
+<camelname>GAMSDNotAuthorized_Level_DetailSdt</camelname>
+<camelnameex>GAMSDNotAuthorized_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>GAMSDNotAuthorized_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Username</name>
+<camelname>Username</camelname>
+<type>[ 13,100,60 ]</type>
+<length>100</length>
+<decimals>60</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Password</name>
+<camelname>Password</camelname>
+<type>[ 5,50,0 ]</type>
+<length>50</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef></XRef></SdtSpec>

@@ -1,0 +1,27 @@
+{
+  "entries": [
+    "./components/k2bt-base-color-picker/k2bt-base-color-picker.js",
+    "./components/k2bt-calendar-action-menu/k2bt-calendar-action-menu.js",
+    "./components/k2bt-calendar-day-in-month-picker/k2bt-calendar-day-in-month-picker.js",
+    "./components/k2bt-calendar-day-view/k2bt-calendar-day-view.js",
+    "./components/k2bt-calendar-full-view/k2bt-calendar-full-view.js",
+    "./components/k2bt-calendar-month-view/k2bt-calendar-month-view.js",
+    "./components/k2bt-calendar-period-view/k2bt-calendar-period-view.js",
+    "./components/k2bt-edit-collection/k2bt-edit-collection.js",
+    "./components/k2bt-enhancedcombo/k2bt-enhancedcombo.js",
+    "./components/k2bt-enhancedsuggest/k2bt-enhancedsuggest.js",
+    "./components/k2bt-image-region-selector/k2bt-image-region-selector.js",
+    "./components/k2bt-masked-input/k2bt-masked-input.js",
+    "./components/k2bt-numeric-input/k2bt-numeric-input.js",
+    "./components/k2bt-numeric-slider/k2bt-numeric-slider.js",
+    "./components/k2bt-signature-pad/k2bt-signature-pad.js",
+    "./components/k2bt-toggle-bar/k2bt-toggle-bar.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.17.3",
+    "typescriptVersion": "4.5.4"
+  },
+  "collections": [],
+  "bundles": []
+}

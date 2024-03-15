@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Object id="K2BT_ToggleBar">
+		<Group>
+			<Name>General</Name>
+			<Type>Main</Type>
+			<Children>
+				<Prop>
+					<Id>Class</Id>
+					<Name>Class</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>IncludeEmptyItem</Id>
+					<Name>IncludeEmptyItem</Name>
+					<Type>Boolean</Type>
+					<Default>False</Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>EmptyItemText</Id>
+					<Name>EmptyItemText</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>NoResultsFoundText</Id>
+					<Name>NoResultsFoundText</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>ToggleStyle</Id>
+					<Name>ToggleStyle</Name>
+					<Type>Combo</Type>
+					<Default></Default>
+					<Values><Value id='SmallChip' desc='SmallChip' /> 
+					<Value id='MediumChip' desc='MediumChip' /> 
+					<Value id='Rectangle' desc='Rectangle' /> </Values>
+				</Prop>
+				<Prop>
+					<Id>AttID</Id>
+					<Name>Attribute</Name>
+					<Type>Custom</Type>
+					<Default></Default>
+					<Values></Values>
+					<CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+					<Metadata>
+						<Value name="FlagScope">Designtime</Value>
+						<Value name="FlagSetValueMethod">setAttribute</Value>
+						<Value name="FlagGetValueMethod">getAttribute</Value>
+						<Value name="FlagHideAttributes">True</Value>
+						<Value name="FlagDataTypeFilter">numeric,character,varchar,longvarchar,guid</Value>
+					</Metadata>
+				</Prop>
+			</Children>
+		</Group>
+	</Object>
+</Content>

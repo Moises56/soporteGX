@@ -1,0 +1,134 @@
+:host {
+  display: block;
+}
+
+/* CSS Pasado al theme K2BOrion - Guardado temporalmente por si ayuda a la migración a DSO */
+/*
+.K2BTToggleBarIconInvisible {
+  display: none;
+}
+
+.K2BTToggleBarItemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.K2BTToggleBarItem {
+  padding: 2px;
+  padding-right: 4px;
+  border: 1px solid #464646cc;
+  border-radius: 19px;
+  color: #464646cc;
+  font-size: 13px;
+  display: flex;
+  flex-grow: 1;
+  cursor: pointer;
+  max-width: 200px;
+  height: 38px;
+  align-items: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.K2BTToggleBarIcon {
+  height: 34px;
+  border-radius: 17px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 34px;
+  margin-right: 4px;
+}
+
+.K2BTToggleBarCategoryName {
+  color: #777;
+  font-family: Roboto-Medium;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.K2BTToggleBarItem:hover {
+  background-color: #ebebeb;
+}
+
+.K2BTToggleBarDescription {
+  text-align: center;
+  font-family: Roboto-Medium;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.K2BTToggleBarItem_TextSection {
+  flex-grow: 1;
+}
+
+.K2BTToggleBarItem_TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.K2BTToggleBarItemSelected,
+.K2BTToggleBarItem.K2BTToggleBarItemSelected:hover {
+  background-color: #ccebceff;
+  color: #019f0c;
+  border-color: #019f0c;
+  cursor: default;
+}
+
+.K2BTToggleBarRectangle .K2BTToggleBarItem {
+  flex-direction: column;
+  height: auto;
+  border-radius: 4px;
+  width: 100px;
+  padding-right: 2px;
+  flex-grow: 0;
+}
+
+.K2BTToggleBarRectangle .K2BTToggleBarIcon {
+  height: 100px;
+  width: 100%;
+  border-radius: 4px;
+  margin: 0px;
+}
+
+.K2BTToggleBarRectangle .K2BTToggleBarItem_TextContainer span {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.K2BTToggleBarRectangle .K2BTToggleBarIconContainer {
+  height: 100px;
+  background: #f5f5f5;
+  background-repeat: repeat;
+  background-image: none;
+  background-size: auto;
+  width: 100%;
+  border-radius: 4px;
+  background-image: url(http://k2bp698/Orion2107Env1/Resources/K2BT_ImagePlaceholder.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left 0px top 2px;
+}
+
+.K2BTToggleBarSmallChip .K2BTToggleBarItem {
+  height: 24px;
+  max-width: 120px;
+}
+
+.K2BTToggleBarSmallChip .K2BTToggleBarIcon {
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.K2BTToggleBarSmallChip .K2BTToggleBarDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 90px;
+}
+*/

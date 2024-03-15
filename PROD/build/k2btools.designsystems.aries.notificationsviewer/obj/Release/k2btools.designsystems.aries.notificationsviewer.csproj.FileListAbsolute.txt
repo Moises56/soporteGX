@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2btools.designsystems.aries.notificationsviewer.dll
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.notificationsviewer\obj\Release\k2btools.designsystems.aries.notificationsviewer.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.notificationsviewer\obj\Release\k2btools.designsystems.aries.notificationsviewer.dll

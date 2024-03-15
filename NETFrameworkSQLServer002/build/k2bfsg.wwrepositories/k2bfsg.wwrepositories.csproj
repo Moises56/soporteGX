@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>k2bfsg.wwrepositories</AssemblyName>
+		<ProjectGuid>{6e3cf6af-5cf3-4f25-aad2-4a7936e8d8ab}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurityCommon.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurityCommon.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2bscremoveitem.cs" />
+		<Compile Include = "$(WebDirectory)\k2bpersistgridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bretrievegridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bloadrowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\wwrepositories.cs" />
+		<Compile Include = "$(WebDirectory)\k2bpersistrowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsavegridstate.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivity.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetgridconfigurationsessionkey.cs" />
+		<Compile Include = "$(WebDirectory)\k2bretrieverowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsavegridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bscadditem.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsaverowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivitylist.cs" />
+		<Compile Include = "$(WebDirectory)\k2bscjoinstring.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivityname.cs" />
+		<Compile Include = "$(WebDirectory)\k2bloadgridstate.cs" />
+		<Compile Include = "$(WebDirectory)\k2bloadgridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\getgampermissionnameforactivity.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

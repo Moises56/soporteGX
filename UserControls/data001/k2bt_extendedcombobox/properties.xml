@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Object id="K2BT_ExtendedCombobox">
+		<Group>
+			<Name>General</Name>
+			<Type>Main</Type>
+			<Children>
+				<Prop>
+					<Id>Class</Id>
+					<Name>Class</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>IncludeSearch</Id>
+					<Name>IncludeSearch</Name>
+					<Type>Custom</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>IncludeSearch</Id>
+					<Name>IncludeSearch</Name>
+					<Type>Boolean</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>EnableAddItem</Id>
+					<Name>EnableAddItem</Name>
+					<Type>Boolean</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>IncludeEmptyItem</Id>
+					<Name>IncludeEmptyItem</Name>
+					<Type>Boolean</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>EmptyItemText</Id>
+					<Name>EmptyItemText</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>NoResultsFoundText</Id>
+					<Name>NoResultsFoundText</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>SearchFieldPlaceHolder</Id>
+					<Name>SearchFieldPlaceHolder</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>AddItemCaption</Id>
+					<Name>AddItemCaption</Name>
+					<Type>Text</Type>
+					<Default></Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>AttID</Id>
+					<Name>Attribute</Name>
+					<Type>Custom</Type>
+					<Default></Default>
+					<Values></Values>
+					<CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+					<Metadata>
+						<Value name="FlagScope">Designtime</Value>
+						<Value name="FlagSetValueMethod">setAttribute</Value>
+						<Value name="FlagGetValueMethod">getAttribute</Value>
+						<Value name="FlagHideAttributes">True</Value>
+						<Value name="FlagDataTypeFilter">numeric,character,varchar,longvarchar,guid</Value>
+					</Metadata>
+				</Prop>
+			</Children>
+		</Group>
+	</Object>
+</Content>

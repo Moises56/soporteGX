@@ -1,0 +1,10 @@
+<div class="K2BToolsTable_ComponentContainer">
+	<div class="K2BT_ComponentTitleContainer">
+		<img class="K2BT_ComponentTitleIcon" src="{{gxTpr_Icon}}{{Icon}}"/>
+		<div class="{{gxTpr_TitleClass}}{{TitleClass}}{{^TitleClass}}TextBlock_Subtitle{{/TitleClass}}"><span>{{gxTpr_Title}}{{Title}}</span></div>
+		<div class="K2BT_CollapsibleCardButton"><span></span></div>
+	</div>
+	<div class="K2BT_ComponentContent">
+		<div data-slot="Content" data-parent="{{ContainerName}}"></div>
+	</div>
+</div>

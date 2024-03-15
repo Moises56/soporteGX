@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "selecteditemtag_Execute",
+    "Description": "Selected Item Tag",
+    "ProgramName": "selecteditemtag",
+    "IsGXAutomatic": true
+  }
+]

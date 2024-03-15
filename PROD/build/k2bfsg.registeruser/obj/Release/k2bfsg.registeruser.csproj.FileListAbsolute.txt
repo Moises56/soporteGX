@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.registeruser.dll
+C:\KBs\test\PROD\build\k2bfsg.registeruser\obj\Release\k2bfsg.registeruser.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.registeruser\obj\Release\k2bfsg.registeruser.dll

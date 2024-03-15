@@ -1,0 +1,23 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>K2BT_CalendarPeriodPastDatetimeRangeProvider</ObjName>
+<ObjDesc>Shows options based on past calendar periods: today, current/previous week, current/previous months</ObjDesc>
+<ObjPgmName>K2BT_CalendarPeriodPastDatetimeRangeProvider</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

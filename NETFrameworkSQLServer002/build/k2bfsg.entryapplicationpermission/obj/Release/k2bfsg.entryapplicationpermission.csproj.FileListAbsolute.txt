@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.entryapplicationpermission.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entryapplicationpermission\obj\Release\k2bfsg.entryapplicationpermission.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entryapplicationpermission\obj\Release\k2bfsg.entryapplicationpermission.dll

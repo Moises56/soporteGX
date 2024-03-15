@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\gamexampleactivateuseraccount.dll
+C:\KBs\test\PROD\build\gamexampleactivateuseraccount\obj\Release\gamexampleactivateuseraccount.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\gamexampleactivateuseraccount\obj\Release\gamexampleactivateuseraccount.dll

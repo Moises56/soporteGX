@@ -1,0 +1,544 @@
+spec_i([ web,17,l('K2 BTools Tabs Title Component'),'K2BToolsTabsTitleComponent',0,eng,'18_0_5-175581' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Mode','Tabs','Tabcode' ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+lits_i(l('Tabs'),5,10).
+ 
+cls_i([ 5,10 ],[ 5,13 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('K2BTools_IsLayout','0')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BToolsTabsTitleComponent')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('URLAccess','No')).
+rule_i(0,prop('WEB_COMP','Yes')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('Folder',o(8,'TabbedView'))).
+rule_i(0,prop('ObjDesc','K2 BTools Tabs Title Component')).
+rule_i(0,prop('ObjName','K2BToolsTabsTitleComponent')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Mode','Tabs','Tabcode' ],[])).
+rule_i(0,parmio([ [ 'Mode',in ],[ 'Tabs',in ],[ 'Tabcode',in ] ])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',23 ]).
+attri_i('Currentpage',[ 'CurrentPage',int,4,0,'ZZZ9',0,l('Current Page'),'',22 ]).
+attri_i('Isfirsttab',[ 'IsFirstTab',boolean,4,0,'',0,l('Is First Tab'),'',21 ]).
+attri_i('Tab',[ 'Tab',o('K2BTabOptions.K2BTabOptionsItem'),0,0,'',0,l('Tab'),'',20 ]).
+attri_i('Totaltabs',[ 'TotalTabs',int,4,0,'ZZZ9',0,l('Total Tabs'),'',19 ]).
+attri_i('Tabtemplate',[ 'TabTemplate',char,60,0,'',0,l('Tab Template'),'',18 ]).
+attri_i('Tabsmarkup',[ 'TabsMarkup',char,20,0,'',0,l('Tabs Markup'),'',17 ]).
+attri_i('Tabs',[ 'Tabs',o(objectcollection('K2BTabOptions.K2BTabOptionsItem')),0,0,'',0,l('Tabs'),'',16 ]).
+attri_i('Tabrightcls',[ 'TabRightCls',char,20,0,'',0,l('Tab Right Cls'),'',15 ]).
+attri_i('Tableftcls',[ 'TabLeftCls',char,20,0,'',0,l('Tab Left Cls'),'',14 ]).
+attri_i('Tabcode',[ 'TabCode',char,20,0,'',0,l('Tab Code'),'',13 ]).
+attri_i('Selectedtabcode',[ 'SelectedTabCode',char,20,0,'',0,l('SelectedTabCode'),'',12 ]).
+attri_i('Selectedtab',[ 'SelectedTab',int,4,0,'ZZZ9',0,l('Selected Tab'),'',11 ]).
+attri_i('Nexttab',[ 'NextTab',o('K2BTabOptions.K2BTabOptionsItem'),0,0,'',0,l('Next Tab'),'',10 ]).
+attri_i('Lasttab',[ 'LastTab',int,4,0,'ZZZ9',0,l('Last Tab'),'',9 ]).
+attri_i('Isselectedtab',[ 'IsSelectedTab',boolean,4,0,'',0,l('Is Selected Tab'),'',8 ]).
+attri_i('Index',[ 'Index',int,4,0,'ZZZ9',0,l('Index'),'',7 ]).
+attri_i('Found',[ 'Found',boolean,4,0,'',0,l('Found'),'',6 ]).
+attri_i('Firsttab',[ 'FirstTab',int,4,0,'ZZZ9',0,l('First Tab'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,[ t('Tabs',3),t('Caption',3) ],yes,udp,o(1,'K2BTools\TabbedView\GetTabsMarkup'),[],5,[ t('Tabs',3),t('Caption',3) ],[ [ t('Tabs',23),t(',',7),t('Firsttab',23),t(',',7),t('Lasttab',23),t(',',7),t('Selectedtab',23),t(',',7),t('Mode',23) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,8).
+b_group_i(2,3,lit,0,9,25).
+b_group_i(2,4,lit,0,26,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Refresh',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',145,2,0),t('''FINDTABINDEX''',3,2,5) ]).
+b_line_i(4,2,2,cmd,1,[ t('',145,4,0),t('''SCROLLTABS''',3,4,5) ]).
+b_line_i(5,2,2,cmd,1,[ t('',107,5,0),t([ t('Tabs',3,1,0),t('Caption',3,1,0) ],29,1,0),t(=,10,1,0),t('udp(',1,1,0),t([ t('Tabs',3),t('Caption',3) ],3,1,0),t(5,3,1,0),t('Tabs',23,1,0),t(',',7,1,0),t('Firsttab',23,1,0),t(',',7,1,0),t('Lasttab',23,1,0),t(',',7,1,0),t('Selectedtab',23,1,0),t(',',7,1,0),t('Mode',23,1,0),t(')',4,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',147,6,0) ]).
+b_line_i(8,2,2,cmd,1,[ t('',143,8,0),t('''FINDTABINDEX''',3,8,5) ]).
+b_line_i(11,2,3,cmd,1,[ t('',107,11,0),t('Found',23,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i([ 12,0 ],2,3,cmd,1,[ t('',107,12,0),t('Index',23,1,0),t(=,10,1,0),t('1',3,1,0) ]).
+b_line_i(12,2,3,cmd,1,[ t('',114,12,0),t('Index',23,1,6),t(<=,10,1,2),t([ t('Tabs',23,12,20),t('Count',3,12,26) ],29,12,26) ]).
+b_line_i(13,2,3,cmd,1,[ t('',109,13,0),t([ t('Tabs',23,13,6),[ t('item(',1,0,12),t('Index',23,0,18),t(')',4,0,24) ],t('Code',3,13,26) ],29,13,26),t(=,10,1,31),t('Tabcode',23,1,33) ]).
+b_line_i(14,2,3,cmd,1,[ t('',107,14,0),t('Selectedtab',23,1,0),t(=,10,1,0),t('Index',23,1,0) ]).
+b_line_i(15,2,3,cmd,1,[ t('',107,15,0),t('Found',23,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(16,2,3,cmd,1,[ t('',140,16,0) ]).
+b_line_i(17,2,3,cmd,1,[ t('',111,17,0) ]).
+b_line_i([ 18,0 ],2,3,cmd,1,[ t('',107,18,0),t('Index',23,1,0),t(=,10,1,0),t('Index',23,1,0),t(+,5,1,0),t('1',3,1,0) ]).
+b_line_i(18,2,3,cmd,1,[ t('',115,18,0) ]).
+b_line_i(20,2,3,cmd,1,[ t('',109,20,0),t('(',0,1,5),t('.NOT.',8,1,6),t('Found',23,1,12),t('.AND.',9,1,19),t([ t('Tabs',23,20,25),t('Count',3,20,31) ],29,20,31),t(>,10,1,37),t('0',3,1,39),t(')',4,1,40) ]).
+b_line_i(21,2,3,cmd,1,[ t('',107,21,0),t('Selectedtab',23,1,0),t(=,10,1,0),t('1',3,1,0) ]).
+b_line_i(22,2,3,cmd,1,[ t('',111,22,0) ]).
+b_line_i(23,2,3,cmd,1,[ t('',144,23,0) ]).
+b_line_i(25,2,3,cmd,1,[ t('',143,25,0),t('''SCROLLTABS''',3,25,5) ]).
+b_line_i(27,2,4,cmd,1,[ t('',107,27,0),t('Totaltabs',23,1,0),t(=,10,1,0),t('8',3,1,0) ]).
+b_line_i(28,2,4,cmd,1,[ t('',107,28,0),t('Currentpage',23,1,0),t(=,10,1,0),t('(',0,1,0),t('Selectedtab',23,1,0),t(-,5,1,0),t('1',3,1,0),t(')',4,1,0),t(/,6,1,0),t('Totaltabs',23,1,0) ]).
+b_line_i(29,2,4,cmd,1,[ t('',107,29,0),t('Firsttab',23,1,0),t(=,10,1,0),t('Currentpage',23,1,0),t(*,6,1,0),t('Totaltabs',23,1,0),t(+,5,1,0),t('1',3,1,0) ]).
+b_line_i(30,2,4,cmd,1,[ t('',107,30,0),t('Lasttab',23,1,0),t(=,10,1,0),t('Firsttab',23,1,0),t(+,5,1,0),t('Totaltabs',23,1,0),t(-,5,1,0),t('1',3,1,0) ]).
+b_line_i(31,2,4,cmd,1,[ t('',109,31,0),t('Lasttab',23,1,5),t(>,10,1,14),t([ t('Tabs',23,31,16),t('Count',3,31,22) ],29,31,22) ]).
+b_line_i(32,2,4,cmd,1,[ t('',107,32,0),t('Lasttab',23,1,0),t(=,10,1,0),t([ t('Tabs',23,1,0),t('Count',3,1,0) ],29,1,0) ]).
+b_line_i(33,2,4,cmd,1,[ t('',111,33,0) ]).
+b_line_i(34,2,4,cmd,1,[ t('',109,34,0),t('Firsttab',23,1,5),t(<=,10,1,15),t('Totaltabs',23,1,18) ]).
+b_line_i(35,2,4,cmd,1,[ t('',107,35,0),t([ t('Tabprevious',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(36,2,4,cmd,1,[ t('',110,36,0) ]).
+b_line_i(37,2,4,cmd,1,[ t('',107,37,0),t([ t('Tabprevious',3,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t([ t('Tabs',23,1,0),[ t('item(',1,1,0),t('Firsttab',23,1,0),t(-,5,1,0),t('Totaltabs',23,1,0),t(')',4,1,0) ],t('Link',3,1,0) ],29,1,0),t(')',4,1,0) ]).
+b_line_i(38,2,4,cmd,1,[ t('',111,38,0) ]).
+b_line_i(40,2,4,cmd,1,[ t('',109,40,0),t('Lasttab',23,1,5),t(>=,10,1,14),t([ t('Tabs',23,40,17),t('Count',3,40,23) ],29,40,23) ]).
+b_line_i(41,2,4,cmd,1,[ t('',107,41,0),t([ t('Tabnext',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(42,2,4,cmd,1,[ t('',110,42,0) ]).
+b_line_i(43,2,4,cmd,1,[ t('',107,43,0),t([ t('Tabnext',3,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t([ t('Tabs',23,1,0),[ t('item(',1,1,0),t('Firsttab',23,1,0),t(+,5,1,0),t('Totaltabs',23,1,0),t(')',4,1,0) ],t('Link',3,1,0) ],29,1,0),t(')',4,1,0) ]).
+b_line_i(44,2,4,cmd,1,[ t('',111,44,0) ]).
+b_line_i(45,2,4,cmd,1,[ t('',144,45,0) ]).
+b_line_i(1000,2,4,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,4,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,4,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+html_i(6,comp(errview)).
+ 
+html_sub_i(2,3,html_i(0,t(l('Tabs'),3))).
+html_sub_i(2,4,html_i(1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-148'))).
+html_sub_i(2,5,html_i(2,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-149'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(6,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','K2BToolsSection_TabContainer',v,[ str ]).
+html_comp_i(2,'Id','Tabcontainer',v,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Caption',l('Tabs'),d,[ str ]).
+html_comp_i(3,'Id','Tabs',v,[ str ]).
+html_comp_i(3,'Class','TextBlock',v,[ str ]).
+html_comp_i(3,'Event','',d,[ str ]).
+html_comp_i(3,'Returnonclick',0,d,[ bool ]).
+html_comp_i(3,'Gxformat',1,v,[ num ]).
+html_comp_i(3,'Title','',d,[ str ]).
+html_comp_i(3,'Fill',-1,d,[ bool ]).
+html_comp_i(3,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(3,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(3,'Font','',d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Id','Tabprevious',v,[ str ]).
+html_comp_i(4,'Class','ImageTabPaging',v,[ str ]).
+html_comp_i(4,'Srcname','K2BTabGroupPrevious',d,[ str ]).
+html_comp_i(4,src,i(98,'ab84de32-929a-4946-a007-1b4c50d1e214'),v,[ image ]).
+html_comp_i(4,lowsrc,'',d,[ str ]).
+html_comp_i(4,'Returnonclick',0,d,[ bool ]).
+html_comp_i(4,'Eventgx','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Border','0',d,[ str ]).
+html_comp_i(4,'Alt','',d,[ str ]).
+html_comp_i(4,'Title',l('Previous Tab'),v,[ str ]).
+html_comp_i(4,'Hspace',0,v,[ num ]).
+html_comp_i(4,'Vspace',0,d,[ num ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Usemap','',d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Id','Tabnext',v,[ str ]).
+html_comp_i(5,'Class','ImageTabPaging',v,[ str ]).
+html_comp_i(5,'Srcname','K2BTabGroupNext',d,[ str ]).
+html_comp_i(5,src,i(98,'e67e1229-b202-42dc-b64c-894bf5de2fcd'),v,[ image ]).
+html_comp_i(5,lowsrc,'',d,[ str ]).
+html_comp_i(5,'Returnonclick',0,d,[ bool ]).
+html_comp_i(5,'Eventgx','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Border','0',d,[ str ]).
+html_comp_i(5,'Alt','',d,[ str ]).
+html_comp_i(5,'Title',l('Next Tab'),v,[ str ]).
+html_comp_i(5,'Hspace',0,v,[ num ]).
+html_comp_i(5,'Vspace',0,d,[ num ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Usemap','',d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(6,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(6,'Displaymode',1,d,[ num ]).
+html_comp_i(6,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(6,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(6,'Fill',-1,d,[ bool ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(3,1,t(l('Tabs'),3),[ ctlname('Tabs') ]).
+lit_i(4,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-148'),[ ctlname('Tabprevious') ]).
+lit_i(5,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-149'),[ ctlname('Tabnext') ]).
+lit_i(2,1,div(2),[ ctlname('Tabcontainer') ]).
+lit_i(6,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,67,0 ],name,'K2BTabOptions').
+struct_dt_i([ 26,67,0 ],namespace,test).
+struct_dt_i([ 26,67,0 ],'ObjName','K2BTabOptions').
+struct_dt_i([ 26,67,0 ],'ObjDesc','K2B Tab Option').
+struct_dt_i([ 26,67,0 ],'ExternalName','K2BTabOptions').
+struct_dt_i([ 26,67,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,67,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,67,0 ],collection,'True').
+struct_dt_i([ 26,67,0 ],datatype,[ 26,67,98 ]).
+struct_dt_i([ 26,67,0 ],'CollectionItemName','K2BTabOptionsItem').
+struct_dt_i([ 26,67,0 ],'XmlName','').
+struct_dt_i([ 26,67,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,67,0 ],'XmlNamespace','').
+struct_dt_i([ 26,67,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,67,0 ],'JsonName','').
+struct_dt_i([ 26,67,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,67,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,98 ],name,'K2BTabOptionsItem').
+struct_dt_i([ 26,67,98 ],namespace,'test.K2BTabOptions').
+struct_dt_i([ 26,67,0 ],fullname,'K2BTabOptions').
+struct_dt_i([ 26,67,98 ],fullname,'K2BTabOptions.K2BTabOptionsItem').
+ 
+struct_dt_elem_i([ 26,67,98 ],1,name,'Code').
+struct_dt_elem_i([ 26,67,98 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,67,98 ],1,length,50).
+struct_dt_elem_i([ 26,67,98 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,67,98 ],1,pic,'').
+struct_dt_elem_i([ 26,67,98 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,67,98 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],2,name,'Description').
+struct_dt_elem_i([ 26,67,98 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,67,98 ],2,length,50).
+struct_dt_elem_i([ 26,67,98 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],2,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,67,98 ],2,pic,'').
+struct_dt_elem_i([ 26,67,98 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],2,'ExternalName','Description').
+struct_dt_elem_i([ 26,67,98 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],3,name,'Webcomponent').
+struct_dt_elem_i([ 26,67,98 ],3,camelname,'WebComponent').
+struct_dt_elem_i([ 26,67,98 ],3,length,50).
+struct_dt_elem_i([ 26,67,98 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],3,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,67,98 ],3,pic,'').
+struct_dt_elem_i([ 26,67,98 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],3,'ExternalName','WebComponent').
+struct_dt_elem_i([ 26,67,98 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],4,name,'Link').
+struct_dt_elem_i([ 26,67,98 ],4,camelname,'Link').
+struct_dt_elem_i([ 26,67,98 ],4,basedon,8).
+struct_dt_elem_i([ 26,67,98 ],4,length,1000).
+struct_dt_elem_i([ 26,67,98 ],4,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,67,98 ],4,pic,'').
+struct_dt_elem_i([ 26,67,98 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],4,'ExternalName','Link').
+struct_dt_elem_i([ 26,67,98 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],5,name,'Componenttype').
+struct_dt_elem_i([ 26,67,98 ],5,camelname,'ComponentType').
+struct_dt_elem_i([ 26,67,98 ],5,basedon,101).
+struct_dt_elem_i([ 26,67,98 ],5,length,1).
+struct_dt_elem_i([ 26,67,98 ],5,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],5,sign,0).
+struct_dt_elem_i([ 26,67,98 ],5,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,67,98 ],5,pic,'9').
+struct_dt_elem_i([ 26,67,98 ],5,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],5,'ExternalName','ComponentType').
+struct_dt_elem_i([ 26,67,98 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],5,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],5,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],5,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],6,name,'Relatedtransaction').
+struct_dt_elem_i([ 26,67,98 ],6,camelname,'RelatedTransaction').
+struct_dt_elem_i([ 26,67,98 ],6,basedon,51).
+struct_dt_elem_i([ 26,67,98 ],6,length,256).
+struct_dt_elem_i([ 26,67,98 ],6,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],6,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,67,98 ],6,pic,'').
+struct_dt_elem_i([ 26,67,98 ],6,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],6,'ExternalName','RelatedTransaction').
+struct_dt_elem_i([ 26,67,98 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],6,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],6,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],6,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],6,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Refresh',1,6,[ [ 'Tabs','Firsttab','Lasttab','Selectedtab','Mode','Tabcode' ],[ [ t('Tabs',3),t('Caption',3) ],'Selectedtab','Firsttab','Lasttab',[ t('Tabprevious',3),t('Visible',3) ],[ t('Tabprevious',3),t('Link',3) ],[ t('Tabnext',3),t('Visible',3) ],[ t('Tabnext',3),t('Link',3) ] ] ]).
+ 
+pgm_parm_i(proc,54,'K2BTOOLS\TABBEDVIEW\GETTABSMARKUP',[ [ o(objectcollection('K2BTabOptions.K2BTabOptionsItem')),0,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ char,3,0,0 ],[ svchar,1024,0,0 ] ],[ [ 'Tabs',in,[] ],[ 'FirstTab',in,[] ],[ 'LastTab',in,[] ],[ 'SelectedTab',in,[] ],[ 'Mode',in,[] ],[ 'TabsMarkup',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,17,'K2BTOOLSTABSTITLECOMPONENT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,54,'K2BTOOLS\TABBEDVIEW\GETTABSMARKUP','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

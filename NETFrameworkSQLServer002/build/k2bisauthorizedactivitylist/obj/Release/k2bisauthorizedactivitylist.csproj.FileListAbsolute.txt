@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bisauthorizedactivitylist.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bisauthorizedactivitylist\obj\Release\k2bisauthorizedactivitylist.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bisauthorizedactivitylist\obj\Release\k2bisauthorizedactivitylist.dll

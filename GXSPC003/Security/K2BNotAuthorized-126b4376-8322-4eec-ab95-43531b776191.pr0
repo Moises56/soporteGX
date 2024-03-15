@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bnotauthorized_Execute",
+    "Description": "K2B Not Authorized",
+    "ProgramName": "k2bnotauthorized",
+    "IsGXAutomatic": true
+  }
+]

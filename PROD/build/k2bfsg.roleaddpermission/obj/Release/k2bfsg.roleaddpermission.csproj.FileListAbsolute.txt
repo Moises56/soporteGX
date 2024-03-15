@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.roleaddpermission.dll
+C:\KBs\test\PROD\build\k2bfsg.roleaddpermission\obj\Release\k2bfsg.roleaddpermission.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.roleaddpermission\obj\Release\k2bfsg.roleaddpermission.dll

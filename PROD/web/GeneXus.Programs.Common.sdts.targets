@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<ItemGroup>
+</ItemGroup>
+
+<ItemGroup>
+ 	<Compile Include="$(WebDirectory)\type_SdtDesktopNotificationInfoSDT.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtFileUploadData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BActivity.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BActivityList_K2BActivityListItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BAttributeValue_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BComponentContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem_MultipleValuesItem.cs" />
+ 	<Compile Include="$(WebDirectory)\k2bfsg\type_SdtRolesSDT_RolesSDTItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridColumns_K2BGridColumnsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridConfiguration.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridOrders_K2BGridOrdersItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridState.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridState_FilterValue.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelMenu_K2BMultiLevelMenuItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelMenuCollection_K2BMultiLevelMenuCollectionItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelPersistedMenu_K2BMultiLevelPersistedMenuItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BPersistedMenuOutput.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BProgramNames_ProgramName.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSearchResult_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSelectionItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSelectionItem_FieldValuesItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTabOptions_K2BTabOptionsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\k2btools\controltypes\coloroptionpicker\type_SdtColorOptions_Color.cs" />
+ 	<Compile Include="$(WebDirectory)\k2btools\integrationprocedures\type_SdtWebNotificationSDT_Notification.cs" />
+ 	<Compile Include="$(WebDirectory)\k2btools\transactionutils\type_SdtTransactionEventArgs.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnContext_Attribute.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnNavigation.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_CSVImportParameters.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedControlValues_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedGridMetadata.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedGridMetadata_Column.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedGridMetadata_Column_Aggregation.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedGridMetadata_ActionGroup.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedGridMetadata_ColumnGroup.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BValueDescriptionCollection_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BWizardSteps_K2BWizardStepsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtsdtSoporteID.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSearchableTransactions_SearchableTransactionsItem.cs" />
+
+</ItemGroup>
+
+</Project>

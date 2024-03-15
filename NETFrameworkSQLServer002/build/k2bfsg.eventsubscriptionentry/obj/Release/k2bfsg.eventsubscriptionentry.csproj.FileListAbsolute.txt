@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.eventsubscriptionentry.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.eventsubscriptionentry\obj\Release\k2bfsg.eventsubscriptionentry.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.eventsubscriptionentry\obj\Release\k2bfsg.eventsubscriptionentry.dll

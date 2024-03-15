@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "products_FullControl",
+    "Description": "products FullControl",
+    "ProgramName": "products",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "products_Execute",
+    "Description": "products",
+    "ProgramName": "products",
+    "IsGXAutomatic": true,
+    "Parent": "products_FullControl"
+  },
+  {
+    "Name": "products_Insert",
+    "Description": "products Insert",
+    "ProgramName": "products",
+    "IsGXAutomatic": true,
+    "Parent": "products_FullControl"
+  },
+  {
+    "Name": "products_Delete",
+    "Description": "products Delete",
+    "ProgramName": "products",
+    "IsGXAutomatic": true,
+    "Parent": "products_FullControl"
+  },
+  {
+    "Name": "products_Update",
+    "Description": "products Update",
+    "ProgramName": "products",
+    "IsGXAutomatic": true,
+    "Parent": "products_FullControl"
+  }
+]

@@ -1,0 +1,218 @@
+@layer AnyStylesImagesTokens {
+:root
+{
+	--GX-Image_selectRow : url(../selectRow.png);
+	--GX-Image_PageFirst : url(PageFirst.gif);
+	--GX-Image_PageLast : url(PageLast.gif);
+	--GX-Image_PageNext : url(PageNext.gif);
+	--GX-Image_PagePrevious : url(PagePrevious.gif);
+	--GX-Image_K2BToolsMainLogo : url(../K2BToolsMainLogo.gif);
+	--GX-Image_K2BT_PreviewImageSample : url(../K2BT_PreviewImageSample.png);
+	--GX-Image_K2BT_UndeleteRow : url(../K2BT_UndeleteRow.gif);
+	--GX-Image_K2BT_DeleteRow : url(../K2BT_DeleteRow.gif);
+	--GX-Image_K2BT_LoginBackground : url(../K2BT_LoginBackground.jpg);
+	--GX-Image_K2BActionSettings : url(../K2BActionSettings.png);
+	--GX-Image_WarningIcon : url(../WarningIcon.png);
+	--GX-Image_ErrorIcon : url(../ErrorIcon.png);
+	--GX-Image_K2BWizardFinished : url(../K2BWizardFinished.png);
+	--GX-Image_K2BT_EmptyPhoto : url(../K2BT_EmptyPhoto.png);
+	--GX-Image_K2BT_ImagePlaceholder : url(../K2BT_ImagePlaceholder.png);
+	--GX-Image_K2BT_PlaceHolderImage : url(../K2BT_PlaceHolderImage.svg);
+	--GX-Image_K2BPlaceHolderVideo : url(../K2BPlaceHolderVideo.png);
+	--GX-Image_K2BPlaceHolderAudio : url(../K2BPlaceHolderAudio.png);
+	--GX-Image_CardPhotoCompact_Preview : url(../CardPhotoCompact_Preview.png);
+	--GX-Image_K2BT_CardWithSummary_Preview : url(../K2BT_CardWithSummary_Preview.png);
+	--GX-Image_K2BT_DetailPopOver_Preview : url(../K2BT_DetailPopOver_Preview.png);
+	--GX-Image_K2BT_DetailVariant1_Preview : url(../K2BT_DetailVariant1_Preview.png);
+	--GX-Image_K2BT_DetailVariant2_Preview : url(../K2BT_DetailVariant2_Preview.png);
+	--GX-Image_DetailWithPhoto_Preview : url(../DetailWithPhoto_Preview.png);
+	--GX-Image_K2BToolsFilterClose : url(../K2BToolsFilterClose.png);
+	--GX-Image_K2BTabGroupPrevious : url(../K2BTabGroupPrevious.gif);
+	--GX-Image_K2BTabGroupNext : url(../K2BTabGroupNext.gif);
+	--GX-Image_GenericEntityList_Preview : url(../GenericEntityList_Preview.png);
+	--GX-Image_GenericEntityWithImage_Preview : url(../GenericEntityWithImage_Preview.png);
+	--GX-Image_K2BNotificationMarkRead : url(../K2BNotificationMarkRead.png);
+	--GX-Image_K2BT_SimplePriceList_Preview : url(../K2BT_SimplePriceList_Preview.png);
+	--GX-Image_K2BT_NotificationList_Preview : url(../K2BT_NotificationList_Preview.png);
+	--GX-Image_PhotoWithTitle_Preview : url(../PhotoWithTitle_Preview.png);
+	--GX-Image_Empty_Image : url(../Empty_Image.png);
+	--GX-Image_SelectedItem_Preview : url(../SelectedItem_Preview.png);
+	--GX-Image_SelectedItemTag_Preview : url(../SelectedItemTag_Preview.png);
+	--GX-Image_K2BT_StructureList_Preview : url(../K2BT_StructureList_Preview.png);
+	--GX-Image_K2BT_StructurePeopleList_Preview : url(../K2BT_StructurePeopleList_Preview.png);
+	--GX-Image_K2BT_EmptyPerson : url(../K2BT_EmptyPerson.png);
+	--GX-Image_K2BToolsFilterOpen : url(../K2BToolsFilterOpen.png);
+	--GX-Image_K2BToolsFilterCollapse : url(../K2BToolsFilterCollapse.png);
+	--GX-Image_Timeline_Preview : url(../Timeline_Preview.png);
+	--GX-Image_WPDLayoutOrion_SelectionBottom_Preview : url(../WPDLayoutOrion_SelectionBottom_Preview.png);
+	--GX-Image_WPDLayoutOrion_SelectionRight_Preview : url(../WPDLayoutOrion_SelectionRight_Preview.png);
+	--GX-Image_WPDLayoutOrion_SelectionTab_Preview : url(../WPDLayoutOrion_SelectionTab_Preview.png);
+	--GX-Image_K2BT_English_Flag : url(../K2BT_English_Flag.png);
+	--GX-Image_K2BT_Spanish_Flag : url(../K2BT_Spanish_Flag.png);
+	--GX-Image_K2BT_Portuguese_Flag : url(../K2BT_Portuguese_Flag.png);
+	--GX-Image_K2BTools_Comment_Notification : url(../K2BTools_Comment_Notification.png);
+	--GX-Image_K2BActionRefresh : url(../K2BActionRefresh.gif);
+	--GX-Image_K2BActionTagRemove : url(../K2BActionTagRemove.png);
+	--GX-Image_K2BCheckBox : url(../K2BCheckBox.png);
+	--GX-Image_K2BLogout : url(../K2BLogout.png);
+	--GX-Image_K2BMultimediaClear : url(../K2BMultimediaClear.png);
+	--GX-Image_K2BMultimediaEdit : url(../K2BMultimediaEdit.png);
+	--GX-Image_K2BNotificationsActive : url(../K2BNotificationsActive.png);
+	--GX-Image_K2BPlaceHolderImage : url(../K2BPlaceHolderImage.png);
+	--GX-Image_K2BT_CardWithSummaryVariant1 : url(../K2BT_CardWithSummaryVariant1.png);
+	--GX-Image_K2BT_CommentReply : url(../K2BT_CommentReply.png);
+	--GX-Image_K2BT_JoinMeeting : url(../K2BT_JoinMeeting.png);
+	--GX-Image_K2BTools_ToggleLightDark : url(../K2BTools.ToggleLightDark.png);
+	--GX-Image_K2BToolsDeleteSelectedItem : url(../K2BToolsDeleteSelectedItem.png);
+	--GX-Image_K2BToolsNoResultsFound : url(../K2BToolsNoResultsFound.png);
+	--GX-Image_K2B_Colapse_LineSeparator : url(../K2B_Colapse_LineSeparator.png);
+	--GX-Image_K2B_Open_LineSeparator : url(../K2B_Open_LineSeparator.png);
+	--GX-Image_OrderBy : url(../OrderBy.png);
+	--GX-Image_PlaceHolderImage : url(../PlaceHolderImage.png);
+	--GX-Image_SimpleImageList_Preview : url(../SimpleImageList_Preview.png);
+	--GX-Image_PlaceHolderVideo : url(../PlaceHolderVideo.png);
+	--GX-Image_K2BPageFirst : url(../K2BPageFirst.gif);
+	--GX-Image_K2BPageLast : url(../K2BPageLast.gif);
+	--GX-Image_K2BPageNext : url(../K2BPageNext.gif);
+	--GX-Image_K2BPagePrevious : url(../K2BPagePrevious.gif);
+	--GX-Image_K2BPageFirstDisabled : url(../K2BPageFirstDisabled.gif);
+	--GX-Image_K2BPageLastDisabled : url(../K2BPageLastDisabled.gif);
+	--GX-Image_K2BPageNextDisabled : url(../K2BPageNextDisabled.gif);
+	--GX-Image_K2BPagePreviousDisabled : url(../K2BPagePreviousDisabled.gif);
+	--GX-Image_K2BActionAddAll : url(../K2BActionAddAll.gif);
+	--GX-Image_K2BUserRegion : url(../K2BUserRegion.ico);
+	--GX-Image_CardPhotoActions_Preview : url(../CardPhotoActions_Preview.png);
+	--GX-Image_K2BT_SeatAvailable : url(../K2BT_SeatAvailable.png);
+	--GX-Image_K2BT_SeatUnavailable : url(../K2BT_SeatUnavailable.png);
+	--GX-Image_K2BT_SeatSelected : url(../K2BT_SeatSelected.png);
+	--GX-Image_GAM_GAMButtonFacebook : url(../GAM.GAMButtonFacebook.png);
+	--GX-Image_GAM_GAMButtonTwitterSmall : url(../GAM.GAMButtonTwitterSmall.png);
+	--GX-Image_GAM_GAMButtonFacebookSmall : url(../GAM.GAMButtonFacebookSmall.png);
+	--GX-Image_GAM_GAMButtonTwitter : url(../GAM.GAMButtonTwitter.png);
+	--GX-Image_GAM_GAMButtonGoogle : url(../GAM.GAMButtonGoogle.png);
+	--GX-Image_GAM_GAMButtonGoogleSmall : url(../GAM.GAMButtonGoogleSmall.png);
+	--GX-Image_GAMButtonGAMRemoteSmall : url(../GAMButtonGAMRemoteSmall.png);
+	--GX-Image_GAM_GAMButtonGAMRemote : url(../GAM.GAMButtonGAMRemote.png);
+	--GX-Image_K2BImageUsers : url(../K2BImageUsers.png);
+	--GX-Image_K2BImageRoles : url(../K2BImageRoles.png);
+	--GX-Image_K2BImageActivities : url(../K2BImageActivities.png);
+	--GX-Image_K2BMenuIcon : url(../K2BMenuIcon.png);
+	--GX-Image_K2BImageEntity : url(../K2BImageEntity.png);
+	--GX-Image_GenerateFile : url(../GenerateFile.png);
+	--GX-Image_K2BImageRolesSmall : url(../K2BImageRolesSmall.png);
+	--GX-Image_K2BGAMButtonFacebookSmall : url(../K2BGAMButtonFacebookSmall.png);
+	--GX-Image_K2BGamButtonGoogleSmall : url(../K2BGamButtonGoogleSmall.png);
+	--GX-Image_K2BGAMButtonTwitterSmall : url(../K2BGAMButtonTwitterSmall.png);
+	--GX-Image_Image1 : url(../Image1.png);
+	--GX-Image_login1 : url(../login1.png);
+	--GX-Image_icono1 : url(../icono1.png);
+	--GX-Image_icono2 : url(../icono2.png);
+}
+
+.GX_Image_selectRow_Class{content: var(--GX-Image_selectRow);}
+.GX_Image_PageFirst_Class{content: var(--GX-Image_PageFirst);}
+.GX_Image_PageLast_Class{content: var(--GX-Image_PageLast);}
+.GX_Image_PageNext_Class{content: var(--GX-Image_PageNext);}
+.GX_Image_PagePrevious_Class{content: var(--GX-Image_PagePrevious);}
+.GX_Image_K2BToolsMainLogo_Class{content: var(--GX-Image_K2BToolsMainLogo);}
+.GX_Image_K2BT_PreviewImageSample_Class{content: var(--GX-Image_K2BT_PreviewImageSample);}
+.GX_Image_K2BT_UndeleteRow_Class{content: var(--GX-Image_K2BT_UndeleteRow);}
+.GX_Image_K2BT_DeleteRow_Class{content: var(--GX-Image_K2BT_DeleteRow);}
+.GX_Image_K2BT_LoginBackground_Class{content: var(--GX-Image_K2BT_LoginBackground);}
+.GX_Image_K2BActionSettings_Class{content: var(--GX-Image_K2BActionSettings);}
+.GX_Image_WarningIcon_Class{content: var(--GX-Image_WarningIcon);}
+.GX_Image_ErrorIcon_Class{content: var(--GX-Image_ErrorIcon);}
+.GX_Image_K2BWizardFinished_Class{content: var(--GX-Image_K2BWizardFinished);}
+.GX_Image_K2BT_EmptyPhoto_Class{content: var(--GX-Image_K2BT_EmptyPhoto);}
+.GX_Image_K2BT_ImagePlaceholder_Class{content: var(--GX-Image_K2BT_ImagePlaceholder);}
+.GX_Image_K2BT_PlaceHolderImage_Class{content: var(--GX-Image_K2BT_PlaceHolderImage);}
+.GX_Image_K2BPlaceHolderVideo_Class{content: var(--GX-Image_K2BPlaceHolderVideo);}
+.GX_Image_K2BPlaceHolderAudio_Class{content: var(--GX-Image_K2BPlaceHolderAudio);}
+.GX_Image_CardPhotoCompact_Preview_Class{content: var(--GX-Image_CardPhotoCompact_Preview);}
+.GX_Image_K2BT_CardWithSummary_Preview_Class{content: var(--GX-Image_K2BT_CardWithSummary_Preview);}
+.GX_Image_K2BT_DetailPopOver_Preview_Class{content: var(--GX-Image_K2BT_DetailPopOver_Preview);}
+.GX_Image_K2BT_DetailVariant1_Preview_Class{content: var(--GX-Image_K2BT_DetailVariant1_Preview);}
+.GX_Image_K2BT_DetailVariant2_Preview_Class{content: var(--GX-Image_K2BT_DetailVariant2_Preview);}
+.GX_Image_DetailWithPhoto_Preview_Class{content: var(--GX-Image_DetailWithPhoto_Preview);}
+.GX_Image_K2BToolsFilterClose_Class{content: var(--GX-Image_K2BToolsFilterClose);}
+.GX_Image_K2BTabGroupPrevious_Class{content: var(--GX-Image_K2BTabGroupPrevious);}
+.GX_Image_K2BTabGroupNext_Class{content: var(--GX-Image_K2BTabGroupNext);}
+.GX_Image_GenericEntityList_Preview_Class{content: var(--GX-Image_GenericEntityList_Preview);}
+.GX_Image_GenericEntityWithImage_Preview_Class{content: var(--GX-Image_GenericEntityWithImage_Preview);}
+.GX_Image_K2BNotificationMarkRead_Class{content: var(--GX-Image_K2BNotificationMarkRead);}
+.GX_Image_K2BT_SimplePriceList_Preview_Class{content: var(--GX-Image_K2BT_SimplePriceList_Preview);}
+.GX_Image_K2BT_NotificationList_Preview_Class{content: var(--GX-Image_K2BT_NotificationList_Preview);}
+.GX_Image_PhotoWithTitle_Preview_Class{content: var(--GX-Image_PhotoWithTitle_Preview);}
+.GX_Image_Empty_Image_Class{content: var(--GX-Image_Empty_Image);}
+.GX_Image_SelectedItem_Preview_Class{content: var(--GX-Image_SelectedItem_Preview);}
+.GX_Image_SelectedItemTag_Preview_Class{content: var(--GX-Image_SelectedItemTag_Preview);}
+.GX_Image_K2BT_StructureList_Preview_Class{content: var(--GX-Image_K2BT_StructureList_Preview);}
+.GX_Image_K2BT_StructurePeopleList_Preview_Class{content: var(--GX-Image_K2BT_StructurePeopleList_Preview);}
+.GX_Image_K2BT_EmptyPerson_Class{content: var(--GX-Image_K2BT_EmptyPerson);}
+.GX_Image_K2BToolsFilterOpen_Class{content: var(--GX-Image_K2BToolsFilterOpen);}
+.GX_Image_K2BToolsFilterCollapse_Class{content: var(--GX-Image_K2BToolsFilterCollapse);}
+.GX_Image_Timeline_Preview_Class{content: var(--GX-Image_Timeline_Preview);}
+.GX_Image_WPDLayoutOrion_SelectionBottom_Preview_Class{content: var(--GX-Image_WPDLayoutOrion_SelectionBottom_Preview);}
+.GX_Image_WPDLayoutOrion_SelectionRight_Preview_Class{content: var(--GX-Image_WPDLayoutOrion_SelectionRight_Preview);}
+.GX_Image_WPDLayoutOrion_SelectionTab_Preview_Class{content: var(--GX-Image_WPDLayoutOrion_SelectionTab_Preview);}
+.GX_Image_K2BT_English_Flag_Class{content: var(--GX-Image_K2BT_English_Flag);}
+.GX_Image_K2BT_Spanish_Flag_Class{content: var(--GX-Image_K2BT_Spanish_Flag);}
+.GX_Image_K2BT_Portuguese_Flag_Class{content: var(--GX-Image_K2BT_Portuguese_Flag);}
+.GX_Image_K2BTools_Comment_Notification_Class{content: var(--GX-Image_K2BTools_Comment_Notification);}
+.GX_Image_K2BActionRefresh_Class{content: var(--GX-Image_K2BActionRefresh);}
+.GX_Image_K2BActionTagRemove_Class{content: var(--GX-Image_K2BActionTagRemove);}
+.GX_Image_K2BCheckBox_Class{content: var(--GX-Image_K2BCheckBox);}
+.GX_Image_K2BLogout_Class{content: var(--GX-Image_K2BLogout);}
+.GX_Image_K2BMultimediaClear_Class{content: var(--GX-Image_K2BMultimediaClear);}
+.GX_Image_K2BMultimediaEdit_Class{content: var(--GX-Image_K2BMultimediaEdit);}
+.GX_Image_K2BNotificationsActive_Class{content: var(--GX-Image_K2BNotificationsActive);}
+.GX_Image_K2BPlaceHolderImage_Class{content: var(--GX-Image_K2BPlaceHolderImage);}
+.GX_Image_K2BT_CardWithSummaryVariant1_Class{content: var(--GX-Image_K2BT_CardWithSummaryVariant1);}
+.GX_Image_K2BT_CommentReply_Class{content: var(--GX-Image_K2BT_CommentReply);}
+.GX_Image_K2BT_JoinMeeting_Class{content: var(--GX-Image_K2BT_JoinMeeting);}
+.GX_Image_K2BTools_ToggleLightDark_Class{content: var(--GX-Image_K2BTools_ToggleLightDark);}
+.GX_Image_K2BToolsDeleteSelectedItem_Class{content: var(--GX-Image_K2BToolsDeleteSelectedItem);}
+.GX_Image_K2BToolsNoResultsFound_Class{content: var(--GX-Image_K2BToolsNoResultsFound);}
+.GX_Image_K2B_Colapse_LineSeparator_Class{content: var(--GX-Image_K2B_Colapse_LineSeparator);}
+.GX_Image_K2B_Open_LineSeparator_Class{content: var(--GX-Image_K2B_Open_LineSeparator);}
+.GX_Image_OrderBy_Class{content: var(--GX-Image_OrderBy);}
+.GX_Image_PlaceHolderImage_Class{content: var(--GX-Image_PlaceHolderImage);}
+.GX_Image_SimpleImageList_Preview_Class{content: var(--GX-Image_SimpleImageList_Preview);}
+.GX_Image_PlaceHolderVideo_Class{content: var(--GX-Image_PlaceHolderVideo);}
+.GX_Image_K2BPageFirst_Class{content: var(--GX-Image_K2BPageFirst);}
+.GX_Image_K2BPageLast_Class{content: var(--GX-Image_K2BPageLast);}
+.GX_Image_K2BPageNext_Class{content: var(--GX-Image_K2BPageNext);}
+.GX_Image_K2BPagePrevious_Class{content: var(--GX-Image_K2BPagePrevious);}
+.GX_Image_K2BPageFirstDisabled_Class{content: var(--GX-Image_K2BPageFirstDisabled);}
+.GX_Image_K2BPageLastDisabled_Class{content: var(--GX-Image_K2BPageLastDisabled);}
+.GX_Image_K2BPageNextDisabled_Class{content: var(--GX-Image_K2BPageNextDisabled);}
+.GX_Image_K2BPagePreviousDisabled_Class{content: var(--GX-Image_K2BPagePreviousDisabled);}
+.GX_Image_K2BActionAddAll_Class{content: var(--GX-Image_K2BActionAddAll);}
+.GX_Image_K2BUserRegion_Class{content: var(--GX-Image_K2BUserRegion);}
+.GX_Image_CardPhotoActions_Preview_Class{content: var(--GX-Image_CardPhotoActions_Preview);}
+.GX_Image_K2BT_SeatAvailable_Class{content: var(--GX-Image_K2BT_SeatAvailable);}
+.GX_Image_K2BT_SeatUnavailable_Class{content: var(--GX-Image_K2BT_SeatUnavailable);}
+.GX_Image_K2BT_SeatSelected_Class{content: var(--GX-Image_K2BT_SeatSelected);}
+.GX_Image_GAM_GAMButtonFacebook_Class{content: var(--GX-Image_GAM_GAMButtonFacebook);}
+.GX_Image_GAM_GAMButtonTwitterSmall_Class{content: var(--GX-Image_GAM_GAMButtonTwitterSmall);}
+.GX_Image_GAM_GAMButtonFacebookSmall_Class{content: var(--GX-Image_GAM_GAMButtonFacebookSmall);}
+.GX_Image_GAM_GAMButtonTwitter_Class{content: var(--GX-Image_GAM_GAMButtonTwitter);}
+.GX_Image_GAM_GAMButtonGoogle_Class{content: var(--GX-Image_GAM_GAMButtonGoogle);}
+.GX_Image_GAM_GAMButtonGoogleSmall_Class{content: var(--GX-Image_GAM_GAMButtonGoogleSmall);}
+.GX_Image_GAMButtonGAMRemoteSmall_Class{content: var(--GX-Image_GAMButtonGAMRemoteSmall);}
+.GX_Image_GAM_GAMButtonGAMRemote_Class{content: var(--GX-Image_GAM_GAMButtonGAMRemote);}
+.GX_Image_K2BImageUsers_Class{content: var(--GX-Image_K2BImageUsers);}
+.GX_Image_K2BImageRoles_Class{content: var(--GX-Image_K2BImageRoles);}
+.GX_Image_K2BImageActivities_Class{content: var(--GX-Image_K2BImageActivities);}
+.GX_Image_K2BMenuIcon_Class{content: var(--GX-Image_K2BMenuIcon);}
+.GX_Image_K2BImageEntity_Class{content: var(--GX-Image_K2BImageEntity);}
+.GX_Image_GenerateFile_Class{content: var(--GX-Image_GenerateFile);}
+.GX_Image_K2BImageRolesSmall_Class{content: var(--GX-Image_K2BImageRolesSmall);}
+.GX_Image_K2BGAMButtonFacebookSmall_Class{content: var(--GX-Image_K2BGAMButtonFacebookSmall);}
+.GX_Image_K2BGamButtonGoogleSmall_Class{content: var(--GX-Image_K2BGamButtonGoogleSmall);}
+.GX_Image_K2BGAMButtonTwitterSmall_Class{content: var(--GX-Image_K2BGAMButtonTwitterSmall);}
+.GX_Image_Image1_Class{content: var(--GX-Image_Image1);}
+.GX_Image_login1_Class{content: var(--GX-Image_login1);}
+.GX_Image_icono1_Class{content: var(--GX-Image_icono1);}
+.GX_Image_icono2_Class{content: var(--GX-Image_icono2);}
+}

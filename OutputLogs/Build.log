@@ -1,0 +1,293 @@
+2024-03-15 08:36:30,708: INFO  – ========== Build All started ==========
+2024-03-15 08:36:31,283: INFO  – ========== Integrated Security Initialization started ==========
+2024-03-15 08:36:31,451: INFO  – Success: Integrated Security Initialization
+2024-03-15 08:36:31,455: INFO  – ========== GAM Applications Registration started ==========
+2024-03-15 08:36:31,600: INFO  – No new applications for registration.
+2024-03-15 08:36:31,601: INFO  – Success: GAM Applications Registration
+2024-03-15 08:36:31,645: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-15 08:36:31,675: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-15 08:36:31,830: INFO  – Success: Pattern generation (Entity Services)
+2024-03-15 08:36:31,853: INFO  – ========== Pattern generation (K2BMenu) started ==========
+2024-03-15 08:36:31,873: INFO  – Instance 'FastStartGAMMenu' is up to date.
+2024-03-15 08:36:32,640: INFO  – Success: Pattern generation (K2BMenu)
+2024-03-15 08:36:32,644: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-15 08:36:32,663: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-15 08:36:33,423: INFO  – Success: Pattern generation (Trn Form)
+2024-03-15 08:36:33,520: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-15 08:36:33,545: INFO  – Success: Copy Module 'GeneXus'
+2024-03-15 08:36:33,693: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-15 08:36:33,707: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-15 08:36:33,751: INFO  – ========== Copy Module 'GeneXusSecurityCommon' started ==========
+2024-03-15 08:36:33,764: INFO  – Success: Copy Module 'GeneXusSecurityCommon'
+2024-03-15 08:36:33,968: INFO  – ========== Copy Module 'GeneXusSecurity' started ==========
+2024-03-15 08:36:33,986: INFO  – Success: Copy Module 'GeneXusSecurity'
+2024-03-15 08:36:34,401: INFO  – ========== Target Environment update started ==========
+2024-03-15 08:36:35,074: INFO  – Success: Target Environment update
+2024-03-15 08:36:35,083: INFO  – Building changed objects list
+2024-03-15 08:36:36,671: INFO  – No objects to Specify
+2024-03-15 08:36:36,677: INFO  – Generating Resources...
+2024-03-15 08:36:37,353: INFO  – Success
+2024-03-15 08:36:37,359: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-15 08:36:42,159: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-15 08:36:42,169: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-15 08:36:42,437: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-15 08:36:42,632: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-15 08:36:42,847: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-15 08:36:43,014: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-15 08:36:43,020: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-15 08:36:43,022: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-15 08:36:43,788: INFO  – Success: Default (.NET Framework) Generation
+2024-03-15 08:36:44,139: INFO  – Compressing static files...
+2024-03-15 08:36:44,428: INFO  – Success
+2024-03-15 08:36:44,452: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-15 08:36:49,013: INFO  – Generating metadata files...
+2024-03-15 08:36:50,183: INFO  – Angular Success
+2024-03-15 08:36:50,191: INFO  – Success: Frontend (Front end) Generation
+2024-03-15 08:36:53,014: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-15 08:36:53,018: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m /p:GxExternalReference=GeneXus.Security.API.Common.dll "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-15 08:37:01,733: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-15 08:37:01,736: INFO  – ========== Web config update started ==========
+2024-03-15 08:37:02,030: INFO  – Updating web config ...
+2024-03-15 08:37:02,092: INFO  – Success: Web config update
+2024-03-15 08:37:02,105: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-15 08:37:02,107: INFO  – ========== Angular Compilation started ==========
+2024-03-15 08:37:02,114: INFO  – Success: Angular Compilation
+2024-03-15 08:37:02,133: INFO  – Success: Build All
+2024-03-15 08:40:12,161: INFO  – ========== Run Developer Menu started ==========
+2024-03-15 08:40:12,187: INFO  – ========== Integrated Security Initialization started ==========
+2024-03-15 08:40:12,273: INFO  – Success: Integrated Security Initialization
+2024-03-15 08:40:12,273: INFO  – ========== GAM Applications Registration started ==========
+2024-03-15 08:40:12,280: INFO  – No new applications for registration.
+2024-03-15 08:40:12,280: INFO  – Success: GAM Applications Registration
+2024-03-15 08:40:12,308: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-15 08:40:12,323: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-15 08:40:13,083: INFO  – Success: Pattern generation (Entity Services)
+2024-03-15 08:40:13,099: INFO  – ========== Pattern generation (K2BMenu) started ==========
+2024-03-15 08:40:13,105: INFO  – Instance 'FastStartGAMMenu' is up to date.
+2024-03-15 08:40:13,859: INFO  – Success: Pattern generation (K2BMenu)
+2024-03-15 08:40:13,861: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-15 08:40:13,877: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-15 08:40:14,639: INFO  – Success: Pattern generation (Trn Form)
+2024-03-15 08:40:14,723: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-15 08:40:14,724: INFO  – Success: Copy Module 'GeneXus'
+2024-03-15 08:40:14,869: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-15 08:40:14,870: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-15 08:40:14,904: INFO  – ========== Copy Module 'GeneXusSecurityCommon' started ==========
+2024-03-15 08:40:14,904: INFO  – Success: Copy Module 'GeneXusSecurityCommon'
+2024-03-15 08:40:15,134: INFO  – ========== Copy Module 'GeneXusSecurity' started ==========
+2024-03-15 08:40:15,134: INFO  – Success: Copy Module 'GeneXusSecurity'
+2024-03-15 08:40:15,188: INFO  – ========== Target Environment update started ==========
+2024-03-15 08:40:15,745: INFO  – Success: Target Environment update
+2024-03-15 08:40:15,749: INFO  – Building changed objects list
+2024-03-15 08:40:16,838: INFO  – No objects to Specify
+2024-03-15 08:40:16,842: INFO  – Generating Resources...
+2024-03-15 08:40:17,505: INFO  – Success
+2024-03-15 08:40:17,506: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-15 08:40:18,163: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-15 08:40:18,174: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-15 08:40:18,268: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-15 08:40:18,499: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-15 08:40:18,777: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-15 08:40:18,950: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-15 08:40:18,950: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-15 08:40:18,951: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-15 08:40:19,521: INFO  – Success: Default (.NET Framework) Generation
+2024-03-15 08:40:19,574: INFO  – Compressing static files...
+2024-03-15 08:40:19,683: INFO  – Success
+2024-03-15 08:40:19,701: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-15 08:40:20,495: INFO  – Generating metadata files...
+2024-03-15 08:40:21,441: INFO  – Angular Success
+2024-03-15 08:40:21,448: INFO  – Success: Frontend (Front end) Generation
+2024-03-15 08:40:22,445: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-15 08:40:22,448: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m /p:GxExternalReference=GeneXus.Security.API.Common.dll "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-15 08:40:24,159: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-15 08:40:24,160: INFO  – ========== Web config update started ==========
+2024-03-15 08:40:24,257: INFO  – Updating web config ...
+2024-03-15 08:40:24,280: INFO  – Success: Web config update
+2024-03-15 08:40:24,528: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-15 08:40:24,529: INFO  – ========== Angular Execution started ==========
+2024-03-15 08:40:24,573: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-03-15 08:40:24,574: INFO  – Success: Angular Execution
+2024-03-15 08:40:24,577: INFO  – Success: Run Developer Menu
+2024-03-15 08:40:39,597: INFO  – ========== Run WWsoporte Without Building started ==========
+2024-03-15 08:40:39,622: INFO  – ========== Execution started ==========
+2024-03-15 08:40:39,682: INFO  – Success: Execution
+2024-03-15 08:40:39,686: INFO  – Success: Run WWsoporte Without Building
+2024-03-15 08:42:11,963: INFO  – ========== Run SSOLogin Without Building started ==========
+2024-03-15 08:42:11,986: INFO  – ========== Execution started ==========
+2024-03-15 08:42:12,028: INFO  – Success: Execution
+2024-03-15 08:42:12,036: INFO  – Success: Run SSOLogin Without Building
+2024-03-15 09:21:01,562: INFO  – ========== Run Developer Menu started ==========
+2024-03-15 09:21:01,608: INFO  – ========== Integrated Security Initialization started ==========
+2024-03-15 09:21:01,679: INFO  – Success: Integrated Security Initialization
+2024-03-15 09:21:01,680: INFO  – ========== GAM Applications Registration started ==========
+2024-03-15 09:21:01,693: INFO  – No new applications for registration.
+2024-03-15 09:21:01,693: INFO  – Success: GAM Applications Registration
+2024-03-15 09:21:01,707: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-15 09:21:01,722: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-15 09:21:02,488: INFO  – Success: Pattern generation (Entity Services)
+2024-03-15 09:21:02,497: INFO  – ========== Pattern generation (K2BMenu) started ==========
+2024-03-15 09:21:02,505: INFO  – Instance 'FastStartGAMMenu' is up to date.
+2024-03-15 09:21:03,273: INFO  – Success: Pattern generation (K2BMenu)
+2024-03-15 09:21:03,275: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-15 09:21:03,289: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-15 09:21:04,063: INFO  – Success: Pattern generation (Trn Form)
+2024-03-15 09:21:04,134: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-15 09:21:04,139: INFO  – Success: Copy Module 'GeneXus'
+2024-03-15 09:21:04,268: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-15 09:21:04,269: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-15 09:21:04,303: INFO  – ========== Copy Module 'GeneXusSecurityCommon' started ==========
+2024-03-15 09:21:04,307: INFO  – Success: Copy Module 'GeneXusSecurityCommon'
+2024-03-15 09:21:04,492: INFO  – ========== Copy Module 'GeneXusSecurity' started ==========
+2024-03-15 09:21:04,493: INFO  – Success: Copy Module 'GeneXusSecurity'
+2024-03-15 09:21:04,753: INFO  – ========== Target Environment update started ==========
+2024-03-15 09:21:05,179: INFO  – Success: Target Environment update
+2024-03-15 09:21:05,191: INFO  – Building changed objects list
+2024-03-15 09:21:06,238: INFO  – No objects to Specify
+2024-03-15 09:21:06,239: INFO  – Generating Resources...
+2024-03-15 09:21:08,344: INFO  – Success
+2024-03-15 09:21:08,345: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-15 09:21:09,054: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-15 09:21:09,063: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-15 09:21:09,160: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-15 09:21:09,370: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-15 09:21:09,564: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-15 09:21:09,668: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-15 09:21:09,669: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-15 09:21:09,670: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-15 09:21:10,210: INFO  – Success: Default (.NET Framework) Generation
+2024-03-15 09:21:10,259: INFO  – Compressing static files...
+2024-03-15 09:21:10,340: INFO  – Success
+2024-03-15 09:21:10,351: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-15 09:21:11,379: INFO  – Generating metadata files...
+2024-03-15 09:21:12,373: INFO  – Angular Success
+2024-03-15 09:21:12,375: INFO  – Success: Frontend (Front end) Generation
+2024-03-15 09:21:13,281: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-15 09:21:13,284: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m /p:GxExternalReference=GeneXus.Security.API.Common.dll "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-15 09:21:16,137: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-15 09:21:16,138: INFO  – ========== Web config update started ==========
+2024-03-15 09:21:16,362: INFO  – Updating web config ...
+2024-03-15 09:21:16,412: INFO  – Success: Web config update
+2024-03-15 09:21:16,558: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-15 09:21:16,558: INFO  – ========== Angular Execution started ==========
+2024-03-15 09:21:16,598: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-03-15 09:21:16,599: INFO  – Success: Angular Execution
+2024-03-15 09:21:16,603: INFO  – Success: Run Developer Menu
+2024-03-15 09:24:09,795: INFO  – ========== Build All started ==========
+2024-03-15 09:24:09,822: INFO  – ========== Integrated Security Initialization started ==========
+2024-03-15 09:24:09,992: INFO  – Success: Integrated Security Initialization
+2024-03-15 09:24:09,992: INFO  – ========== GAM Applications Registration started ==========
+2024-03-15 09:24:10,019: INFO  – No new applications for registration.
+2024-03-15 09:24:10,020: INFO  – Success: GAM Applications Registration
+2024-03-15 09:24:10,044: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-15 09:24:10,057: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-15 09:24:10,814: INFO  – Success: Pattern generation (Entity Services)
+2024-03-15 09:24:10,839: INFO  – ========== Pattern generation (K2BMenu) started ==========
+2024-03-15 09:24:10,852: INFO  – Instance 'FastStartGAMMenu' is up to date.
+2024-03-15 09:24:11,624: INFO  – Success: Pattern generation (K2BMenu)
+2024-03-15 09:24:11,636: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-15 09:24:11,673: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-15 09:24:12,445: INFO  – Success: Pattern generation (Trn Form)
+2024-03-15 09:24:12,593: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-15 09:24:12,594: INFO  – Success: Copy Module 'GeneXus'
+2024-03-15 09:24:12,716: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-15 09:24:12,717: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-15 09:24:12,744: INFO  – ========== Copy Module 'GeneXusSecurityCommon' started ==========
+2024-03-15 09:24:12,745: INFO  – Success: Copy Module 'GeneXusSecurityCommon'
+2024-03-15 09:24:14,301: INFO  – ========== Copy Module 'GeneXusSecurity' started ==========
+2024-03-15 09:24:14,303: INFO  – Success: Copy Module 'GeneXusSecurity'
+2024-03-15 09:24:14,695: INFO  – ========== Target Environment update started ==========
+2024-03-15 09:24:15,211: INFO  – Success: Target Environment update
+2024-03-15 09:24:15,218: INFO  – Building changed objects list
+2024-03-15 09:24:18,954: INFO  – No objects to Specify
+2024-03-15 09:24:18,955: INFO  – Generating Resources...
+2024-03-15 09:24:20,007: INFO  – Success
+2024-03-15 09:24:20,008: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-15 09:24:20,825: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-15 09:24:20,825: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-15 09:24:20,921: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-15 09:24:21,110: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-15 09:24:21,318: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-15 09:24:21,479: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-15 09:24:21,480: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-15 09:24:21,481: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-15 09:24:22,146: INFO  – Success: Default (.NET Framework) Generation
+2024-03-15 09:24:22,180: INFO  – Compressing static files...
+2024-03-15 09:24:22,247: INFO  – Success
+2024-03-15 09:24:22,261: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-15 09:24:23,202: INFO  – Generating metadata files...
+2024-03-15 09:24:24,085: INFO  – Angular Success
+2024-03-15 09:24:24,088: INFO  – Success: Frontend (Front end) Generation
+2024-03-15 09:24:25,306: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-15 09:24:25,309: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m /p:GxExternalReference=GeneXus.Security.API.Common.dll "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-15 09:24:27,023: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-15 09:24:27,024: INFO  – ========== Web config update started ==========
+2024-03-15 09:24:27,110: INFO  – Updating web config ...
+2024-03-15 09:24:27,138: INFO  – Success: Web config update
+2024-03-15 09:24:27,144: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-15 09:24:27,144: INFO  – ========== Angular Compilation started ==========
+2024-03-15 09:24:27,151: INFO  – Success: Angular Compilation
+2024-03-15 09:24:27,157: INFO  – Success: Build All
+2024-03-15 09:24:42,979: INFO  – ========== Run Developer Menu started ==========
+2024-03-15 09:24:43,004: INFO  – ========== Integrated Security Initialization started ==========
+2024-03-15 09:24:43,087: INFO  – Success: Integrated Security Initialization
+2024-03-15 09:24:43,087: INFO  – ========== GAM Applications Registration started ==========
+2024-03-15 09:24:43,097: INFO  – No new applications for registration.
+2024-03-15 09:24:43,097: INFO  – Success: GAM Applications Registration
+2024-03-15 09:24:43,117: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-15 09:24:43,129: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-15 09:24:43,910: INFO  – Success: Pattern generation (Entity Services)
+2024-03-15 09:24:43,919: INFO  – ========== Pattern generation (K2BMenu) started ==========
+2024-03-15 09:24:43,922: INFO  – Instance 'FastStartGAMMenu' is up to date.
+2024-03-15 09:24:44,697: INFO  – Success: Pattern generation (K2BMenu)
+2024-03-15 09:24:44,697: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-15 09:24:44,707: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-15 09:24:45,484: INFO  – Success: Pattern generation (Trn Form)
+2024-03-15 09:24:45,552: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-15 09:24:45,553: INFO  – Success: Copy Module 'GeneXus'
+2024-03-15 09:24:45,676: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-15 09:24:45,677: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-15 09:24:45,705: INFO  – ========== Copy Module 'GeneXusSecurityCommon' started ==========
+2024-03-15 09:24:45,705: INFO  – Success: Copy Module 'GeneXusSecurityCommon'
+2024-03-15 09:24:45,870: INFO  – ========== Copy Module 'GeneXusSecurity' started ==========
+2024-03-15 09:24:45,871: INFO  – Success: Copy Module 'GeneXusSecurity'
+2024-03-15 09:24:46,095: INFO  – ========== Target Environment update started ==========
+2024-03-15 09:24:46,310: INFO  – Success: Target Environment update
+2024-03-15 09:24:46,313: INFO  – Building changed objects list
+2024-03-15 09:24:47,354: INFO  – No objects to Specify
+2024-03-15 09:24:47,355: INFO  – Generating Resources...
+2024-03-15 09:24:48,166: INFO  – Success
+2024-03-15 09:24:48,167: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-15 09:24:48,835: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-15 09:24:48,847: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-15 09:24:48,966: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-15 09:24:49,270: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-15 09:24:49,596: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-15 09:24:49,862: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-15 09:24:49,862: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-15 09:24:49,863: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-15 09:24:50,516: INFO  – Success: Default (.NET Framework) Generation
+2024-03-15 09:24:50,560: INFO  – Compressing static files...
+2024-03-15 09:24:50,668: INFO  – Success
+2024-03-15 09:24:50,693: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-15 09:24:51,961: INFO  – Generating metadata files...
+2024-03-15 09:24:52,936: INFO  – Angular Success
+2024-03-15 09:24:52,942: INFO  – Success: Frontend (Front end) Generation
+2024-03-15 09:24:53,785: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-15 09:24:53,788: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m /p:GxExternalReference=GeneXus.Security.API.Common.dll "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-15 09:24:55,474: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-15 09:24:55,474: INFO  – ========== Web config update started ==========
+2024-03-15 09:24:55,565: INFO  – Updating web config ...
+2024-03-15 09:24:55,594: INFO  – Success: Web config update
+2024-03-15 09:24:55,705: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-15 09:24:55,705: INFO  – ========== Angular Execution started ==========
+2024-03-15 09:24:55,718: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-03-15 09:24:55,719: INFO  – Success: Angular Execution
+2024-03-15 09:24:55,720: INFO  – Success: Run Developer Menu
+2024-03-15 09:25:16,883: INFO  – ========== Run WWsoporte Without Building started ==========
+2024-03-15 09:25:16,937: INFO  – ========== Execution started ==========
+2024-03-15 09:25:16,983: INFO  – Success: Execution
+2024-03-15 09:25:17,071: INFO  – Success: Run WWsoporte Without Building

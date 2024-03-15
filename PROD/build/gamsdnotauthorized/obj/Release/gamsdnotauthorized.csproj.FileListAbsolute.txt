@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\gamsdnotauthorized.dll
+C:\KBs\test\PROD\build\gamsdnotauthorized\obj\Release\gamsdnotauthorized.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\gamsdnotauthorized\obj\Release\gamsdnotauthorized.dll

@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.wwmenu.dll
+C:\KBs\test\PROD\build\k2bfsg.wwmenu\obj\Release\k2bfsg.wwmenu.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.wwmenu\obj\Release\k2bfsg.wwmenu.dll

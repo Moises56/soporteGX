@@ -1,0 +1,274 @@
+2024-02-28 17:20:09,906: INFO  – ========== Run Developer Menu started ==========
+2024-02-28 17:20:10,015: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-02-28 17:20:10,023: INFO  – Success: Copy Module 'GeneXus'
+2024-02-28 17:20:10,175: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-02-28 17:20:10,178: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-02-28 17:20:10,324: INFO  – ========== Database Creation Analysis started ==========
+2024-02-28 17:20:12,246: INFO  – Processing ... 
+2024-02-28 17:20:12,257: INFO  – Searching for new or changed tables ...
+2024-02-28 17:20:12,450: INFO  – Analyzing   products ...
+2024-02-28 17:20:12,451: INFO  – Removing specification files ...
+2024-02-28 17:20:12,454: INFO  – Specification files removed.
+2024-02-28 17:20:12,945: INFO  – Searching for deleted tables ...
+2024-02-28 17:20:13,132: INFO  – Searching redundancy in products
+2024-02-28 17:20:13,133: INFO  – Updating redundancy in products
+2024-02-28 17:20:13,133: INFO  –  Specifying GXLRED ...
+2024-02-28 17:20:13,134: INFO  – Loading table and attribute properties ...
+2024-02-28 17:20:13,134: INFO  – Saving specifications.
+2024-02-28 17:20:13,649: INFO  – Success: Database Creation Analysis
+2024-02-28 17:20:16,687: INFO  – Generating Resources...
+2024-02-28 17:20:18,524: INFO  – Success
+2024-02-28 17:20:18,531: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-02-28 17:20:22,266: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18 to NETFrameworkSQLServer002\web...
+2024-02-28 17:20:38,978: INFO  – Generating to NETFrameworkSQLServer002\web\GxWebStd.cs
+2024-02-28 17:20:39,085: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-02-28 17:20:39,184: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-02-28 17:20:39,185: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-02-28 17:20:39,195: INFO  – Generating to NETFrameworkSQLServer002\web\gxlred.cs
+2024-02-28 17:20:39,211: INFO  – Generating to NETFrameworkSQLServer002\web\GxModelInfoProvider.cs
+2024-02-28 17:20:39,212: INFO  – Generating to NETFrameworkSQLServer002\web\GxObjectCollection.cs
+2024-02-28 17:20:39,216: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-02-28 17:20:39,223: INFO  – Generating to NETFrameworkSQLServer002\web\GxWebServicesConfig.cs
+2024-02-28 17:20:39,224: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-02-28 17:20:39,244: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-02-28 17:20:39,249: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-02-28 17:20:39,250: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-02-28 17:20:39,250: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-02-28 17:20:39,252: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-02-28 17:20:39,253: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-02-28 17:20:39,254: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-02-28 17:20:39,565: INFO  – Success: Default (.NET Framework) Generation
+2024-02-28 17:20:39,605: INFO  – ========== Reorganization started ==========
+2024-02-28 17:20:39,611: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-02-28 17:20:41,053: INFO  – "C:\KBs\test\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui -noverifydatabaseschema
+2024-02-28 17:20:41,883: INFO  – Creating table products .
+2024-02-28 17:20:42,409: INFO  – Creating table products . Started
+2024-02-28 17:20:42,918: INFO  – Creating table products . Ended
+2024-02-28 17:20:42,925: INFO  – The reorganization process was successfully completed.
+2024-02-28 17:20:42,945: INFO  – Success: Reorganization
+2024-02-28 17:20:42,963: INFO  – ========== Target Environment update started ==========
+2024-02-28 17:20:43,615: INFO  – Success: Target Environment update
+2024-02-28 17:20:43,842: INFO  – Generating User Control GeneXusUnanimo.Dropdown
+2024-02-28 17:20:43,897: INFO  – Generating User Control GeneXusUnanimo.DropdownAngular
+2024-02-28 17:20:44,018: INFO  – Generating User Control GeneXusUnanimo.Select
+2024-02-28 17:20:44,062: INFO  – Generating User Control GeneXusUnanimo.SelectAngular
+2024-02-28 17:20:44,106: INFO  – Generating User Control GeneXusUnanimo.Sidebar
+2024-02-28 17:20:44,183: INFO  – Generating User Control GeneXusUnanimo.SidebarAngular
+2024-02-28 17:20:44,244: INFO  – Generating User Control GeneXusUnanimo.Treeview
+2024-02-28 17:20:44,289: INFO  – Generating User Control GeneXusUnanimo.TreeviewAngular
+2024-02-28 17:20:44,343: INFO  – Generating User Control GeneXusUnanimo.Step
+2024-02-28 17:20:44,392: INFO  – Generating User Control GeneXusUnanimo.StepAngular
+2024-02-28 17:20:44,429: INFO  – Generating User Control GeneXusUnanimo.Alert
+2024-02-28 17:20:44,488: INFO  – Generating User Control GeneXusUnanimo.AlertAngular
+2024-02-28 17:20:44,535: INFO  – Generating User Control GeneXusUnanimo.Icon
+2024-02-28 17:20:44,593: INFO  – Generating User Control GeneXusUnanimo.IconAngular
+2024-02-28 17:20:44,633: INFO  – Generating User Control GeneXusUnanimo.Switch
+2024-02-28 17:20:44,712: INFO  – Generating User Control GeneXusUnanimo.Slider
+2024-02-28 17:20:44,783: INFO  – Generating User Control GeneXusUnanimo.Button
+2024-02-28 17:20:45,100: INFO  – ========== Specification started ==========
+2024-02-28 17:20:47,533: INFO  –  Specifying General.UI.MasterUnanimoSidebar ...
+2024-02-28 17:20:47,542: INFO  –  Specifying General.UI.MasterPrompt ...
+2024-02-28 17:20:47,554: INFO  –  Specifying General.UI.SidebarItemsDP ...
+2024-02-28 17:20:48,780: INFO  – Generating Resources...
+2024-02-28 17:20:51,723: INFO  – Success
+2024-02-28 17:20:51,764: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-02-28 17:20:52,460: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\sidebaritemsdp.cs
+2024-02-28 17:20:52,516: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterprompt.cs
+2024-02-28 17:20:52,549: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterprompt.js
+2024-02-28 17:20:52,758: INFO  –  Specifying products ...
+2024-02-28 17:20:52,911: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterunanimosidebar.cs
+2024-02-28 17:20:53,009: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterunanimosidebar.js
+2024-02-28 17:20:53,140: INFO  – Creating prompt 'Gx0010' (for table 'products')...
+2024-02-28 17:20:56,025: INFO  –  Specifying Gx0010 ...
+2024-02-28 17:20:57,228: INFO  – Generating to NETFrameworkSQLServer002\web\products.cs
+2024-02-28 17:20:57,394: INFO  – Processing inferred calls...
+2024-02-28 17:20:57,564: INFO  – Generating to NETFrameworkSQLServer002\web\products.js
+2024-02-28 17:20:57,632: INFO  – Generating to NETFrameworkSQLServer002\web\gx0010.cs
+2024-02-28 17:20:57,974: INFO  – Generating to NETFrameworkSQLServer002\web\gx0010.js
+2024-02-28 17:20:58,914: INFO  – Success: Specification
+2024-02-28 17:20:59,071: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-02-28 17:20:59,084: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-02-28 17:20:59,125: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-02-28 17:20:59,264: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-02-28 17:20:59,310: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-02-28 17:20:59,346: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-02-28 17:20:59,346: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-02-28 17:20:59,353: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-02-28 17:20:59,654: INFO  – Success: Default (.NET Framework) Generation
+2024-02-28 17:20:59,686: INFO  – Compressing static files...
+2024-02-28 17:20:59,981: INFO  – Success
+2024-02-28 17:21:00,006: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-02-28 17:21:00,626: INFO  – Generating metadata files...
+2024-02-28 17:21:03,129: INFO  – Angular Success
+2024-02-28 17:21:03,132: INFO  – Success: Frontend (Front end) Generation
+2024-02-28 17:21:03,212: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-02-28 17:21:03,214: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-02-28 17:21:07,326: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-02-28 17:21:07,327: INFO  – ========== Web config update started ==========
+2024-02-28 17:21:07,956: INFO  – Virtual directory created.
+2024-02-28 17:21:08,397: INFO  – Updating web config ...
+2024-02-28 17:21:08,465: INFO  – Success: Web config update
+2024-02-28 17:21:08,498: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-02-28 17:21:08,499: INFO  – ========== Angular Execution started ==========
+2024-02-28 17:21:08,500: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-02-28 17:21:08,501: INFO  – Success: Angular Execution
+2024-02-28 17:21:08,512: INFO  – Success: Run Developer Menu
+2024-02-28 17:23:06,732: INFO  – ========== Run Developer Menu started ==========
+2024-02-28 17:23:06,993: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-02-28 17:23:07,003: INFO  – Success: Copy Module 'GeneXus'
+2024-02-28 17:23:07,156: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-02-28 17:23:07,164: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-02-28 17:23:07,283: INFO  – ========== Target Environment update started ==========
+2024-02-28 17:23:07,563: INFO  – Success: Target Environment update
+2024-02-28 17:23:07,569: INFO  – Building changed objects list
+2024-02-28 17:23:07,747: INFO  – No objects to Specify
+2024-02-28 17:23:07,749: INFO  – Generating Resources...
+2024-02-28 17:23:07,915: INFO  – Success
+2024-02-28 17:23:07,920: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-02-28 17:23:08,777: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-02-28 17:23:08,787: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-02-28 17:23:08,806: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-02-28 17:23:08,891: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-02-28 17:23:08,943: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-02-28 17:23:08,991: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-02-28 17:23:08,994: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-02-28 17:23:09,301: INFO  – Success: Default (.NET Framework) Generation
+2024-02-28 17:23:09,420: INFO  – Compressing static files...
+2024-02-28 17:23:09,466: INFO  – Success
+2024-02-28 17:23:09,484: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-02-28 17:23:09,893: INFO  – Generating metadata files...
+2024-02-28 17:23:10,686: INFO  – Angular Success
+2024-02-28 17:23:10,693: INFO  – Success: Frontend (Front end) Generation
+2024-02-28 17:23:10,765: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-02-28 17:23:10,772: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-02-28 17:23:13,843: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-02-28 17:23:13,843: INFO  – ========== Web config update started ==========
+2024-02-28 17:23:14,031: INFO  – Updating web config ...
+2024-02-28 17:23:14,067: INFO  – Success: Web config update
+2024-02-28 17:23:14,109: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-02-28 17:23:14,110: INFO  – ========== Angular Execution started ==========
+2024-02-28 17:23:14,114: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-02-28 17:23:14,115: INFO  – Success: Angular Execution
+2024-02-28 17:23:14,127: INFO  – Success: Run Developer Menu
+2024-02-28 17:39:31,088: INFO  – ========== Run Developer Menu started ==========
+2024-02-28 17:39:31,270: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-02-28 17:39:31,287: INFO  – Success: Copy Module 'GeneXus'
+2024-02-28 17:39:31,437: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-02-28 17:39:31,438: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-02-28 17:39:31,452: INFO  – ========== Target Environment update started ==========
+2024-02-28 17:39:31,970: INFO  – Success: Target Environment update
+2024-02-28 17:39:31,976: INFO  – Building changed objects list
+2024-02-28 17:39:32,337: INFO  – No objects to Specify
+2024-02-28 17:39:32,345: INFO  – Generating Resources...
+2024-02-28 17:39:32,704: INFO  – Success
+2024-02-28 17:39:32,713: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-02-28 17:39:36,691: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-02-28 17:39:36,703: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-02-28 17:39:36,732: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-02-28 17:39:36,831: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-02-28 17:39:36,924: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-02-28 17:39:36,974: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-02-28 17:39:36,975: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-02-28 17:39:37,273: INFO  – Success: Default (.NET Framework) Generation
+2024-02-28 17:39:37,560: INFO  – Compressing static files...
+2024-02-28 17:39:37,755: INFO  – Success
+2024-02-28 17:39:37,773: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-02-28 17:39:38,401: INFO  – Generating metadata files...
+2024-02-28 17:39:40,416: INFO  – Angular Success
+2024-02-28 17:39:40,423: INFO  – Success: Frontend (Front end) Generation
+2024-02-28 17:39:40,642: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-02-28 17:39:40,647: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-02-28 17:39:41,754: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-02-28 17:39:41,755: INFO  – ========== Web config update started ==========
+2024-02-28 17:39:41,861: INFO  – Updating web config ...
+2024-02-28 17:39:41,884: INFO  – Success: Web config update
+2024-02-28 17:39:41,970: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-02-28 17:39:41,973: INFO  – ========== Angular Execution started ==========
+2024-02-28 17:39:41,973: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-02-28 17:39:41,973: INFO  – Success: Angular Execution
+2024-02-28 17:39:41,987: INFO  – Success: Run Developer Menu
+2024-02-28 17:39:46,231: INFO  – ========== Run products Without Building started ==========
+2024-02-28 17:39:46,260: INFO  – ========== Execution started ==========
+2024-02-28 17:39:46,301: INFO  – Success: Execution
+2024-02-28 17:39:46,306: INFO  – Success: Run products Without Building
+2024-02-28 17:41:32,002: INFO  – ========== Build All started ==========
+2024-02-28 17:41:32,106: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-02-28 17:41:32,107: INFO  – Success: Copy Module 'GeneXus'
+2024-02-28 17:41:32,301: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-02-28 17:41:32,304: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-02-28 17:41:32,414: INFO  – ========== Target Environment update started ==========
+2024-02-28 17:41:32,503: INFO  – Success: Target Environment update
+2024-02-28 17:41:32,504: INFO  – Building changed objects list
+2024-02-28 17:41:32,685: INFO  – No objects to Specify
+2024-02-28 17:41:32,686: INFO  – Generating Resources...
+2024-02-28 17:41:32,822: INFO  – Success
+2024-02-28 17:41:32,823: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-02-28 17:41:33,173: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-02-28 17:41:33,186: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-02-28 17:41:33,198: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-02-28 17:41:33,264: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-02-28 17:41:33,302: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-02-28 17:41:33,332: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-02-28 17:41:33,332: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-02-28 17:41:33,593: INFO  – Success: Default (.NET Framework) Generation
+2024-02-28 17:41:33,618: INFO  – Compressing static files...
+2024-02-28 17:41:33,666: INFO  – Success
+2024-02-28 17:41:33,667: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-02-28 17:41:34,080: INFO  – Generating metadata files...
+2024-02-28 17:41:35,289: INFO  – Angular Success
+2024-02-28 17:41:35,294: INFO  – Success: Frontend (Front end) Generation
+2024-02-28 17:41:35,329: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-02-28 17:41:35,331: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-02-28 17:41:35,710: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-02-28 17:41:35,710: INFO  – ========== Web config update started ==========
+2024-02-28 17:41:35,789: INFO  – Updating web config ...
+2024-02-28 17:41:35,817: INFO  – Success: Web config update
+2024-02-28 17:41:35,820: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-02-28 17:41:35,821: INFO  – ========== Angular Compilation started ==========
+2024-02-28 17:41:35,823: INFO  – Success: Angular Compilation
+2024-02-28 17:41:35,825: INFO  – Success: Build All
+2024-02-28 17:41:45,160: INFO  – ========== Run Developer Menu started ==========
+2024-02-28 17:41:45,265: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-02-28 17:41:45,266: INFO  – Success: Copy Module 'GeneXus'
+2024-02-28 17:41:45,416: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-02-28 17:41:45,417: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-02-28 17:41:45,423: INFO  – ========== Target Environment update started ==========
+2024-02-28 17:41:45,556: INFO  – Success: Target Environment update
+2024-02-28 17:41:45,559: INFO  – Building changed objects list
+2024-02-28 17:41:45,798: INFO  – No objects to Specify
+2024-02-28 17:41:45,799: INFO  – Generating Resources...
+2024-02-28 17:41:45,978: INFO  – Success
+2024-02-28 17:41:45,978: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-02-28 17:41:46,375: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-02-28 17:41:46,387: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-02-28 17:41:46,399: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-02-28 17:41:46,488: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-02-28 17:41:46,542: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-02-28 17:41:46,592: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-02-28 17:41:46,593: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-02-28 17:41:46,922: INFO  – Success: Default (.NET Framework) Generation
+2024-02-28 17:41:46,955: INFO  – Compressing static files...
+2024-02-28 17:41:47,004: INFO  – Success
+2024-02-28 17:41:47,021: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-02-28 17:41:55,531: INFO  – Generating metadata files...
+2024-02-28 17:41:56,238: INFO  – Angular Success
+2024-02-28 17:41:56,245: INFO  – Success: Frontend (Front end) Generation
+2024-02-28 17:41:56,291: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-02-28 17:41:56,294: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-02-28 17:41:56,631: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-02-28 17:41:56,632: INFO  – ========== Web config update started ==========
+2024-02-28 17:41:56,711: INFO  – Updating web config ...
+2024-02-28 17:41:56,737: INFO  – Success: Web config update
+2024-02-28 17:41:56,766: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-02-28 17:41:56,767: INFO  – ========== Angular Execution started ==========
+2024-02-28 17:41:56,767: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-02-28 17:41:56,768: INFO  – Success: Angular Execution
+2024-02-28 17:41:56,770: INFO  – Success: Run Developer Menu
+2024-02-28 17:42:01,708: INFO  – ========== Run products Without Building started ==========
+2024-02-28 17:42:01,722: INFO  – ========== Execution started ==========
+2024-02-28 17:42:01,753: INFO  – Success: Execution
+2024-02-28 17:42:01,758: INFO  – Success: Run products Without Building

@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_test</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>GIS-MAVILES-LPT\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\KBs\test</Directory>
+	<DataFile>GX_KB_test.mdf</DataFile>
+	<LogFile>GX_KB_test_log.ldf</LogFile>
+	<HostName>GIS-MAVILES-LPT</HostName>
+</ConnectionInformation>

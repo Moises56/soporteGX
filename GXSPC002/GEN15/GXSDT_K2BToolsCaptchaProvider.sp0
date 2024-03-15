@@ -1,0 +1,131 @@
+ 
+spec_i([ sdt,[ 14,179,0 ],'K2BToolsCaptchaProvider','K2BToolsCaptchaProvider',0,eng,'18_0_5-175581' ]).
+ 
+struct_dt_i([ 14,179,0 ],name,'K2BToolsCaptchaProvider').
+struct_dt_i([ 14,179,0 ],'ObjName','K2BToolsCaptchaProvider').
+struct_dt_i([ 14,179,0 ],'ObjDesc','').
+struct_dt_i([ 14,179,0 ],'ExoType','0').
+struct_dt_i([ 14,179,0 ],'ObjNamespace','K2BTools.Captcha').
+struct_dt_i([ 14,179,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,179,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,179,0 ],'ExoNameCSHARP','K2BToolsCaptchaProvider').
+struct_dt_i([ 14,179,0 ],'AssemblyName','K2BTools.Captcha.dll').
+struct_dt_i([ 14,179,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,179,0 ],'ExoNameNETCORE','K2BToolsCaptchaProvider').
+struct_dt_i([ 14,179,0 ],'NetCoreAssemblyName','K2BTools.CaptchaNS.dll').
+struct_dt_i([ 14,179,0 ],'NetCorePackageName','').
+struct_dt_i([ 14,179,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,179,0 ],'PackageName','K2BTools.Captcha').
+struct_dt_i([ 14,179,0 ],'ExoNameJS','').
+struct_dt_i([ 14,179,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,179,0 ],'Folder',o(8,'K2BTools')).
+struct_dt_i([ 14,179,0 ],'FullyQualifiedName','K2BToolsCaptchaProvider').
+struct_dt_i([ 14,179,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,179,0 ],fullname,'K2BToolsCaptchaProvider').
+struct_dt_i([ 14,179,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,179,0 ],1,name,generatestringtoken).
+struct_dt_method_i([ 14,179,0 ],1,camelname,'GenerateStringToken').
+struct_dt_method_i([ 14,179,0 ],1,externalType,'').
+struct_dt_method_i([ 14,179,0 ],1,length,9999).
+struct_dt_method_i([ 14,179,0 ],1,decimals,0).
+struct_dt_method_i([ 14,179,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,179,0 ],1,'IntName','GenerateStringToken').
+struct_dt_method_i([ 14,179,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,179,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,179,0 ],1,basedon,'').
+struct_dt_method_i([ 14,179,0 ],1,'XmlName','GenerateStringToken').
+struct_dt_method_i([ 14,179,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,179,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,179,0 ],1,'ExoNameCSHARP','GenerateStringToken').
+struct_dt_method_i([ 14,179,0 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,179,0 ],1,'ExoNameNETCORE','GenerateStringToken').
+struct_dt_method_i([ 14,179,0 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,179,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,179,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,179,0 ],2,name,generateimage).
+struct_dt_method_i([ 14,179,0 ],2,camelname,'GenerateImage').
+struct_dt_method_i([ 14,179,0 ],2,externalType,'').
+struct_dt_method_i([ 14,179,0 ],2,length,9999).
+struct_dt_method_i([ 14,179,0 ],2,decimals,0).
+struct_dt_method_i([ 14,179,0 ],2,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,179,0 ],2,'IntName','GenerateImage').
+struct_dt_method_i([ 14,179,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,179,0 ],2,'ExoItemType','Character').
+struct_dt_method_i([ 14,179,0 ],2,basedon,'').
+struct_dt_method_i([ 14,179,0 ],2,'XmlName','GenerateImage').
+struct_dt_method_i([ 14,179,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,179,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,179,0 ],2,'ExoNameCSHARP','GenerateImage').
+struct_dt_method_i([ 14,179,0 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,179,0 ],2,'ExoNameNETCORE','GenerateImage').
+struct_dt_method_i([ 14,179,0 ],2,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,179,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,179,0 ],2,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,179,1 ],1,name,amountofcharacters).
+struct_dt_param_i([ 14,179,1 ],1,camelname,amountOfCharacters).
+struct_dt_param_i([ 14,179,1 ],1,externalType,'').
+struct_dt_param_i([ 14,179,1 ],1,length,9).
+struct_dt_param_i([ 14,179,1 ],1,decimals,0).
+struct_dt_param_i([ 14,179,1 ],1,sign,0).
+struct_dt_param_i([ 14,179,1 ],1,type,[ 4,9,0 ]).
+struct_dt_param_i([ 14,179,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,179,1 ],1,'IntName',amountOfCharacters).
+struct_dt_param_i([ 14,179,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,179,1 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,179,1 ],1,basedon,'').
+struct_dt_param_i([ 14,179,1 ],1,'ExoItemExtTypeCSHARP','System.Int32').
+struct_dt_param_i([ 14,179,1 ],1,'ExoItemExtTypeNETCORE','System.Int32').
+struct_dt_param_i([ 14,179,2 ],1,name,width).
+struct_dt_param_i([ 14,179,2 ],1,camelname,width).
+struct_dt_param_i([ 14,179,2 ],1,externalType,'').
+struct_dt_param_i([ 14,179,2 ],1,length,9).
+struct_dt_param_i([ 14,179,2 ],1,decimals,0).
+struct_dt_param_i([ 14,179,2 ],1,sign,0).
+struct_dt_param_i([ 14,179,2 ],1,type,[ 4,9,0 ]).
+struct_dt_param_i([ 14,179,2 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,179,2 ],1,'IntName',width).
+struct_dt_param_i([ 14,179,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,179,2 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,179,2 ],1,basedon,'').
+struct_dt_param_i([ 14,179,2 ],1,'ExoItemExtTypeCSHARP','System.Int32').
+struct_dt_param_i([ 14,179,2 ],1,'ExoItemExtTypeNETCORE','System.Int32').
+struct_dt_param_i([ 14,179,2 ],2,name,height).
+struct_dt_param_i([ 14,179,2 ],2,camelname,height).
+struct_dt_param_i([ 14,179,2 ],2,externalType,'').
+struct_dt_param_i([ 14,179,2 ],2,length,9).
+struct_dt_param_i([ 14,179,2 ],2,decimals,0).
+struct_dt_param_i([ 14,179,2 ],2,sign,0).
+struct_dt_param_i([ 14,179,2 ],2,type,[ 4,9,0 ]).
+struct_dt_param_i([ 14,179,2 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,179,2 ],2,'IntName',height).
+struct_dt_param_i([ 14,179,2 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,179,2 ],2,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,179,2 ],2,basedon,'').
+struct_dt_param_i([ 14,179,2 ],2,'ExoItemExtTypeCSHARP','System.Int32').
+struct_dt_param_i([ 14,179,2 ],2,'ExoItemExtTypeNETCORE','System.Int32').
+struct_dt_param_i([ 14,179,2 ],3,name,captchastr).
+struct_dt_param_i([ 14,179,2 ],3,camelname,captchaStr).
+struct_dt_param_i([ 14,179,2 ],3,externalType,'').
+struct_dt_param_i([ 14,179,2 ],3,length,9999).
+struct_dt_param_i([ 14,179,2 ],3,decimals,0).
+struct_dt_param_i([ 14,179,2 ],3,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,179,2 ],3,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,179,2 ],3,'IntName',captchaStr).
+struct_dt_param_i([ 14,179,2 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,179,2 ],3,'ExoItemType','Character').
+struct_dt_param_i([ 14,179,2 ],3,basedon,'').
+struct_dt_param_i([ 14,179,2 ],3,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,179,2 ],3,'ExoItemExtTypeNETCORE','System.String').
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurity','AssemblyName','GeneXusSecurity.dll').
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').

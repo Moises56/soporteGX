@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2btools.designsystems.aries.masterpage1_verticalmenu.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2btools.designsystems.aries.masterpage1_verticalmenu\obj\Release\k2btools.designsystems.aries.masterpage1_verticalmenu.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2btools.designsystems.aries.masterpage1_verticalmenu\obj\Release\k2btools.designsystems.aries.masterpage1_verticalmenu.dll

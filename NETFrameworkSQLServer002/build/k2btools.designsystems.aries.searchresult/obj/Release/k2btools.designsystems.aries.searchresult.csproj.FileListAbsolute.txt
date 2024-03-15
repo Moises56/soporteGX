@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2btools.designsystems.aries.searchresult.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2btools.designsystems.aries.searchresult\obj\Release\k2btools.designsystems.aries.searchresult.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2btools.designsystems.aries.searchresult\obj\Release\k2btools.designsystems.aries.searchresult.dll

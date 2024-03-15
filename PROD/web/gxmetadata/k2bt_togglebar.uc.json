@@ -1,0 +1,127 @@
+{
+	"Name": "K2BT_ToggleBar",
+	"Target": "",
+	"IsControlType": true,
+	"Template": "<k2bt-toggle-bar {{DataElement}} {{CreateItem}}	includeemptyitem=\"{{IncludeEmptyItem}}\"	emptyitemtext=\"{{EmptyItemText}}\"	noresultsfoundtext=\"{{NoResultsFoundText}}\"	additemcaption=\"{{AddItemCaption}}\"	togglestyle=\"{{ToggleStyle}}\" />", 
+	"Events": [
+		{
+			"Name": "CreateItem",
+			"On": "newRecordClicked",
+			"Parameters": ""
+		} ,
+		{
+			"Name": "ControlValueChanged",
+			"On": "controlvaluechanged",
+			"Parameters": ""
+		} 
+	],
+	"Properties": [
+		{
+			"Id": "Class",
+			"Name": "Class",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "IncludeEmptyItem",
+			"Name": "IncludeEmptyItem",
+			"Type": "boolean",
+			"Default": "False"
+		} ,
+		{
+			"Id": "EmptyItemText",
+			"Name": "EmptyItemText",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "NoResultsFoundText",
+			"Name": "NoResultsFoundText",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "ToggleStyle",
+			"Name": "ToggleStyle",
+			"Type": "enum",
+			"Default": ""
+		} ,
+		{
+			"Id": "AttID",
+			"Name": "Attribute",
+			"Type": "numeric,character,varchar,longvarchar,guid",
+			"Default": ""
+		} 
+	],
+	"Methods": {
+		"Public": [
+			{
+				"Name": "SetValues",
+				"Source": "    this.Values = v;    if (this.control != null) this.control[0].values = this.Values;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "v",
+						"Type": "v"
+					} 
+				]
+			} ,
+			{
+				"Name": "SetValue",
+				"Source": "    this.setAttribute(v);	if (this.control != null) this.control[0].value = v;    if (this.ControlValueChanged) {      this.ControlValueChanged();    }  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "v",
+						"Type": "v"
+					} 
+				]
+			} 
+		],
+		"Private": [
+			{
+				"Name": "_resolveValue",
+				"Source": "  	return provided == undefined || provided == \'\' || provided == null ? defaultValue : provided;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "provided",
+						"Type": "provided"
+					} ,
+					 {
+						"Name": "defaultValue",
+						"Type": "defaultValue"
+					} 
+				]
+			} ,
+			{
+				"Name": "_getTranslatedMessage",
+				"Source": "  	if (msg.indexOf(\'GX\') == 0 || msg.indexOf(\'K2B\') == 0) {      var translated = gx.msg[msg];      if (translated !== undefined) {        return translated;      }    }    return msg;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "msg",
+						"Type": "msg"
+					} 
+				]
+			} 
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "ButtonHandlers",
+				"Source": "  	var uc = this;		var container = this.getContainerControl();	this.control = $(container).find(\"k2bt-toggle-bar\");	this.control[0].enabled = this.Enabled;    this.control[0].readonlyClass = this.Class.split(\' \')        .map(s => \'Readonly\' + s)        .join(\' \');	this.control[0].emptyitemtext = this._getTranslatedMessage(this._resolveValue(this.EmptyItemText, \'GX_EmptyItemText\'));	this.control[0].noresultsfoundtext = this._getTranslatedMessage(this._resolveValue(this.NoResultsFoundText, \'K2BT_NoItems\'));	this.control[0].additemcaption = this._getTranslatedMessage(this._resolveValue(this.AddItemCaption, \'K2BT_EnhancedComboAddItemCaption\'));		if(uc.Values != undefined && uc.Values != null){		this.control[0].values = uc.Values;	}		this.control.on(\'change\', function (event) {		uc.setAttribute(event.originalEvent.detail);		if (uc.ControlValueChanged) {			uc.ControlValueChanged();		}	});  ",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

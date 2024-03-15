@@ -1,0 +1,436 @@
+spec_i([ mnproc,3,l('Get All Notifications For Current User DP'),'K2BTools\IntegrationProcedures\GetAllNotificationsForCurrentUserDP',0,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BTools.IntegrationProcedures.GetAllNotificationsForCurrentUserDP')).
+rule_i(0,prop('Folder',o(8,'K2BTools\IntegrationProcedures\Notifications'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','GetAllNotificationsForCurrentUserDP')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','GetAllNotificationsForCurrentUserDP')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'K2BTools\IntegrationProcedures\WebNotificationSDT'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','Get All Notifications For Current User DP')).
+rule_i(0,prop('ObjName','GetAllNotificationsForCurrentUserDP')).
+rule_i(0,rule([ a(22,[ 'Rfr',[ t('getmessagetext(',1),t('"GX_BtnRefresh"',3),t(')',4) ],'5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Count','Skip','Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Count',in ],[ 'Skip',in ],[ 'Gxm2rootcol',out ] ])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Gxm1webnotificationsdt',[ 'Gxm1webnotificationsdt',o('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification'),0,0,'',0,'Gxm1webnotificationsdt','',10 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification')),0,0,'',0,'Gxm2rootcol','',9 ]).
+attri_i('Skip',[ 'Skip',int,10,0,'ZZZZZZZZZ9',0,l('Skip'),'',8 ]).
+attri_i('Count',[ 'Count',int,10,0,'ZZZZZZZZZ9',0,l('Count'),'',7 ]).
+attri_i('Notification',[ 'Notification',o('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification'),0,0,'',0,l('Notification'),'',6 ]).
+attri_i('Notifications',[ 'Notifications',o(objectcollection('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification')),0,0,'',0,l('Notifications'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,[ t('Gxm1webnotificationsdt',23),t('Notificationusercode',3) ],yes,udp,o(1,'K2BGetUserCode'),[],8,[ t('Gxm1webnotificationsdt',23),t('Notificationusercode',3) ],[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(3,1,1,cmd,3,[ t('',107,3,0),t('Gxm1webnotificationsdt',23,3,0),t(=,10,3,0),t([ 'K2BTools\IntegrationProcedures\WebNotificationSDT.Notification',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1webnotificationsdt',23,3,0),t(')',4,3,0) ]).
+b_line_i(5,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Notificationid',3,5,0) ],29,5,0),t(=,10,5,0),t('1',3,5,0) ]).
+b_line_i(6,1,1,cmd,5,[ t('',107,6,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Notificationicon',3,5,0) ],29,5,0),t(=,10,5,0),t([ t(i(98,'d92c0485-557f-42b9-aa27-93baa220f7e4'),69,5,0),t('link(',1,5,0) ],31,5,0),t(')',4,5,0) ]).
+b_line_i(7,1,1,cmd,5,[ t('',107,7,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Notificationactioncaption',3,5,0) ],29,5,0),t(=,10,5,0),t('getmessagetext(',1,5,0),t('"View"',3,5,0),t(')',4,5,0) ]).
+b_line_i(8,1,1,cmd,5,[ t('',107,8,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Notificationusercode',3,5,0) ],29,5,0),t(=,10,5,0),t('udp(',1,5,0),t([ t('Gxm1webnotificationsdt',23),t('Notificationusercode',3) ],3,5,0),t(8,3,5,0),t(')',4,5,0) ]).
+b_line_i(9,1,1,cmd,5,[ t('',107,9,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Notificationtext',3,5,0) ],29,5,0),t(=,10,5,0),t('getmessagetext(',1,5,0),t('"This is a sample notification"',3,5,0),t(')',4,5,0) ]).
+b_line_i(10,1,1,cmd,5,[ t('',107,10,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Eventcreationdatetime',3,5,0) ],29,5,0),t(=,10,5,0),t('servernow(',1,5,0),t(')',4,5,0) ]).
+b_line_i(11,1,1,cmd,5,[ t('',107,11,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Eventtargeturl',3,5,0) ],29,5,0),t(=,10,5,0),t('""',3,5,0) ]).
+b_line_i(12,1,1,cmd,5,[ t('',107,12,0),t([ t('Gxm1webnotificationsdt',23,5,0),t('Notificationisread',3,5,0) ],29,5,0),t(=,10,5,0),t('TRUE',40,5,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,80,0 ],name,'K2BTools\IntegrationProcedures\WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],namespace,test).
+struct_dt_i([ 26,80,0 ],'ObjName','WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],'ObjDesc','Web Notification SDT').
+struct_dt_i([ 26,80,0 ],'ExternalName','WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,80,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,80,0 ],collection,'True').
+struct_dt_i([ 26,80,0 ],datatype,[ 26,80,111 ]).
+struct_dt_i([ 26,80,0 ],'CollectionItemName','Notification').
+struct_dt_i([ 26,80,0 ],'XmlName','').
+struct_dt_i([ 26,80,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,80,0 ],'XmlNamespace','').
+struct_dt_i([ 26,80,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,80,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,80,0 ],'JsonName','').
+struct_dt_i([ 26,80,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,80,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,80,111 ],name,'Notification').
+struct_dt_i([ 26,80,111 ],namespace,'test.WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],fullname,'K2BTools\IntegrationProcedures\WebNotificationSDT').
+struct_dt_i([ 26,80,111 ],fullname,'K2BTools\IntegrationProcedures\WebNotificationSDT.Notification').
+struct_dt_i([ 26,80,0 ],camelname,'K2btools\integrationprocedures\webnotificationsdt').
+struct_dt_i([ 26,80,111 ],camelname,'Notification').
+ 
+struct_dt_elem_i([ 26,80,111 ],1,name,'Notificationid').
+struct_dt_elem_i([ 26,80,111 ],1,camelname,'NotificationId').
+struct_dt_elem_i([ 26,80,111 ],1,basedon,133).
+struct_dt_elem_i([ 26,80,111 ],1,length,15).
+struct_dt_elem_i([ 26,80,111 ],1,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],1,sign,0).
+struct_dt_elem_i([ 26,80,111 ],1,type,[ 4,15,0 ]).
+struct_dt_elem_i([ 26,80,111 ],1,pic,'ZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,80,111 ],1,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],1,'ExternalName','NotificationId').
+struct_dt_elem_i([ 26,80,111 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],1,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],1,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],1,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],2,name,'Notificationicon').
+struct_dt_elem_i([ 26,80,111 ],2,camelname,'NotificationIcon').
+struct_dt_elem_i([ 26,80,111 ],2,length,4).
+struct_dt_elem_i([ 26,80,111 ],2,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],2,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,80,111 ],2,pic,'').
+struct_dt_elem_i([ 26,80,111 ],2,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],2,'ExternalName','NotificationIcon').
+struct_dt_elem_i([ 26,80,111 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],2,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],2,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],2,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],3,name,'Notificationicon_gxi').
+struct_dt_elem_i([ 26,80,111 ],3,camelname,'NotificationIcon_GXI').
+struct_dt_elem_i([ 26,80,111 ],3,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],3,isadd,'True').
+struct_dt_elem_i([ 26,80,111 ],3,length,2048).
+struct_dt_elem_i([ 26,80,111 ],3,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],3,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,80,111 ],4,name,'Notificationactioncaption').
+struct_dt_elem_i([ 26,80,111 ],4,camelname,'NotificationActionCaption').
+struct_dt_elem_i([ 26,80,111 ],4,basedon,110).
+struct_dt_elem_i([ 26,80,111 ],4,length,50).
+struct_dt_elem_i([ 26,80,111 ],4,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],4,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,80,111 ],4,pic,'').
+struct_dt_elem_i([ 26,80,111 ],4,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],4,'ExternalName','NotificationActionCaption').
+struct_dt_elem_i([ 26,80,111 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],4,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],4,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],4,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],5,name,'Notificationusercode').
+struct_dt_elem_i([ 26,80,111 ],5,camelname,'NotificationUserCode').
+struct_dt_elem_i([ 26,80,111 ],5,basedon,114).
+struct_dt_elem_i([ 26,80,111 ],5,length,100).
+struct_dt_elem_i([ 26,80,111 ],5,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,80,111 ],5,pic,'').
+struct_dt_elem_i([ 26,80,111 ],5,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],5,'ExternalName','NotificationUserCode').
+struct_dt_elem_i([ 26,80,111 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],5,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],5,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],5,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],6,name,'Notificationtext').
+struct_dt_elem_i([ 26,80,111 ],6,camelname,'NotificationText').
+struct_dt_elem_i([ 26,80,111 ],6,basedon,136).
+struct_dt_elem_i([ 26,80,111 ],6,length,10000).
+struct_dt_elem_i([ 26,80,111 ],6,decimals,100).
+struct_dt_elem_i([ 26,80,111 ],6,type,[ 13,10000,100 ]).
+struct_dt_elem_i([ 26,80,111 ],6,pic,'').
+struct_dt_elem_i([ 26,80,111 ],6,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],6,'ExternalName','NotificationText').
+struct_dt_elem_i([ 26,80,111 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],6,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],6,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],6,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],7,name,'Eventcreationdatetime').
+struct_dt_elem_i([ 26,80,111 ],7,camelname,'EventCreationDateTime').
+struct_dt_elem_i([ 26,80,111 ],7,length,8).
+struct_dt_elem_i([ 26,80,111 ],7,decimals,12).
+struct_dt_elem_i([ 26,80,111 ],7,type,[ 12,8,12 ]).
+struct_dt_elem_i([ 26,80,111 ],7,pic,'99/99/99 99:99:99.999').
+struct_dt_elem_i([ 26,80,111 ],7,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],7,'ExternalName','EventCreationDateTime').
+struct_dt_elem_i([ 26,80,111 ],7,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],7,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],7,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],7,'XmlDateSerialization',idXmlDateDefaultFormat).
+struct_dt_elem_i([ 26,80,111 ],7,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],8,name,'Eventtargeturl').
+struct_dt_elem_i([ 26,80,111 ],8,camelname,'EventTargetUrl').
+struct_dt_elem_i([ 26,80,111 ],8,basedon,8).
+struct_dt_elem_i([ 26,80,111 ],8,length,1000).
+struct_dt_elem_i([ 26,80,111 ],8,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],8,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,80,111 ],8,pic,'').
+struct_dt_elem_i([ 26,80,111 ],8,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],8,'ExternalName','EventTargetUrl').
+struct_dt_elem_i([ 26,80,111 ],8,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],8,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],8,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],8,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],9,name,'Notificationisread').
+struct_dt_elem_i([ 26,80,111 ],9,camelname,'NotificationIsRead').
+struct_dt_elem_i([ 26,80,111 ],9,length,6).
+struct_dt_elem_i([ 26,80,111 ],9,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],9,type,[ 15,6,0 ]).
+struct_dt_elem_i([ 26,80,111 ],9,pic,'').
+struct_dt_elem_i([ 26,80,111 ],9,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],9,'ExternalName','NotificationIsRead').
+struct_dt_elem_i([ 26,80,111 ],9,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],9,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],9,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],9,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],9,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,36,'K2BGETUSERCODE',[ [ svchar,100,0,0 ] ],[ [ 'UserCode',out,[] ] ]).
+ 
+pgm_callprotocol_i(mnproc,3,'K2BTOOLS\INTEGRATIONPROCEDURES\GETALLNOTIFICATIONSFORCURRENTUSERDP','INTERNAL','').
+pgm_callprotocol_i(proc,36,'K2BGETUSERCODE','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

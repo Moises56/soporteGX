@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpaneldesignerlayoutorion_Execute",
+    "Description": "Grid with selected items in tab",
+    "ProgramName": "k2btools.designsystems.aries.wpdlayout_selectiontab",
+    "IsGXAutomatic": true
+  }
+]

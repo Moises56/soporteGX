@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.k2btoolsaccessdenied.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.k2btoolsaccessdenied\obj\Release\k2bfsg.k2btoolsaccessdenied.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.k2btoolsaccessdenied\obj\Release\k2bfsg.k2btoolsaccessdenied.dll

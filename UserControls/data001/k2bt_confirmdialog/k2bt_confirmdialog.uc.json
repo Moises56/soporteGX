@@ -1,0 +1,87 @@
+{
+	"Name": "K2BT_ConfirmDialog",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<div class=\"Table_ConditionalConfirm\" style=\"display:none;\">	<div class=\"Section_CondConf_Dialog\">		<div class=\"Section_CondConf_DialogInner\">			<span class=\"K2BT_ConfirmDialogMessage\"></span>			<div class=\"K2BT_ConfirmActions\">				<input type=\"button\" value=\"Ok\" class=\"K2BT_ConfirmDialogOk K2BToolsButton_MainAction_Confirm btn btn-default\"/>				<input type=\"button\" value=\"Cancel\" class=\"K2BT_ConfirmDialogCancel Button_Standard btn btn-default\"/>			</div>		</div>	</div></div>", 
+	"Events": [
+		{
+			"Name": "OnOKClicked",
+			"On": "okclicked",
+			"Parameters": ""
+		} ,
+		{
+			"Name": "OnCancelClicked",
+			"On": "cancelclicked",
+			"Parameters": ""
+		} 
+	],
+	"Properties": [
+		{
+			"Id": "ConfirmMessage",
+			"Name": "ConfirmMessage",
+			"Type": "string",
+			"Default": "K2BT_AreYouSure"
+		} ,
+		{
+			"Id": "OKCaption",
+			"Name": "OKCaption",
+			"Type": "string",
+			"Default": "K2BT_ConfirmOk"
+		} ,
+		{
+			"Id": "CancelCaption",
+			"Name": "CancelCaption",
+			"Type": "string",
+			"Default": "K2BT_ConfirmCancel"
+		} 
+	],
+	"Methods": {
+		"Public": [
+		],
+		"Private": [
+			{
+				"Name": "_resolveValue",
+				"Source": "  	return provided == undefined || provided == \'\' || provided == null ? defaultValue : provided;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "provided",
+						"Type": "provided"
+					} ,
+					 {
+						"Name": "defaultValue",
+						"Type": "defaultValue"
+					} 
+				]
+			} ,
+			{
+				"Name": "_getTranslatedMessage",
+				"Source": "  	if (msg.indexOf(\'GX\') == 0 || msg.indexOf(\'K2B\') == 0) {      var translated = gx.msg[msg];      if (translated !== undefined) {        return translated;      }    }    return msg;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "msg",
+						"Type": "msg"
+					} 
+				]
+			} 
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "ButtonHandlers",
+				"Source": "  	var uc = this;	var container = this.getContainerControl();		$(container).hide();	$(container).find(\".Table_ConditionalConfirm\").show();		var message = $(container).find(\".K2BT_ConfirmDialogMessage\");	var okbutton = $(container).find(\".K2BT_ConfirmDialogOk\");	var cancelbutton = $(container).find(\".K2BT_ConfirmDialogCancel\");		message.text(this._getTranslatedMessage(this._resolveValue(this.ConfirmMessage, \'K2BT_AreYouSure\')));	var okButtonText = this._getTranslatedMessage(this._resolveValue(this.OKCaption, \'K2BT_ConfirmOk\'));	okbutton.prop(\'value\', okButtonText);		var cancelButtonText = this._getTranslatedMessage(this._resolveValue(this.CancelCaption, \'K2BT_ConfirmCancel\'));	cancelbutton.prop(\'value\', cancelButtonText);		okbutton.on(\'click\', function (event) {		if (uc.OnOKClicked) {			uc.OnOKClicked();		}	});	cancelbutton.on(\'click\', function (event) {		if (uc.OnCancelClicked) {			uc.OnCancelClicked();		}	});	  ",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

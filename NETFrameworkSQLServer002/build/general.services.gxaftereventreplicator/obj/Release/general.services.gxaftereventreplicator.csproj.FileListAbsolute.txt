@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\general.services.gxaftereventreplicator.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\general.services.gxaftereventreplicator\obj\Release\general.services.gxaftereventreplicator.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\general.services.gxaftereventreplicator\obj\Release\general.services.gxaftereventreplicator.dll

@@ -1,0 +1,348 @@
+spec_i([ proc,49,'Return file in Http Response','K2BT_ReturnFileInHttpResponse',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','SoporteÒNÌÌ*ÌSÒ4Ü9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','SoporteÒNÌÌ*ÌSÒ4Ü9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BT_ReturnFileInHttpResponse')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('HTTP_STREAMING_SUPPORT','Off')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BTools'))).
+rule_i(0,prop('ObjDesc','Return file in Http Response')).
+rule_i(0,prop('ObjName','K2BT_ReturnFileInHttpResponse')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Guid' ],[])).
+rule_i(0,parmio([ [ 'Guid',in ] ])).
+rule_i(0,output('FIL')).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',17 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,'Session','',16 ]).
+attri_i('Guid',[ 'Guid',guid,4,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'Guid','',15 ]).
+attri_i('Contenttype',[ 'ContentType',svchar,40,0,'',0,'Content Type','',14 ]).
+attri_i('Lastdotposition',[ lastDotPosition,int,4,0,'ZZZ9',0,'last Dot Position','',13 ]).
+attri_i('Extension',[ extension,svchar,40,0,'',0,extension,'',12 ]).
+attri_i('Filename',[ 'FileName',svchar,256,0,'',0,'File Name','',11 ]).
+attri_i('File',[ file,o(file),4,0,'',0,file,'',10 ]).
+attri_i('Outfilename',[ 'OutFileName',svchar,256,0,'',0,'Out File Name','',9 ]).
+attri_i('Httpresponse',[ 'HttpResponse',o(httpresponse),4,0,'',0,'Http Response','',8 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,'Filename',yes,udp,o(1,'K2BSessionGet'),[],1,'Filename',[ [ t('guidtostr(',1),t('Guid',23),t(')',4) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(121,[ 'K2BTools\FilePath' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,27).
+b_group_i(1,2,lit,0,28,47).
+b_group_i(1,3,lit,0,48,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Filename',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Filename',3,0,0),t(1,3,0,0),t('guidtostr(',1,0,0),t('Guid',23,0,0),t(')',4,0,0),t(')',4,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',104,2,0),t(o(1,'K2BSessionRemove'),28,0,1),t('guidtostr(',1,2,24),t('Guid',23,0,18),t(')',4,0,34) ]).
+b_line_i(3,1,1,cmd,0,[ t('',109,3,0),t('null(',1,3,14),t('Filename',23,0,4),t(')',4,0,23) ]).
+b_line_i(4,1,1,cmd,0,[ t('',145,4,0),t('''NOTAUTHORIZED''',3,4,5) ]).
+b_line_i(5,1,1,cmd,0,[ t('',118,5,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',111,6,0) ]).
+b_line_i(7,1,1,cmd,0,[]).
+b_line_i(8,1,1,cmd,0,[ t('',107,8,0),t([ t('File',23,0,0),t('Source',3,0,0) ],29,0,0),t(=,10,0,0),t('Filename',23,0,0) ]).
+b_line_i(9,1,1,cmd,0,[ t('',109,9,0),t('.NOT.',8,0,4),t([ t('File',23,0,10),t('exists(',1,0,16) ],31,9,16),t(')',4,0,24) ]).
+b_line_i(10,1,1,cmd,0,[ t('',145,10,0),t('''NOTAUTHORIZED''',3,10,5) ]).
+b_line_i(11,1,1,cmd,0,[ t('',118,11,0) ]).
+b_line_i(12,1,1,cmd,0,[ t('',111,12,0) ]).
+b_line_i(13,1,1,cmd,0,[]).
+b_line_i(14,1,1,cmd,0,[ t('',145,14,0),t('''GETCONTENTTYPE''',3,14,4) ]).
+b_line_i(15,1,1,cmd,0,[]).
+b_line_i(16,1,1,cmd,0,[ t('',107,16,0),t([ t('Httpresponse',23,16,1),t('addheader(',1,16,15) ],31,16,15),t('"Content-Type"',3,16,26),t(',',7,0,41),t('Contenttype',23,0,43),t(')',4,0,55) ]).
+b_line_i(17,1,1,cmd,0,[ t('',107,17,0),t([ t('Httpresponse',23,17,1),t('addheader(',1,17,15) ],31,17,15),t('"Content-Disposition"',3,17,26),t(',',7,0,48),t('format(',1,0,50),t('"attachment;filename=%1"',3,17,58),t(',',7,0,83),t([ t('File',23,0,85),t('getname(',1,0,91) ],31,17,91),t(')',4,0,100),t(')',4,0,101),t(')',4,0,102) ]).
+b_line_i(18,1,1,cmd,0,[ t('',107,18,0),t([ t('Httpresponse',23,18,1),t('addheader(',1,18,15) ],31,18,15),t('"X-Frame-Options"',3,18,26),t(',',7,0,44),t('"sameOrigin"',3,18,45),t(')',4,0,58) ]).
+b_line_i(19,1,1,cmd,0,[ t('',107,19,0),t([ t('Httpresponse',23,19,1),t('addheader(',1,19,15) ],31,19,15),t('"X-Content-Type-Options"',3,19,26),t(',',7,0,51),t('"nosniff"',3,19,52),t(')',4,0,62) ]).
+b_line_i(20,1,1,cmd,0,[ t('',107,20,0),t([ t('Httpresponse',23,20,1),t('addfile(',1,20,15) ],31,20,15),t('Filename',23,0,24),t(')',4,0,33) ]).
+b_line_i(21,1,1,cmd,0,[ t('',158,21,0),t(o(1,'K2BRemoveExcelDocument'),28,0,1),t('""',3,21,32),t(',',7,0,34),t('Filename',23,0,36) ]).
+b_line_i(22,1,1,cmd,0,[]).
+b_line_i(23,1,1,cmd,0,[]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[]).
+b_line_i(26,1,1,cmd,0,[]).
+b_line_i(27,1,1,cmd,0,[ t('',143,27,0),t('''GETCONTENTTYPE''',3,27,5) ]).
+b_line_i(28,1,2,cmd,0,[ t('',107,28,0),t('Extension',23,0,0),t(=,10,0,0),t([ t('File',23,0,0),t('getname(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(29,1,2,cmd,0,[ t('',107,29,0),t('Lastdotposition',23,0,0),t(=,10,0,0),t('strsearch(',1,0,0),t('Extension',23,0,0),t(',',7,0,0),t('"."',3,0,0),t(')',4,0,0) ]).
+b_line_i(30,1,2,cmd,0,[ t('',114,30,0),t('Lastdotposition',23,0,11),t(>,10,0,28),t('0',3,0,30) ]).
+b_line_i(31,1,2,cmd,0,[ t('',107,31,0),t('Extension',23,0,0),t(=,10,0,0),t('substr(',1,0,0),t('Extension',23,0,0),t(',',7,0,0),t('Lastdotposition',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ]).
+b_line_i(32,1,2,cmd,0,[ t('',107,32,0),t('Lastdotposition',23,0,0),t(=,10,0,0),t('strsearch(',1,0,0),t('Extension',23,0,0),t(',',7,0,0),t('"."',3,0,0),t(')',4,0,0) ]).
+b_line_i(33,1,2,cmd,0,[ t('',115,33,0) ]).
+b_line_i(34,1,2,cmd,0,[ t('',107,34,0),t('Extension',23,0,0),t(=,10,0,0),t('lower(',1,0,0),t('Extension',23,0,0),t(')',4,0,0) ]).
+b_line_i(35,1,2,cmd,0,[ t('',152,35,0) ]).
+b_line_i(36,1,2,cmd,0,[ t('',153,36,0),t('Extension',23,0,8),t(=,10,0,19),t('"csv"',3,36,21) ]).
+b_line_i(37,1,2,cmd,0,[ t('',107,37,0),t('Contenttype',23,0,0),t(=,10,0,0),t('"text/csv"',3,0,0) ]).
+b_line_i(38,1,2,cmd,0,[ t('',153,38,0),t('Extension',23,0,8),t(=,10,0,19),t('"xls"',3,38,21) ]).
+b_line_i(39,1,2,cmd,0,[ t('',107,39,0),t('Contenttype',23,0,0),t(=,10,0,0),t('"application/vnd.ms-excel"',3,0,0) ]).
+b_line_i(40,1,2,cmd,0,[ t('',153,40,0),t('Extension',23,0,8),t(=,10,0,19),t('"xlsx"',3,40,21) ]).
+b_line_i(41,1,2,cmd,0,[ t('',107,41,0),t('Contenttype',23,0,0),t(=,10,0,0),t('"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"',3,0,0) ]).
+b_line_i(42,1,2,cmd,0,[ t('',153,42,0),t('Extension',23,0,8),t(=,10,0,19),t('"pdf"',3,42,21) ]).
+b_line_i(43,1,2,cmd,0,[ t('',107,43,0),t('Contenttype',23,0,0),t(=,10,0,0),t('"application/pdf"',3,0,0) ]).
+b_line_i(44,1,2,cmd,0,[ t('',154,44,0) ]).
+b_line_i(45,1,2,cmd,0,[ t('',144,45,0) ]).
+b_line_i(46,1,2,cmd,0,[]).
+b_line_i(47,1,2,cmd,0,[ t('',143,47,0),t('''NOTAUTHORIZED''',3,47,5) ]).
+b_line_i(48,1,3,cmd,0,[ t('',107,48,0),t([ t('Httpresponse',23,48,2),t('addheader(',1,48,16) ],31,48,16),t('"Content-Type"',3,48,27),t(',',7,0,42),t('"text/html"',3,48,44),t(')',4,0,56) ]).
+b_line_i(49,1,3,cmd,0,[ t('',107,49,0),t([ t('Httpresponse',23,49,2),t('addstring(',1,49,16) ],31,49,16),t('"<html><body><h1>There was an error returning the requested file.</h1></body></html>"',3,49,27),t(')',4,0,113) ]).
+b_line_i(50,1,3,cmd,0,[ t('',144,50,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(3,'Outfilename',idBasedOn,121,v).
+var_prop_i(3,'Filename',idBasedOn,121,v).
+var_prop_i(3,'Guid','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(3,'Guid','AttValidationFailedMsg','GXM_InvalidGUID',d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,27,'K2BREMOVEEXCELDOCUMENT',[ [ char,20,0,0 ] ],[ [ 'FileName',in,[] ] ]).
+pgm_parm_i(proc,32,'K2BSESSIONREMOVE',[ [ char,100,0,0 ] ],[ [ 'SessionItem',in,[] ] ]).
+pgm_parm_i(proc,21,'K2BSESSIONGET',[ [ char,100,0,0 ],[ vchar,990208,255,0 ] ],[ [ 'SessionItem',in,[] ],[ 'SessionData',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,49,'K2BT_RETURNFILEINHTTPRESPONSE','HTTP','Secure').
+pgm_callprotocol_i(proc,27,'K2BREMOVEEXCELDOCUMENT','INTERNAL','Secure').
+pgm_callprotocol_i(proc,32,'K2BSESSIONREMOVE','INTERNAL','Secure').
+pgm_callprotocol_i(proc,21,'K2BSESSIONGET','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

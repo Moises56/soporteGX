@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="29a6a52b-2ac8-4d71-8d38-6216ccf40e20" name="K2BT_DaysPeriodsBackwardsDatetimeRangeProvider" description="Shows options for past periods defined by amount of days from today: 7, 30, 60, and 120 days from now" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out">
+      <Field name="K2BDatetimeRangeSet" description="K2 BDatetime Range Set">
+        <Fields>
+          <Field name="Items" description="Items" collection="true">
+            <Fields>
+              <Field name="Code" description="Code">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="Description" description="Description">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>50</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="FromValue" description="From Value">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>DateTime</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>8</Value>
+                  </Property>
+                  <Property>
+                    <Name>Decimals</Name>
+                    <Value>5</Value>
+                  </Property>
+                  <Property>
+                    <Name>Picture</Name>
+                    <Value>99/99/99 99:99</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="ToValue" description="To Value">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>DateTime</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>8</Value>
+                  </Property>
+                  <Property>
+                    <Name>Decimals</Name>
+                    <Value>5</Value>
+                  </Property>
+                  <Property>
+                    <Name>Picture</Name>
+                    <Value>99/99/99 99:99</Value>
+                  </Property>
+                </Properties>
+              </Field>
+            </Fields>
+          </Field>
+          <Field name="DefaultValueCode" description="Default Value Code">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>20</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

@@ -1,0 +1,4491 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "English",
+    "Theme" : "AriesCustom",
+    "Images" : [ { 
+        "Name" : "K2BT_UndeleteRow",
+        "Type" : "I",
+        "Guid" : "82a188f2-78c3-477d-a2b4-0acb4cfd714a",
+        "Location" : "K2BT_UndeleteRow.gif",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_DeleteRow",
+        "Type" : "I",
+        "Guid" : "fad461b4-3030-49d5-869b-dff46ad9b940",
+        "Location" : "K2BT_DeleteRow.gif",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Location",
+        "Type" : "I",
+        "Guid" : "7aa1372c-3448-4b7a-9259-b32da70ed453",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_Location.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Phone",
+        "Type" : "I",
+        "Guid" : "ee8b52ec-b7cf-4147-983f-42c202a87ea4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_Phone.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfiguration",
+        "Type" : "I",
+        "Guid" : "6f413292-2d30-456d-8149-b8e7cbc40733",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_UIConfiguration.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BNotificationsInactive",
+        "Type" : "I",
+        "Guid" : "1942f1bc-1f65-4fa8-8c23-b53fd3aa4826",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BNotificationsInactive.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionBefore",
+        "Type" : "I",
+        "Guid" : "9f853d96-3adb-4286-95d6-21c865a6fedb",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionBefore.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_MasterPage2_MenuSelectedOptionAfter",
+        "Type" : "I",
+        "Guid" : "bc8c2765-9ab7-48bd-af46-a17e7c7da7c3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_MasterPage2_MenuSelectedOptionAfter.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NotificationsBell_OverContent",
+        "Type" : "I",
+        "Guid" : "c8177fb0-bfec-442b-a7af-d51127e0ed96",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_NotificationsBell_OverContent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UIConfigurationOverContent",
+        "Type" : "I",
+        "Guid" : "7ae176df-7c64-4975-a5d7-4c1a441f9fff",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_UIConfigurationOverContent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UserMenuOpenDark",
+        "Type" : "I",
+        "Guid" : "e8135743-fc09-47d3-968c-a6950563aa1f",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BT_UserMenuOpenDark.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilter",
+        "Type" : "I",
+        "Guid" : "9096baa5-4001-4b20-967c-e7ef45b8457a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_ColumnFilter.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ColumnFilterActive",
+        "Type" : "I",
+        "Guid" : "3c4a02a7-160f-458a-a486-5e7bf9594de3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_ColumnFilterActive.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_LoginBackground",
+        "Type" : "I",
+        "Guid" : "d0a35937-5c83-42f9-b042-10a9957b0ffe",
+        "Location" : "K2BT_LoginBackground.jpg",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_User",
+        "Type" : "I",
+        "Guid" : "7614035b-7ae5-4a87-90f5-dfc7fb56b2ab",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_User.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Password",
+        "Type" : "I",
+        "Guid" : "bc9e1326-aee8-4640-8b70-c669be0edf25",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_Password.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_BaseColorPickerSelected",
+        "Type" : "I",
+        "Guid" : "d9c7cc51-8621-4339-bcd9-dc3f901b622d",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BT_BaseColorPickerSelected.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/calendar.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/calendar.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/calendar.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/calendar.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/calendar.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/calendar.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/calendar.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/calendar.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/calendar.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calendar",
+        "Type" : "I",
+        "Guid" : "61b9b5d3-dff6-4d59-9b00-da61bc2cbe93",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/calendar.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/prompt.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/prompt.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/prompt.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/prompt.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/prompt.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/prompt.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/prompt.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/prompt.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/prompt.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "prompt",
+        "Type" : "I",
+        "Guid" : "f5b04895-0024-488b-8e3b-b687ca4598ee",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/prompt.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionInsert",
+        "Type" : "I",
+        "Guid" : "bf7fea3c-204e-4abe-b655-c975cbd4f0e1",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BActionInsert.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EmptyStateImage",
+        "Type" : "I",
+        "Guid" : "210b1bd7-560f-4d96-874e-517f65bd280b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BT_EmptyStateImage.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_UserMenuOpen",
+        "Type" : "I",
+        "Guid" : "954b5fc2-e7a9-4a61-b8ce-8c45e050a560",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BT_UserMenuOpen.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionSettings",
+        "Type" : "I",
+        "Guid" : "41d71e69-2c08-4a22-81ea-33d044ef425f",
+        "Location" : "K2BActionSettings.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_IncludeMeetingOn",
+        "Type" : "I",
+        "Guid" : "638d69e6-bc90-4001-91dd-2de62d3f1310",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_IncludeMeetingOn.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentCollapse",
+        "Type" : "I",
+        "Guid" : "cd4bc2b0-7bb2-4b77-aeb7-0c6632fa5484",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BToolsComponentCollapse.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BToolsComponentOpen",
+        "Type" : "I",
+        "Guid" : "87ba2769-8aab-4613-b833-d06fcae04609",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BToolsComponentOpen.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BMsgError",
+        "Type" : "I",
+        "Guid" : "1bdc8a4a-5305-49a6-af50-67fd62ae00ea",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BMsgError.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BMsgWarning",
+        "Type" : "I",
+        "Guid" : "03042f2b-17b2-4ab4-ad25-504286b222d3",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BMsgWarning.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BContextHelp",
+        "Type" : "I",
+        "Guid" : "afb51b54-e80c-459c-b24b-07b4c9cb5db7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BContextHelp.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EnhancedComboPlaceholder",
+        "Type" : "I",
+        "Guid" : "f981f536-5eec-43dd-80b9-955101484023",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_EnhancedComboPlaceholder.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "WarningIcon",
+        "Type" : "I",
+        "Guid" : "4041cec4-85fe-4bd8-aaa2-a8a2026c306c",
+        "Location" : "WarningIcon.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "ErrorIcon",
+        "Type" : "I",
+        "Guid" : "b63f5646-3a80-45fa-b28f-1940d496304c",
+        "Location" : "ErrorIcon.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderAscending",
+        "Type" : "I",
+        "Guid" : "f029bead-dded-40dc-9298-358d24e4f960",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_OrderAscending.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_OrderDescending",
+        "Type" : "I",
+        "Guid" : "4df1dba9-61be-4762-ad3e-33bec8a6bc98",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_OrderDescending.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Search_OverContent",
+        "Type" : "I",
+        "Guid" : "c73ed2f5-40ab-4019-aeb3-ba4a34e950a7",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_Search_OverContent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BWizardFinished",
+        "Type" : "I",
+        "Guid" : "89b1f461-45e9-4b49-80e6-10faa0a8a60e",
+        "Location" : "K2BWizardFinished.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardCompletedStepSeparator",
+        "Type" : "I",
+        "Guid" : "8432b810-9351-4ade-ad14-c9a4fb27be3b",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_WizardCompletedStepSeparator.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_WizardPendingStepSeparator",
+        "Type" : "I",
+        "Guid" : "f82719b7-4e65-45c6-bf93-de63e37aaf1f",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BT_WizardPendingStepSeparator.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_EmptyPhoto",
+        "Type" : "I",
+        "Guid" : "99726f8d-dc36-4573-9403-cf806317ae75",
+        "Location" : "K2BT_EmptyPhoto.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxNotChecked",
+        "Type" : "I",
+        "Guid" : "323d2c5e-b6ae-4c9c-a077-ed6ffce48089",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_CheckboxNotChecked.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CheckboxChecked",
+        "Type" : "I",
+        "Guid" : "de755c8c-7828-40a8-9d70-c58fd81007ce",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_CheckboxChecked.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPage",
+        "Type" : "I",
+        "Guid" : "191ad271-3aba-4876-83fe-a9fab8ce72d4",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_PreviousPage.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPage",
+        "Type" : "I",
+        "Guid" : "f8558861-9e17-4d6c-a73b-a1c35b1c4e9e",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_NextPage.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_CommentMoreActions",
+        "Type" : "I",
+        "Guid" : "e0399bcb-98c4-40c1-b9bf-ab1859276d17",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_CommentMoreActions.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BUniversalSearch",
+        "Type" : "I",
+        "Guid" : "b2f44a32-cd24-4170-a5da-849c2e18a0bd",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BUniversalSearch.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_ImagePlaceholder",
+        "Type" : "I",
+        "Guid" : "ff4df9ee-ab22-4e18-ab6b-55f927b2d2ba",
+        "Location" : "K2BT_ImagePlaceholder.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionUpdate",
+        "Type" : "I",
+        "Guid" : "788f9b72-f982-49f9-99e4-c0374e31a85a",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BActionUpdate.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BActionDelete",
+        "Type" : "I",
+        "Guid" : "3e4a9f50-2c57-41b6-9da5-ebe49bca33c0",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BActionDelete.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PlaceHolderImage",
+        "Type" : "I",
+        "Guid" : "bca86e8b-b405-42ad-b056-5f1de8a13eb4",
+        "Location" : "K2BT_PlaceHolderImage.svg",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BPlaceHolderVideo",
+        "Type" : "I",
+        "Guid" : "b20f934f-bf86-42ee-9f64-e60693b2969c",
+        "Location" : "K2BPlaceHolderVideo.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BPlaceHolderAudio",
+        "Type" : "I",
+        "Guid" : "0d92a588-381a-408b-9cb7-28b55619768c",
+        "Location" : "K2BPlaceHolderAudio.png",
+        "Density" : 1,
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BMsgSuccess",
+        "Type" : "I",
+        "Guid" : "668461a0-19ad-4146-be3b-9c3d0cc14861",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BMsgSuccess.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BMsgInfo",
+        "Type" : "I",
+        "Guid" : "a1900981-177e-47d2-ba6c-179a66b52084",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BMsgInfo.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_PreviousPageOverAccent",
+        "Type" : "I",
+        "Guid" : "2e0c85ef-0858-47cb-9210-2279fd2bf895",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_PreviousPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_light/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_light/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_light/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_light/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_light/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "light"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violet_color-variant_dark/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violet",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_violetflat_color-variant_dark/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "violetflat",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_green_color-variant_dark/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "green",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_skyblue_color-variant_dark/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "skyblue",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_NextPageOverAccent",
+        "Type" : "I",
+        "Guid" : "7ce886f3-dc47-45ca-8ac2-0a0c54602143",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/base-color_red_color-variant_dark/K2BT_NextPageOverAccent.svg",
+        "Options" : { 
+            "base-color" : "red",
+            "color-variant" : "dark"
+        },
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "K2BT_Calendar_White",
+        "Type" : "I",
+        "Guid" : "833f1f49-bb02-4e92-b78a-f2f2e7adfd8f",
+        "Location" : "K2BTools.DesignSystems.Aries.Aries/K2BT_Calendar_White.svg",
+        "Density" : 1,
+        "Style" : "K2BTools.DesignSystems.Aries.Aries",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    } ]
+}

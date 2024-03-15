@@ -1,0 +1,45 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>113</ObjId>
+<ObjName>GAMExampleActivateUserAccount</ObjName>
+<ObjDesc>Activate user account</ObjDesc>
+<ObjPgmName>GAMExampleActivateUserAccount</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Activationkey</VarId>
+<VarName>&amp;ActivationKey</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>'Login'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>103</ObjId>
+<ObjName>GAMExampleLogin</ObjName>
+<ObjPgmName>GAMExampleLogin</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'DISPLAYMESSAGES'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.entryconnection.dll
+C:\KBs\test\PROD\build\k2bfsg.entryconnection\obj\Release\k2bfsg.entryconnection.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.entryconnection\obj\Release\k2bfsg.entryconnection.dll

@@ -1,0 +1,832 @@
+spec_i([ proc,165,'Convert Errors To Messages','K2BFSG\ConvertErrorsToMessages',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BFSG.ConvertErrorsToMessages')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BFSG\Helpers'))).
+rule_i(0,prop('ObjDesc','Convert Errors To Messages')).
+rule_i(0,prop('ObjName','ConvertErrorsToMessages')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gamerrorcollection','Messages' ],[])).
+rule_i(0,parmio([ [ 'Gamerrorcollection',in ],[ 'Messages',out ] ])).
+rule_i(0,output('FIL')).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',13 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',12 ]).
+attri_i('Messages',[ 'Messages',o(objectcollection('GeneXus\Common\Messages.Message')),0,0,'',0,'Messages','',11 ]).
+attri_i('Message',[ 'Message',o('GeneXus\Common\Messages.Message'),0,0,'',0,'Message','',10 ]).
+attri_i('Gamerrorcollection',[ 'GAMErrorCollection',o(objectcollection('GeneXusSecurity\GAMError')),0,0,'',0,'GAMError Collection','',9 ]).
+attri_i('Gamerror',[ 'GAMError',o('GeneXusSecurity\GAMError'),0,0,'',0,'GAMError','',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(3,7,'0','Warning','"Warning"',[ none ]).
+enum_value_i(3,7,'1','Error','"Error"',[ none ]).
+enum_value_i(3,7,'2','Info','"Info"',[ none ]).
+enum_value_i(3,7,'3','Debug','"Debug"',[ none ]).
+enum_value_i(3,191,'1','ConnectionNotSpecified','"The connection to GAM is not specified. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'2','RepositoryNotFound','"Repository not found (%1). Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'3','AuthenticationTypeNotFound','"Authentication type not found."',[ none ]).
+enum_value_i(3,191,'4','AuthenticationFunctionNotFound','"Authentication function not found."',[ none ]).
+enum_value_i(3,191,'5','UserIdentificationNotValid','"User identification not valid."',[ none ]).
+enum_value_i(3,191,'6','UserLoginIsNull','"User''s login can not be null."',[ none ]).
+enum_value_i(3,191,'7','UserNotFound','"User not found."',[ none ]).
+enum_value_i(3,191,'8','UserUnknown','"User unknown."',[ none ]).
+enum_value_i(3,191,'9','UserInactive','"User is not active. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'10','UserBlocked','"User blocked. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'11','UserPasswordIncorrect','"The user or password is incorrect."',[ none ]).
+enum_value_i(3,191,'12','WebServiceError','"Authentication service error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'13','SessionExpired','"Session expired, login again."',[ none ]).
+enum_value_i(3,191,'14','SessionNotExist','"Session does not exist."',[ none ]).
+enum_value_i(3,191,'15','SessionTypeNotValid','"Session type not valid."',[ none ]).
+enum_value_i(3,191,'16','SessionError','"Session error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'18','UserLoginIncorrect','"The user or password is incorrect."',[ none ]).
+enum_value_i(3,191,'17','UserNotAuthorized','"User not authorized."',[ none ]).
+enum_value_i(3,191,'19','ConsumerChallengeNotValid','"Consumer challenge not valid. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'20','ConsumerModeNotValid','"GAM mode connection is invalid. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'21','SessionFinished','"Session finished, login again."',[ none ]).
+enum_value_i(3,191,'22','RepositoryWithoutAnonymousUser','"Repository without anonymous user. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'23','UserPasswordMustBeChanged','"Your password must be changed, please change it now."',[ none ]).
+enum_value_i(3,191,'24','UserPasswordExpired','"Your password expired, please change it now."',[ none ]).
+enum_value_i(3,191,'25','SessionLocked','"Session has been locked due to multiple invalid login attempts, close your browser and try again."',[ none ]).
+enum_value_i(3,191,'26','UserCanNotChangePassword','"User cannot change the password."',[ none ]).
+enum_value_i(3,191,'27','UserNameTooShort','"The username must be longer (minimum %1 )."',[ none ]).
+enum_value_i(3,191,'28','UserNameNotSpecialChar','"The username can not contain special characters."',[ none ]).
+enum_value_i(3,191,'29','UserCannotBeRestored','"GAM_UserCannotBeRestored"',[ none ]).
+enum_value_i(3,191,'30','ConnectionNotFound','"The connection to GAM was not found. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'31','ConnectionTypeNotFound','"GAM connection type not found. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'32','ConnectionLoginFailed','"Repository connection failed for user %1. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'33','ConnectionPasswordFailed','"The connection password for user %1 is not correct. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'34','ConnectionRemoteFailed','"Remote connection failed for user %1. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'35','AuthenticationTypeNotValid','"Authentication type not valid."',[ none ]).
+enum_value_i(3,191,'36','RememberUserTypeNotValid','"Remember user type not valid."',[ none ]).
+enum_value_i(3,191,'37','WebServiceVersionNotFound','"Authentication service version not found. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'38','WebServiceUnsupportedVersion','"Authentication service version is not supported. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'39','ApplicationNotFound','"Application not found."',[ none ]).
+enum_value_i(3,191,'40','ErrorWSResponse','"Error in authentication service response, the service is not responding. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'41','UserAnonymousError','"User anonymous error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'42','BCMessage','"Error:"',[ none ]).
+enum_value_i(3,191,'43','UserPasswordKeyIncorrect','"The key to change the user''s password is incorrect, obtain another."',[ none ]).
+enum_value_i(3,191,'44','UserPasswordKeyExpired','"The key to change the user''s password has expired, obtain another."',[ none ]).
+enum_value_i(3,191,'45','UserPasswordAnswerIncorrect','"User password answer incorrect."',[ none ]).
+enum_value_i(3,191,'46','NameSpaceCannotNull','"Namespace cannot be null."',[ none ]).
+enum_value_i(3,191,'47','DescriptionCannotNull','"Description cannot be null."',[ none ]).
+enum_value_i(3,191,'48','APIModeUnrecognized','"API mode unrecognized. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'49','UserNameAlreadyExist','"Username already exists."',[ none ]).
+enum_value_i(3,191,'50','UserAlreadyActivated','"User is already active."',[ none ]).
+enum_value_i(3,191,'51','UserActivationKeyIncorrect','"User activation key is incorrect, you must register again or contact the administrator."',[ none ]).
+enum_value_i(3,191,'52','UserActivationKeyExpired','"User activation key expired, you must register again or contact the administrator."',[ none ]).
+enum_value_i(3,191,'53','RepositoryNameSpaceNotValid','"Repository namespace not valid. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'54','OpenIdError','"OpenId error."',[ none ]).
+enum_value_i(3,191,'55','OpenIdIdentityDoesntMatch','"OpenId identity doesn''t match."',[ none ]).
+enum_value_i(3,191,'56','OpenIdModeError','"OpenId mode error."',[ none ]).
+enum_value_i(3,191,'57','OpenIdReturnToError','"OpenId return error: %1."',[ none ]).
+enum_value_i(3,191,'59','OpenIdSignedError','"OpenId signed error."',[ none ]).
+enum_value_i(3,191,'60','MissingRequiredData','"Missing required data (%1)."',[ none ]).
+enum_value_i(3,191,'62','UserEmailSyntaxError','"User email syntax error, please check."',[ none ]).
+enum_value_i(3,191,'63','UserEmailRequired','"User email is required."',[ none ]).
+enum_value_i(3,191,'64','UserPasswordRequired','"User password is required."',[ none ]).
+enum_value_i(3,191,'65','UserFirstNameRequired','"User first name is required."',[ none ]).
+enum_value_i(3,191,'66','UserLastNameRequired','"User last name is required."',[ none ]).
+enum_value_i(3,191,'67','UserBirthdayRequired','"User birthday is required."',[ none ]).
+enum_value_i(3,191,'68','UserGenderRequired','"User gender is required."',[ none ]).
+enum_value_i(3,191,'69','UserPhoneRequired','"User phone is required."',[ none ]).
+enum_value_i(3,191,'70','UserAddressRequired','"User address is required."',[ none ]).
+enum_value_i(3,191,'71','UserCityRequired','"User City is required."',[ none ]).
+enum_value_i(3,191,'72','UserStateRequired','"User state is required."',[ none ]).
+enum_value_i(3,191,'73','UserCountryRequired','"User Country is required."',[ none ]).
+enum_value_i(3,191,'74','UserPostCodeRequired','"User post code is required."',[ none ]).
+enum_value_i(3,191,'75','UserLanguageRequired','"User language is required."',[ none ]).
+enum_value_i(3,191,'76','UserTimeZoneRequired','"User time zone required."',[ none ]).
+enum_value_i(3,191,'77','UserPhotoRequired','"User photo is required."',[ none ]).
+enum_value_i(3,191,'78','UserEmailAlreadyExist','"There is already a registered user with this email, select another."',[ none ]).
+enum_value_i(3,191,'79','UserNameMustBeEntered','"Username must be entered."',[ none ]).
+enum_value_i(3,191,'80','ApplicationParentNotValid','"Parent application can not be a base application."',[ none ]).
+enum_value_i(3,191,'81','ApplicationParentNotExist','"Parent application doesn''t exist."',[ none ]).
+enum_value_i(3,191,'82','ApplicationBaseNotValid','"Base application is not valid."',[ none ]).
+enum_value_i(3,191,'83','ApplicationBaseNotExist','"Base application doesn''t exist."',[ none ]).
+enum_value_i(3,191,'84','UserActivationTypeIncorrect','"User activation type incorrect. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'85','SessionAlreadyExist','"User already has a session."',[ none ]).
+enum_value_i(3,191,'86','ErrorSetCookie','"Error when save the cookie ''%1'' (%2)."',[ none ]).
+enum_value_i(3,191,'87','RepositoryNeedLocalAuthentication','"Repository needs to be enabled authentication type Local. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'88','ExternalAuthenticationServerInvalid','"External authentication server invalid."',[ none ]).
+enum_value_i(3,191,'89','ExternalAuthenticationTokenInvalid','"External authentication token invalid."',[ none ]).
+enum_value_i(3,191,'90','ExternalAuthenticationError','"External authentication error."',[ none ]).
+enum_value_i(3,191,'91','FacebookAccessError','"%1 access error (%2). Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'92','FacebookResponseError','"%1 response error (%2), please try again."',[ none ]).
+enum_value_i(3,191,'93','ErrorExternalAuthenticationCallback','"Error external authentication callback (%1)."',[ none ]).
+enum_value_i(3,191,'94','TwitterResponseError','"%1 response error (%2), please try again."',[ none ]).
+enum_value_i(3,191,'95','TwitterTokenError','"Twitter token error."',[ none ]).
+enum_value_i(3,191,'96','TwitterVerifierError','"Twitter verifier error."',[ none ]).
+enum_value_i(3,191,'97','TwitterAccessError','"%1 access error (%2). Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'98','UserGUIDErrorTryingLogin','"User GUID error trying login. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'99','AuthenticationTypeAlreadyDefined','"Authentication type is already defined."',[ none ]).
+enum_value_i(3,191,'100','OauthProtocolNotEnabled','"Oauth protocol not enabled. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'101','RefreshTokenError','"Refresh token error."',[ none ]).
+enum_value_i(3,191,'102','SessionTokenRevoked','"Token revoked, login again."',[ none ]).
+enum_value_i(3,191,'103','SessionTokenExpired','"Token expired, login again."',[ none ]).
+enum_value_i(3,191,'104','UserMustBeAuthenticated','"User must be authenticated."',[ none ]).
+enum_value_i(3,191,'106','AccessGrantNotFound','"Access grant not found, login again."',[ none ]).
+enum_value_i(3,191,'107','AccessGrantRevoked','"Access grant revoked, login again."',[ none ]).
+enum_value_i(3,191,'108','AuthorizationRequestNotFound','"Authorization request not found."',[ none ]).
+enum_value_i(3,191,'109','AuthorizationRequestRevoked','"Authorization request revoked."',[ none ]).
+enum_value_i(3,191,'110','AuthorizationRequestNotAuthorized','"Authorization request not authorized."',[ none ]).
+enum_value_i(3,191,'111','ApplicationClientRevoked','"Application client revoked."',[ none ]).
+enum_value_i(3,191,'112','AccessTokenNotFound','"Access token not found, login again."',[ none ]).
+enum_value_i(3,191,'113','AccessTokenRevoked','"Access token revoked, login again."',[ none ]).
+enum_value_i(3,191,'114','AccessTokenNotValid','"Access token not valid, login again."',[ none ]).
+enum_value_i(3,191,'115','RepositoryAlreadyExist','"Repository already exists. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'116','ApplicationSecretNotValid','"Application secret not valid. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'117','AccessGrantScopeNotValid','"Access grant scope not valid. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'118','UserNameRequired','"Username required."',[ none ]).
+enum_value_i(3,191,'119','SessionChangeOriginalIP','"Session change original IP address, login again."',[ none ]).
+enum_value_i(3,191,'120','UserEmailDuplicated','"Invalid configuration, there are duplicate user emails."',[ none ]).
+enum_value_i(3,191,'121','SessionUserError','"Session user error, login again."',[ none ]).
+enum_value_i(3,191,'122','SessionTokenError','"Session token error, login again."',[ none ]).
+enum_value_i(3,191,'123','AppTokenNotFound','"Application Token not found."',[ none ]).
+enum_value_i(3,191,'124','AppTokenAlreadyExist','"Application Token already exist."',[ none ]).
+enum_value_i(3,191,'125','UserExternalIdAlreadyExist','"User external Id. already exists, please select another."',[ none ]).
+enum_value_i(3,191,'126','RoleExternalIdAlreadyExist','"Role external Id. already exists, please select another."',[ none ]).
+enum_value_i(3,191,'127','CanNotChangeCurrentConnection','"Can not change current connection."',[ none ]).
+enum_value_i(3,191,'128','CanNotDeleteCurrentConnection','"Can not delete current connection."',[ none ]).
+enum_value_i(3,191,'129','FacebookAccessTokenError','"%1 access token error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'130','FacebookAccountUnverified','"%1 account is not verified, first verify your Facebook account."',[ none ]).
+enum_value_i(3,191,'131','FacebookResponseMessages','"Failed to access %1 account: %2"',[ none ]).
+enum_value_i(3,191,'132','UserDoesNotInRepository','"User does not exist in Repository. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'133','ApplicationEnvironmentNotFound','"Application environment not found."',[ none ]).
+enum_value_i(3,191,'134','AccessGrantExpired','"Access grant expired, login again."',[ none ]).
+enum_value_i(3,191,'135','GrantTokenExpired','"Grant token expired, login again."',[ none ]).
+enum_value_i(3,191,'136','GrantTokenNotFound','"Grant token not found, login again."',[ none ]).
+enum_value_i(3,191,'137','UserAttributeNotFound','"User attribute not found."',[ none ]).
+enum_value_i(3,191,'138','ApplicationAlreadyExist','"Application name already exist."',[ none ]).
+enum_value_i(3,191,'139','UnauthorizedError','"Unauthorized: Access is denied."',[ none ]).
+enum_value_i(3,191,'140','ApplicationNameNull','"Application Name cannot be null."',[ none ]).
+enum_value_i(3,191,'141','UserPasswordIsTooShort','"Password is too short, select another."',[ none ]).
+enum_value_i(3,191,'142','UserPasswordMustBeNumbers','"Password must be numbers (minimum %1)."',[ none ]).
+enum_value_i(3,191,'143','UserPasswordMustBeUpperLetter','"Password must be upper letters (minimum %1)."',[ none ]).
+enum_value_i(3,191,'144','UserPasswordMustBeSpecialChar','"Password must be special characters (minimum %1)."',[ none ]).
+enum_value_i(3,191,'145','UserPasswordNewDiferentOld','"The current password and new password must be different."',[ none ]).
+enum_value_i(3,191,'146','UserPasswordWasRecentlyUsed','"Password was recently used, use another."',[ none ]).
+enum_value_i(3,191,'147','UserEmailRequiredToLogon','"The email address is required for the user to authenticate with it."',[ none ]).
+enum_value_i(3,191,'148','UserEmailRequiredToUnique','"Email required to be unique."',[ none ]).
+enum_value_i(3,191,'149','UserEmailMustUniqueToLogon','"The email address must be unique for the user to authenticate with it."',[ none ]).
+enum_value_i(3,191,'150','DirectoryNotExist','"Directory %1 not exist."',[ none ]).
+enum_value_i(3,191,'151','AccessTokenNotRelatedToApplication','"Token is not related to this application, invalid token, login again."',[ none ]).
+enum_value_i(3,191,'152','PermissionNameNotValid','"Permission name not valid."',[ none ]).
+enum_value_i(3,191,'153','PermissionNotFound','"Permission not found."',[ none ]).
+enum_value_i(3,191,'154','PermissionNameAlreadyExist','"Permission name already exists, please choose a different name."',[ none ]).
+enum_value_i(3,191,'155','PermissionChildHasParent','"Child permission is already assigned to another parent permission. May not be assigned."',[ none ]).
+enum_value_i(3,191,'156','PermissionChildHasCircularDependency','"Child permission is already parent of the permission. May not be assigned."',[ none ]).
+enum_value_i(3,191,'160','UserPasswordRecentlyChanged','"The password was recently changed, you must wait %1 minutes."',[ none ]).
+enum_value_i(3,191,'161','UserMissingRequiredData','"User data is incomplete. You must complete them in order to continue."',[ none ]).
+enum_value_i(3,191,'162','UserKeyToCompleteDataNotFound','"Session expired, login again, if the problem persists, contact the administrator."',[ none ]).
+enum_value_i(3,191,'163','UserKeyToCompleteDataIncorrect','"The key to complete user data is not correct, login again,  if the problem persists, contact the administrator."',[ none ]).
+enum_value_i(3,191,'164','UserRecoveryPasswordKeyTimeOutCanNotNull','"User recovery key time out can not be null."',[ none ]).
+enum_value_i(3,191,'167','DeviceIdCoundNotGet','"Could not get the Device Id."',[ none ]).
+enum_value_i(3,191,'168','TokenRenewError','"Token can not be renewed, login again."',[ none ]).
+enum_value_i(3,191,'169','ApplicationNotSetPropertyAutoRegisterDevice','"Application configuration error, check the Auto-register property anomymous user."',[ none ]).
+enum_value_i(3,191,'170','NameSpaceRestricted','"The namespace already exists and its use is restricted."',[ none ]).
+enum_value_i(3,191,'171','RepeatedConnectionNameInFile','"The connection file not allow repeated names (%1)."',[ none ]).
+enum_value_i(3,191,'172','CanNotDeleteAdministratorRepository','"Can not delete GAM administrator repository."',[ none ]).
+enum_value_i(3,191,'173','InvalidTokenToFinish','"The token status cannot be finished (it does not exist or is no longer a valid token)."',[ none ]).
+enum_value_i(3,191,'174','ApplicationUnidentified','"Application GUID %1 unidentified. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'175','SecurityPolicyNameNull','"Security policy name can not be null."',[ none ]).
+enum_value_i(3,191,'176','RoleNameNull','"Role name can not be null."',[ none ]).
+enum_value_i(3,191,'177','RoleNameAlreadyExists','"The role name already exists, please choose a different one."',[ none ]).
+enum_value_i(3,191,'178','RepositoryNameNull','"Repository name can not be null."',[ none ]).
+enum_value_i(3,191,'179','ConnectionNameNull','"Connection name can not be null."',[ none ]).
+enum_value_i(3,191,'180','ConnectionUserNameNull','"Connection username can not be null."',[ none ]).
+enum_value_i(3,191,'182','ConnectionUserPasswordRequired','"Connection user password is required."',[ none ]).
+enum_value_i(3,191,'183','CanNotDeleteDefaultRole','"Can not delete the default role."',[ none ]).
+enum_value_i(3,191,'184','CanNotDeleteSmartDeviceAnonymousRole','"Can not delete the Smart Devices anonymous role."',[ none ]).
+enum_value_i(3,191,'185','InvalidOperationOnDeviceUser','"Invalid operation on a device user."',[ none ]).
+enum_value_i(3,191,'186','RoleChildHasCircularDependency','"GAM_RoleChildHasCircularDependency"',[ none ]).
+enum_value_i(3,191,'200','RegisterNotFound','"Not found."',[ none ]).
+enum_value_i(3,191,'201','PermissionAccessTypeNotValid','"Access type not valid."',[ none ]).
+enum_value_i(3,191,'202','GoogleAccessError','"%1 access error (%2). Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'203','GoogleResponseError','"%1 response error (%2), please try again."',[ none ]).
+enum_value_i(3,191,'204','GoogleAccessTokenError','"%1 access token error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'205','GoogleResponseMessages','"Failed to access %1 account: %2"',[ none ]).
+enum_value_i(3,191,'206','GoogleAccountUnverified','"%1 account is not verified, first verify your Google account."',[ none ]).
+enum_value_i(3,191,'207','InvalidImportDataDirectory','"Directory {0} is invalid. There are missing files."',[ none ]).
+enum_value_i(3,191,'208','MissingDefaultSecurityPolicy','"Missing Repository default Security Policy."',[ none ]).
+enum_value_i(3,191,'211','DelegateAuthorizationVersionError','"Authorization service version is not supported. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'212','DelegateAuthorizationServiceError','"There was an error executing the authorization service (%1)."',[ none ]).
+enum_value_i(3,191,'213','ExternalTokenInvalid','"GAM_ExternalTokenInvalid"',[ none ]).
+enum_value_i(3,191,'219','ApplicationHomeObjectNotFound','"Home object not found."',[ none ]).
+enum_value_i(3,191,'220','ApplicationClientLocalLoginURLCannotBeNull','"The applicationís local login URL must be entered."',[ none ]).
+enum_value_i(3,191,'221','ApplicationClientCallbackURLCannotBeNull','"The applicationís callback URL must be entered."',[ none ]).
+enum_value_i(3,191,'222','ApplicationClientCallbackURLNotValid','"Callback URL doesn''t match the one configured in the application (%1)."',[ none ]).
+enum_value_i(3,191,'229','ApplicationMenuOptionNotFound','"GAM_ApplicationMenuOptionNotFound"',[ none ]).
+enum_value_i(3,191,'230','ApplicationClientNotAllowRemoteAuthentication','"Remote authentication is not allowed in this application. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'231','ApplicationClientEncryptionKeyError','"The applicationís private encryption key is incorrect. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'232','ApplicationClientMissingScopeRequestUserData','"Scope request for user data is missing. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'233','ApplicationClientNotHaveScopeUserAdditionalData','"The client application does not have permission to get userís additional data. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'234','ApplicationClientNotHaveScopeUserRoles','"The client application does not have permission to get userís roles. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'235','ApplicationClientReceivedInvalidScope','"The application has received an invalid scope. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'236','ApplicationClientNotFound','"The client application has not been found (%1). Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'237','ApplicationMenuNotFound','"Menu not found, please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'238','ApplicationMenuNameNull','"Application menu name can not be null."',[ none ]).
+enum_value_i(3,191,'239','ApplicationMenuOptionNameNull','"Application menu option name can not be null."',[ none ]).
+enum_value_i(3,191,'240','AuthenticationTypeNotEnabled','"Authentication type not enabled or does not exist (%1)."',[ none ]).
+enum_value_i(3,191,'241','AuthenticationTypeNameCannotBeNull','"Authentication type name can not be null."',[ none ]).
+enum_value_i(3,191,'242','AuthenticationTypeToImpersonateNotValid','"The impersonate authentication type does not valid."',[ none ]).
+enum_value_i(3,191,'243','AuthenticationTypeClientIdCannotBeNull','"The client ID of authentication type cannot be null."',[ none ]).
+enum_value_i(3,191,'244','AuthenticationTypeClientSecretCannotBeNull','"The secret code of authentication type client cannot be null."',[ none ]).
+enum_value_i(3,191,'245','AuthenticationTypeSiteURLCannotBeNull','"Local site URL cannot be null."',[ none ]).
+enum_value_i(3,191,'246','AuthenticationTypeRemoteServerURLCannotBeNull','"Remote server URL cannot be null."',[ none ]).
+enum_value_i(3,191,'247','AuthenticationTypeWebServiceNameCannotBeNull','"Web service name cannot be null."',[ none ]).
+enum_value_i(3,191,'248','AuthenticationTypeServerNameCannotBeNull','"Server name cannot be null."',[ none ]).
+enum_value_i(3,191,'249','AuthenticationTypeConsumerKeyCannotBeNull','"GAM_AuthenticationTypeConsumerKeyCannotBeNull"',[ none ]).
+enum_value_i(3,191,'250','AuthenticationTypeConsumerSecretCannotBeNull','"GAM_AuthenticationTypeConsumerSecretCannotBeNull"',[ none ]).
+enum_value_i(3,191,'251','AuthenticationTypeCallbackURLCannotBeNull','"The authentication service provider callback URL must be entered."',[ none ]).
+enum_value_i(3,191,'252','AuthenticationTypeFileNameCannotBeNull','"The authentication service file name cannot be null."',[ none ]).
+enum_value_i(3,191,'253','AuthenticationTypeClassNameCannotBeNull','"The authentication service class name cannot be null."',[ none ]).
+enum_value_i(3,191,'254','AuthenticationTypeUserInfoCannotBeEmpty','"The URL to obtain the user''s data cannot be empty."',[ none ]).
+enum_value_i(3,191,'260','AuthenticationTypeIsDefinedUsers','"The authentication type has users defined; it cannot be deleted."',[ none ]).
+enum_value_i(3,191,'261','AuthenticationTypeIsUsedByDefault','"This authentication type is the repositoryís default type; it cannot be deleted."',[ none ]).
+enum_value_i(3,191,'262','AuthenticationTypeScopeMustBeEnable','"GAM_AuthenticationTypeScopeMustBeEnable"',[ none ]).
+enum_value_i(3,191,'270','GAMRemoteAccessError','"%1 access error (%2). Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'271','GAMRemoteResponseError','"%1 response error (%2), please try again."',[ none ]).
+enum_value_i(3,191,'272','GAMRemoteAccessTokenError','"%1 access token error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'273','GAMRemoteResponseMessages','"Failed to access %1 account: %2"',[ none ]).
+enum_value_i(3,191,'274','GAMRemoteAccountUnverified','"%1 account is not verified, first verify your %2 account."',[ none ]).
+enum_value_i(3,191,'275','GAMRemoteEncryptionKeyError','"GAM_GAMRemoteEncryptionKeyError"',[ none ]).
+enum_value_i(3,191,'280','Oauth20AccessError','"%1 access error (%2). Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'281','Oauth20ResponseError','"%1 response error (%2), please try again."',[ none ]).
+enum_value_i(3,191,'282','Oauth20AccessTokenError','"%1 access token error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'283','Oauth20ResponseMessages','"Failed to access %1 account: %2"',[ none ]).
+enum_value_i(3,191,'284','Oauth20AccountUnverified','"%1 account is not verified, first verify your %1 account."',[ none ]).
+enum_value_i(3,191,'290','ScopeNotFound','"Scope (%1) has not been found in the applicationís permissions. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'291','AccessCodeNotFound','"Access code not found. Try authenticating again or contact the administrator."',[ none ]).
+enum_value_i(3,191,'292','GrantTypeNotFound','"Permission type not found. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'295','TwitterAccountUnverified','"%1 account is not verified, first verify your Twitter account."',[ none ]).
+enum_value_i(3,191,'296','TwitterAccessTokenError','"%1 access token error. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'297','TwitterResponseMessages','"Failed to access %1 account: %2"',[ none ]).
+enum_value_i(3,191,'300','UserNamespaceNotValid','"User namespace is not valid. Please contact the application administrator."',[ none ]).
+enum_value_i(3,191,'301','UserAlreadyExistWithDifferentNamespace','"The authenticated user (GUID) exists with another namespace. Please contact the administrator."',[ none ]).
+enum_value_i(3,191,'302','UserAlreadyExistWithDifferentAuthType','"GAM_UserAlreadyExistWithDifferentAuthenticationType"',[ none ]).
+enum_value_i(3,191,'303','UserAttributeMultivaluedNotFound','"The value was not found in the userís multi-valued attribute."',[ none ]).
+enum_value_i(3,191,'304','UserAttributeMustBeMultivalued','"The user''s attribute must be multi-valued."',[ none ]).
+enum_value_i(3,191,'305','UserAttributeIdIsRequired','"User attribute id is required."',[ none ]).
+enum_value_i(3,191,'306','UserAddRolError','"GAM_UserAddRolError"',[ none ]).
+enum_value_i(3,191,'307','UserNotExistInThisNameSpace','"User inexistent, must be a user already registered."',[ none ]).
+enum_value_i(3,191,'320','EventSubscriptionEntityNull','"Must configure the Event to which a subscription is desired"',[ none ]).
+enum_value_i(3,191,'321','EventSubscriptionActionNull','"GAM_EventSubscriptionActionNull"',[ none ]).
+enum_value_i(3,191,'322','EventSubscriptionClassNameNull','"Name of class to be executed in the event may not be empty."',[ none ]).
+enum_value_i(3,191,'323','EventSubscriprionFileNameNull','"Name of file to be executed in the event may not be empty."',[ none ]).
+enum_value_i(3,191,'324','EventSubscriptionAlreadyExists','"Event subscription already exists."',[ none ]).
+enum_value_i(3,191,'325','EventSubscriptionNotExists','"Event subscription inexistent."',[ none ]).
+enum_value_i(3,191,'330','RepCreateCopyFromRepositoryNotFound','"Administrator User password is required."',[ none ]).
+enum_value_i(3,191,'331','RepCreateAdministratorUserPasswordRequired','"Administrator User password is required."',[ none ]).
+enum_value_i(3,191,'332','RepCreateApplicationNotFound','"You must configure an existing application in the Repository %1 (CopyFromRepositoryId)."',[ none ]).
+enum_value_i(3,191,'333','RepCreateCopyApplicationFlagNotFound','"You must configure CopyApplication property to use CopyFromApplicationId."',[ none ]).
+enum_value_i(3,191,'334','RepCreateCopyApplicationAndCopyRolesFlagsNotFound','"You must set the CopyApplication property to True and the CopyRoles property to True to copy the permissions (CopyApplicationRolePermissions)."',[ none ]).
+enum_value_i(3,191,'335','RepCreateCopyRolesFlagNotFound','"You must configure AdministratorRoleId property to use CopyRoles in True."',[ none ]).
+enum_value_i(3,191,'336','RepCreateRoleNotFound','"You must configure an existing role in AdministratorRoleId property."',[ none ]).
+enum_value_i(3,191,'337','AuthenticationMasterRepositoryIdNotFound','"ID of master authentication repository not found."',[ none ]).
+enum_value_i(3,191,'338','AuthenticationTypeNotFoundInAuthenticationMasterRepository','"Authentication type does not exist in master authentication repository."',[ none ]).
+enum_value_i(3,191,'339','AuthenticationTypeCannotBeCreatedInThisRepository','"An authentication type cannot be created in this repository."',[ none ]).
+enum_value_i(3,191,'350','ApplicationClientNotHaveScopeSessionInitialProperties','"Client app has no permit to obtain session start properties."',[ none ]).
+enum_value_i(3,191,'351','ApplicationClientNotHaveScopeSessionApplicationData','"GAM_ApplicationClientNotHaveScopeSessionApplicationData"',[ none ]).
+enum_value_i(3,191,'390','ConnectionKeyCannotBeNull','"GAM connection key must be specified."',[ none ]).
+enum_value_i(3,191,'391','ConnectionKeyNotFound','"GAM connection key not found."',[ none ]).
+enum_value_i(3,191,'392','ConnectionKeyAlreadyExists','"GAM_ConnectionKeyAlreadyExists"',[ none ]).
+enum_value_i(3,191,'400','UserAccessCodeSent','"User access code was sent."',[ none ]).
+enum_value_i(3,191,'410','UserMustValidateSecondFactorToFinishAuthentication','"To enter app, the second authentication factor must be validated."',[ none ]).
+enum_value_i(3,191,'411','TwoFactorAuthenticationError','"Two-factor authentication is not enabled."',[ none ]).
+enum_value_i(3,191,'412','FirstFactorAuthenticationExpired','"The first factor authentication has expired, you need to validate it again."',[ none ]).
+enum_value_i(3,191,'420','UserBlockedToGenerateOTPCodes','"User blocked for obtaining access codes."',[ none ]).
+enum_value_i(3,191,'421','UserHasExceededOTPCodeLimitPerDay','"Daily number of code requests exceeded. Contact the app administrator."',[ none ]).
+enum_value_i(3,191,'430','OTPErrorGeneratingCodeEmpty','"Error generating code for user."',[ none ]).
+enum_value_i(3,191,'431','OTPCustomEventErrorWhenValidatingUser','"Error validating user in customized OTP event."',[ none ]).
+enum_value_i(3,191,'432','OTPCustomEventErrorWhenValidatingUserReturnedError','"Error validating user. Customized event returned an error (%1)."',[ none ]).
+enum_value_i(3,191,'440','OTPCustomEventErrorWhenGeneratingCode','"Error in generation of OTP code in customized event."',[ none ]).
+enum_value_i(3,191,'441','OTPCustomEventErrorWhenGeneratingCodeReturnEmpty','"GAM_OTPCustomEventErrorWhenGeneratingCodeReturnedEmpty"',[ none ]).
+enum_value_i(3,191,'442','OTPCustomEventErrorWhenGeneratingCodeReturnedError','"Error in generation of OTP code. The customized event returned an error (%1)."',[ none ]).
+enum_value_i(3,191,'445','OTPCustomEventErrorWhenSendingCode','"Error sending the OTP code in the customized event."',[ none ]).
+enum_value_i(3,191,'446','OTPCustomEventErrorWhenSendingCodeReturnedError','"Error sending the OTP code. The customized event returned an error (%1)."',[ none ]).
+enum_value_i(3,191,'450','OTPCustomEventErrorWhenValidatingCode','"Error validating the OTP code in the customized event."',[ none ]).
+enum_value_i(3,191,'451','OTPCustomEventErrorWhenValidatingCodeReturnedError','"Error validating the OTP code. The customized event returned an error (%1)."',[ none ]).
+enum_value_i(3,191,'455','OTPValidationCodeError','"The code entered is incorrect."',[ none ]).
+enum_value_i(3,191,'456','OTPCustomEventGenerateCodeCannotBeEmpty','"An event must be assigned to generate the OTP code."',[ none ]).
+enum_value_i(3,191,'457','OTPAutogeneratedCodeTooShort','"OTP code is too short."',[ none ]).
+enum_value_i(3,191,'458','OTPCodeExpirationTimeoutTooShort','"The OTP code''s expiration time is too short."',[ none ]).
+enum_value_i(3,191,'459','OTPCodeExpired','"The code that you entered has expired."',[ none ]).
+enum_value_i(3,191,'460','EmailServerAuthenticationError','"Authentication error in e-mail server."',[ none ]).
+enum_value_i(3,191,'461','EmailServerErrorSendingOTPCode','"Error in e-mail server when sending OTP code to %1."',[ none ]).
+enum_value_i(3,191,'462','EmailServerErrorSendingAccountActivation','"Error in e-mail server when sending account activation to %1."',[ none ]).
+enum_value_i(3,191,'463','SendEmailToActivateUserAccountNotEnable','"Sending of e-mail to activate user accounts not enabled."',[ none ]).
+enum_value_i(3,191,'464','EmailServerErrorSendingChangePassword','"Error in e-mail server sending a password change message to %1."',[ none ]).
+enum_value_i(3,191,'465','EmailServerErrorSendingToRecoverPassword','"Error in e-mail server when sending a message to recover password of %1."',[ none ]).
+enum_value_i(3,191,'466','SendEmailToRecoverUserPasswordNotEnable','"Sending of e-mail message to recover user passwords not enabled."',[ none ]).
+enum_value_i(3,191,'467','EmailServerErrorSendingWhenChangeEmailOrName','"Error in e-mail server when sending a message if e-mail address or user name have changed (from %1 to %2)."',[ none ]).
+enum_value_i(3,191,'470','EmailServerErrorSendingMessage','"Error in e-mail server sending a message to %1."',[ none ]).
+enum_value_i(3,191,'471','RepositoryEmailServerMissingConfiguration','"Configuration for sending e-mails is incomplete."',[ none ]).
+enum_value_i(3,191,'480','TOTPAuthenticatorIssuerCannotBeEmpty','"Issuer may not be empty."',[ none ]).
+enum_value_i(3,191,'481','TOTPAuthenticatorSecretKeyCannotBeEmpty','"Secret Key may not be empty."',[ none ]).
+enum_value_i(3,191,'482','TOTPSecretKeyLengthError','"The length of the secret key for TOTP must be between %1 and %2 characters."',[ none ]).
+enum_value_i(3,191,'483','TOTPAuthenticatorMustBeEnable','"The user must enable the application for time-based authentication (TOTP)."',[ none ]).
+enum_value_i(3,191,'500','AuthenticationTypeImpersonateCannotBeNull','"Must assign an authentication type to Impersonate."',[ none ]).
+enum_value_i(3,191,'501','AuthenticationTypeTwoFactorAuthenticationNotValid','"Authentication type selected is not valid as 2FA."',[ none ]).
+enum_value_i(3,191,'502','AuthenticationTypeUsedAsTwoFactorAuthentication','"Authentication type is used as 2FA."',[ none ]).
+enum_value_i(3,191,'503','TFAAuthenticationTypeNameCannotBeEmpty','"You must select a second authentication type."',[ none ]).
+enum_value_i(3,191,'504','TFAFirstFactorAuthenticationExpirationTooShort','"The expiration time of the first factor authentication is too short."',[ none ]).
+enum_value_i(3,191,'510','OIDCAuthenticationTypeCertificateFileNotExist','"The certificate does not exist in the specified path."',[ none ]).
+enum_value_i(3,191,'511','OIDCAuthenticationTypeCertificateNotLoadedCorrectly','"The certificate did not load correctly."',[ none ]).
+enum_value_i(3,191,'512','OIDCAuthenticationTypeAlgorithmNotFound','"The algorithm was not found in the ID Token header."',[ none ]).
+enum_value_i(3,191,'513','OIDCAuthenticationTypeAlgorithmNotSupported','"Algorithm not currently supported."',[ none ]).
+enum_value_i(3,191,'514','OIDCAuthenticationTypeIdTokenVerificationError','"Error verifying ID Token."',[ none ]).
+enum_value_i(3,191,'515','OIDCAuthenticationTypeBadIdTokenVerification','"Incorrect ID token verification."',[ none ]).
+enum_value_i(3,191,'516','OIDCAuthenticationTypeUserEmailMustBeVerified','"The user''s email address must be verified."',[ none ]).
+enum_value_i(3,191,'517','OIDCAuthenticationTypeCertificatePathFileNameCannotBeNull','"The path to the certificate cannot be empty."',[ none ]).
+enum_value_i(3,191,'518','OIDCAuthenticationTypeIssuerURLCannotBeNull','"The URL of the certificate issuer cannot be empty."',[ none ]).
+enum_value_i(3,191,'530','StateNotFound','"State not found."',[ none ]).
+enum_value_i(3,191,'531','StateExpired','"State has expired."',[ none ]).
+enum_value_i(3,191,'532','StateDuplicated','"State is duplicated."',[ none ]).
+enum_value_i(3,191,'540','AuthenticationFailed','"GAM_AuthenticationFailed"',[ none ]).
+ 
+enum_value_info_i(3,7,'GeneXus\MessageTypes').
+enum_value_info_i(3,191,'GeneXusSecurityCommon\GAMErrorMessages').
+ 
+enum_type_i(3,7,int,2,0).
+enum_type_i(3,191,int,12,0).
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 1,2 ],1,1,cmd,0,[ t('',114,1,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Gamerrorcollection',23,1,18),t('Count',3,1,0) ],29,1,0) ]).
+b_line_i([ 1,3 ],1,1,cmd,0,[ t('',107,1,0),t('Gamerror',23,0,0),t(=,10,0,0),t([ t('Gamerrorcollection',23,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(2,1,1,cmd,1,[ t('',107,2,0),t('Message',23,1,0),t(=,10,1,0),t([ 'GeneXus\Common\Messages.Message',[ t('(',0,2,16),t(')',4,2,17) ],n ],46,1,0) ]).
+b_line_i(3,1,1,cmd,1,[ t('',107,3,0),t([ t('Message',23,1,0),t('Type',3,1,0) ],29,1,0),t(=,10,1,0),t([ 7,'Error' ],44,1,0) ]).
+b_line_i(4,1,1,cmd,1,[ t('',107,4,0),t([ t('Message',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t([ t('Gamerror',23,1,0),t('Message',3,1,0) ],29,1,0) ]).
+b_line_i(5,1,1,cmd,1,[ t('',107,5,0),t([ t('Message',23,1,0),t('Id',3,1,0) ],29,1,0),t(=,10,1,0),t('format(',1,1,0),t('"GAM%2"',3,1,0),t(',',7,1,0),t([ t('Gamerror',23,1,0),t('Code',3,1,0) ],29,1,0),t(')',4,1,0) ]).
+b_line_i(6,1,1,cmd,1,[ t('',107,6,0),t([ t('Messages',23,6,2),t('add(',1,6,12) ],31,6,2),t('Message',23,1,17),t(')',4,1,25) ]).
+b_line_i([ 7,1 ],1,1,cmd,1,[ t('',107,7,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 7,2 ],1,1,cmd,1,[ t('',115,7,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 14,76,0 ],name,'GeneXusSecurity\GAMError').
+struct_dt_i([ 14,76,0 ],'ObjName','GAMError').
+struct_dt_i([ 14,76,0 ],'ObjDesc','GAMError').
+struct_dt_i([ 14,76,0 ],'ExoType','0').
+struct_dt_i([ 14,76,0 ],'ObjNamespace','GeneXus.Security').
+struct_dt_i([ 14,76,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,76,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,76,0 ],'ExoNameCSHARP','GAMError').
+struct_dt_i([ 14,76,0 ],'AssemblyName','GeneXus.Security.dll').
+struct_dt_i([ 14,76,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,76,0 ],'ExoNameNETCORE','GAMError').
+struct_dt_i([ 14,76,0 ],'NetCoreAssemblyName','GeneXus.Security.dll').
+struct_dt_i([ 14,76,0 ],'NetCorePackageName','').
+struct_dt_i([ 14,76,0 ],'ExoConstructorParametersNETCORE',context).
+struct_dt_i([ 14,76,0 ],'PackageName','genexus.security').
+struct_dt_i([ 14,76,0 ],'RequireName','').
+struct_dt_i([ 14,76,0 ],'ExoNameJS','').
+struct_dt_i([ 14,76,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,76,0 ],'Folder',o(120,'GeneXusSecurity')).
+struct_dt_i([ 14,76,0 ],'FullyQualifiedName','GeneXusSecurity.GAMError').
+struct_dt_i([ 14,76,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,76,0 ],isexternal,'True').
+struct_dt_i([ 26,1,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,1,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,1,0 ],'ObjName','Messages').
+struct_dt_i([ 26,1,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,1,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,1,0 ],collection,'True').
+struct_dt_i([ 26,1,0 ],datatype,[ 26,1,1 ]).
+struct_dt_i([ 26,1,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,1,0 ],'XmlName','').
+struct_dt_i([ 26,1,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,1,0 ],'XmlNamespace','').
+struct_dt_i([ 26,1,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,1,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,1,0 ],'JsonName','').
+struct_dt_i([ 26,1,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,1,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,1,0 ],isexternal,'True').
+struct_dt_i([ 26,1,1 ],name,'Message').
+struct_dt_i([ 26,1,1 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 14,76,0 ],fullname,'GeneXusSecurity\GAMError').
+struct_dt_i([ 26,1,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,1,1 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 14,76,0 ],1,name,'Code').
+struct_dt_elem_i([ 14,76,0 ],1,camelname,'Code').
+struct_dt_elem_i([ 14,76,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,76,0 ],1,length,12).
+struct_dt_elem_i([ 14,76,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,76,0 ],1,sign,0).
+struct_dt_elem_i([ 14,76,0 ],1,type,[ 4,12,0 ]).
+struct_dt_elem_i([ 14,76,0 ],1,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,76,0 ],1,'IntName','Code').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoItemDesc','Error code').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,76,0 ],1,basedon,191).
+struct_dt_elem_i([ 14,76,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,76,0 ],1,'ControlType','0').
+struct_dt_elem_i([ 14,76,0 ],1,'ControlValues',[ [ 'GAM_ConnectionNotSpecified','1' ],[ 'GAM_RepositoryNotFound','2' ],[ 'GAM_AuthenticationTypeNotFound','3' ],[ 'GAM_AuthenticationFunctionNotFound','4' ],[ 'GAM_UserIdentificationNotValid','5' ],[ 'GAM_UserLoginIsNull','6' ],[ 'GAM_UserNotFound','7' ],[ 'GAM_UserUnknown','8' ],[ 'GAM_UserInactive','9' ],[ 'GAM_UserBlocked','10' ],[ 'GAM_UserPasswordIncorrect','11' ],[ 'GAM_WebServiceError','12' ],[ 'GAM_SessionExpired','13' ],[ 'GAM_SessionNotExist','14' ],[ 'GAM_SessionTypeNotValid','15' ],[ 'GAM_SessionError','16' ],[ 'GAM_UserLoginIncorrect','18' ],[ 'GAM_UserNotAuthorized','17' ],[ 'GAM_ConsumerChallengeNotValid','19' ],[ 'GAM_ConsumerModeNotValid','20' ],[ 'GAM_SessionFinished','21' ],[ 'GAM_RepositoryWithoutAnonymousUser','22' ],[ 'GAM_UserPasswordMustBeChanged','23' ],[ 'GAM_UserPasswordExpired','24' ],[ 'GAM_SessionLocked','25' ],[ 'GAM_UserCanNotChangePassword','26' ],[ 'GAM_UserNameTooShort','27' ],[ 'GAM_UserNameSpecialCharacterNotValid','28' ],[ 'GAM_UserCannotBeRestored','29' ],[ 'GAM_ConnectionNotFound','30' ],[ 'GAM_ConnectionTypeNotFound','31' ],[ 'GAM_ConnectionLoginFailed','32' ],[ 'GAM_ConnectionUserPasswordFailedForUser','33' ],[ 'GAM_RemoteConnectionUserFailed','34' ],[ 'GAM_AuthenticationTypeNotValid','35' ],[ 'GAM_RememberUserTypeNotValid','36' ],[ 'GAM_WebServiceVersionNotFound','37' ],[ 'GAM_WebServiceUnsupportedVersion','38' ],[ 'GAM_ApplicationNotFound','39' ],[ 'GAM_WebserviceNotResponding','40' ],[ 'GAM_UserAnonymousError','41' ],[ 'GAM_BCMessage','42' ],[ 'GAM_UserPasswordKeyIncorrect','43' ],[ 'GAM_UserPasswordKeyExpired','44' ],[ 'GAM_UserPasswordAnswerIncorrect','45' ],[ 'GAM_NameSpaceCannotBeNull','46' ],[ 'GAM_DescriptionCannotNull','47' ],[ 'GAM_APIModeUnrecognized','48' ],[ 'GAM_UserNameAlreadyExist','49' ],[ 'GAM_UserAlreadyActivated','50' ],[ 'GAM_UserActivationKeyIncorrect','51' ],[ 'GAM_UserActivationKeyExpired','52' ],[ 'GAM_RepositoryNameSpaceNotValid','53' ],[ 'GAM_OpenIdError','54' ],[ 'GAM_OpenIdIdentityNotMatch','55' ],[ 'GAM_OpenIdModeError','56' ],[ 'GAM_OpenIdReturnError','57' ],[ 'GAM_OpenIdSignedError','59' ],[ 'GAM_MissingRequiredData','60' ],[ 'GAM_UserEmailSyntaxError','62' ],[ 'GAM_UserEmailRequired','63' ],[ 'GAM_UserPasswordRequired','64' ],[ 'GAM_UserFirstNameRequired','65' ],[ 'GAM_UserLastNameRequired','66' ],[ 'GAM_UserBirthdayRequired','67' ],[ 'GAM_UserGenderRequired','68' ],[ 'GAM_UserPhoneRequired','69' ],[ 'GAM_UserAddressRequired','70' ],[ 'GAM_UserCityRequired','71' ],[ 'GAM_UserStateRequired','72' ],[ 'GAM_UserCountryRequired','73' ],[ 'GAM_UserPostCodeRequired','74' ],[ 'GAM_UserLanguageRequired','75' ],[ 'GAM_UserTimeZoneRequired','76' ],[ 'GAM_UserPhotoRequired','77' ],[ 'GAM_UserEmailAlreadyExist','78' ],[ 'GAM_UserNameMustBeEntered','79' ],[ 'GAM_ApplicationParentNotValid','80' ],[ 'GAM_ApplicationParentNotExist','81' ],[ 'GAM_BaseAapplicationNotValid','82' ],[ 'GAM_BaseApplicationNotExist','83' ],[ 'GAM_UserActivationTypeIncorrect','84' ],[ 'GAM_SessionAlreadyExist','85' ],[ 'GAM_ErrorWhenSaveCookie','86' ],[ 'GAM_RepositoryNeedLocalAuthentication','87' ],[ 'GAM_ExternalAuthenticationServerInvalid','88' ],[ 'GAM_ExternalAuthenticationTokenInvalid','89' ],[ 'GAM_ExternalAuthenticationError','90' ],[ 'GAM_FacebookAccessError','91' ],[ 'GAM_FacebookResponseError','92' ],[ 'GAM_ErrorExternalAuthenticationCallback','93' ],[ 'GAM_TwitterResponseError','94' ],[ 'GAM_TwitterTokenError','95' ],[ 'GAM_TwitterVerifierError','96' ],[ 'GAM_TwitterAccessError','97' ],[ 'GAM_UserGUIDErrorTryingLogin','98' ],[ 'GAM_AuthenticationTypeAlreadyDefined','99' ],[ 'GAM_OauthProtocolNotEnabled','100' ],[ 'GAM_RefreshTokenError','101' ],[ 'GAM_TokenRevoked','102' ],[ 'GAM_TokenExpired','103' ],[ 'GAM_UserMustBeAuthenticated','104' ],[ 'GAM_AccessGrantNotFound','106' ],[ 'GAM_AccessGrantRevoked','107' ],[ 'GAM_AuthorizationRequestNotFound','108' ],[ 'GAM_AuthorizationRequestRevoked','109' ],[ 'GAM_AuthorizationRequestNotAuthorized','110' ],[ 'GAM_ApplicationClientRevoked','111' ],[ 'GAM_AccessTokenNotFound','112' ],[ 'GAM_AccessTokenRevoked','113' ],[ 'GAM_AccessTokenNotValid','114' ],[ 'GAM_RepositoryAlreadyExist','115' ],[ 'GAM_ApplicationSecretNotValid','116' ],[ 'GAM_AccessGrantScopeNotValid','117' ],[ 'GAM_UserNameRequired','118' ],[ 'GAM_SessionChangeOriginalIP','119' ],[ 'GAM_UserEmailDuplicated','120' ],[ 'GAM_SessionUserError','121' ],[ 'GAM_SessionTokenError','122' ],[ 'GAM_ApplicationTokenNotFound','123' ],[ 'GAM_ApplicationTokenAlreadyExist','124' ],[ 'GAM_UserExternalIdAlreadyExist','125' ],[ 'GAM_RoleExternalIdAlreadyExist','126' ],[ 'GAM_CanNotChangeCurrentConnection','127' ],[ 'GAM_CanNotDeleteCurrentConnection','128' ],[ 'GAM_FacebookAccessTokenError','129' ],[ 'GAM_FacebookAccountUnverified','130' ],[ 'GAM_FacebookResponseMessages','131' ],[ 'GAM_UserDoesNotInRepository','132' ],[ 'GAM_ApplicationEnvironmentNotFound','133' ],[ 'GAM_AccessGrantExpired','134' ],[ 'GAM_GrantTokenExpired','135' ],[ 'GAM_GrantTokenNotFound','136' ],[ 'GAM_UserAttributeNotFound','137' ],[ 'GAM_ApplicationAlreadyExist','138' ],[ 'GAM_UnauthorizedAccessDenied','139' ],[ 'GAM_ApplicationNameCannotBeNull','140' ],[ 'GAM_PasswordTooShort','141' ],[ 'GAM_PasswordMustBeNumbers','142' ],[ 'GAM_PasswordMustBeUpperLetters','143' ],[ 'GAM_PasswordMustBeSpecialCharacters','144' ],[ 'GAM_UserPasswordNewDiferentOld','145' ],[ 'GAM_PasswordWasRrecentlyUsed','146' ],[ 'GAM_UserEmailRequiredToLogon','147' ],[ 'GAM_UserEmailRequiredToUnique','148' ],[ 'GAM_UserEmailMustUniqueToLogon','149' ],[ 'GAM_DirectoryNotExist','150' ],[ 'GAM_TokenNotRelatedToApplication','151' ],[ 'GAM_PermissionNameNotValid','152' ],[ 'GAM_PermissionNotFound','153' ],[ 'GAM_PermissionNameAlreadyExist','154' ],[ 'GAM_PermissionChildHasParent','155' ],[ 'GAM_PermissionChildHasCircularDependency','156' ],[ 'GAM_UserPasswordRecentlyChanged','160' ],[ 'GAM_UserMissingRequiredData','161' ],[ 'GAM_UserKeyToCompleteDataNotFound','162' ],[ 'GAM_UserKeyToCompleteDataIncorrect','163' ],[ 'GAM_UserRecoveryPasswordKeyTimeOutCanNotNull','164' ],[ 'GAM_DeviceIdCoundNotGet','167' ],[ 'GAM_TokenRenewError','168' ],[ 'GAM_ApplicationConfigurationErrorAanomymousUser','169' ],[ 'GAM_NameSpaceRestricted','170' ],[ 'GAM_RepeatedConnectionNameInFile','171' ],[ 'GAM_CanNotDeleteAdministratorRepository','172' ],[ 'GAM_InvalidTokenToFinish','173' ],[ 'GAM_ApplicationGUIDUnidentified','174' ],[ 'GAM_SecurityPolicyNameCannotBeNull','175' ],[ 'GAM_RoleNameCannotBeNull','176' ],[ 'GAM_RoleNameAlreadyExists','177' ],[ 'GAM_RepositoryNameCannotBeNull','178' ],[ 'GAM_ConnectionNameCannotBeNull','179' ],[ 'GAM_ConenctionUserNameCannotBeNull','180' ],[ 'GAM_ConnectionUserPasswordRequired','182' ],[ 'GAM_CanNotDeleteDefaultRole','183' ],[ 'GAM_CanNotDeleteSmartDeviceAnonymousRole','184' ],[ 'GAM_InvalidOperationOnDeviceUser','185' ],[ 'GAM_RoleChildHasCircularDependency','186' ],[ 'GAM_RegisterNotFound','200' ],[ 'GAM_PermissionAccessTypeNotValid','201' ],[ 'GAM_GoogleAccessError','202' ],[ 'GAM_GoogleResponseError','203' ],[ 'GAM_GoogleAccessTokenError','204' ],[ 'GAM_GoogleResponseMessages','205' ],[ 'GAM_GoogleAccountUnverified','206' ],[ 'GAM_InvalidImportDataDirectory','207' ],[ 'GAM_MissingDefaultSecurityPolicy','208' ],[ 'GAM_DelegateAuthorizationVersionError','211' ],[ 'GAM_DelegateAuthorizationServiceError','212' ],[ 'GAM_ExternalTokenInvalid','213' ],[ 'GAM_ApplicationHomeObjectNotFound','219' ],[ 'GAM_ApplicationClientLocalLoginURLCannotBeNull','220' ],[ 'GAM_ApplicationClientCallbackURLCannotBeNull','221' ],[ 'GAM_ApplicationClientCallbackURLNotValid','222' ],[ 'GAM_ApplicationMenuOptionNotFound','229' ],[ 'GAM_ApplicationClientNotAllowRemoteAuthentication','230' ],[ 'GAM_ApplicationClientEncryptionKeyError','231' ],[ 'GAM_ApplicationClientMissingScopeRequestUserData','232' ],[ 'GAM_ApplicationClientNotHaveScopeUserAdditionalData','233' ],[ 'GAM_ApplicationClientNotHaveScopeUserRoles','234' ],[ 'GAM_ApplicationClientReceivedInvalidScope','235' ],[ 'GAM_ApplicationClientNotFound','236' ],[ 'GAM_ApplicationMenuNotFound','237' ],[ 'GAM_ApplicationMenuNameNull','238' ],[ 'GAM_ApplicationMenuOptionNameNull','239' ],[ 'GAM_AuthenticationTypeNotEnabled','240' ],[ 'GAM_AuthenticationTypeNameCannotBeNull','241' ],[ 'GAM_AuthenticationTypeToImpersonateNotValid','242' ],[ 'GAM_AuthenticationTypeClientIdCannotBeNull','243' ],[ 'GAM_AuthenticationTypeClientSecretCannotBeNull','244' ],[ 'GAM_AuthenticationTypeSiteURLCannotBeNull','245' ],[ 'GAM_AuthenticationTypeRemoteServerURLCannotBeNull','246' ],[ 'GAM_AuthenticationTypeWebServiceNameCannotBeNull','247' ],[ 'GAM_AuthenticationTypeServerNameCannotBeNull','248' ],[ 'GAM_AuthenticationTypeConsumerKeyCannotBeNull','249' ],[ 'GAM_AuthenticationTypeConsumerSecretCannotBeNull','250' ],[ 'GAM_AuthenticationTypeCallbackURLCannotBeNull','251' ],[ 'GAM_AuthenticationTypeFileNameCannotBeNull','252' ],[ 'GAM_AuthenticationTypeClassNameCannotBeNull','253' ],[ 'GAM_AuthenticationTypeUserInfoCannotBeEmpty','254' ],[ 'GAM_AuthenticationTypeIsDefinedUsers','260' ],[ 'GAM_AuthenticationTypeIsUsedByDefault','261' ],[ 'GAM_AuthenticationTypeScopeMustBeEnable','262' ],[ 'GAM_GAMRemoteAccessError','270' ],[ 'GAM_GAMRemoteResponseError','271' ],[ 'GAM_GAMRemoteAccessTokenError','272' ],[ 'GAM_GAMRemoteResponseMessages','273' ],[ 'GAM_GAMRemoteAccountUnverified','274' ],[ 'GAM_GAMRemoteEncryptionKeyError','275' ],[ 'GAM_Oauth20AccessError','280' ],[ 'GAM_Oauth20ResponseError','281' ],[ 'GAM_Oauth20AccessTokenError','282' ],[ 'GAM_Oauth20ResponseMessages','283' ],[ 'GAM_Oauth20AccountUnverified','284' ],[ 'GAM_ScopeNotFound','290' ],[ 'GAM_AccessCodeNotFound','291' ],[ 'GAM_GrantTypeNotFound','292' ],[ 'GAM_TwitterAccountUnverified','295' ],[ 'GAM_TwitterAccessTokenError','296' ],[ 'GAM_TwitterResponseMessages','297' ],[ 'GAM_UserNamespaceNotValid','300' ],[ 'GAM_UserAlreadyExistWithDifferentNamespace','301' ],[ 'GAM_UserAlreadyExistWithDifferentAuthenticationType','302' ],[ 'GAM_UserAttributeMultivaluedNotFound','303' ],[ 'GAM_UserAttributeMustBeMultivalued','304' ],[ 'GAM_UserAttributeIdIsRequired','305' ],[ 'GAM_UserAddRolError','306' ],[ 'GAM_UserNotExistInThisNameSpace','307' ],[ 'GAM_EventSubscriptionEntityNull','320' ],[ 'GAM_EventSubscriptionActionNull','321' ],[ 'GAM_EventSubscriptionClassNameNull','322' ],[ 'GAM_EventSubscriprionFileNameNull','323' ],[ 'GAM_EventSubscriptionAlreadyExists','324' ],[ 'GAM_EventSubscriptionNotExists','325' ],[ 'GAM_RepCreateCopyFromRepositoryNotFound','330' ],[ 'GAM_RepCreateAdministratorUserPasswordRequired','331' ],[ 'GAM_RepCreateApplicationNotFound','332' ],[ 'GAM_RepCreateCopyApplicationFlagNotFound','333' ],[ 'GAM_RepCreateCopyApplicationAndCopyRolesFlagsNotFound','334' ],[ 'GAM_RepCreateCopyRolesFlagNotFound','335' ],[ 'GAM_RepCreateRoleNotFound','336' ],[ 'GAM_AuthenticationMasterRepositoryIdNotfound','337' ],[ 'GAM_AuthenticationTypeNotFoundInAuthenticationMasterRepository','338' ],[ 'GAM_AuthenticationTypeCannotBeCreatedInThisRepository','339' ],[ 'GAM_ApplicationClientNotHaveScopeSessionInitialProperties','350' ],[ 'GAM_ApplicationClientNotHaveScopeSessionApplicationData','351' ],[ 'GAM_ConnectionKeyCannotBeNull','390' ],[ 'GAM_ConnectionKeyNotFound','391' ],[ 'GAM_ConnectionKeyAlreadyExists','392' ],[ 'GAM_UserAccessCodeSent','400' ],[ 'GAM_UserMustValidateSecondFactorToFinishAuthentication','410' ],[ 'GAM_TwoFactorAuthenticationError','411' ],[ 'GAM_FirstFactorAuthenticationExpired','412' ],[ 'GAM_UserBlockedToGenerateOTPCodes','420' ],[ 'GAM_UserHasExceededOTPCodeLimitPerDay','421' ],[ 'GAM_OTPErrorGeneratingCodeEmpty','430' ],[ 'GAM_OTPCustomEventErrorWhenValidatingUser','431' ],[ 'GAM_OTPCustomEventErrorWhenValidatingUserReturnedError','432' ],[ 'GAM_OTPCustomEventErrorWhenGeneratingCode','440' ],[ 'GAM_OTPCustomEventErrorWhenGeneratingCodeReturnedEmpty','441' ],[ 'GAM_OTPCustomEventErrorWhenGeneratingCodeReturnedError','442' ],[ 'GAM_OTPCustomEventErrorWhenSendingCode','445' ],[ 'GAM_OTPCustomEventErrorWhenSendingCodeReturnedError','446' ],[ 'GAM_OTPCustomEventErrorWhenValidatingCode','450' ],[ 'GAM_OTPCustomEventErrorWhenValidatingCodeReturnedError','451' ],[ 'GAM_OTPValidationCodeError','455' ],[ 'GAM_OTPCustomEventGenerateCodeCannotBeEmpty','456' ],[ 'GAM_OTPAutogeneratedCodeTooShort','457' ],[ 'GAM_OTPCodeExpirationTimeoutTooShort','458' ],[ 'GAM_OTPCodeExpired','459' ],[ 'GAM_EmailServerAuthenticationError','460' ],[ 'GAM_EmailServerErrorSendingOTPCode','461' ],[ 'GAM_EmailServerErrorSendingAccountActivation','462' ],[ 'GAM_SendEmailToActivateUserAccountNotEnable','463' ],[ 'GAM_EmailServerErrorSendingChangePassword','464' ],[ 'GAM_EmailServerErrorSendingToRecoverPassword','465' ],[ 'GAM_SendEmailToRecoverUserPasswordNotEnable','466' ],[ 'GAM_EmailServerErrorSendingWhenChangeEmailOrName','467' ],[ 'GAM_EmailServerErrorSendingMessage','470' ],[ 'GAM_RepositoryEmailServerMissingConfiguration','471' ],[ 'GAM_TOTPAuthenticatorIssuerCannotBeEmpty','480' ],[ 'GAM_TOTPAuthenticatorSecretKeyCannotBeEmpty','481' ],[ 'GAM_TOTPSecretKeyLengthError','482' ],[ 'GAM_TOTPAuthenticatorMustBeEnable','483' ],[ 'GAM_AuthenticationTypeImpersonateCannotBeNull','500' ],[ 'GAM_AuthenticationTypeTwoFactorAuthenticationNotValid','501' ],[ 'GAM_AuthenticationTypeUsedAsTwoFactorAuthentication','502' ],[ 'GAM_TFAAuthenticationTypeNameCannotBeEmpty','503' ],[ 'GAM_TFAFirstFactorAuthenticationExpirationTooShort','504' ],[ 'GAM_OIDCAuthenticationTypeCertificateFileNotExist','510' ],[ 'GAM_OIDCAuthenticationTypeCertificateNotLoadedCorrectly','511' ],[ 'GAM_OIDCAuthenticationTypeAlgorithmNotFound','512' ],[ 'GAM_OIDCAuthenticationTypeAlgorithmNotSupported','513' ],[ 'GAM_OIDCAuthenticationTypeIdTokenVerificationError','514' ],[ 'GAM_OIDCAuthenticationTypeBadIdTokenVerification','515' ],[ 'GAM_OIDCAuthenticationTypeUserEmailMustBeVerified','516' ],[ 'GAM_OIDCAuthenticationTypeCertificatePathFileNameCannotBeNull','517' ],[ 'GAM_OIDCAuthenticationTypeIssuerURLCannotBeNull','518' ],[ 'GAM_StateNotFound','530' ],[ 'GAM_StateExpired','531' ],[ 'GAM_StateDuplicated','532' ],[ 'GAM_AuthenticationFailed','540' ] ]).
+struct_dt_elem_i([ 14,76,0 ],1,'AddEmptyItem','0').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoNameCSHARP','Code').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoItemExtTypeCSHARP','System.Int64').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoNameNETCORE','Code').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoItemExtTypeNETCORE','System.Int64').
+struct_dt_elem_i([ 14,76,0 ],1,'ExoNameJS','').
+struct_dt_elem_i([ 14,76,0 ],2,name,'Message').
+struct_dt_elem_i([ 14,76,0 ],2,camelname,'Message').
+struct_dt_elem_i([ 14,76,0 ],2,externalType,'').
+struct_dt_elem_i([ 14,76,0 ],2,length,254).
+struct_dt_elem_i([ 14,76,0 ],2,decimals,0).
+struct_dt_elem_i([ 14,76,0 ],2,type,[ 5,254,0 ]).
+struct_dt_elem_i([ 14,76,0 ],2,'ExoPropAccessType',idGetSet).
+struct_dt_elem_i([ 14,76,0 ],2,'IntName','Message').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoItemDesc','Description').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoItemType','Character').
+struct_dt_elem_i([ 14,76,0 ],2,basedon,184).
+struct_dt_elem_i([ 14,76,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,76,0 ],2,'ControlType','2').
+struct_dt_elem_i([ 14,76,0 ],2,'InputType','0').
+struct_dt_elem_i([ 14,76,0 ],2,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoNameCSHARP','Message').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoNameNETCORE','Message').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_elem_i([ 14,76,0 ],2,'ExoNameJS','').
+struct_dt_elem_i([ 26,1,1 ],1,name,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,length,128).
+struct_dt_elem_i([ 26,1,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,1,1 ],1,pic,'').
+struct_dt_elem_i([ 26,1,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,1,1 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],1,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],1,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],2,name,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,basedon,7).
+struct_dt_elem_i([ 26,1,1 ],2,length,2).
+struct_dt_elem_i([ 26,1,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1,1 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,1,1 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,1,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,1,1 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],2,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],2,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],3,name,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,length,256).
+struct_dt_elem_i([ 26,1,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,1,1 ],3,pic,'').
+struct_dt_elem_i([ 26,1,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,1,1 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],3,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],3,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],3,'JsonInclude',idJsonEmpty).
+ 
+struct_dt_method_i([ 14,76,0 ],1,name,tostring).
+struct_dt_method_i([ 14,76,0 ],1,camelname,'ToString').
+struct_dt_method_i([ 14,76,0 ],1,externalType,'').
+struct_dt_method_i([ 14,76,0 ],1,length,9999).
+struct_dt_method_i([ 14,76,0 ],1,decimals,0).
+struct_dt_method_i([ 14,76,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,76,0 ],1,'IntName','ToString').
+struct_dt_method_i([ 14,76,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,76,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,76,0 ],1,basedon,'').
+struct_dt_method_i([ 14,76,0 ],1,'XmlName','ToString').
+struct_dt_method_i([ 14,76,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,76,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,76,0 ],1,'ExoNameCSHARP','ToString').
+struct_dt_method_i([ 14,76,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,76,0 ],1,'ExoNameNETCORE','ToString').
+struct_dt_method_i([ 14,76,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,76,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,76,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,76,0 ],2,name,tojsonstring).
+struct_dt_method_i([ 14,76,0 ],2,camelname,'ToJsonString').
+struct_dt_method_i([ 14,76,0 ],2,externalType,'').
+struct_dt_method_i([ 14,76,0 ],2,length,9999).
+struct_dt_method_i([ 14,76,0 ],2,decimals,0).
+struct_dt_method_i([ 14,76,0 ],2,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,76,0 ],2,'IntName','ToJsonString').
+struct_dt_method_i([ 14,76,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,76,0 ],2,'ExoItemType','Character').
+struct_dt_method_i([ 14,76,0 ],2,basedon,'').
+struct_dt_method_i([ 14,76,0 ],2,'XmlName','ToJsonString').
+struct_dt_method_i([ 14,76,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,76,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,76,0 ],2,'ExoNameCSHARP','ToJsonString').
+struct_dt_method_i([ 14,76,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,76,0 ],2,'ExoNameNETCORE','ToJsonString').
+struct_dt_method_i([ 14,76,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,76,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,76,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,76,0 ],3,name,fromjsonstring).
+struct_dt_method_i([ 14,76,0 ],3,camelname,'FromJsonString').
+struct_dt_method_i([ 14,76,0 ],3,externalType,'').
+struct_dt_method_i([ 14,76,0 ],3,length,8).
+struct_dt_method_i([ 14,76,0 ],3,decimals,0).
+struct_dt_method_i([ 14,76,0 ],3,type,[ 15,8,0 ]).
+struct_dt_method_i([ 14,76,0 ],3,'IntName','FromJsonString').
+struct_dt_method_i([ 14,76,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,76,0 ],3,'ExoItemType','Boolean').
+struct_dt_method_i([ 14,76,0 ],3,basedon,'').
+struct_dt_method_i([ 14,76,0 ],3,'XmlName','FromJsonString').
+struct_dt_method_i([ 14,76,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,76,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,76,0 ],3,'ExoNameCSHARP','FromJsonString').
+struct_dt_method_i([ 14,76,0 ],3,'ExoItemExtTypeCSHARP',bool).
+struct_dt_method_i([ 14,76,0 ],3,'ExoNameNETCORE','FromJsonString').
+struct_dt_method_i([ 14,76,0 ],3,'ExoItemExtTypeNETCORE',bool).
+struct_dt_method_i([ 14,76,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,76,0 ],3,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,76,3 ],1,name,json).
+struct_dt_param_i([ 14,76,3 ],1,camelname,'Json').
+struct_dt_param_i([ 14,76,3 ],1,externalType,'').
+struct_dt_param_i([ 14,76,3 ],1,length,9999).
+struct_dt_param_i([ 14,76,3 ],1,decimals,0).
+struct_dt_param_i([ 14,76,3 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,76,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,76,3 ],1,'IntName','Json').
+struct_dt_param_i([ 14,76,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,76,3 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,76,3 ],1,basedon,'').
+struct_dt_param_i([ 14,76,3 ],1,'ExoItemExtTypeCSHARP',string).
+struct_dt_param_i([ 14,76,3 ],1,'ExoItemExtTypeNETCORE',string).
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,165,'K2BFSG\CONVERTERRORSTOMESSAGES','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurity','AssemblyName','GeneXusSecurity.dll').
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

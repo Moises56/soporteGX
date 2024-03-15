@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.wwauthtype.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwauthtype\obj\Release\k2bfsg.wwauthtype.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwauthtype\obj\Release\k2bfsg.wwauthtype.dll

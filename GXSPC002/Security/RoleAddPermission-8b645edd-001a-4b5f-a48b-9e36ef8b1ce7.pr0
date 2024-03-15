@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bsecurity_Execute",
+    "Description": "K2BT_GAM_AddPermission",
+    "ProgramName": "k2bfsg.roleaddpermission",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\entitymanagersoporte.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\entitymanagersoporte\obj\Release\entitymanagersoporte.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\entitymanagersoporte\obj\Release\entitymanagersoporte.dll

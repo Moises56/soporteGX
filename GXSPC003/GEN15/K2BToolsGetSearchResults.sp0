@@ -1,0 +1,566 @@
+spec_i([ proc,28,'K2 BTools Get Search Results','K2BToolsGetSearchResults',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BToolsGetSearchResults')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BToolsSearch'))).
+rule_i(0,prop('ObjDesc','K2 BTools Get Search Results')).
+rule_i(0,prop('ObjName','K2BToolsGetSearchResults')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Searchtype','Searchcriteria','Pagesize','Itemstoskip','Itemsprocessed','Pendingitemsexist','K2bsearchresult' ],[])).
+rule_i(0,parmio([ [ 'Searchtype',in ],[ 'Searchcriteria',in ],[ 'Pagesize',in ],[ 'Itemstoskip',in ],[ 'Itemsprocessed',out ],[ 'Pendingitemsexist',out ],[ 'K2bsearchresult',out ] ])).
+rule_i(0,output('FIL')).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',30 ]).
+attri_i('GXV3',[ 'GXV3',int,8,0,'',0,'','',29 ]).
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',28 ]).
+attri_i('GXV1',[ 'GXV1',o(objectcollection(searchresultitem)),0,0,'',0,'','',27 ]).
+attri_i('Searchresultitem',[ 'SearchResultItem',o(searchresultitem),4,0,'',0,'Search Result Item','',26 ]).
+attri_i('Searchresult',[ 'SearchResult',o(searchresult),4,0,'',0,'Search Result','',25 ]).
+attri_i('Searchcriteria',[ 'SearchCriteria',char,150,0,'',0,'Search Criteria','',24 ]).
+attri_i('Searchabletransactionsitem',[ 'SearchableTransactionsItem',o('SearchableTransactions.SearchableTransactionsItem'),0,0,'',0,'Searchable Transactions Item','',23 ]).
+attri_i('Pendingitemsexist',[ 'PendingItemsExist',boolean,4,0,'',0,'Pending Items Exist','',22 ]).
+attri_i('Pagetoread',[ 'PageToRead',int,4,0,'ZZZ9',0,'Page To Read','',21 ]).
+attri_i('Pagesizesearch',[ 'PageSizeSearch',int,4,0,'ZZZ9',0,'Page Size Search','',20 ]).
+attri_i('Pagesize',[ 'PageSize',int,4,0,'ZZZ9',0,'Page Size','',19 ]).
+attri_i('Pagenumber',[ 'PageNumber',int,4,0,'ZZZ9',0,'Page Number','',18 ]).
+attri_i('K2bsearchresultitem',[ 'K2BSearchResultItem',o('K2BSearchResult.Item'),0,0,'',0,'K2 BSearch Result Item','',17 ]).
+attri_i('K2bsearchresult',[ 'K2BSearchResult',o(objectcollection('K2BSearchResult.Item')),0,0,'',0,'K2 BSearch Result','',16 ]).
+attri_i('Itemstoskip',[ 'ItemsToSkip',int,4,0,'ZZZ9',0,'Items To Skip','',15 ]).
+attri_i('Itemsprocessed',[ 'ItemsProcessed',int,4,0,'ZZZ9',0,'Items Processed','',14 ]).
+attri_i('Itemsfound',[ itemsFound,int,4,0,'ZZZ9',0,'items Found','',13 ]).
+attri_i('I',[ i,int,4,0,'ZZZ9',0,i,'',12 ]).
+attri_i('Founditems',[ foundItems,boolean,4,0,'',0,'found Items','',11 ]).
+attri_i('Searchtype',[ 'SearchType',char,20,0,'',0,'Search Type','',10 ]).
+attri_i('Searchabletransactions',[ 'SearchableTransactions',o(objectcollection('SearchableTransactions.SearchableTransactionsItem')),0,0,'',0,'Searchable Transactions','',9 ]).
+attri_i('Isauthorized',[ isAuthorized,boolean,4,0,'',0,'is Authorized','',8 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,'K2bsearchresultitem',yes,udp,o(1,'K2BGetSearchResultFromData'),[],47,'K2bsearchresultitem',[ [ t('Searchresultitem',23),t(',',7),t('Searchcriteria',23) ] ]).
+function_i(1,'Searchabletransactions',yes,udp,o(1,'K2BGetSearchableEntities'),[],4,'Searchabletransactions',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(112,[ 'K2BSearchCriteria' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Itemsfound',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t('Searchabletransactions',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Searchabletransactions',3,0,0),t(4,3,0,0),t(')',4,0,0) ]).
+b_line_i(5,1,1,cmd,0,[]).
+b_line_i(6,1,1,cmd,0,[ t('',109,6,0),t('.NOT.',8,0,4),t('null(',1,6,22),t('Searchtype',23,0,10),t(')',4,0,31) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t('I',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(8,1,1,cmd,0,[ t('',114,8,0),t('I',23,0,11),t(<=,10,0,14),t([ t('Searchabletransactions',23,8,17),t('Count',3,8,41) ],29,8,41) ]).
+b_line_i(9,1,1,cmd,0,[ t('',109,9,0),t([ t('Searchabletransactions',23,9,6),[ t('item(',1,0,30),t('I',23,0,36),t(')',4,0,38) ],t('Searchtype',3,9,40) ],29,9,40),t(=,10,0,51),t('Searchtype',23,0,53) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t('I',23,0,0),t(=,10,0,0),t('I',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',110,11,0) ]).
+b_line_i(12,1,1,cmd,0,[ t('',107,12,0),t([ t('Searchabletransactions',23,12,4),t('remove(',1,12,28) ],31,12,4),t('I',23,0,36),t(')',4,0,38) ]).
+b_line_i(13,1,1,cmd,0,[ t('',111,13,0) ]).
+b_line_i(14,1,1,cmd,0,[ t('',115,14,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',111,15,0) ]).
+b_line_i(16,1,1,cmd,0,[]).
+b_line_i(17,1,1,cmd,0,[ t('',109,17,0),t('Itemstoskip',23,0,4),t(=,10,0,17),t('0',3,0,19) ]).
+b_line_i(18,1,1,cmd,0,[ t('',107,18,0),t('Pagetoread',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(19,1,1,cmd,0,[ t('',107,19,0),t('Pagesizesearch',23,0,0),t(=,10,0,0),t('Pagesize',23,0,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',110,20,0) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,21,0),t('Pagetoread',23,0,0),t(=,10,0,0),t('2',3,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',107,22,0),t('Pagesizesearch',23,0,0),t(=,10,0,0),t('Itemstoskip',23,0,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',111,23,0) ]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[ t('',107,25,0),t('Itemsprocessed',23,0,0),t(=,10,0,0),t('Itemstoskip',23,0,0) ]).
+b_line_i(26,1,1,cmd,0,[]).
+b_line_i(27,1,1,cmd,0,[ t('',107,27,0),t('Founditems',23,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(28,1,1,cmd,0,[ t('',114,28,0),t('Founditems',23,0,10),t('.AND.',9,0,22),t('Itemsfound',23,0,28),t(<,10,0,40),t('Pagesize',23,0,42),t(+,5,0,52),t('1',3,0,54) ]).
+b_line_i(29,1,1,cmd,0,[]).
+b_line_i(30,1,1,cmd,0,[ t('',107,30,0),t('Searchresult',23,0,0),t(=,10,0,0),t([ t('Textsearch',36,0,0),t('find(',1,0,0) ],31,0,0),t('Searchcriteria',23,0,0),t(',',7,0,0),t('Pagesizesearch',23,0,0),t(',',7,0,0),t('Pagetoread',23,0,0),t(')',4,0,0) ]).
+b_line_i(31,1,1,cmd,0,[]).
+b_line_i(32,1,1,cmd,0,[ t('',107,32,0),t('Founditems',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(33,1,1,cmd,0,[ t('',107,33,0),t('GXV2',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 33,1 ],1,1,cmd,0,[ t('',107,33,0),t('GXV1',23,0,0),t(=,10,0,0),t([ t('Searchresult',23,0,0),t('items(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i([ 33,2 ],1,1,cmd,0,[ t('',114,33,0),t('GXV2',23,0,0),t(<=,10,0,0),t([ t('GXV1',23,33,41),t('Count',3,33,0) ],29,33,0) ]).
+b_line_i([ 33,3 ],1,1,cmd,0,[ t('',107,33,0),t('Searchresultitem',23,0,0),t(=,10,0,0),t([ t('GXV1',23,0,0),t('item(',1,0,0) ],31,0,0),t('GXV2',23,0,0),t(')',4,0,0) ]).
+b_line_i(34,1,1,cmd,1,[]).
+b_line_i(35,1,1,cmd,1,[]).
+b_line_i(36,1,1,cmd,1,[ t('',107,36,0),t('Founditems',23,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(37,1,1,cmd,1,[]).
+b_line_i(38,1,1,cmd,1,[ t('',107,38,0),t('Isauthorized',23,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(39,1,1,cmd,1,[ t('',107,39,0),t('GXV3',23,1,0),t(=,10,1,0),t(1,3,1,0) ]).
+b_line_i([ 39,2 ],1,1,cmd,1,[ t('',114,39,0),t('GXV3',23,1,0),t(<=,10,1,0),t([ t('Searchabletransactions',23,39,38),t('Count',3,39,0) ],29,39,0) ]).
+b_line_i([ 39,3 ],1,1,cmd,1,[ t('',107,39,0),t('Searchabletransactionsitem',23,1,0),t(=,10,1,0),t([ t('Searchabletransactions',23,1,0),t('item(',1,1,0) ],31,1,0),t('GXV3',23,1,0),t(')',4,1,0) ]).
+b_line_i(40,1,1,cmd,2,[ t('',109,40,0),t([ t('Searchabletransactionsitem',23,40,7),t('Searchtype',3,40,35) ],29,40,35),t(=,10,2,46),t([ t('Searchresultitem',23,40,48),t('Type',3,40,66) ],29,40,66) ]).
+b_line_i(41,1,1,cmd,2,[ t('',107,41,0),t('Isauthorized',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(42,1,1,cmd,2,[ t('',140,42,0) ]).
+b_line_i(43,1,1,cmd,2,[ t('',111,43,0) ]).
+b_line_i([ 44,1 ],1,1,cmd,2,[ t('',107,44,0),t('GXV3',23,2,0),t(=,10,2,0),t('GXV3',23,2,0),t(+,5,2,0),t(1,3,2,0) ]).
+b_line_i([ 44,2 ],1,1,cmd,2,[ t('',115,44,0) ]).
+b_line_i(45,1,1,cmd,3,[]).
+b_line_i(46,1,1,cmd,3,[ t('',109,46,0),t('Isauthorized',23,3,6) ]).
+b_line_i(47,1,1,cmd,3,[ t('',107,47,0),t('K2bsearchresultitem',23,3,0),t(=,10,3,0),t('udp(',1,3,0),t('K2bsearchresultitem',3,3,0),t(47,3,3,0),t('Searchresultitem',23,3,0),t(',',7,3,0),t('Searchcriteria',23,3,0),t(')',4,3,0) ]).
+b_line_i(48,1,1,cmd,3,[]).
+b_line_i(49,1,1,cmd,3,[]).
+b_line_i(50,1,1,cmd,3,[ t('',109,50,0),t('Itemsfound',23,3,7),t(<,10,3,19),t('Pagesize',23,3,21) ]).
+b_line_i(51,1,1,cmd,3,[ t('',107,51,0),t([ t('K2bsearchresult',23,51,5),t('add(',1,51,22) ],31,51,5),t('K2bsearchresultitem',23,3,27),t(')',4,3,47) ]).
+b_line_i(52,1,1,cmd,3,[ t('',111,52,0) ]).
+b_line_i(53,1,1,cmd,3,[]).
+b_line_i(54,1,1,cmd,3,[ t('',107,54,0),t('Itemsfound',23,3,0),t(=,10,3,0),t('Itemsfound',23,3,0),t(+,5,3,0),t('1',3,3,0) ]).
+b_line_i(55,1,1,cmd,3,[]).
+b_line_i(56,1,1,cmd,3,[ t('',109,56,0),t('Itemsfound',23,3,7),t(>=,10,3,19),t('Pagesize',23,3,22),t(+,5,3,32),t('1',3,3,34) ]).
+b_line_i(57,1,1,cmd,3,[ t('',107,57,0),t('Itemsprocessed',23,3,0),t(=,10,3,0),t('Itemsprocessed',23,3,0),t(-,5,3,0),t('1',3,3,0) ]).
+b_line_i(58,1,1,cmd,3,[ t('',140,58,0) ]).
+b_line_i(59,1,1,cmd,3,[ t('',111,59,0) ]).
+b_line_i(60,1,1,cmd,3,[]).
+b_line_i(61,1,1,cmd,3,[ t('',111,61,0) ]).
+b_line_i(62,1,1,cmd,3,[]).
+b_line_i(63,1,1,cmd,3,[ t('',107,63,0),t('Itemsprocessed',23,3,0),t(=,10,3,0),t('Itemsprocessed',23,3,0),t(+,5,3,0),t('1',3,3,0) ]).
+b_line_i([ 64,1 ],1,1,cmd,3,[ t('',107,64,0),t('GXV2',23,3,0),t(=,10,3,0),t('GXV2',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 64,2 ],1,1,cmd,3,[ t('',115,64,0) ]).
+b_line_i(65,1,1,cmd,4,[]).
+b_line_i(66,1,1,cmd,4,[ t('',107,66,0),t('Pagetoread',23,4,0),t(=,10,4,0),t('Pagetoread',23,4,0),t(+,5,4,0),t('1',3,4,0) ]).
+b_line_i(67,1,1,cmd,4,[ t('',115,67,0) ]).
+b_line_i(68,1,1,cmd,4,[]).
+b_line_i(69,1,1,cmd,4,[ t('',109,69,0),t('Itemsfound',23,4,4),t(>,10,4,16),t('Pagesize',23,4,18) ]).
+b_line_i(70,1,1,cmd,4,[ t('',107,70,0),t('Pendingitemsexist',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(71,1,1,cmd,4,[ t('',111,71,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(3,'Searchcriteria',idBasedOn,112,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,73,0 ],name,'SearchableTransactions').
+struct_dt_i([ 26,73,0 ],namespace,test).
+struct_dt_i([ 26,73,0 ],'ObjName','SearchableTransactions').
+struct_dt_i([ 26,73,0 ],'ObjDesc','Searchable Transactions').
+struct_dt_i([ 26,73,0 ],'ExternalName','SearchableTransactions').
+struct_dt_i([ 26,73,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,73,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,73,0 ],collection,'True').
+struct_dt_i([ 26,73,0 ],datatype,[ 26,73,104 ]).
+struct_dt_i([ 26,73,0 ],'CollectionItemName','SearchableTransactionsItem').
+struct_dt_i([ 26,73,0 ],'XmlName','').
+struct_dt_i([ 26,73,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,73,0 ],'XmlNamespace','').
+struct_dt_i([ 26,73,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,73,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,73,0 ],'JsonName','').
+struct_dt_i([ 26,73,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,73,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,73,104 ],name,'SearchableTransactionsItem').
+struct_dt_i([ 26,73,104 ],namespace,'test.SearchableTransactions').
+struct_dt_i([ 26,72,0 ],name,'K2BSearchResult').
+struct_dt_i([ 26,72,0 ],namespace,test).
+struct_dt_i([ 26,72,0 ],'ObjName','K2BSearchResult').
+struct_dt_i([ 26,72,0 ],'ObjDesc','K2 BSearch Result').
+struct_dt_i([ 26,72,0 ],'ExternalName','K2BSearchResult').
+struct_dt_i([ 26,72,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,72,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,72,0 ],collection,'True').
+struct_dt_i([ 26,72,0 ],datatype,[ 26,72,103 ]).
+struct_dt_i([ 26,72,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,72,0 ],'XmlName','').
+struct_dt_i([ 26,72,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,72,0 ],'XmlNamespace','').
+struct_dt_i([ 26,72,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,72,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,72,0 ],'JsonName','').
+struct_dt_i([ 26,72,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,72,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,72,103 ],name,'Item').
+struct_dt_i([ 26,72,103 ],namespace,'test.K2BSearchResult').
+struct_dt_i([ 26,73,0 ],fullname,'SearchableTransactions').
+struct_dt_i([ 26,73,104 ],fullname,'SearchableTransactions.SearchableTransactionsItem').
+struct_dt_i([ 26,72,0 ],fullname,'K2BSearchResult').
+struct_dt_i([ 26,72,103 ],fullname,'K2BSearchResult.Item').
+ 
+struct_dt_elem_i([ 26,73,104 ],1,name,'Transactiondescription').
+struct_dt_elem_i([ 26,73,104 ],1,camelname,'TransactionDescription').
+struct_dt_elem_i([ 26,73,104 ],1,basedon,110).
+struct_dt_elem_i([ 26,73,104 ],1,length,50).
+struct_dt_elem_i([ 26,73,104 ],1,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,73,104 ],1,pic,'').
+struct_dt_elem_i([ 26,73,104 ],1,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],1,'ExternalName','TransactionDescription').
+struct_dt_elem_i([ 26,73,104 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],1,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],1,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],1,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,73,104 ],2,name,'Entityname').
+struct_dt_elem_i([ 26,73,104 ],2,camelname,'EntityName').
+struct_dt_elem_i([ 26,73,104 ],2,basedon,51).
+struct_dt_elem_i([ 26,73,104 ],2,length,256).
+struct_dt_elem_i([ 26,73,104 ],2,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,73,104 ],2,pic,'').
+struct_dt_elem_i([ 26,73,104 ],2,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],2,'ExternalName','EntityName').
+struct_dt_elem_i([ 26,73,104 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],2,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],2,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],2,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,73,104 ],3,name,'Transactionname').
+struct_dt_elem_i([ 26,73,104 ],3,camelname,'TransactionName').
+struct_dt_elem_i([ 26,73,104 ],3,basedon,51).
+struct_dt_elem_i([ 26,73,104 ],3,length,256).
+struct_dt_elem_i([ 26,73,104 ],3,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,73,104 ],3,pic,'').
+struct_dt_elem_i([ 26,73,104 ],3,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],3,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,73,104 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],3,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],3,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],3,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,73,104 ],4,name,'Searchtype').
+struct_dt_elem_i([ 26,73,104 ],4,camelname,'SearchType').
+struct_dt_elem_i([ 26,73,104 ],4,basedon,51).
+struct_dt_elem_i([ 26,73,104 ],4,length,256).
+struct_dt_elem_i([ 26,73,104 ],4,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,73,104 ],4,pic,'').
+struct_dt_elem_i([ 26,73,104 ],4,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],4,'ExternalName','SearchType').
+struct_dt_elem_i([ 26,73,104 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],4,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],4,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],4,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],1,name,'Searchresulttitle').
+struct_dt_elem_i([ 26,72,103 ],1,camelname,'SearchResultTitle').
+struct_dt_elem_i([ 26,72,103 ],1,basedon,110).
+struct_dt_elem_i([ 26,72,103 ],1,length,50).
+struct_dt_elem_i([ 26,72,103 ],1,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,72,103 ],1,pic,'').
+struct_dt_elem_i([ 26,72,103 ],1,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],1,'ExternalName','SearchResultTitle').
+struct_dt_elem_i([ 26,72,103 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],1,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],1,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],1,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],2,name,'Searchresultimage').
+struct_dt_elem_i([ 26,72,103 ],2,camelname,'SearchResultImage').
+struct_dt_elem_i([ 26,72,103 ],2,basedon,111).
+struct_dt_elem_i([ 26,72,103 ],2,length,4).
+struct_dt_elem_i([ 26,72,103 ],2,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],2,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,72,103 ],2,pic,'').
+struct_dt_elem_i([ 26,72,103 ],2,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],2,'ExternalName','SearchResultImage').
+struct_dt_elem_i([ 26,72,103 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],2,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],2,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],2,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],3,name,'Searchresultimage_gxi').
+struct_dt_elem_i([ 26,72,103 ],3,camelname,'SearchResultImage_GXI').
+struct_dt_elem_i([ 26,72,103 ],3,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],3,isadd,'True').
+struct_dt_elem_i([ 26,72,103 ],3,length,2048).
+struct_dt_elem_i([ 26,72,103 ],3,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],3,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,72,103 ],4,name,'Searchresultdescription').
+struct_dt_elem_i([ 26,72,103 ],4,camelname,'SearchResultDescription').
+struct_dt_elem_i([ 26,72,103 ],4,basedon,113).
+struct_dt_elem_i([ 26,72,103 ],4,length,400).
+struct_dt_elem_i([ 26,72,103 ],4,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],4,type,[ 5,400,0 ]).
+struct_dt_elem_i([ 26,72,103 ],4,pic,'').
+struct_dt_elem_i([ 26,72,103 ],4,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],4,'ExternalName','SearchResultDescription').
+struct_dt_elem_i([ 26,72,103 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],4,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],4,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],4,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,72,103 ],5,name,'Searchresultlink').
+struct_dt_elem_i([ 26,72,103 ],5,camelname,'SearchResultLink').
+struct_dt_elem_i([ 26,72,103 ],5,basedon,8).
+struct_dt_elem_i([ 26,72,103 ],5,length,1000).
+struct_dt_elem_i([ 26,72,103 ],5,decimals,0).
+struct_dt_elem_i([ 26,72,103 ],5,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,72,103 ],5,pic,'').
+struct_dt_elem_i([ 26,72,103 ],5,collection,'False').
+struct_dt_elem_i([ 26,72,103 ],5,'ExternalName','SearchResultLink').
+struct_dt_elem_i([ 26,72,103 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,72,103 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,72,103 ],5,'XmlName','').
+struct_dt_elem_i([ 26,72,103 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,72,103 ],5,soaptype,'').
+struct_dt_elem_i([ 26,72,103 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,72,103 ],5,'JsonName','').
+struct_dt_elem_i([ 26,72,103 ],5,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,30,'K2BGETSEARCHRESULTFROMDATA',[ [ o(searchresultitem),4,0,0 ],[ char,150,0,0 ],[ o('K2BSearchResult.Item'),0,0,0 ] ],[ [ 'SearchResultItem',in,[] ],[ 'SearchCriteria',in,[] ],[ 'K2BSearchResult',out,[] ] ]).
+pgm_parm_i(proc,29,'K2BGETSEARCHABLEENTITIES',[ [ o(objectcollection('SearchableTransactions.SearchableTransactionsItem')),0,0,0 ] ],[ [ 'SearchableTransactions',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,28,'K2BTOOLSGETSEARCHRESULTS','INTERNAL','Secure').
+pgm_callprotocol_i(proc,30,'K2BGETSEARCHRESULTFROMDATA','INTERNAL','Secure').
+pgm_callprotocol_i(proc,29,'K2BGETSEARCHABLEENTITIES','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

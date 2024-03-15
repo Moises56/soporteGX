@@ -1,0 +1,330 @@
+spec_i([ proc,168,'Evaluate Captcha Correctness','K2BFSG\EvaluateCaptchaCorrectness',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BFSG.EvaluateCaptchaCorrectness')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','No')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BFSG\Login'))).
+rule_i(0,prop('ObjDesc','Evaluate Captcha Correctness')).
+rule_i(0,prop('ObjName','EvaluateCaptchaCorrectness')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Captchatext','Captchaiscorrect' ],[])).
+rule_i(0,parmio([ [ 'Captchatext',in ],[ 'Captchaiscorrect',out ] ])).
+rule_i(0,output('FIL')).
+rule_i(0,rule([ a(13,[ endtrn ]) ],[],[],[])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',11 ]).
+attri_i('Captchatext',[ 'CaptchaText',char,50,0,'',0,'Captcha Text','',10 ]).
+attri_i('Captcharequiredtext',[ 'CaptchaRequiredText',char,50,0,'',0,'Captcha Required Text','',9 ]).
+attri_i('Captchaiscorrect',[ 'CaptchaIsCorrect',boolean,4,0,'',0,'Captcha Is Correct','',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(3,262,'"LoginAttempts"','LoginAttempts','"Login Attempts"',[ none ]).
+enum_value_i(3,262,'"LastLoginAttempt"','LastLoginAttempt','"Last Login Attempt"',[ none ]).
+enum_value_i(3,262,'"SessionCaptchaIteSessionCaptchaItem"','SessionCaptchaItem','"Session Captcha Item"',[ none ]).
+enum_value_i(3,262,'"SessionCaptchaActive"','SessionCaptchaActive','"Session Captcha Active"',[ none ]).
+enum_value_i(3,262,'"SessionUserRememberMe"','SessionUserRememberMe','"SessionUserRememberMe"',[ none ]).
+enum_value_i(3,262,'"LastPasswordRecoveryEmailDate"','LastPasswordRecoveryEmailDate','"Last Password Recovery Email Date"',[ none ]).
+enum_value_i(3,262,'"ConfSendPasswordMail"','ConfSendPasswordMail','"ConfSendPasswordMail"',[ none ]).
+enum_value_i(3,262,'"ConfMailSubject"','ConfMailSubject','"Conf Mail Subject"',[ none ]).
+enum_value_i(3,262,'"ConfMailMessage"','ConfMailMessage','"Conf Mail Message"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPServerName"','ConfSMTPServerName','"ConfSMTPServerName"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPUserName"','ConfSMTPUserName','"Conf SMTPUser Name"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPPassword"','ConfSMTPPassword','"Conf SMTPPassword"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPPort"','ConfSMTPPort','"Conf SMTPPort"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPAuthentication"','ConfSMTPAuthentication','"Conf SMTPAuthentication"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPSenderName"','ConfSMTPSenderName','"Conf SMTPSender Name"',[ none ]).
+enum_value_i(3,262,'"ConfSMTPSenderAddress"','ConfSMTPSenderAddress','"Conf SMTPSender Address"',[ none ]).
+enum_value_i(3,262,'"ConfMinMinutesBetweenEmails"','ConfMinMinutesBetweenEmails','"Conf Min Minutes Between Emails"',[ none ]).
+enum_value_i(3,262,'"ConfServerHost"','ConfServerHost','"Conf Server Host"',[ none ]).
+enum_value_i(3,262,'"ConfServerPort"','ConfServerPort','"Conf Server Port"',[ none ]).
+enum_value_i(3,262,'"ConfServerBaseURL"','ConfServerBaseURL','"Conf Server Base URL"',[ none ]).
+enum_value_i(3,262,'"JavaGenerator"','JavaGenerator','"JavaGenerator"',[ none ]).
+enum_value_i(3,262,'"CSharpGenerator"','CSharpGenerator','"CSharpGenerator"',[ none ]).
+enum_value_i(3,262,'"SessionCaptchaRedirectURL"','SessionCaptchaRedirectURL','"SessionCaptchaRedirectURL"',[ none ]).
+ 
+enum_value_info_i(3,262,'K2BFSGConstants').
+ 
+enum_type_i(3,262,char,50,0).
+ 
+dom_info_i(110,[ 'K2BDescription' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',104,1,0),t(o(1,'K2BSessionGet'),28,0,1),t([ 262,'SessionCaptchaItem' ],44,1,21),t(',',7,0,0),t('Captcharequiredtext',23,0,57) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[ t('',109,3,0),t('null(',1,3,25),t('Captcharequiredtext',23,0,4),t(')',4,0,34) ]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,1,1,cmd,0,[]).
+b_line_i(6,1,1,cmd,0,[]).
+b_line_i(7,1,1,cmd,0,[]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,1,1,cmd,0,[]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[]).
+b_line_i(14,1,1,cmd,0,[]).
+b_line_i(15,1,1,cmd,0,[]).
+b_line_i(16,1,1,cmd,0,[]).
+b_line_i(17,1,1,cmd,0,[ t('',107,17,0),t('Captchaiscorrect',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(18,1,1,cmd,0,[]).
+b_line_i(19,1,1,cmd,0,[ t('',110,19,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',109,20,0),t('Captcharequiredtext',23,0,5),t(=,10,0,26),t('Captchatext',23,0,28) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,21,0),t('Captchaiscorrect',23,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',110,22,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,23,0),t('Captchaiscorrect',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',111,24,0) ]).
+b_line_i(25,1,1,cmd,0,[ t('',111,25,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(13,128).
+ 
+ 
+ 
+ 
+var_prop_i(3,'Captchatext',idBasedOn,110,v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,21,'K2BSESSIONGET',[ [ char,100,0,0 ],[ vchar,990208,255,0 ] ],[ [ 'SessionItem',in,[] ],[ 'SessionData',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,168,'K2BFSG\EVALUATECAPTCHACORRECTNESS','INTERNAL','Secure').
+pgm_callprotocol_i(proc,21,'K2BSESSIONGET','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

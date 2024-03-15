@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "notificationsregistrationhandler_Services_Execute",
+    "Description": "Notifications Registration Handler Services",
+    "ProgramName": "general.services.notificationsregistrationhandler",
+    "IsGXAutomatic": true
+  }
+]

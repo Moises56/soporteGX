@@ -1,0 +1,3 @@
+ALTER TABLE [soporte] ALTER COLUMN [soporteID] int NOT NULL;
+ALTER TABLE [soporte] ADD PRIMARY KEY([soporteID]);
+

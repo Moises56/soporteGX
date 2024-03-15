@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.general.services.gxbeforeeventreplicator_services,general.services.gxbeforeeventreplicator" %>

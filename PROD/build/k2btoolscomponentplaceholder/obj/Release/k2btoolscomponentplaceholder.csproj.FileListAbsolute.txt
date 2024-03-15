@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2btoolscomponentplaceholder.dll
+C:\KBs\test\PROD\build\k2btoolscomponentplaceholder\obj\Release\k2btoolscomponentplaceholder.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2btoolscomponentplaceholder\obj\Release\k2btoolscomponentplaceholder.dll

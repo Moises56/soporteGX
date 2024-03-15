@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\gamexampleregisteruser.dll
+C:\KBs\test\PROD\build\gamexampleregisteruser\obj\Release\gamexampleregisteruser.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\gamexampleregisteruser\obj\Release\gamexampleregisteruser.dll

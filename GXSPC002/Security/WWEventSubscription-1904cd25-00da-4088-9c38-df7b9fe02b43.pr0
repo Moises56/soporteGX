@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wweventsubscription_Execute",
+    "Description": "K2BT_GAM_EventSubscriptions",
+    "ProgramName": "k2bfsg.wweventsubscription",
+    "IsGXAutomatic": true
+  }
+]

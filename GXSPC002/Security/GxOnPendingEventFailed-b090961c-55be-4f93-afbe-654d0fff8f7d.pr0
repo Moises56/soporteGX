@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gxonpendingeventfailed_Services_Execute",
+    "Description": "Gx On Pending Event Failed Services",
+    "ProgramName": "general.services.gxonpendingeventfailed",
+    "IsGXAutomatic": true
+  }
+]

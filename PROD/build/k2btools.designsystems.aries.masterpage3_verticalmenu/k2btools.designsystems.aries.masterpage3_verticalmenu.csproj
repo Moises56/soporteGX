@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>k2btools.designsystems.aries.masterpage3_verticalmenu</AssemblyName>
+		<ProjectGuid>{a61d99c7-0223-49ca-b38b-2ccf545b2706}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurityCommon.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurityCommon.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2blistprograms.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\gamapplicationmenutok2bmultilevelmenu.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetusermenu.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthenticated.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetsearchableentities.cs" />
+		<Compile Include = "$(WebDirectory)\k2blistprogramstomultilevelmenusdt.cs" />
+		<Compile Include = "$(WebDirectory)\k2bmenuaddprogram.cs" />
+		<Compile Include = "$(WebDirectory)\k2blistallstaticmenus.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivity.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\logout_implementation.cs" />
+		<Compile Include = "$(WebDirectory)\k2btools\isvalidurl.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivitylist.cs" />
+		<Compile Include = "$(WebDirectory)\k2btools\designsystems\aries\masterpage3_verticalmenu.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetuseravatar.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\faststartgammenuloader.cs" />
+		<Compile Include = "$(WebDirectory)\k2blogoutimplementation.cs" />
+		<Compile Include = "$(WebDirectory)\k2btools\getdesignsystemoptions.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetuseremail.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivityname.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsessionget.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetusercaption.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\getextendedmenuoptionsvalues.cs" />
+		<Compile Include = "$(WebDirectory)\k2bmenusetshowin.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\getgampermissionnameforactivity.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

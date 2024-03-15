@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bsecurity_Execute",
+    "Description": "K2BT_GAM_AuthenticationTypes",
+    "ProgramName": "k2bfsg.wwauthtype",
+    "IsGXAutomatic": true
+  }
+]

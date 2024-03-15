@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.addpermissionchildren.dll
+C:\KBs\test\PROD\build\k2bfsg.addpermissionchildren\obj\Release\k2bfsg.addpermissionchildren.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.addpermissionchildren\obj\Release\k2bfsg.addpermissionchildren.dll

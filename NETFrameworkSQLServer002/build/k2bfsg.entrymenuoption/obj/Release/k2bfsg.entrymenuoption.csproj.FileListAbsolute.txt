@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.entrymenuoption.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entrymenuoption\obj\Release\k2bfsg.entrymenuoption.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entrymenuoption\obj\Release\k2bfsg.entrymenuoption.dll

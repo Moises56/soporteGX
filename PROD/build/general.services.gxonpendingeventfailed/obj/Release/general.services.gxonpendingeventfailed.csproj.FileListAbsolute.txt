@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\general.services.gxonpendingeventfailed.dll
+C:\KBs\test\PROD\build\general.services.gxonpendingeventfailed\obj\Release\general.services.gxonpendingeventfailed.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\general.services.gxonpendingeventfailed\obj\Release\general.services.gxonpendingeventfailed.dll

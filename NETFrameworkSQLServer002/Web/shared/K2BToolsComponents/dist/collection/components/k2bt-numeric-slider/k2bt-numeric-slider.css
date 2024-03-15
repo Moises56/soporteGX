@@ -1,0 +1,121 @@
+:host {
+  display: block;
+}
+
+.K2BT_NumericSliderContainer {
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.K2BT_NumericSliderControl {
+  margin-right: 8px;
+}
+
+input[type='range'] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type='range']:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+/* thumb START */
+/* Special styling for WebKit/Blink */
+input[type='range']::-webkit-slider-thumb {
+  border: none;
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: #019f0c;
+  cursor: pointer;
+  margin-top: -4px;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  background: #01890a;
+}
+
+/* All the same stuff for Firefox */
+input[type='range']::-moz-range-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: #019f0c;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+input[type='range']::-moz-range-thumb:hover {
+  background: #01890a;
+}
+
+/* All the same stuff for IE */
+input[type='range']::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 3px;
+  background: #019f0c;
+  cursor: pointer;
+}
+
+input[type='range']::-ms-thumb:hover {
+  background: #01890a;
+}
+
+/* thumb END */
+
+/* track START */
+input[type='range']::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #ebebeb;
+  border-radius: 1.3px;
+}
+
+input[type='range']::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #ebebeb;
+  border-radius: 1.3px;
+}
+
+input[type='range']::-moz-range-progress {
+  background: #019f0c32;
+  height: 8.4px;
+}
+
+input[type='range']::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type='range']::-ms-fill-lower {
+  background: #019f0c32;
+  border-radius: 2.6px;
+}
+input[type='range']:focus::-ms-fill-lower {
+  background: #019f0c32;
+}
+input[type='range']::-ms-fill-upper {
+  background: #ebebeb;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type='range']:focus::-ms-fill-upper {
+  background: #ebebeb;
+}
+
+/* track END */

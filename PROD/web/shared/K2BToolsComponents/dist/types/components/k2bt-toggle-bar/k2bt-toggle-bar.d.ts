@@ -1,0 +1,38 @@
+import { EventEmitter } from '../../stencil-public-runtime';
+import { ControlInfoValue } from '../../utils/utils';
+export declare class K2btToggleBar {
+  readonly SmallChip = "SmallChip";
+  readonly MediumChip = "MediumChip";
+  readonly Rectangle = "Rectangle";
+  static readonly ERROR_SELECTION_FULL: string;
+  value: Array<string>;
+  values: Array<ControlInfoValue>;
+  includeemptyitem: boolean;
+  emptyitemtext: string;
+  noresultsfoundtext: string;
+  enableadditem: boolean;
+  additemcaption: string;
+  enabled: boolean;
+  readonlyclass: string;
+  togglestyle: string;
+  maxSelectionSize: number;
+  errorCode: string;
+  selectionErrorEvent: EventEmitter<object>;
+  inputEvent: EventEmitter<object>;
+  changeEvent: EventEmitter<object>;
+  newRecordClickedEvent: EventEmitter<object>;
+  selectedElement: HTMLElement;
+  onImageError(e: any): void;
+  isCollection(): boolean;
+  private selectionIsFull;
+  private itemIsSelected;
+  setValue(value: any): void;
+  getToggleContent(values: Array<ControlInfoValue>, containsDetails: boolean, containsIcons: boolean, containsTrailingText: boolean): any;
+  private getItemContent;
+  private getIconHTMLIfNecessary;
+  private GetContainerClasses;
+  getSelectedItemsContent(): string;
+  render(): any;
+  getValues(): ControlInfoValue[];
+  componentDidLoad(): void;
+}

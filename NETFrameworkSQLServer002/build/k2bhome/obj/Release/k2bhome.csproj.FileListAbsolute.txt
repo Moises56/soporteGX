@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bhome.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bhome\obj\Release\k2bhome.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bhome\obj\Release\k2bhome.dll

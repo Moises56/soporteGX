@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.wwsecuritypolicy.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwsecuritypolicy\obj\Release\k2bfsg.wwsecuritypolicy.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwsecuritypolicy\obj\Release\k2bfsg.wwsecuritypolicy.dll

@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.changerepository.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.changerepository\obj\Release\k2bfsg.changerepository.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.changerepository\obj\Release\k2bfsg.changerepository.dll

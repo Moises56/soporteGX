@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.remotelogin.dll
+C:\KBs\test\PROD\build\k2bfsg.remotelogin\obj\Release\k2bfsg.remotelogin.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.remotelogin\obj\Release\k2bfsg.remotelogin.dll

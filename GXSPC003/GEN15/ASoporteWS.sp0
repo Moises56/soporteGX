@@ -1,0 +1,508 @@
+spec_i([ proc,96,'Soporte WS','SoporteWS',78,eng,'18_0_5-175581' ]).
+ 
+struct_i(3,1,[ 'CsdtSoporteID' ],[]).
+struct_i(2,1,[ soporteID,hostName,serie,ipv4,mac,modelo,nombreUsuario,nombreDepartamento ],[]).
+ 
+level_i(3,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 4 ] ] ],[ [ [ 2 ],[] ] ],[ 4 ],'ISOPORTE',[],[] ]).
+level_i(2,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 14,13,12,11,10,9,5,4 ] ] ],[ [ [ 2 ],[] ] ],[ 4 ],'ISOPORTE',[],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [ c([ t(4,2),t(=,10),t('old(',1),t(4,2),t(')',4) ],[ 4 ]) ] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(3,[ [ [ 2,4 ] ] ]).
+ta_i(2,[ [ [ 2,14 ],[ 2,13 ],[ 2,12 ],[ 2,11 ],[ 2,10 ],[ 2,9 ],[ 2,5 ],[ 2,4 ] ] ]).
+ 
+las_i(3,[ [ 4 ] ]).
+las_i(2,[ [ 14,13,12,11,10,9,5,4 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','SoporteWS')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('SOAP_CANCELERROR','YES')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('REST','0')).
+rule_i(0,prop('ExposeUsingNativeSoapSupport','UMPV')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('SOAP_NAMESPACE',test)).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','SOAP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Procedmientos'))).
+rule_i(0,prop('ObjDesc','Soporte WS')).
+rule_i(0,prop('ObjName','SoporteWS')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,output('FIL')).
+ 
+a_i(1,2,t,2,[],[ [],'ISOPORTE',[] ]).
+a_i(2,3,t,2,[],[ [],'ISOPORTE',[] ]).
+a_i(3,3,c,0,[],[ c([ t(4,2),t(=,10),t('old(',1),t(4,2),t(')',4) ],[ 4 ]) ]).
+ 
+v_i(t,i,1,[]).
+v_i(t,o,1,14).
+v_i(t,o,1,13).
+v_i(t,o,1,12).
+v_i(t,o,1,11).
+v_i(t,o,1,10).
+v_i(t,o,1,9).
+v_i(t,o,1,5).
+v_i(t,o,1,4).
+v_i(t,i,2,[]).
+v_i(t,o,2,4).
+v_i(c,i,3,4).
+v_i(c,o,3,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',26 ]).
+attri_i(4,[ soporteID,int,9,0,'ZZZZZZZZ9',0,'soporte ID','',0 ]).
+attri_i(5,[ hostName,svchar,40,0,'',0,'host Name','',0 ]).
+attri_i(9,[ serie,svchar,40,0,'',0,serie,'',0 ]).
+attri_i(10,[ ipv4,svchar,40,0,'',0,ipv4,'',0 ]).
+attri_i(11,[ mac,svchar,40,0,'',0,mac,'',0 ]).
+attri_i(12,[ modelo,svchar,40,0,'',0,modelo,'',0 ]).
+attri_i(13,[ nombreUsuario,svchar,40,0,'',0,'nombre Usuario','',0 ]).
+attri_i(14,[ nombreDepartamento,svchar,40,0,'',0,'nombre Departamento','',0 ]).
+attri_i('Sdtsoporteid',[ sdtSoporteID,o(sdtSoporteID),0,0,'',0,'sdt Soporte ID','',22 ]).
+attri_i('Csdtsoporteid',[ 'CsdtSoporteID',o(objectcollection(sdtSoporteID)),0,0,'',0,'soporte ID','',24 ]).
+attri_i('Soporteid',[ soporteID,int,9,0,'ZZZZZZZZ9',0,'soporte ID','',9 ]).
+attri_i('Serie',[ serie,svchar,40,0,'',0,serie,'',11 ]).
+attri_i('Nombreusuario',[ nombreUsuario,svchar,40,0,'',0,'nombre Usuario','',15 ]).
+attri_i('Nombredepartamento',[ nombreDepartamento,svchar,40,0,'',0,'nombre Departamento','',16 ]).
+attri_i('Modelo',[ modelo,svchar,40,0,'',0,modelo,'',14 ]).
+attri_i('Mac',[ mac,svchar,40,0,'',0,mac,'',13 ]).
+attri_i('Ipv4',[ ipv4,svchar,40,0,'',0,ipv4,'',12 ]).
+attri_i('Hostname',[ hostName,svchar,40,0,'',0,'host Name','',10 ]).
+ 
+table_i(2,[ soporte,[ 4,5,9,10,11,12,13,14 ],soporte,soporte ]).
+ 
+index_i(2,[ 'ISOPORTE',u,[ 4 ],'Isoporte' ]).
+ 
+ 
+ 
+ 
+use_func_i('old(',4).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,2,i,[ [ 5,9,10,11,12,13,14 ],[],'ISOPORTE',[ [ [],4,4 ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(94,[ 'Id' ]).
+ 
+ 
+break_i(2,ins,1,[],[ [ 14,13,12,11,10,9,5,4 ],[],[] ]).
+break_i(3,nvg,1,[],[ [ 4 ],[ 4 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,2).
+b_group_i(1,2,lit,0,3,0).
+b_group_i(1,3,ins,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,4,lit,0,13,16).
+b_group_i(1,5,lit,0,17,10).
+b_group_i(1,6,nvg,3,17,17).
+b_group_i(3,1,lit,0,18,18).
+b_group_i(1,7,lit,0,23,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',197,2,0),t('SaveDatos',3,2,6),t('(',0,0,15),t(in,3,0,16),t('Soporteid',23,0,19),t(',',7,0,29),t(in,3,0,31),t('Hostname',23,0,34),t(',',7,0,43),t(in,3,0,45),t('Serie',23,0,48),t(',',7,0,54),t(in,3,0,56),t('Ipv4',23,0,59),t(',',7,0,64),t(in,3,0,66),t('Mac',23,0,69),t(',',7,0,73),t(in,3,0,75),t('Modelo',23,0,78),t(',',7,0,85),t(in,3,0,87),t('Nombreusuario',23,0,90),t(',',7,0,104),t(in,3,0,106),t('Nombredepartamento',23,0,109),t(')',4,0,128) ]).
+b_line_i(3,2,1,cmd,4,[ t('',117,3,0) ]).
+b_line_i(4,2,1,cmd,4,[ t('',107,4,0),t(4,2,4,0),t(=,10,4,0),t('Soporteid',23,4,0) ]).
+b_line_i(5,2,1,cmd,4,[ t('',107,5,0),t(5,2,4,0),t(=,10,4,0),t('Hostname',23,4,0) ]).
+b_line_i(6,2,1,cmd,4,[ t('',107,6,0),t(9,2,4,0),t(=,10,4,0),t('Serie',23,4,0) ]).
+b_line_i(7,2,1,cmd,4,[ t('',107,7,0),t(10,2,4,0),t(=,10,4,0),t('Ipv4',23,4,0) ]).
+b_line_i(8,2,1,cmd,4,[ t('',107,8,0),t(11,2,4,0),t(=,10,4,0),t('Mac',23,4,0) ]).
+b_line_i(9,2,1,cmd,4,[ t('',107,9,0),t(12,2,4,0),t(=,10,4,0),t('Modelo',23,4,0) ]).
+b_line_i(10,2,1,cmd,4,[ t('',107,10,0),t(13,2,4,0),t(=,10,4,0),t('Nombreusuario',23,4,0) ]).
+b_line_i(11,2,1,cmd,4,[ t('',107,11,0),t(14,2,4,0),t(=,10,4,0),t('Nombredepartamento',23,4,0) ]).
+b_line_i(12,2,1,cmd,4,[ t('',127,12,0) ]).
+b_line_i(13,1,4,cmd,10,[ t('',144,13,0) ]).
+b_line_i(14,1,4,cmd,10,[]).
+b_line_i(15,1,4,cmd,10,[]).
+b_line_i(16,1,4,cmd,10,[ t('',197,16,0),t('ListarSoporteID',3,16,6),t('(',0,10,21),t(out,3,10,22),t('Csdtsoporteid',23,10,26),t(')',4,10,40) ]).
+b_line_i(17,3,1,cmd,18,[ t('',121,17,0),t(table,3,17,11),t(2,3,17,11) ]).
+b_line_i(19,3,1,cmd,18,[ t('',107,19,0),t('Sdtsoporteid',23,18,0),t(=,10,18,0),t([ sdtSoporteID,[ t('(',0,19,22),t(')',4,19,23) ],n ],46,18,0) ]).
+b_line_i(20,3,1,cmd,18,[ t('',107,20,0),t([ t('Sdtsoporteid',23,18,0),t('Soporteid',3,18,0) ],29,18,0),t(=,10,18,0),t(4,2,18,0) ]).
+b_line_i(21,3,1,cmd,18,[ t('',107,21,0),t([ t('Csdtsoporteid',23,21,3),t('add(',1,21,18) ],31,21,3),t('Sdtsoporteid',23,18,23),t(')',4,18,36) ]).
+b_line_i(22,3,1,cmd,18,[ t('',128,22,0) ]).
+b_line_i(23,1,7,cmd,16,[ t('',144,23,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0030,[ 'Line ','4','. Attribute ',att(3,4),' should not be assigned in an insert group. It has the Autonumber property set to on.' ])).
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,96).
+ 
+att_prop_i(3,'Csdtsoporteid','ExternalName',sdtSoporteIDCollection,d).
+att_prop_i(3,'Csdtsoporteid','ExternalNamespace',test,d).
+att_prop_i(3,14,'ExternalName',nombreDepartamento,d).
+att_prop_i(3,14,'ExternalNamespace',test,d).
+att_prop_i(3,14,'EmptyAsNull','Yes',d).
+att_prop_i(3,14,idBasedOn,'',d).
+att_prop_i(3,14,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,14,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,14,'AttRegEx','',d).
+att_prop_i(3,14,'AttValidationFailedMsg','',d).
+att_prop_i(3,14,'DownloadOffline','0',d).
+att_prop_i(3,14,'VarServiceExtName','',d).
+att_prop_i(3,14,'FullName',nombreDepartamento,v).
+att_prop_i(3,13,'ExternalName',nombreUsuario,d).
+att_prop_i(3,13,'ExternalNamespace',test,d).
+att_prop_i(3,13,'EmptyAsNull','Yes',d).
+att_prop_i(3,13,idBasedOn,'',d).
+att_prop_i(3,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,13,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,13,'AttRegEx','',d).
+att_prop_i(3,13,'AttValidationFailedMsg','',d).
+att_prop_i(3,13,'DownloadOffline','0',d).
+att_prop_i(3,13,'VarServiceExtName','',d).
+att_prop_i(3,13,'FullName',nombreUsuario,v).
+att_prop_i(3,12,'ExternalName',modelo,d).
+att_prop_i(3,12,'ExternalNamespace',test,d).
+att_prop_i(3,12,'EmptyAsNull','Yes',d).
+att_prop_i(3,12,idBasedOn,'',d).
+att_prop_i(3,12,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,12,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,12,'AttRegEx','',d).
+att_prop_i(3,12,'AttValidationFailedMsg','',d).
+att_prop_i(3,12,'DownloadOffline','0',d).
+att_prop_i(3,12,'VarServiceExtName','',d).
+att_prop_i(3,12,'FullName',modelo,v).
+att_prop_i(3,11,'ExternalName',mac,d).
+att_prop_i(3,11,'ExternalNamespace',test,d).
+att_prop_i(3,11,'EmptyAsNull','Yes',d).
+att_prop_i(3,11,idBasedOn,'',d).
+att_prop_i(3,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,11,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,11,'AttRegEx','',d).
+att_prop_i(3,11,'AttValidationFailedMsg','',d).
+att_prop_i(3,11,'DownloadOffline','0',d).
+att_prop_i(3,11,'VarServiceExtName','',d).
+att_prop_i(3,11,'FullName',mac,v).
+att_prop_i(3,10,'ExternalName',ipv4,d).
+att_prop_i(3,10,'ExternalNamespace',test,d).
+att_prop_i(3,10,'EmptyAsNull','Yes',d).
+att_prop_i(3,10,idBasedOn,'',d).
+att_prop_i(3,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,10,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,10,'AttRegEx','',d).
+att_prop_i(3,10,'AttValidationFailedMsg','',d).
+att_prop_i(3,10,'DownloadOffline','0',d).
+att_prop_i(3,10,'VarServiceExtName','',d).
+att_prop_i(3,10,'FullName',ipv4,v).
+att_prop_i(3,9,'ExternalName',serie,d).
+att_prop_i(3,9,'ExternalNamespace',test,d).
+att_prop_i(3,9,'EmptyAsNull','Yes',d).
+att_prop_i(3,9,idBasedOn,'',d).
+att_prop_i(3,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,9,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,9,'AttRegEx','',d).
+att_prop_i(3,9,'AttValidationFailedMsg','',d).
+att_prop_i(3,9,'DownloadOffline','0',d).
+att_prop_i(3,9,'VarServiceExtName','',d).
+att_prop_i(3,9,'FullName',serie,v).
+att_prop_i(3,5,'ExternalName',hostName,d).
+att_prop_i(3,5,'ExternalNamespace',test,d).
+att_prop_i(3,5,'EmptyAsNull','Yes',d).
+att_prop_i(3,5,idBasedOn,'',d).
+att_prop_i(3,5,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,5,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(3,5,'AttRegEx','',d).
+att_prop_i(3,5,'AttValidationFailedMsg','',d).
+att_prop_i(3,5,'DownloadOffline','0',d).
+att_prop_i(3,5,'VarServiceExtName','',d).
+att_prop_i(3,5,'FullName',hostName,v).
+att_prop_i(3,4,'ExternalName',soporteID,d).
+att_prop_i(3,4,'ExternalNamespace',test,d).
+att_prop_i(3,4,'EmptyAsNull','Yes',d).
+att_prop_i(3,4,idBasedOn,94,v).
+att_prop_i(3,4,'AUTONUMBER','-1',d).
+att_prop_i(3,4,'AUTONUMBER_START','1',d).
+att_prop_i(3,4,'AUTONUMBER_STEP','1',d).
+att_prop_i(3,4,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(3,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(3,4,'AttRegEx','',d).
+att_prop_i(3,4,'AttValidationFailedMsg','',d).
+att_prop_i(3,4,'DownloadOffline','0',d).
+att_prop_i(3,4,'VarServiceExtName','',d).
+att_prop_i(3,4,'FullName',soporteID,v).
+ 
+ 
+tbl_att_prop_i(3,2,4,'AllowNulls',n).
+tbl_att_prop_i(3,2,4,'AUTONUMBER',y).
+tbl_att_prop_i(3,2,5,'AllowNulls',n).
+tbl_att_prop_i(3,2,9,'AllowNulls',n).
+tbl_att_prop_i(3,2,10,'AllowNulls',n).
+tbl_att_prop_i(3,2,11,'AllowNulls',n).
+tbl_att_prop_i(3,2,12,'AllowNulls',n).
+tbl_att_prop_i(3,2,13,'AllowNulls',n).
+tbl_att_prop_i(3,2,14,'AllowNulls',n).
+ 
+var_prop_i(3,'Hostname',idBasedOn,'',v).
+var_prop_i(3,'Ipv4',idBasedOn,'',v).
+var_prop_i(3,'Mac',idBasedOn,'',v).
+var_prop_i(3,'Modelo',idBasedOn,'',v).
+var_prop_i(3,'Nombredepartamento',idBasedOn,'',v).
+var_prop_i(3,'Nombreusuario',idBasedOn,'',v).
+var_prop_i(3,'Serie',idBasedOn,'',v).
+var_prop_i(3,'Soporteid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,101,0 ],name,sdtSoporteID).
+struct_dt_i([ 26,101,0 ],namespace,test).
+struct_dt_i([ 26,101,0 ],'ObjName',sdtSoporteID).
+struct_dt_i([ 26,101,0 ],'ObjDesc','sdt Soporte ID').
+struct_dt_i([ 26,101,0 ],'ExternalName',sdtSoporteID).
+struct_dt_i([ 26,101,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,101,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,101,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,101,0 ],fullname,sdtSoporteID).
+ 
+struct_dt_elem_i([ 26,101,0 ],1,name,'Soporteid').
+struct_dt_elem_i([ 26,101,0 ],1,camelname,'SoporteID').
+struct_dt_elem_i([ 26,101,0 ],1,basedon,94).
+struct_dt_elem_i([ 26,101,0 ],1,length,9).
+struct_dt_elem_i([ 26,101,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,101,0 ],1,sign,0).
+struct_dt_elem_i([ 26,101,0 ],1,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 26,101,0 ],1,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 26,101,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,101,0 ],1,'ExternalName','SoporteID').
+struct_dt_elem_i([ 26,101,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,101,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,101,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,101,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,101,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,101,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,101,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,101,0 ],1,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,96,'SOPORTEWS','SOAP','Secure').
+ 
+ 
+pgm_main_info_i(proc,96,'SOPORTEWS',[ 15,'ASOPORTEWS','Soporte WS','','','','SOAP' ]).
+ 
+pgm_sub_parm_i(proc,96,'SOPORTEWS','SaveDatos',[ [ int,9,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ],[ svchar,40,0,0 ] ],[ [ soporteID,in,[] ],[ hostName,in,[] ],[ serie,in,[] ],[ ipv4,in,[] ],[ mac,in,[] ],[ modelo,in,[] ],[ nombreUsuario,in,[] ],[ nombreDepartamento,in,[] ] ]).
+pgm_sub_parm_i(proc,96,'SOPORTEWS','ListarSoporteID',[ [ o(objectcollection(sdtSoporteID)),0,0,0 ] ],[ [ 'CsdtSoporteID',out,[ '-1' ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

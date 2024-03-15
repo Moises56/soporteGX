@@ -1,0 +1,37 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>K2BGetSearchResultFromData</ObjName>
+<ObjDesc>K2 BGet Search Result From Data</ObjDesc>
+<ObjPgmName>K2BGetSearchResultFromData</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Searchresultitem</VarId>
+<VarName>&amp;SearchResultItem</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Searchcriteria</VarId>
+<VarName>&amp;SearchCriteria</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>K2bsearchresult</VarId>
+<VarName>&amp;K2BSearchResult</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

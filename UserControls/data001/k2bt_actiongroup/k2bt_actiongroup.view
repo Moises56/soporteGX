@@ -1,0 +1,11 @@
+<div>
+	<div class="K2BT_ActionGroupHeader" tabindex="0">
+		<img src="{{gxTpr_HeaderImageURI}}{{HeaderImageURI}}" />
+		<span>{{gxTpr_HeaderCaption}}{{HeaderCaption}}</span>
+	</div>
+	<div>
+		<div class="K2BT_ActionGroupContents">
+			<div data-slot="Contents" data-parent="{{ContainerName}}"></div>
+		</div>
+	</div>
+</div>

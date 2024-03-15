@@ -1,0 +1,716 @@
+spec_i([ web,29,'K2 BTools Search Result Aries','K2BTools\DesignSystems\Aries\SearchResult',0,eng,'18_0_5-175581' ]).
+ 
+struct_i(2,1,[ 'Tabcode' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Searchcriteriain','Entityname' ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+lits_i('',5,10).
+ 
+cls_i([ 5,10 ],[ 5,9 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('K2BTools_IsLayout','0')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BTools.DesignSystems.Aries.SearchResult')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','K2BToolsSearchResultFlat')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'K2BT_MasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('Folder',o(8,'K2BTools\DesignSystems\Aries\Search'))).
+rule_i(0,prop('ObjDesc','K2 BTools Search Result Aries')).
+rule_i(0,prop('ObjName','SearchResult')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Searchcriteriain','Entityname' ],[])).
+rule_i(0,parmio([ [ 'Searchcriteriain',inout ],[ 'Entityname',inout ] ])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',13 ]).
+attri_i('GXV1',[ 'GXV1',o(objectcollection('SearchableTransactions.SearchableTransactionsItem')),0,0,'',0,'','',12 ]).
+attri_i('Tabs',[ 'Tabs',o(objectcollection('K2BTabOptions.K2BTabOptionsItem')),0,0,'',0,'Tabs','',11 ]).
+attri_i('Tabcode',[ 'TabCode',char,20,0,'',0,'Tab Code','',10 ]).
+attri_i('Tab',[ 'Tab',o('K2BTabOptions.K2BTabOptionsItem'),0,0,'',0,'Tab','',9 ]).
+attri_i('Searchabletransactionsitem',[ 'SearchableTransactionsItem',o('SearchableTransactions.SearchableTransactionsItem'),0,0,'',0,'Searchable Transactions Item','',8 ]).
+attri_i('Enabledentityname',[ 'EnabledEntityName',char,20,0,'',0,'Enabled Entity Name','',7 ]).
+attri_i('Searchcriteriain',[ 'SearchCriteriaIn',char,150,0,'',0,'Search Criteria In','',6 ]).
+attri_i('Entityname',[ 'EntityName',char,20,0,'',0,'Entity Name','',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,'GXV1',yes,udp,o(1,'K2BGetSearchableEntities'),[],27,'GXV1',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(3,107,'"INS"','Insert','"Insert"',[ none ]).
+enum_value_i(3,107,'"DLT"','Delete','"Delete"',[ none ]).
+enum_value_i(3,107,'"UPD"','Update','"Update"',[ none ]).
+enum_value_i(3,107,'"DSP"','Display','"Display"',[ none ]).
+ 
+enum_value_info_i(3,107,'K2BTrnMode').
+ 
+enum_type_i(3,107,char,3,0).
+ 
+dom_info_i(112,[ 'K2BSearchCriteria' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,12).
+b_group_i(2,3,lit,0,13,17).
+b_group_i(2,4,lit,0,18,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',109,2,0),t('null(',1,2,17),t('Entityname',23,1,5),t(')',4,1,26) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,3,0),t('Tabcode',23,1,0),t(=,10,1,0),t('"All"',3,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',110,4,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',107,5,0),t('Tabcode',23,1,0),t(=,10,1,0),t('Entityname',23,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',111,6,0) ]).
+b_line_i(8,2,2,cmd,1,[ t('',145,8,0),t('''LOADALLTABS''',3,8,5) ]).
+b_line_i(9,2,2,cmd,1,[ t('',107,9,0),t([ t('Tabbedview',3,1,0),t('Object',3,1,0) ],29,1,0),t(=,10,1,0),t('create(',1,1,0),t(o(13,'K2BTools\DesignSystems\Aries\TabbedViewForUniversalSearch'),28,1,0),t(',',7,1,0),t([ 107,'Display' ],44,1,0),t(',',7,1,0),t('Tabs',23,1,0),t(',',7,1,0),t('Tabcode',23,1,0),t(')',4,1,0) ]).
+b_line_i(10,2,2,cmd,1,[ t('',147,10,0) ]).
+b_line_i(12,2,2,cmd,1,[ t('',146,12,0),t('Refresh',3,12,7) ]).
+b_line_i(13,2,3,cmd,1,[ t('',107,13,0),t([ t('Ed_tb_title',3,1,0),t('Caption',3,1,0) ],29,1,0),t(=,10,1,0),t('format(',1,1,0),t('"Search results for ''%1''"',3,1,0),t(',',7,1,0),t('Searchcriteriain',23,1,0),t(')',4,1,0) ]).
+b_line_i(14,2,3,cmd,1,[ t('',147,14,0) ]).
+b_line_i(17,2,3,cmd,1,[ t('',143,17,0),t('''LOADALLTABS''',3,17,5) ]).
+b_line_i(19,2,4,cmd,1,[ t('',107,19,0),t('Tabs',23,1,0),t(=,10,1,0),t([ 'K2BTabOptions',[ t('(',0,19,13),t(')',4,19,14) ],n ],46,1,0) ]).
+b_line_i(20,2,4,cmd,1,[ t('',107,20,0),t('Tab',23,1,0),t(=,10,1,0),t([ 'K2BTabOptions.K2BTabOptionsItem',[ t('(',0,20,12),t(')',4,20,13) ],n ],46,1,0) ]).
+b_line_i(21,2,4,cmd,1,[ t('',107,21,0),t([ t('Tab',23,1,0),t('Code',3,1,0) ],29,1,0),t(=,10,1,0),t('"All"',3,1,0) ]).
+b_line_i(22,2,4,cmd,1,[ t('',107,22,0),t([ t('Tab',23,1,0),t('Description',3,1,0) ],29,1,0),t(=,10,1,0),t('"All"',3,1,0) ]).
+b_line_i(23,2,4,cmd,1,[ t('',107,23,0),t([ t('Tab',23,1,0),t('Webcomponent',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t(o(13,'K2BTools\DesignSystems\Aries\SearchResultEntityWC'),28,1,0),t(',',7,1,0),t('Searchcriteriain',23,1,0),t(',',7,1,0),t('""',3,1,0),t(')',4,1,0) ]).
+b_line_i(24,2,4,cmd,1,[ t('',107,24,0),t([ t('Tab',23,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t(o(13,'K2BTools\DesignSystems\Aries\SearchResult'),28,1,0),t(',',7,1,0),t('Searchcriteriain',23,1,0),t(',',7,1,0),t('""',3,1,0),t(')',4,1,0) ]).
+b_line_i(25,2,4,cmd,1,[ t('',107,25,0),t([ t('Tabs',23,25,2),t('add(',1,25,8) ],31,25,2),t('Tab',23,1,13),t(')',4,1,17) ]).
+b_line_i(27,2,4,cmd,1,[ t('',107,27,0),t('GXV2',23,1,0),t(=,10,1,0),t(1,3,1,0) ]).
+b_line_i([ 27,1 ],2,4,cmd,1,[ t('',107,27,0),t('GXV1',23,1,0),t(=,10,1,0),t('udp(',1,1,0),t('GXV1',3,1,0),t(27,3,1,0),t(')',4,1,0) ]).
+b_line_i([ 27,2 ],2,4,cmd,1,[ t('',114,27,0),t('GXV2',23,1,0),t(<=,10,1,0),t([ t('GXV1',23,27,0),t('Count',3,27,0) ],29,27,0) ]).
+b_line_i([ 27,3 ],2,4,cmd,1,[ t('',107,27,0),t('Searchabletransactionsitem',23,1,0),t(=,10,1,0),t([ t('GXV1',23,1,0),t('item(',1,1,0) ],31,1,0),t('GXV2',23,1,0),t(')',4,1,0) ]).
+b_line_i(28,2,4,cmd,2,[ t('',107,28,0),t('Tab',23,2,0),t(=,10,2,0),t([ 'K2BTabOptions.K2BTabOptionsItem',[ t('(',0,28,13),t(')',4,28,14) ],n ],46,2,0) ]).
+b_line_i(29,2,4,cmd,2,[ t('',107,29,0),t([ t('Tab',23,2,0),t('Code',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Searchabletransactionsitem',23,2,0),t('Searchtype',3,2,0) ],29,2,0) ]).
+b_line_i(30,2,4,cmd,2,[ t('',107,30,0),t([ t('Tab',23,2,0),t('Description',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Searchabletransactionsitem',23,2,0),t('Transactiondescription',3,2,0) ],29,2,0) ]).
+b_line_i(31,2,4,cmd,2,[ t('',107,31,0),t([ t('Tab',23,2,0),t('Webcomponent',3,2,0) ],29,2,0),t(=,10,2,0),t('link(',1,2,0),t(o(13,'K2BTools\DesignSystems\Aries\SearchResultEntityWC'),28,2,0),t(',',7,2,0),t('Searchcriteriain',23,2,0),t(',',7,2,0),t([ t('Searchabletransactionsitem',23,2,0),t('Searchtype',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(32,2,4,cmd,2,[ t('',107,32,0),t([ t('Tab',23,2,0),t('Link',3,2,0) ],29,2,0),t(=,10,2,0),t('link(',1,2,0),t(o(13,'K2BTools\DesignSystems\Aries\SearchResult'),28,2,0),t(',',7,2,0),t('Searchcriteriain',23,2,0),t(',',7,2,0),t([ t('Searchabletransactionsitem',23,2,0),t('Searchtype',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(33,2,4,cmd,2,[ t('',107,33,0),t([ t('Tabs',23,33,3),t('add(',1,33,9) ],31,33,3),t('Tab',23,2,14),t(')',4,2,18) ]).
+b_line_i([ 34,1 ],2,4,cmd,2,[ t('',107,34,0),t('GXV2',23,2,0),t(=,10,2,0),t('GXV2',23,2,0),t(+,5,2,0),t(1,3,2,0) ]).
+b_line_i([ 34,2 ],2,4,cmd,2,[ t('',115,34,0) ]).
+b_line_i(35,2,4,cmd,3,[ t('',144,35,0) ]).
+b_line_i(1000,2,4,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,4,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,4,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,t('',3))).
+html_sub_i(3,8,html_i(1,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,comp(errview))).
+html_sub_i(3,11,html_i(2,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,comp(webcomp))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(7,'ControlType','').
+html_tags_i(16,'Object','').
+ 
+html_comp_i(10,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class',table,v,[ str ]).
+html_comp_i(3,'Id','Maintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','K2BToolsTable_TitleContainer',v,[ str ]).
+html_comp_i(6,'Id','Titlecontainersection',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',h1,v,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Caption','',d,[ str ]).
+html_comp_i(7,'Id','Ed_tb_title',v,[ str ]).
+html_comp_i(7,'Class','TextBlock_Title',v,[ str ]).
+html_comp_i(7,'Event','',d,[ str ]).
+html_comp_i(7,'Returnonclick',0,d,[ bool ]).
+html_comp_i(7,'Gxformat',0,d,[ num ]).
+html_comp_i(7,'Title','',d,[ str ]).
+html_comp_i(7,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(7,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(7,'Font','',d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class',row,v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','col-xs-12',v,[ str ]).
+html_comp_i(9,'Id','',d,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Controlname','Errorviewer1',v,[ str ]).
+html_comp_i(10,'Class','ErrorViewer',v,[ str ]).
+html_comp_i(10,'Displaymode',1,d,[ num ]).
+html_comp_i(10,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class',row,v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','col-xs-12',v,[ str ]).
+html_comp_i(12,'Id','',d,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class','K2BToolsTable_EntityManagerContent',v,[ str ]).
+html_comp_i(13,'Id','Table1',v,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class',row,v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','col-xs-12',v,[ str ]).
+html_comp_i(15,'Id','',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Controlname','Tabbedview',v,[ str ]).
+html_comp_i(16,'Params',[],v,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(7,1,t('',3),[ ctlname('Ed_tb_title') ]).
+lit_i(6,1,div(6),[ ctlname('Titlecontainersection') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(10,1,comp(errview),[ ctlname('Errorviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(9,1,div(9),[ ctlname('') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(16,1,comp(webcomp),[ ctlname('Tabbedview'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(15,1,div(15),[ ctlname('') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('Table1') ]).
+lit_i(12,1,div(12),[ ctlname('') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Maintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(3,'Searchcriteriain',idBasedOn,112,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,73,0 ],name,'SearchableTransactions').
+struct_dt_i([ 26,73,0 ],namespace,test).
+struct_dt_i([ 26,73,0 ],'ObjName','SearchableTransactions').
+struct_dt_i([ 26,73,0 ],'ObjDesc','Searchable Transactions').
+struct_dt_i([ 26,73,0 ],'ExternalName','SearchableTransactions').
+struct_dt_i([ 26,73,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,73,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,73,0 ],collection,'True').
+struct_dt_i([ 26,73,0 ],datatype,[ 26,73,104 ]).
+struct_dt_i([ 26,73,0 ],'CollectionItemName','SearchableTransactionsItem').
+struct_dt_i([ 26,73,0 ],'XmlName','').
+struct_dt_i([ 26,73,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,73,0 ],'XmlNamespace','').
+struct_dt_i([ 26,73,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,73,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,73,0 ],'JsonName','').
+struct_dt_i([ 26,73,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,73,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,73,104 ],name,'SearchableTransactionsItem').
+struct_dt_i([ 26,73,104 ],namespace,'test.SearchableTransactions').
+struct_dt_i([ 26,67,0 ],name,'K2BTabOptions').
+struct_dt_i([ 26,67,0 ],namespace,test).
+struct_dt_i([ 26,67,0 ],'ObjName','K2BTabOptions').
+struct_dt_i([ 26,67,0 ],'ObjDesc','K2B Tab Option').
+struct_dt_i([ 26,67,0 ],'ExternalName','K2BTabOptions').
+struct_dt_i([ 26,67,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,67,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,67,0 ],collection,'True').
+struct_dt_i([ 26,67,0 ],datatype,[ 26,67,98 ]).
+struct_dt_i([ 26,67,0 ],'CollectionItemName','K2BTabOptionsItem').
+struct_dt_i([ 26,67,0 ],'XmlName','').
+struct_dt_i([ 26,67,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,67,0 ],'XmlNamespace','').
+struct_dt_i([ 26,67,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,67,0 ],'JsonName','').
+struct_dt_i([ 26,67,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,67,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,98 ],name,'K2BTabOptionsItem').
+struct_dt_i([ 26,67,98 ],namespace,'test.K2BTabOptions').
+struct_dt_i([ 26,73,0 ],fullname,'SearchableTransactions').
+struct_dt_i([ 26,73,104 ],fullname,'SearchableTransactions.SearchableTransactionsItem').
+struct_dt_i([ 26,67,0 ],fullname,'K2BTabOptions').
+struct_dt_i([ 26,67,98 ],fullname,'K2BTabOptions.K2BTabOptionsItem').
+ 
+struct_dt_elem_i([ 26,73,104 ],1,name,'Transactiondescription').
+struct_dt_elem_i([ 26,73,104 ],1,camelname,'TransactionDescription').
+struct_dt_elem_i([ 26,73,104 ],1,basedon,110).
+struct_dt_elem_i([ 26,73,104 ],1,length,50).
+struct_dt_elem_i([ 26,73,104 ],1,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,73,104 ],1,pic,'').
+struct_dt_elem_i([ 26,73,104 ],1,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],1,'ExternalName','TransactionDescription').
+struct_dt_elem_i([ 26,73,104 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],1,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],1,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],1,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,73,104 ],2,name,'Entityname').
+struct_dt_elem_i([ 26,73,104 ],2,camelname,'EntityName').
+struct_dt_elem_i([ 26,73,104 ],2,basedon,51).
+struct_dt_elem_i([ 26,73,104 ],2,length,256).
+struct_dt_elem_i([ 26,73,104 ],2,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,73,104 ],2,pic,'').
+struct_dt_elem_i([ 26,73,104 ],2,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],2,'ExternalName','EntityName').
+struct_dt_elem_i([ 26,73,104 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],2,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],2,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],2,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,73,104 ],3,name,'Transactionname').
+struct_dt_elem_i([ 26,73,104 ],3,camelname,'TransactionName').
+struct_dt_elem_i([ 26,73,104 ],3,basedon,51).
+struct_dt_elem_i([ 26,73,104 ],3,length,256).
+struct_dt_elem_i([ 26,73,104 ],3,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,73,104 ],3,pic,'').
+struct_dt_elem_i([ 26,73,104 ],3,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],3,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,73,104 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],3,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],3,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],3,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,73,104 ],4,name,'Searchtype').
+struct_dt_elem_i([ 26,73,104 ],4,camelname,'SearchType').
+struct_dt_elem_i([ 26,73,104 ],4,basedon,51).
+struct_dt_elem_i([ 26,73,104 ],4,length,256).
+struct_dt_elem_i([ 26,73,104 ],4,decimals,0).
+struct_dt_elem_i([ 26,73,104 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,73,104 ],4,pic,'').
+struct_dt_elem_i([ 26,73,104 ],4,collection,'False').
+struct_dt_elem_i([ 26,73,104 ],4,'ExternalName','SearchType').
+struct_dt_elem_i([ 26,73,104 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,73,104 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,73,104 ],4,'XmlName','').
+struct_dt_elem_i([ 26,73,104 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,73,104 ],4,soaptype,'').
+struct_dt_elem_i([ 26,73,104 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,73,104 ],4,'JsonName','').
+struct_dt_elem_i([ 26,73,104 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],1,name,'Code').
+struct_dt_elem_i([ 26,67,98 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,67,98 ],1,length,50).
+struct_dt_elem_i([ 26,67,98 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,67,98 ],1,pic,'').
+struct_dt_elem_i([ 26,67,98 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,67,98 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],2,name,'Description').
+struct_dt_elem_i([ 26,67,98 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,67,98 ],2,length,50).
+struct_dt_elem_i([ 26,67,98 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],2,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,67,98 ],2,pic,'').
+struct_dt_elem_i([ 26,67,98 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],2,'ExternalName','Description').
+struct_dt_elem_i([ 26,67,98 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],3,name,'Webcomponent').
+struct_dt_elem_i([ 26,67,98 ],3,camelname,'WebComponent').
+struct_dt_elem_i([ 26,67,98 ],3,length,50).
+struct_dt_elem_i([ 26,67,98 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],3,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,67,98 ],3,pic,'').
+struct_dt_elem_i([ 26,67,98 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],3,'ExternalName','WebComponent').
+struct_dt_elem_i([ 26,67,98 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],4,name,'Link').
+struct_dt_elem_i([ 26,67,98 ],4,camelname,'Link').
+struct_dt_elem_i([ 26,67,98 ],4,basedon,8).
+struct_dt_elem_i([ 26,67,98 ],4,length,1000).
+struct_dt_elem_i([ 26,67,98 ],4,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,67,98 ],4,pic,'').
+struct_dt_elem_i([ 26,67,98 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],4,'ExternalName','Link').
+struct_dt_elem_i([ 26,67,98 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],5,name,'Componenttype').
+struct_dt_elem_i([ 26,67,98 ],5,camelname,'ComponentType').
+struct_dt_elem_i([ 26,67,98 ],5,basedon,101).
+struct_dt_elem_i([ 26,67,98 ],5,length,1).
+struct_dt_elem_i([ 26,67,98 ],5,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],5,sign,0).
+struct_dt_elem_i([ 26,67,98 ],5,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,67,98 ],5,pic,'9').
+struct_dt_elem_i([ 26,67,98 ],5,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],5,'ExternalName','ComponentType').
+struct_dt_elem_i([ 26,67,98 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],5,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],5,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],5,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,98 ],6,name,'Relatedtransaction').
+struct_dt_elem_i([ 26,67,98 ],6,camelname,'RelatedTransaction').
+struct_dt_elem_i([ 26,67,98 ],6,basedon,51).
+struct_dt_elem_i([ 26,67,98 ],6,length,256).
+struct_dt_elem_i([ 26,67,98 ],6,decimals,0).
+struct_dt_elem_i([ 26,67,98 ],6,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,67,98 ],6,pic,'').
+struct_dt_elem_i([ 26,67,98 ],6,collection,'False').
+struct_dt_elem_i([ 26,67,98 ],6,'ExternalName','RelatedTransaction').
+struct_dt_elem_i([ 26,67,98 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,67,98 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,67,98 ],6,'XmlName','').
+struct_dt_elem_i([ 26,67,98 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,98 ],6,soaptype,'').
+struct_dt_elem_i([ 26,67,98 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,98 ],6,'JsonName','').
+struct_dt_elem_i([ 26,67,98 ],6,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+security_permission_i(k2btoolssearchresultflat_Execute,execute,'').
+ 
+ 
+sub_info_i(146,'Start',1,10,[ [ 'Entityname','Tabs','Searchcriteriain' ],[ [ t('Tabbedview',3),t('Object',3) ],'Tabs' ] ]).
+sub_info_i(146,'Refresh',12,14,[ [ 'Searchcriteriain' ],[ [ t('Ed_tb_title',3),t('Caption',3) ] ] ]).
+ 
+pgm_parm_i(proc,29,'K2BGETSEARCHABLEENTITIES',[ [ o(objectcollection('SearchableTransactions.SearchableTransactionsItem')),0,0,0 ] ],[ [ 'SearchableTransactions',out,[] ] ]).
+pgm_parm_i(web,29,'K2BTOOLS\DESIGNSYSTEMS\ARIES\SEARCHRESULT',[ [ char,150,0,0 ],[ char,20,0,0 ] ],[ [ 'SearchCriteriaIn',inout,[] ],[ 'EntityName',inout,[] ] ]).
+pgm_parm_i(web,39,'K2BTOOLS\DESIGNSYSTEMS\ARIES\SEARCHRESULTENTITYWC',[ [ char,150,0,0 ],[ char,20,0,0 ] ],[ [ 'SearchCriteriaIn',in,[] ],[ 'EntityName',in,[] ] ]).
+pgm_parm_i(web,38,'K2BTOOLS\DESIGNSYSTEMS\ARIES\TABBEDVIEWFORUNIVERSALSEARCH',[ [ char,3,0,0 ],[ o(objectcollection('K2BTabOptions.K2BTabOptionsItem')),0,0,0 ],[ char,50,0,0 ] ],[ [ 'Mode',in,[] ],[ 'Tabs',in,[] ],[ 'TabCode',in,[] ] ]).
+ 
+pgm_callprotocol_i(web,29,'K2BTOOLS\DESIGNSYSTEMS\ARIES\SEARCHRESULT','INTERNAL','Secure').
+pgm_callprotocol_i(proc,29,'K2BGETSEARCHABLEENTITIES','INTERNAL','Secure').
+pgm_callprotocol_i(web,29,'K2BTOOLS\DESIGNSYSTEMS\ARIES\SEARCHRESULT','INTERNAL','Secure').
+pgm_callprotocol_i(web,39,'K2BTOOLS\DESIGNSYSTEMS\ARIES\SEARCHRESULTENTITYWC','INTERNAL','Secure').
+pgm_callprotocol_i(web,38,'K2BTOOLS\DESIGNSYSTEMS\ARIES\TABBEDVIEWFORUNIVERSALSEARCH','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

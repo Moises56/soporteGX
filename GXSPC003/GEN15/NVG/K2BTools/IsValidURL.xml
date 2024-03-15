@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>43</ObjId>
+<ObjName>K2BTools.IsValidURL</ObjName>
+<ObjDesc>Is Valid URL</ObjDesc>
+<ObjPgmName>K2BTools.IsValidURL</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Url</VarId>
+<VarName>&amp;URL</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Isvalidurl</VarId>
+<VarName>&amp;IsValidURL</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

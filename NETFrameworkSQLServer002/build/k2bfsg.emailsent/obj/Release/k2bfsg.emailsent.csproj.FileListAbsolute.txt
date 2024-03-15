@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.emailsent.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.emailsent\obj\Release\k2bfsg.emailsent.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.emailsent\obj\Release\k2bfsg.emailsent.dll

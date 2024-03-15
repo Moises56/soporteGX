@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.wwrole.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwrole\obj\Release\k2bfsg.wwrole.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwrole\obj\Release\k2bfsg.wwrole.dll

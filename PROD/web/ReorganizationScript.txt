@@ -1,0 +1,4 @@
+CREATE TABLE [soporte] ([soporteID] int NOT NULL IDENTITY(1,1), [hostName] nvarchar(40) NOT NULL , [serie] nvarchar(40) NOT NULL , [ipv4] nvarchar(40) NOT NULL , [mac] nvarchar(40) NOT NULL , [modelo] nvarchar(40) NOT NULL , [nombreUsuario] nvarchar(40) NOT NULL , [nombreDepartamento] nvarchar(40) NOT NULL , PRIMARY KEY([soporteID]));
+
+CREATE TABLE [products] ([productsId] smallint NOT NULL , [productsNombre] nvarchar(40) NOT NULL , [productsPrecio] smallint NOT NULL , PRIMARY KEY([productsId]));
+

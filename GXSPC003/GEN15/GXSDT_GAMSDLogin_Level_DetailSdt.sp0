@@ -1,0 +1,48 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'GAMSDLogin_Level_DetailSdt','GAMSDLogin_Level_DetailSdt',0,eng,'18_0_5-175581' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'GAMSDLogin_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'GAMSDLogin_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'GAMSDLogin_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Username').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Username').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 13,100,60 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,100).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,60).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Password').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Password').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,50).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurity','AssemblyName','GeneXusSecurity.dll').
+module_info_i('GeneXus\Common\UI','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common\UI','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus\SD','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\SD','AssemblyName','GeneXus.dll').
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="4ba8688e-0c78-46f8-ac91-5ff117d70e71" name="K2BT_ImageRegionSelectorTheaterSample" description="K2 BT_Image Region Selector Theater Sample" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out">
+      <Field name="K2BT_ImageRegionsDefinition" description="K2 BT_Image Regions Definition">
+        <Fields>
+          <Field name="Regions" description="Regions" collection="true">
+            <Fields>
+              <Field name="id" description="id">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="name" description="name">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="tooltipLines" description="tooltip Lines" collection="true">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="top" description="top">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="left" description="left">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="height" description="height">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="width" description="width">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="class" description="class">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="availableImageURL" description="available Image URL">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>VarChar</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>1000</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="unavailableImageURL" description="unavailable Image URL">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>VarChar</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>1000</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="selectedImageURL" description="selected Image URL">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>VarChar</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>1000</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="status" description="status">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="selectableRegionCoordinates" description="selectable Region Coordinates">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>1000</Value>
+                  </Property>
+                </Properties>
+              </Field>
+            </Fields>
+          </Field>
+          <Field name="Frame" description="Frame">
+            <Fields>
+              <Field name="class" description="class">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="backgroundImageURL" description="background Image URL">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>VarChar</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>1000</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="width" description="width">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+              <Field name="height" description="height">
+                <Properties>
+                  <Property>
+                    <Name>Type</Name>
+                    <Value>Character</Value>
+                  </Property>
+                  <Property>
+                    <Name>Length</Name>
+                    <Value>20</Value>
+                  </Property>
+                </Properties>
+              </Field>
+            </Fields>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

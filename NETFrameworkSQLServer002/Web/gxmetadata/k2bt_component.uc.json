@@ -1,0 +1,96 @@
+{
+	"Name": "K2BT_Component",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<div class=\"K2BToolsTable_ComponentContainer\">	<div class=\"K2BT_ComponentTitleContainer\">		<img class=\"K2BT_ComponentTitleIcon\" src=\"{{Icon}}\"/>		<div class=\"{{TitleClass}}\"><span>{{Title}}</span></div>		<div class=\"K2BT_CollapsibleCardButton\"><span></span></div>	</div>	<div class=\"K2BT_ComponentContent\">		<slot name=\"Content\" />	</div></div>", 
+	"Events": [
+		{
+			"Name": "OnOpen",
+			"On": "open",
+			"Parameters": ""
+		} ,
+		{
+			"Name": "OnCollapse",
+			"On": "collapse",
+			"Parameters": ""
+		} 
+	],
+	"Properties": [
+		{
+			"Id": "Icon",
+			"Name": "Icon",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "Title",
+			"Name": "Title",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "TitleClass",
+			"Name": "TitleClass",
+			"Type": "string",
+			"Default": "TextBlock_Subtitle"
+		} ,
+		{
+			"Id": "Collapsible",
+			"Name": "Collapsible",
+			"Type": "boolean",
+			"Default": "false"
+		} ,
+		{
+			"Id": "Open",
+			"Name": "Open",
+			"Type": "boolean",
+			"Default": ""
+		} ,
+		{
+			"Id": "ShowBorders",
+			"Name": "ShowBorders",
+			"Type": "boolean",
+			"Default": "true"
+		} ,
+		{
+			"Id": "ContainsEditableForm",
+			"Name": "ContainsEditableForm",
+			"Type": "boolean",
+			"Default": "false"
+		} 
+	],
+	"Methods": {
+		"Public": [
+			{
+				"Name": "SetIsOpen",
+				"Source": "		this.Open = isOpen;		if(this.Open == false || this.Open == \"false\")			this.container.addClass(\"K2BT_CollapsedCard\");		else			this.container.removeClass(\"K2BT_CollapsedCard\");	",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "isOpen",
+						"Type": "isOpen"
+					} 
+				]
+			} 
+		],
+		"Private": [
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "ButtonHandlers",
+				"Source": "		var uc = this;		uc.container = $(this.getContainerControl()).children(\".K2BToolsTable_ComponentContainer\");		var header = $(uc.container).children(\".K2BT_ComponentTitleContainer\");				if(!uc.ShowBorders)			uc.container.removeClass(\"K2BToolsTable_ComponentContainer\");				if(uc.Open == false || uc.Open == \"false\")			uc.container.addClass(\"K2BT_CollapsedCard\");					if(uc.Icon == undefined || uc.Icon == \"\")			header.children(\".K2BT_ComponentTitleIcon\").hide();			if(uc.Title != null && uc.Title != undefined && uc.Title != \"\"){			if(uc.Collapsible){				uc.container.addClass(\"K2BT_CollapsibleCard\");				header.on(\"click\", function(){								if(uc.container.hasClass(\"K2BT_CollapsedCard\")){						uc.container.removeClass(\"K2BT_CollapsedCard\");						uc.Open = true;						if(uc.OnOpen){							uc.OnOpen();						}					}else{						uc.container.addClass(\"K2BT_CollapsedCard\");						uc.Open = false;						if(uc.OnCollapse){							uc.OnCollapse();						}					}				});			}		}else{			header.hide();		}			if(uc.ContainsEditableForm){			uc.container.addClass(\"K2BT_EditableForm\");		}	",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

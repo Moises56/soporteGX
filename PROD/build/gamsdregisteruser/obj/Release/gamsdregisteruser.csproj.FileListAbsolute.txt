@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\gamsdregisteruser.dll
+C:\KBs\test\PROD\build\gamsdregisteruser\obj\Release\gamsdregisteruser.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\gamsdregisteruser\obj\Release\gamsdregisteruser.dll

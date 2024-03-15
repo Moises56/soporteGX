@@ -1,0 +1,38 @@
+import { EventEmitter } from '../../stencil-public-runtime';
+export declare class K2btNumericInput {
+  private static readonly digits;
+  decimals: number;
+  integerdigits: number;
+  includethousandseparator: boolean;
+  includesign: boolean;
+  usermustenterdecimalseparator: boolean;
+  decimalseparator: string;
+  thousandseparator: string;
+  valueprefix: string;
+  zeropadding: boolean;
+  inputclass: string;
+  readonlyclass: string;
+  inputControl: HTMLInputElement;
+  editorPosition: number;
+  value: string;
+  enabled: boolean;
+  inputEvent: EventEmitter<object>;
+  changeEvent: EventEmitter<object>;
+  changeTimeout: any;
+  onInput(): void;
+  handleKeydown(event: any): boolean;
+  private processMinusSign;
+  private processDecimalSeparator;
+  private processDigitInsertion;
+  private processDelete;
+  escapeRegExp(string: any): any;
+  replaceAll(str: any, find: any, replace: any): any;
+  onInputChange(): void;
+  private setCursorPosition;
+  private getCursorPosition;
+  getFormattedValue(): string;
+  private getFormattedValue_impl;
+  render(): any;
+  componentDidRender(): void;
+  componentDidUpdate(): void;
+}

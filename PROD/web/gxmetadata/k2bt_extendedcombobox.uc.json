@@ -1,0 +1,151 @@
+{
+	"Name": "K2BT_ExtendedCombobox",
+	"Target": "",
+	"IsControlType": true,
+	"Template": "<k2bt-enhancedcombo {{DataElement}} {{CreateItem}}	includesearch={{IncludeSearch}} 	enableadditem={{EnableAddItem}} 	includeemptyitem={{IncludeEmptyItem}} 	emptyitemtext=\"{{EmptyItemText}}\"	noresultsfoundtext=\"{{NoResultsFoundText}} \"	searchfieldplaceholder=\"{{SearchFieldPlaceHolder}}\"	additemcaption=\"{{AddItemCaption}}\" />", 
+	"Events": [
+		{
+			"Name": "CreateItem",
+			"On": "newRecordClicked",
+			"Parameters": ""
+		} ,
+		{
+			"Name": "ComboboxValueChanged",
+			"On": "comboboxvaluechanged",
+			"Parameters": ""
+		} 
+	],
+	"Properties": [
+		{
+			"Id": "Class",
+			"Name": "Class",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "IncludeSearch",
+			"Name": "IncludeSearch",
+			"Type": "class",
+			"Default": ""
+		} ,
+		{
+			"Id": "IncludeSearch",
+			"Name": "IncludeSearch",
+			"Type": "boolean",
+			"Default": ""
+		} ,
+		{
+			"Id": "EnableAddItem",
+			"Name": "EnableAddItem",
+			"Type": "boolean",
+			"Default": ""
+		} ,
+		{
+			"Id": "IncludeEmptyItem",
+			"Name": "IncludeEmptyItem",
+			"Type": "boolean",
+			"Default": ""
+		} ,
+		{
+			"Id": "EmptyItemText",
+			"Name": "EmptyItemText",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "NoResultsFoundText",
+			"Name": "NoResultsFoundText",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "SearchFieldPlaceHolder",
+			"Name": "SearchFieldPlaceHolder",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "AddItemCaption",
+			"Name": "AddItemCaption",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "AttID",
+			"Name": "Attribute",
+			"Type": "numeric,character,varchar,longvarchar,guid",
+			"Default": ""
+		} 
+	],
+	"Methods": {
+		"Public": [
+			{
+				"Name": "SetValues",
+				"Source": "    this.Values = v;    if (this.control != null) this.control[0].values = this.Values;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "v",
+						"Type": "v"
+					} 
+				]
+			} ,
+			{
+				"Name": "SetValue",
+				"Source": "    this.setAttribute(v);	if (this.control != null) this.control[0].value = v;    if (this.ComboboxValueChanged) {      this.ComboboxValueChanged();    }  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "v",
+						"Type": "v"
+					} 
+				]
+			} 
+		],
+		"Private": [
+			{
+				"Name": "_resolveValue",
+				"Source": "  	return provided == undefined || provided == \'\' || provided == null ? defaultValue : provided;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "provided",
+						"Type": "provided"
+					} ,
+					 {
+						"Name": "defaultValue",
+						"Type": "defaultValue"
+					} 
+				]
+			} ,
+			{
+				"Name": "_getTranslatedMessage",
+				"Source": "  	if (msg.indexOf(\'GX\') == 0 || msg.indexOf(\'K2B\') == 0) {      var translated = gx.msg[msg];      if (translated !== undefined) {        return translated;      }    }    return msg;  ",
+				"Return": "",
+				"Parameters": [
+					 {
+						"Name": "msg",
+						"Type": "msg"
+					} 
+				]
+			} 
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "ButtonHandlers",
+				"Source": "  	var uc = this;		var container = this.getContainerControl();	this.control = $(container).find(\"k2bt-enhancedcombo\");	this.control[0].enabled = this.Enabled;      this.control[0].readonlyclass = this.Class.split(\' \')        .map(s => \'Readonly\' + s)        .join(\' \');	this.control[0].emptyitemtext = this._getTranslatedMessage(this._resolveValue(this.EmptyItemText, \'GX_EmptyItemText\'));	this.control[0].noresultsfoundtext = this._getTranslatedMessage(this._resolveValue(this.NoResultsFoundText, \'K2BT_NoItems\'));	this.control[0].searchfieldplaceholder = this._getTranslatedMessage(this._resolveValue(this.SearchFieldPlaceholder, \'K2BT_Search\'));	this.control[0].additemcaption = this._getTranslatedMessage(this._resolveValue(this.AddItemCaption, \'K2BT_EnhancedComboAddItemCaption\'));		this.control.on(\'change\', function (event) {		uc.setAttribute(event.originalEvent.detail);		if (uc.ComboboxValueChanged) {			uc.ComboboxValueChanged();		}	});  ",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

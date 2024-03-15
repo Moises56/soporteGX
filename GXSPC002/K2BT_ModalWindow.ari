@@ -1,0 +1,15 @@
+usercontrol_directory_i('k2bt_modalwindow', ['UserControls']).
+usercontrol_i('k2bt_modalwindow', ['K2BT_ModalWindow','K2bt_modalwindow']).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'Class', 'Class', 'Class', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'Enabled', 'Enabled', 'Enabled', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'UserControlType', 'Usercontroltype', 'Usercontroltype', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'ConstructorName', 'Constructorname', 'Constructorname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'ShowMethodName', 'Showmethodname', 'Showmethodname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'ControlName', 'Controlname', 'Controlname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'ModalTitle', 'Modaltitle', 'Modaltitle', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'Visible', 'Visible', 'Visible', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'CssSupportFiles', 'Csssupportfiles', 'Csssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'JsSupportFiles', 'Jssupportfiles', 'Jssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'CssSharedSupportFiles', 'Csssharedsupportfiles', 'Csssharedsupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_modalwindow', 'JsSharedSupportFiles', 'Jssharedsupportfiles', 'Jssharedsupportfiles', [char,1024,0,0], 1, any).
+usercontrol_event_mapping_i('k2bt_modalwindow', 'Onclose', 'OnClose').

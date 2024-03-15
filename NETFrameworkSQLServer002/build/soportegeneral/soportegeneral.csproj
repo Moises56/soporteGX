@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>soportegeneral</AssemblyName>
+		<ProjectGuid>{832b2b14-7c3b-4136-a219-8910c24ae766}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivitylist.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\getgampermissionnameforactivity.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgettrncontextbyname.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsessionget.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsessionset.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsettrncontextbyname.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetcallerurl.cs" />
+		<Compile Include = "$(WebDirectory)\soportegeneral.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

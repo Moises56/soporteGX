@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "importpreviewlayout_Execute",
+    "Description": "Import Preview Layout",
+    "ProgramName": "k2btools.designsystems.aries.importpreviewlayout",
+    "IsGXAutomatic": true
+  }
+]

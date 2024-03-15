@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2btools.designsystems.aries.viewallnotifications.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2btools.designsystems.aries.viewallnotifications\obj\Release\k2btools.designsystems.aries.viewallnotifications.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2btools.designsystems.aries.viewallnotifications\obj\Release\k2btools.designsystems.aries.viewallnotifications.dll

@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.repositoryconfiguration.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.repositoryconfiguration\obj\Release\k2bfsg.repositoryconfiguration.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.repositoryconfiguration\obj\Release\k2bfsg.repositoryconfiguration.dll

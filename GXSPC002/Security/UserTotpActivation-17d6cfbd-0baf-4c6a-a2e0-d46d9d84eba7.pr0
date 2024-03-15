@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bsecurity_Execute",
+    "Description": "User Totp Activation",
+    "ProgramName": "k2bfsg.usertotpactivation",
+    "IsGXAutomatic": true
+  }
+]

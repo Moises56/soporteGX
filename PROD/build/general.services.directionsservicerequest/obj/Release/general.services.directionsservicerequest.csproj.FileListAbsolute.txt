@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\general.services.directionsservicerequest.dll
+C:\KBs\test\PROD\build\general.services.directionsservicerequest\obj\Release\general.services.directionsservicerequest.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\general.services.directionsservicerequest\obj\Release\general.services.directionsservicerequest.dll

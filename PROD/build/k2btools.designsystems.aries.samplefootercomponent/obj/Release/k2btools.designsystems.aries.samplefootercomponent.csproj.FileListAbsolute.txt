@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2btools.designsystems.aries.samplefootercomponent.dll
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.samplefootercomponent\obj\Release\k2btools.designsystems.aries.samplefootercomponent.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.samplefootercomponent\obj\Release\k2btools.designsystems.aries.samplefootercomponent.dll

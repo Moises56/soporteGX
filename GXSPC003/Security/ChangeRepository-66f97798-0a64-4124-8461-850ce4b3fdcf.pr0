@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "changerepository_Execute",
+    "Description": "Change Repository",
+    "ProgramName": "k2bfsg.changerepository",
+    "IsGXAutomatic": true
+  }
+]

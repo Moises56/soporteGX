@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Object id="K2BT_ConfirmDialog">
+		<Group>
+			<Name>General</Name>
+			<Type>Main</Type>
+			<Children>
+				<Prop>
+					<Id>ConfirmMessage</Id>
+					<Name>ConfirmMessage</Name>
+					<Type>Text</Type>
+					<Default>K2BT_AreYouSure</Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>OKCaption</Id>
+					<Name>OKCaption</Name>
+					<Type>Text</Type>
+					<Default>K2BT_ConfirmOk</Default>
+					<Values></Values>
+				</Prop>
+				<Prop>
+					<Id>CancelCaption</Id>
+					<Name>CancelCaption</Name>
+					<Type>Text</Type>
+					<Default>K2BT_ConfirmCancel</Default>
+					<Values></Values>
+				</Prop>
+			</Children>
+		</Group>
+	</Object>
+</Content>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>developermenu</AssemblyName>
+		<ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\soporte\soporte.csproj" />
+		<ProjectReference Include=".\..\products\products.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.roleadduser\k2bfsg.roleadduser.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.addpermissionchildren\k2bfsg.addpermissionchildren.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryrepository\k2bfsg.entryrepository.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.remotelogin\k2bfsg.remotelogin.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.ssologin\k2bfsg.ssologin.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.registerusersuccess\k2bfsg.registerusersuccess.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.activateuseraccount\k2bfsg.activateuseraccount.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entrymenuoption\k2bfsg.entrymenuoption.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwmenuoptions\k2bfsg.wwmenuoptions.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entrymenu\k2bfsg.entrymenu.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.permissionchildren\k2bfsg.permissionchildren.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.emailsent\k2bfsg.emailsent.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.changepassword\k2bfsg.changepassword.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.registeruser\k2bfsg.registeruser.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.recoverpasswordstep1\k2bfsg.recoverpasswordstep1.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.recoverpasswordstep1\k2bfsg.recoverpasswordstep1.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.otpauthentication\k2bfsg.otpauthentication.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.forcechangepassword\k2bfsg.forcechangepassword.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.roleaddpermission\k2bfsg.roleaddpermission.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.applicationhome\k2bfsg.applicationhome.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.useraddrole\k2bfsg.useraddrole.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryapplicationpermission\k2bfsg.entryapplicationpermission.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.logout\k2bfsg.logout.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.setpassword\k2bfsg.setpassword.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.usertotpactivation\k2bfsg.usertotpactivation.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwuserrole\k2bfsg.wwuserrole.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryuser\k2bfsg.entryuser.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entrysecuritypolicy\k2bfsg.entrysecuritypolicy.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.roleusers\k2bfsg.roleusers.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.roleselectchildren\k2bfsg.roleselectchildren.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.roleselectpermission\k2bfsg.roleselectpermission.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryrole\k2bfsg.entryrole.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryconnection\k2bfsg.entryconnection.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.testauthenticationtype\k2bfsg.testauthenticationtype.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wcauthenticationtypeentrygeneral\k2bfsg.wcauthenticationtypeentrygeneral.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wcauthenticationtypeentrysaml20\k2bfsg.wcauthenticationtypeentrysaml20.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wcauthenticationtypeentryoauth20\k2bfsg.wcauthenticationtypeentryoauth20.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryauthenticationtype\k2bfsg.entryauthenticationtype.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.applicationmenuwc\k2bfsg.applicationmenuwc.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwapplicationpermission\k2bfsg.wwapplicationpermission.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.entryapplication\k2bfsg.entryapplication.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.k2btoolsaccessdenied\k2bfsg.k2btoolsaccessdenied.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.recoverpasswordstep2\k2bfsg.recoverpasswordstep2.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.login\k2bfsg.login.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.login\k2bfsg.login.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.eventsubscriptionentry\k2bfsg.eventsubscriptionentry.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.gamconfiguration\k2bfsg.gamconfiguration.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wweventsubscription\k2bfsg.wweventsubscription.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwrepositories\k2bfsg.wwrepositories.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.changerepository\k2bfsg.changerepository.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwsecuritypolicy\k2bfsg.wwsecuritypolicy.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwconnections\k2bfsg.wwconnections.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwauthtype\k2bfsg.wwauthtype.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.repositoryconfiguration\k2bfsg.repositoryconfiguration.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwapplication\k2bfsg.wwapplication.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwmenu\k2bfsg.wwmenu.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwrole\k2bfsg.wwrole.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.wwuser\k2bfsg.wwuser.csproj" />
+		<ProjectReference Include=".\..\k2bfsg.secbackendhome\k2bfsg.secbackendhome.csproj" />
+		<ProjectReference Include=".\..\gamexampleactivateuseraccount\gamexampleactivateuseraccount.csproj" />
+		<ProjectReference Include=".\..\gamexamplessologin\gamexamplessologin.csproj" />
+		<ProjectReference Include=".\..\gamexamplenotauthorized\gamexamplenotauthorized.csproj" />
+		<ProjectReference Include=".\..\gamexampleidplogin\gamexampleidplogin.csproj" />
+		<ProjectReference Include=".\..\gamexamplerecoverpasswordstep2\gamexamplerecoverpasswordstep2.csproj" />
+		<ProjectReference Include=".\..\gamexampleregisteruser\gamexampleregisteruser.csproj" />
+		<ProjectReference Include=".\..\gamexamplerecoverpasswordstep1\gamexamplerecoverpasswordstep1.csproj" />
+		<ProjectReference Include=".\..\gamexampleotpauthentication\gamexampleotpauthentication.csproj" />
+		<ProjectReference Include=".\..\gamexampleupdateregisteruser\gamexampleupdateregisteruser.csproj" />
+		<ProjectReference Include=".\..\gamexamplechangepassword\gamexamplechangepassword.csproj" />
+		<ProjectReference Include=".\..\gamexamplelogin\gamexamplelogin.csproj" />
+		<ProjectReference Include=".\..\gamhome\gamhome.csproj" />
+		<ProjectReference Include=".\..\soportegeneral\soportegeneral.csproj" />
+		<ProjectReference Include=".\..\wwsoporte\wwsoporte.csproj" />
+		<ProjectReference Include=".\..\entitymanagersoporte\entitymanagersoporte.csproj" />
+		<ProjectReference Include=".\..\k2btoolscomponentplaceholder\k2btoolscomponentplaceholder.csproj" />
+		<ProjectReference Include=".\..\k2blogout\k2blogout.csproj" />
+		<ProjectReference Include=".\..\k2bt_masterpage\k2bt_masterpage.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.searchresultentitywc\k2btools.designsystems.aries.searchresultentitywc.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.tabbedviewforuniversalsearch\k2btools.designsystems.aries.tabbedviewforuniversalsearch.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.viewallnotifications\k2btools.designsystems.aries.viewallnotifications.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage7_verticalmenu\k2btools.designsystems.aries.masterpage7_verticalmenu.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage6_verticalmenu\k2btools.designsystems.aries.masterpage6_verticalmenu.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage4_verticalmenu\k2btools.designsystems.aries.masterpage4_verticalmenu.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage3_verticalmenu\k2btools.designsystems.aries.masterpage3_verticalmenu.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage5_verticalmenu\k2btools.designsystems.aries.masterpage5_verticalmenu.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage2_horizontalmenu\k2btools.designsystems.aries.masterpage2_horizontalmenu.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.searchresult\k2btools.designsystems.aries.searchresult.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.samplefootercomponent\k2btools.designsystems.aries.samplefootercomponent.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.uiconfiguration\k2btools.designsystems.aries.uiconfiguration.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.notificationsviewer\k2btools.designsystems.aries.notificationsviewer.csproj" />
+		<ProjectReference Include=".\..\k2btools.designsystems.aries.masterpage1_verticalmenu\k2btools.designsystems.aries.masterpage1_verticalmenu.csproj" />
+		<ProjectReference Include=".\..\k2bhome\k2bhome.csproj" />
+		<ProjectReference Include=".\..\k2btoolstabstitlecomponent\k2btoolstabstitlecomponent.csproj" />
+		<ProjectReference Include=".\..\k2bnotauthorized\k2bnotauthorized.csproj" />
+		<ProjectReference Include=".\..\k2bchangepassword\k2bchangepassword.csproj" />
+		<ProjectReference Include=".\..\gx0020\gx0020.csproj" />
+		<ProjectReference Include=".\..\tesapidolar\tesapidolar.csproj" />
+		<ProjectReference Include=".\..\gx0010\gx0010.csproj" />
+		<ProjectReference Include=".\..\general.ui.masterprompt\general.ui.masterprompt.csproj" />
+		<ProjectReference Include=".\..\general.ui.masterunanimosidebar\general.ui.masterunanimosidebar.csproj" />
+		<ProjectReference Include=".\..\gamsdupdateregisteruser\gamsdupdateregisteruser.csproj" />
+		<ProjectReference Include=".\..\gamsdchangepassworduser\gamsdchangepassworduser.csproj" />
+		<ProjectReference Include=".\..\gamsdnewuser\gamsdnewuser.csproj" />
+		<ProjectReference Include=".\..\general.services.directionsservicerequest\general.services.directionsservicerequest.csproj" />
+		<ProjectReference Include=".\..\general.services.gxonpendingeventfailed\general.services.gxonpendingeventfailed.csproj" />
+		<ProjectReference Include=".\..\general.services.gxbeforeeventreplicator\general.services.gxbeforeeventreplicator.csproj" />
+		<ProjectReference Include=".\..\general.services.gxaftereventreplicator\general.services.gxaftereventreplicator.csproj" />
+		<ProjectReference Include=".\..\general.services.anotificationsregistrationhandler\general.services.anotificationsregistrationhandler.csproj" />
+		<ProjectReference Include=".\..\general.services.anotificationsregistrationhandler\general.services.anotificationsregistrationhandler.csproj" />
+		<ProjectReference Include=".\..\reportwwsoporte\reportwwsoporte.csproj" />
+		<ProjectReference Include=".\..\asoportews\asoportews.csproj" />
+		<ProjectReference Include=".\..\asoportews\asoportews.csproj" />
+		<ProjectReference Include=".\..\k2btoolsgetuseencryption\k2btoolsgetuseencryption.csproj" />
+		<ProjectReference Include=".\..\k2bt_returnfileinhttpresponse\k2bt_returnfileinhttpresponse.csproj" />
+		<ProjectReference Include=".\..\k2bisauthorizedactivitylist\k2bisauthorizedactivitylist.csproj" />
+		<ProjectReference Include=".\..\atest\atest.csproj" />
+		<ProjectReference Include=".\..\atest\atest.csproj" />
+		<ProjectReference Include=".\..\gamsdlogin\gamsdlogin.csproj" />
+		<ProjectReference Include=".\..\gamsdregisteruser\gamsdregisteruser.csproj" />
+		<ProjectReference Include=".\..\gamsdchangepassword\gamsdchangepassword.csproj" />
+		<ProjectReference Include=".\..\gamsdupdateuser\gamsdupdateuser.csproj" />
+		<ProjectReference Include=".\..\gamsdnotauthorized\gamsdnotauthorized.csproj" />
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

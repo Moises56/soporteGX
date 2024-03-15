@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>k2bfsg.wwuser</AssemblyName>
+		<ProjectGuid>{8c3c43ee-243f-4ddb-b3e6-c2e9888fb5f7}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurityCommon.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurityCommon.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2bscremoveitem.cs" />
+		<Compile Include = "$(WebDirectory)\k2bpersistgridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bretrievegridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetdatetimerangefiltervaluesummary.cs" />
+		<Compile Include = "$(WebDirectory)\k2bloadrowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bpersistrowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\wwuser.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsavegridstate.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetgridconfigurationsessionkey.cs" />
+		<Compile Include = "$(WebDirectory)\k2bretrieverowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsavegridconfiguration.cs" />
+		<Compile Include = "$(WebDirectory)\k2bscadditem.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsaverowsperpage.cs" />
+		<Compile Include = "$(WebDirectory)\k2btoolsmessagequeuegetallmessages.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgettagcollectionforfiltervalues.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetstandardfiltervaluesummary.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetnumericrangefiltervaluesummary.cs" />
+		<Compile Include = "$(WebDirectory)\k2bscjoinstring.cs" />
+		<Compile Include = "$(WebDirectory)\k2bloadgridstate.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetdaterangefiltervaluesummary.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetmultiplefiltervaluesummary.cs" />
+		<Compile Include = "$(WebDirectory)\k2bloadgridconfiguration.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

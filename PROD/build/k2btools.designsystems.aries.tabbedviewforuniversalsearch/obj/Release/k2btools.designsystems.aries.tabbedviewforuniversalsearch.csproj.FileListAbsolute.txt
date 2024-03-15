@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2btools.designsystems.aries.tabbedviewforuniversalsearch.dll
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.tabbedviewforuniversalsearch\obj\Release\k2btools.designsystems.aries.tabbedviewforuniversalsearch.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.tabbedviewforuniversalsearch\obj\Release\k2btools.designsystems.aries.tabbedviewforuniversalsearch.dll

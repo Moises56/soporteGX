@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\gamexampleregisteruser.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexampleregisteruser\obj\Release\gamexampleregisteruser.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexampleregisteruser\obj\Release\gamexampleregisteruser.dll

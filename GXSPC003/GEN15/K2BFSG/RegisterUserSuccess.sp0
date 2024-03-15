@@ -1,0 +1,1521 @@
+spec_i([ web,165,'Register User Success','K2BFSG\RegisterUserSuccess',0,eng,'18_0_5-175581' ]).
+ 
+struct_i(2,1,[ 'GXV2','GXV1','Activitylogproperty' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Gotologin_action' ] ]).
+ 
+lac_i(2,[ [ 'Gotologin_action' ] ]).
+ 
+ 
+lits_i('Your user was created and its activation is pending.',5,10).
+ 
+cls_i([ 0,0 ],[ 5,61 ]).
+ 
+pos_i('Gotologin_action',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(2,'USER_ID',soporte)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME','SoporteUserDB')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Soporte“NÃÃ*ÃS“4‹9')).
+rule_i(0,datastore(1,'USER_ID',soporte)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME','SoporteDB')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('K2BTools_IsLayout','0')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BFSG.RegisterUserSuccess')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('Folder',o(8,'K2BFSG\Frontend'))).
+rule_i(0,prop('ObjDesc','Register User Success')).
+rule_i(0,prop('ObjName','RegisterUserSuccess')).
+rule_i(0,maingen(15)).
+rule_i(0,rule([ a(22,[ '''E_GoToLogin''','''E_GoToLogin''','' ]) ],[],[],[])).
+ 
+a_i(3,1,f,[ t('&Gotologin_action',23),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,[ t('&Gotologin_action',23),t('Enabled',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',14 ]).
+attri_i('GXV1',[ 'GXV1',o(objectcollection('K2BAttributeValue.Item')),0,0,'',0,'','',13 ]).
+attri_i('Activitylogproperty',[ 'ActivityLogProperty',o('K2BAttributeValue.Item'),0,0,'',0,'','',12 ]).
+attri_i('Gotologin_action',[ 'GoToLogin_Action',char,20,0,'',0,'Go To Login_Action','',11 ]).
+attri_i('Activitylist',[ 'ActivityList',o(objectcollection('K2BActivityList.K2BActivityListItem')),0,0,'',0,'','',10 ]).
+attri_i('Httprequest',[ 'HttpRequest',o(httprequest),4,0,'',0,'Http Request','',9 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('K2BTrnContext.Attribute'),0,0,'',0,'Trn Context Att','',8 ]).
+attri_i('Trncontext',[ 'TrnContext',o('K2BTrnContext'),0,0,'',0,'Trn Context','',7 ]).
+attri_i('Message',[ 'Message',o('GeneXus\Common\Messages.Message'),0,0,'',0,'Message','',6 ]).
+attri_i('Window',[ 'Window',o(windowdt),4,0,'',0,'Window','',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,'GXV1',yes,udp,o(1,'K2BTools\GetDesignSystemOptions'),[],5,'GXV1',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,14).
+b_group_i(2,3,lit,0,15,25).
+b_group_i(2,4,lit,0,26,32).
+b_group_i(2,5,lit,0,33,39).
+b_group_i(2,6,lit,0,40,46).
+b_group_i(2,7,lit,0,47,54).
+b_group_i(2,8,lit,0,55,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(5,2,2,cmd,2,[ t('',107,5,0),t('GXV2',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 5,1 ],2,2,cmd,2,[ t('',107,5,0),t('GXV1',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('GXV1',3,2,0),t(5,3,2,0),t(')',4,2,0) ]).
+b_line_i([ 5,2 ],2,2,cmd,2,[ t('',114,5,0),t('GXV2',23,2,0),t(<=,10,2,0),t([ t('GXV1',23,5,0),t('Count',3,5,0) ],29,5,0) ]).
+b_line_i([ 5,3 ],2,2,cmd,2,[ t('',107,5,0),t('Activitylogproperty',23,2,0),t(=,10,2,0),t([ t('GXV1',23,2,0),t('item(',1,2,0) ],31,2,0),t('GXV2',23,2,0),t(')',4,2,0) ]).
+b_line_i(6,2,2,cmd,3,[ t('',107,6,0),t([ t(o(14,'GeneXus\Common\UI\DesignSystem'),72,6,3),t('setoption(',1,6,16) ],31,6,16),t([ t('Activitylogproperty',23,6,27),t('Attributename',3,6,48) ],29,6,48),t(',',7,3,61),t([ t('Activitylogproperty',23,6,63),t('Attributevalue',3,6,84) ],29,6,84),t(')',4,3,98) ]).
+b_line_i([ 7,1 ],2,2,cmd,3,[ t('',107,7,0),t('GXV2',23,3,0),t(=,10,3,0),t('GXV2',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 7,2 ],2,2,cmd,3,[ t('',115,7,0) ]).
+b_line_i(8,2,2,cmd,4,[ t('',145,8,0),t('''U_OPENPAGE''',3,8,5) ]).
+b_line_i(10,2,2,cmd,4,[ t('',147,10,0) ]).
+b_line_i(14,2,2,cmd,4,[ t('',146,14,0),t('Refresh',3,14,7) ]).
+b_line_i(16,2,3,cmd,4,[ t('',145,16,0),t('''U_STARTPAGE''',3,16,5) ]).
+b_line_i(18,2,3,cmd,4,[ t('',107,18,0),t('Gotologin_action',23,4,0),t(=,10,4,0),t('"Go to login"',3,4,0) ]).
+b_line_i(19,2,3,cmd,4,[ t('',145,19,0),t('''U_REFRESHPAGE''',3,19,5) ]).
+b_line_i(21,2,3,cmd,4,[ t('',147,21,0) ]).
+b_line_i(25,2,3,cmd,4,[ t('',143,25,0),t('''U_OPENPAGE''',3,25,5) ]).
+b_line_i(28,2,4,cmd,4,[ t('',144,28,0) ]).
+b_line_i(32,2,4,cmd,4,[ t('',143,32,0),t('''U_STARTPAGE''',3,32,5) ]).
+b_line_i(35,2,5,cmd,4,[ t('',144,35,0) ]).
+b_line_i(39,2,5,cmd,4,[ t('',143,39,0),t('''U_REFRESHPAGE''',3,39,5) ]).
+b_line_i(42,2,6,cmd,4,[ t('',144,42,0) ]).
+b_line_i(46,2,6,cmd,4,[ t('',146,46,0),t('''E_GoToLogin''',3,46,7) ]).
+b_line_i(48,2,7,cmd,4,[ t('',145,48,0),t('''U_GOTOLOGIN''',3,48,5) ]).
+b_line_i(50,2,7,cmd,4,[ t('',147,50,0) ]).
+b_line_i(54,2,7,cmd,4,[ t('',143,54,0),t('''U_GOTOLOGIN''',3,54,5) ]).
+b_line_i(55,2,8,cmd,4,[ t('',104,55,0),t(o(13,'K2BFSG\Login'),28,4,15) ]).
+b_line_i(56,2,8,cmd,4,[ t('',144,56,0) ]).
+b_line_i(1000,2,8,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,8,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,8,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,comp(errview))).
+html_sub_i(3,7,html_i(1,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,usercontrol(18))).
+html_sub_i(18,19,html_i(0,container(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,div(25))).
+html_sub_i(25,26,html_i(0,div(26))).
+html_sub_i(26,27,html_i(0,t('Your user was created and its activation is pending.',3))).
+html_sub_i(23,28,html_i(1,div(28))).
+html_sub_i(28,29,html_i(0,div(29))).
+html_sub_i(29,30,html_i(0,div(30))).
+html_sub_i(30,31,html_i(0,div(31))).
+html_sub_i(31,32,html_i(0,div(32))).
+html_sub_i(32,33,html_i(0,div(33))).
+html_sub_i(33,34,html_i(0,div(34))).
+html_sub_i(34,35,html_i(0,div(35))).
+html_sub_i(35,36,html_i(0,t('Gotologin_action',23))).
+html_sub_i(3,37,html_i(2,div(37))).
+html_sub_i(37,38,html_i(0,div(38))).
+html_sub_i(38,39,html_i(0,usercontrol(39))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(27,'ControlType','').
+html_tags_i(33,style,'align-items:center;').
+html_tags_i(33,'data-gx-flex','').
+html_tags_i(34,style,'flex-grow:1;').
+html_tags_i(36,'data-gx-att','var:11').
+ 
+html_comp_i(6,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class',table,v,[ str ]).
+html_comp_i(3,'Id','Maintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Controlname','K2berrorviewer',v,[ str ]).
+html_comp_i(6,'Class','ErrorViewer',v,[ str ]).
+html_comp_i(6,'Displaymode',1,d,[ num ]).
+html_comp_i(6,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(6,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(6,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','K2BToolsTable_WebPanelDesignerContent',v,[ str ]).
+html_comp_i(9,'Id','Contenttable',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class',table,v,[ str ]).
+html_comp_i(12,'Id','Columns',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class',row,v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','col-xs-12',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','K2BT_NGA',v,[ str ]).
+html_comp_i(15,'Id','Column',v,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class',row,v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class','col-xs-12 col-md-6',v,[ str ]).
+html_comp_i(17,'Id','',d,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Usercontroltype','K2BT_Component',d,[ str ]).
+html_comp_i(18,'Constructorname','K2BT_Component',d,[ str ]).
+html_comp_i(18,'Showmethodname',show,d,[ str ]).
+html_comp_i(18,'Controlname','ResponsiveTable_MainAttributes_Attributes',v,[ str ]).
+html_comp_i(18,'Icon','',d,[ str ]).
+html_comp_i(18,'Title','Email sent',v,[ str ]).
+html_comp_i(18,'Titleclass','TextBlock_Subtitle',d,[ str ]).
+html_comp_i(18,'Collapsible',0,v,[ bool ]).
+html_comp_i(18,'Open',-1,v,[ bool ]).
+html_comp_i(18,'Showborders',-1,v,[ bool ]).
+html_comp_i(18,'Containseditableform',0,v,[ bool ]).
+html_comp_i(18,'Visible',-1,d,[ bool ]).
+html_comp_i(18,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(18,'Jssupportfiles',[ [ t('''UserControls/K2BT_ComponentRender.js''',3) ] ],d,[ params ]).
+html_comp_i(18,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(18,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(19,'Containerid','Responsivetable_mainattributes_attributes_Content',v,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class',table,v,[ str ]).
+html_comp_i(20,'Id','Responsivetable_mainattributes_attributes_content',v,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class',row,v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class','col-xs-12',v,[ str ]).
+html_comp_i(22,'Id','',d,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class','K2BT_NGA K2BToolsTable_TabularContentContainer',v,[ str ]).
+html_comp_i(23,'Id','Attributescontainertable_responsivetable_mainattributes_attributes',v,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class',row,v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class','col-xs-12',v,[ str ]).
+html_comp_i(25,'Id','',d,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class','K2BT_NGA K2BToolsTable_TopAttributeContainer',v,[ str ]).
+html_comp_i(26,'Id','Textblock_message_cellcontainertable',v,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Caption','Your user was created and its activation is pending.',d,[ str ]).
+html_comp_i(27,'Id','Message',v,[ str ]).
+html_comp_i(27,'Class','',v,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Font','',d,[ str ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Class',row,v,[ str ]).
+html_comp_i(28,'Id','',d,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Semanticcontent',div,d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Valign',top,d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Class','col-xs-12',v,[ str ]).
+html_comp_i(29,'Id','',d,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Semanticcontent',div,d,[ str ]).
+html_comp_i(29,'Align',left,d,[ str ]).
+html_comp_i(29,'Valign',top,d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Class','K2BToolsTable_FullWidth',v,[ str ]).
+html_comp_i(30,'Id','Responsivetable_containernode_actions',v,[ str ]).
+html_comp_i(30,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Semanticcontent',div,d,[ str ]).
+html_comp_i(30,'Align',left,d,[ str ]).
+html_comp_i(30,'Valign',top,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class',row,v,[ str ]).
+html_comp_i(31,'Id','',d,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(32,'Class','col-xs-12',v,[ str ]).
+html_comp_i(32,'Id','',d,[ str ]).
+html_comp_i(32,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Semanticcontent',div,d,[ str ]).
+html_comp_i(32,'Align',left,d,[ str ]).
+html_comp_i(32,'Valign',top,d,[ str ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Class','K2BToolsTableActionsLeftContainer',v,[ str ]).
+html_comp_i(33,'Id','Actionscontainertableleft_actions',v,[ str ]).
+html_comp_i(33,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Semanticcontent',div,d,[ str ]).
+html_comp_i(33,'Align',left,d,[ str ]).
+html_comp_i(33,'Valign',top,d,[ str ]).
+html_comp_i(34,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(34,'Class','K2BToolsTableCell_ActionContainer',v,[ str ]).
+html_comp_i(34,'Id','',d,[ str ]).
+html_comp_i(34,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(34,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(34,'Semanticcontent',div,d,[ str ]).
+html_comp_i(34,'Align',left,d,[ str ]).
+html_comp_i(34,'Valign',top,d,[ str ]).
+html_comp_i(35,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(35,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(35,'Id','',d,[ str ]).
+html_comp_i(35,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Semanticcontent',div,d,[ str ]).
+html_comp_i(35,'Align',left,d,[ str ]).
+html_comp_i(35,'Valign',top,d,[ str ]).
+html_comp_i(36,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(36,'Colcount',20,d,[ num ]).
+html_comp_i(36,'Attid',-11,v,[ num ]).
+html_comp_i(36,'Class','K2BT_TextAction',v,[ str ]).
+html_comp_i(36,'Controlname','&Gotologin_action',d,[ str ]).
+html_comp_i(36,'Returnonclick',0,v,[ bool ]).
+html_comp_i(36,'Eventgx','''E_GoToLogin''',v,[ str ]).
+html_comp_i(36,'Captionclass','gx-form-item K2BT_TextActionLabel',v,[ str ]).
+html_comp_i(36,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(36,'Captionposition','None',v,[ str ]).
+html_comp_i(36,'Captionvalue','',d,[ str ]).
+html_comp_i(36,'Layoutclass','',v,[ str ]).
+html_comp_i(36,'Controltype',2,d,[ num ]).
+html_comp_i(36,'Inputtype',0,d,[ num ]).
+html_comp_i(36,'Editautocomplete',0,d,[ num ]).
+html_comp_i(36,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(36,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(36,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(36,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(36,'Readonly',-1,v,[ bool ]).
+html_comp_i(36,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(36,'Ispassword',0,d,[ bool ]).
+html_comp_i(36,'Autoresize',-1,d,[ bool ]).
+html_comp_i(36,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(36,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(36,'Ismultiline',0,d,[ bool ]).
+html_comp_i(36,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(36,'Fill',-1,d,[ bool ]).
+html_comp_i(36,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(36,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(36,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(36,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(36,'Gxformat',0,d,[ num ]).
+html_comp_i(36,'Title','',v,[ str ]).
+html_comp_i(36,'Invitemsg','',v,[ str ]).
+html_comp_i(37,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(37,'Class',row,v,[ str ]).
+html_comp_i(37,'Id','',d,[ str ]).
+html_comp_i(37,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Semanticcontent',div,d,[ str ]).
+html_comp_i(37,'Align',left,d,[ str ]).
+html_comp_i(37,'Valign',top,d,[ str ]).
+html_comp_i(38,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(38,'Class','col-xs-12',v,[ str ]).
+html_comp_i(38,'Id','',d,[ str ]).
+html_comp_i(38,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Semanticcontent',div,d,[ str ]).
+html_comp_i(38,'Align',left,d,[ str ]).
+html_comp_i(38,'Valign',top,d,[ str ]).
+html_comp_i(39,'Usercontroltype','K2BControlBeautify',d,[ str ]).
+html_comp_i(39,'Constructorname','K2BControlBeautify',d,[ str ]).
+html_comp_i(39,'Showmethodname',show,d,[ str ]).
+html_comp_i(39,'Controlname','K2BControlBeautify1',v,[ str ]).
+html_comp_i(39,'Updatecheckboxes',-1,d,[ bool ]).
+html_comp_i(39,'Visible',-1,d,[ bool ]).
+html_comp_i(39,'Csssupportfiles',[ [ t('''K2BControlBeautify\toastr-master/toastr.min.css''',3) ] ],d,[ params ]).
+html_comp_i(39,'Jssupportfiles',[ [ t('''K2BControlBeautify\toastr-master/toastr.min.js''',3) ],[ t('''K2BControlBeautify\K2BControlBeautifyRender.js''',3) ] ],d,[ params ]).
+html_comp_i(39,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(39,'Jssharedsupportfiles',[ [ t('''shared/K2BToolsCommon.js''',3) ] ],d,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(6,1,comp(errview),[ ctlname('K2berrorviewer'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(27,1,t('Your user was created and its activation is pending.',3),[ ctlname('Message') ]).
+lit_i(26,1,div(26),[ ctlname('Textblock_message_cellcontainertable') ]).
+lit_i(25,1,div(25),[ ctlname('') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(36,1,t('Gotologin_action',23),[ ctlname('&Gotologin_action'),ctrltype(edit,36),pos(36),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(35,1,div(35),[ ctlname('') ]).
+lit_i(34,1,div(34),[ ctlname('') ]).
+lit_i(33,1,div(33),[ ctlname('Actionscontainertableleft_actions') ]).
+lit_i(32,1,div(32),[ ctlname('') ]).
+lit_i(31,1,div(31),[ ctlname('') ]).
+lit_i(30,1,div(30),[ ctlname('Responsivetable_containernode_actions') ]).
+lit_i(29,1,div(29),[ ctlname('') ]).
+lit_i(28,1,div(28),[ ctlname('') ]).
+lit_i(23,1,div(23),[ ctlname('Attributescontainertable_responsivetable_mainattributes_attributes') ]).
+lit_i(22,1,div(22),[ ctlname('') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('Responsivetable_mainattributes_attributes_content') ]).
+lit_i(18,1,usercontrol(18),[ ctlname('Responsivetable_mainattributes_attributes'),ctrltype(k2bt_component),el([]),containers([ container(19) ]) ]).
+lit_i(17,1,div(17),[ ctlname('') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(15,1,div(15),[ ctlname('Column') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('Columns') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('Contenttable') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(39,1,usercontrol(39),[ ctlname('K2bcontrolbeautify1'),ctrltype(k2bcontrolbeautify),el([]),containers([]) ]).
+lit_i(38,1,div(38),[ ctlname('') ]).
+lit_i(37,1,div(37),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Maintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(13,128).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,1,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,1,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,1,0 ],'ObjName','Messages').
+struct_dt_i([ 26,1,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,1,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,1,0 ],collection,'True').
+struct_dt_i([ 26,1,0 ],datatype,[ 26,1,1 ]).
+struct_dt_i([ 26,1,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,1,0 ],'XmlName','').
+struct_dt_i([ 26,1,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,1,0 ],'XmlNamespace','').
+struct_dt_i([ 26,1,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,1,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,1,0 ],'JsonName','').
+struct_dt_i([ 26,1,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,1,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,1,0 ],isexternal,'True').
+struct_dt_i([ 26,1,1 ],name,'Message').
+struct_dt_i([ 26,1,1 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,65,0 ],name,'K2BTrnContext').
+struct_dt_i([ 26,65,0 ],namespace,test).
+struct_dt_i([ 26,65,0 ],'ObjName','K2BTrnContext').
+struct_dt_i([ 26,65,0 ],'ObjDesc','K2B Transaction Context').
+struct_dt_i([ 26,65,0 ],'ExternalName','K2BTrnContext').
+struct_dt_i([ 26,65,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,65,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,65,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,65,96 ],name,'Attribute').
+struct_dt_i([ 26,65,96 ],namespace,'test.K2BTrnContext').
+struct_dt_i([ 26,63,0 ],name,'K2BTrnNavigation').
+struct_dt_i([ 26,63,0 ],namespace,test).
+struct_dt_i([ 26,63,0 ],'ObjName','K2BTrnNavigation').
+struct_dt_i([ 26,63,0 ],'ObjDesc','K2 BTrn Navigation').
+struct_dt_i([ 26,63,0 ],'ExternalName','K2BTrnNavigation').
+struct_dt_i([ 26,63,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,63,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,63,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,69,0 ],name,'K2BActivityList').
+struct_dt_i([ 26,69,0 ],namespace,test).
+struct_dt_i([ 26,69,0 ],'ObjName','K2BActivityList').
+struct_dt_i([ 26,69,0 ],'ObjDesc','K2 BActivity List').
+struct_dt_i([ 26,69,0 ],'ExternalName','K2BActivityList').
+struct_dt_i([ 26,69,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,69,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,69,0 ],collection,'True').
+struct_dt_i([ 26,69,0 ],datatype,[ 26,69,100 ]).
+struct_dt_i([ 26,69,0 ],'CollectionItemName','K2BActivityListItem').
+struct_dt_i([ 26,69,0 ],'XmlName','').
+struct_dt_i([ 26,69,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,69,0 ],'XmlNamespace','').
+struct_dt_i([ 26,69,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,69,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,69,0 ],'JsonName','').
+struct_dt_i([ 26,69,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,69,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,69,100 ],name,'K2BActivityListItem').
+struct_dt_i([ 26,69,100 ],namespace,'test.K2BActivityList').
+struct_dt_i([ 26,68,0 ],name,'K2BActivity').
+struct_dt_i([ 26,68,0 ],namespace,test).
+struct_dt_i([ 26,68,0 ],'ObjName','K2BActivity').
+struct_dt_i([ 26,68,0 ],'ObjDesc','K2 BActivity').
+struct_dt_i([ 26,68,0 ],'ExternalName','K2BActivity').
+struct_dt_i([ 26,68,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,68,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,68,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,62,0 ],name,'K2BAttributeValue').
+struct_dt_i([ 26,62,0 ],namespace,test).
+struct_dt_i([ 26,62,0 ],'ObjName','K2BAttributeValue').
+struct_dt_i([ 26,62,0 ],'ObjDesc','K2 BAttribute Value').
+struct_dt_i([ 26,62,0 ],'ExternalName','K2BAttributeValue').
+struct_dt_i([ 26,62,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,62,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,62,0 ],collection,'True').
+struct_dt_i([ 26,62,0 ],datatype,[ 26,62,92 ]).
+struct_dt_i([ 26,62,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,62,0 ],'XmlName','').
+struct_dt_i([ 26,62,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,62,0 ],'XmlNamespace','').
+struct_dt_i([ 26,62,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,62,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,62,0 ],'JsonName','').
+struct_dt_i([ 26,62,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,62,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,62,92 ],name,'Item').
+struct_dt_i([ 26,62,92 ],namespace,'test.K2BAttributeValue').
+struct_dt_i([ 14,5,0 ],name,'GeneXus\Common\UI\DesignSystem').
+struct_dt_i([ 14,5,0 ],'ObjName','DesignSystem').
+struct_dt_i([ 14,5,0 ],'ObjDesc','Design System').
+struct_dt_i([ 14,5,0 ],'ExoType','0').
+struct_dt_i([ 14,5,0 ],'ObjNamespace','').
+struct_dt_i([ 14,5,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,5,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,5,0 ],'ExoNameCSHARP','').
+struct_dt_i([ 14,5,0 ],'AssemblyName','').
+struct_dt_i([ 14,5,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,5,0 ],'ExoNameNETCORE','').
+struct_dt_i([ 14,5,0 ],'NetCoreAssemblyName','').
+struct_dt_i([ 14,5,0 ],'NetCorePackageName','').
+struct_dt_i([ 14,5,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,5,0 ],'PackageName','').
+struct_dt_i([ 14,5,0 ],'ExoNameJS','gx.core.ds').
+struct_dt_i([ 14,5,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,5,0 ],'Folder',o(120,'GeneXus\Common\UI')).
+struct_dt_i([ 14,5,0 ],'FullyQualifiedName','GeneXus.Common.UI.DesignSystem').
+struct_dt_i([ 14,5,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,5,0 ],isexternal,'True').
+struct_dt_i([ 26,1,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,1,1 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,65,0 ],fullname,'K2BTrnContext').
+struct_dt_i([ 26,65,96 ],fullname,'K2BTrnContext.Attribute').
+struct_dt_i([ 26,63,0 ],fullname,'K2BTrnNavigation').
+struct_dt_i([ 26,69,0 ],fullname,'K2BActivityList').
+struct_dt_i([ 26,69,100 ],fullname,'K2BActivityList.K2BActivityListItem').
+struct_dt_i([ 26,68,0 ],fullname,'K2BActivity').
+struct_dt_i([ 26,62,0 ],fullname,'K2BAttributeValue').
+struct_dt_i([ 26,62,92 ],fullname,'K2BAttributeValue.Item').
+struct_dt_i([ 14,5,0 ],fullname,'GeneXus\Common\UI\DesignSystem').
+ 
+struct_dt_elem_i([ 26,1,1 ],1,name,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,length,128).
+struct_dt_elem_i([ 26,1,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,1,1 ],1,pic,'').
+struct_dt_elem_i([ 26,1,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,1,1 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],1,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],1,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],2,name,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,basedon,7).
+struct_dt_elem_i([ 26,1,1 ],2,length,2).
+struct_dt_elem_i([ 26,1,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1,1 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,1,1 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,1,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,1,1 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],2,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],2,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],3,name,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,length,256).
+struct_dt_elem_i([ 26,1,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,1,1 ],3,pic,'').
+struct_dt_elem_i([ 26,1,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,1,1 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],3,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],3,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,65,0 ],1,name,'Transactionname').
+struct_dt_elem_i([ 26,65,0 ],1,camelname,'TransactionName').
+struct_dt_elem_i([ 26,65,0 ],1,basedon,51).
+struct_dt_elem_i([ 26,65,0 ],1,length,256).
+struct_dt_elem_i([ 26,65,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,65,0 ],1,pic,'').
+struct_dt_elem_i([ 26,65,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],1,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,65,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],1,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],1,'XmlName','Transaction').
+struct_dt_elem_i([ 26,65,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],1,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],1,'JsonName','Transaction').
+struct_dt_elem_i([ 26,65,0 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],2,name,'Callerurl').
+struct_dt_elem_i([ 26,65,0 ],2,camelname,'CallerUrl').
+struct_dt_elem_i([ 26,65,0 ],2,basedon,8).
+struct_dt_elem_i([ 26,65,0 ],2,length,1000).
+struct_dt_elem_i([ 26,65,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,65,0 ],2,pic,'').
+struct_dt_elem_i([ 26,65,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],2,'ExternalName','CallerUrl').
+struct_dt_elem_i([ 26,65,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],2,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],2,'XmlName','CallerUrl').
+struct_dt_elem_i([ 26,65,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],2,'JsonName','CallerUrl').
+struct_dt_elem_i([ 26,65,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],3,name,'Entitymanagername').
+struct_dt_elem_i([ 26,65,0 ],3,camelname,'EntityManagerName').
+struct_dt_elem_i([ 26,65,0 ],3,basedon,51).
+struct_dt_elem_i([ 26,65,0 ],3,length,256).
+struct_dt_elem_i([ 26,65,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,65,0 ],3,pic,'').
+struct_dt_elem_i([ 26,65,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],3,'ExternalName','EntityManagerName').
+struct_dt_elem_i([ 26,65,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],3,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],3,'XmlName','EMName').
+struct_dt_elem_i([ 26,65,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],3,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],3,'JsonName','EMName').
+struct_dt_elem_i([ 26,65,0 ],3,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],4,name,'Entitymanagernexttaskcode').
+struct_dt_elem_i([ 26,65,0 ],4,camelname,'EntityManagerNextTaskCode').
+struct_dt_elem_i([ 26,65,0 ],4,basedon,106).
+struct_dt_elem_i([ 26,65,0 ],4,length,50).
+struct_dt_elem_i([ 26,65,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],4,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,65,0 ],4,pic,'').
+struct_dt_elem_i([ 26,65,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],4,'ExternalName','EntityManagerNextTaskCode').
+struct_dt_elem_i([ 26,65,0 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],4,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],4,'XmlName','NextTaskCode').
+struct_dt_elem_i([ 26,65,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],4,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],4,'JsonName','NextTaskCode').
+struct_dt_elem_i([ 26,65,0 ],4,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],5,name,'Entitymanagernexttaskmode').
+struct_dt_elem_i([ 26,65,0 ],5,camelname,'EntityManagerNextTaskMode').
+struct_dt_elem_i([ 26,65,0 ],5,basedon,107).
+struct_dt_elem_i([ 26,65,0 ],5,length,3).
+struct_dt_elem_i([ 26,65,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],5,type,[ 5,3,0 ]).
+struct_dt_elem_i([ 26,65,0 ],5,pic,'').
+struct_dt_elem_i([ 26,65,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],5,'ExternalName','EntityManagerNextTaskMode').
+struct_dt_elem_i([ 26,65,0 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],5,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],5,'XmlName','NextTaskMode').
+struct_dt_elem_i([ 26,65,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],5,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],5,'JsonName','NextTaskMode').
+struct_dt_elem_i([ 26,65,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],6,name,'Entitymanagerencrypturlparameters').
+struct_dt_elem_i([ 26,65,0 ],6,camelname,'EntityManagerEncryptUrlParameters').
+struct_dt_elem_i([ 26,65,0 ],6,length,20).
+struct_dt_elem_i([ 26,65,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,65,0 ],6,pic,'').
+struct_dt_elem_i([ 26,65,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],6,'ExternalName','EntityManagerEncryptUrlParameters').
+struct_dt_elem_i([ 26,65,0 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],6,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],6,'XmlName','EncryptUrlParms').
+struct_dt_elem_i([ 26,65,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],6,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],6,'JsonName','EncryptUrlParms').
+struct_dt_elem_i([ 26,65,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],7,name,'Returnmode').
+struct_dt_elem_i([ 26,65,0 ],7,camelname,'ReturnMode').
+struct_dt_elem_i([ 26,65,0 ],7,basedon,108).
+struct_dt_elem_i([ 26,65,0 ],7,length,20).
+struct_dt_elem_i([ 26,65,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],7,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,65,0 ],7,pic,'').
+struct_dt_elem_i([ 26,65,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],7,'ExternalName','ReturnMode').
+struct_dt_elem_i([ 26,65,0 ],7,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],7,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],7,'XmlName','ReturnMode').
+struct_dt_elem_i([ 26,65,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],7,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],7,'JsonName','ReturnMode').
+struct_dt_elem_i([ 26,65,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],8,name,'Savepk').
+struct_dt_elem_i([ 26,65,0 ],8,camelname,'SavePK').
+struct_dt_elem_i([ 26,65,0 ],8,length,4).
+struct_dt_elem_i([ 26,65,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],8,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,65,0 ],8,pic,'').
+struct_dt_elem_i([ 26,65,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],8,'ExternalName','SavePK').
+struct_dt_elem_i([ 26,65,0 ],8,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],8,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,0 ],8,'XmlName','SavePK').
+struct_dt_elem_i([ 26,65,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],8,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],8,'JsonName','SavePK').
+struct_dt_elem_i([ 26,65,0 ],8,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],9,name,'Afterinsert').
+struct_dt_elem_i([ 26,65,0 ],9,camelname,'AfterInsert').
+struct_dt_elem_i([ 26,65,0 ],9,length,4).
+struct_dt_elem_i([ 26,65,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],9,type,[ [ 26,63,0 ],4,0 ]).
+struct_dt_elem_i([ 26,65,0 ],9,pic,'').
+struct_dt_elem_i([ 26,65,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],9,'ExternalName','AfterInsert').
+struct_dt_elem_i([ 26,65,0 ],9,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,65,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,65,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,65,0 ],9,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],10,name,'Afterupdate').
+struct_dt_elem_i([ 26,65,0 ],10,camelname,'AfterUpdate').
+struct_dt_elem_i([ 26,65,0 ],10,length,4).
+struct_dt_elem_i([ 26,65,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],10,type,[ [ 26,63,0 ],4,0 ]).
+struct_dt_elem_i([ 26,65,0 ],10,pic,'').
+struct_dt_elem_i([ 26,65,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],10,'ExternalName','AfterUpdate').
+struct_dt_elem_i([ 26,65,0 ],10,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],10,'XmlName','').
+struct_dt_elem_i([ 26,65,0 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],10,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,65,0 ],10,'JsonName','').
+struct_dt_elem_i([ 26,65,0 ],10,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],11,name,'Afterdelete').
+struct_dt_elem_i([ 26,65,0 ],11,camelname,'AfterDelete').
+struct_dt_elem_i([ 26,65,0 ],11,length,4).
+struct_dt_elem_i([ 26,65,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],11,type,[ [ 26,63,0 ],4,0 ]).
+struct_dt_elem_i([ 26,65,0 ],11,pic,'').
+struct_dt_elem_i([ 26,65,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],11,'ExternalName','AfterDelete').
+struct_dt_elem_i([ 26,65,0 ],11,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,65,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,65,0 ],11,'JsonName','').
+struct_dt_elem_i([ 26,65,0 ],11,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],12,name,'Raiseafterconfirmevent').
+struct_dt_elem_i([ 26,65,0 ],12,camelname,'RaiseAfterConfirmEvent').
+struct_dt_elem_i([ 26,65,0 ],12,basedon,99).
+struct_dt_elem_i([ 26,65,0 ],12,length,20).
+struct_dt_elem_i([ 26,65,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],12,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,65,0 ],12,pic,'').
+struct_dt_elem_i([ 26,65,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],12,'ExternalName','RaiseAfterConfirmEvent').
+struct_dt_elem_i([ 26,65,0 ],12,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,65,0 ],12,'XmlName','').
+struct_dt_elem_i([ 26,65,0 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],12,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,65,0 ],12,'JsonName','').
+struct_dt_elem_i([ 26,65,0 ],12,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,65,0 ],13,name,'Raiseaftercancelevent').
+struct_dt_elem_i([ 26,65,0 ],13,camelname,'RaiseAfterCancelEvent').
+struct_dt_elem_i([ 26,65,0 ],13,basedon,100).
+struct_dt_elem_i([ 26,65,0 ],13,length,20).
+struct_dt_elem_i([ 26,65,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,65,0 ],13,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,65,0 ],13,pic,'').
+struct_dt_elem_i([ 26,65,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,65,0 ],13,'ExternalName','RaiseAfterCancelEvent').
+struct_dt_elem_i([ 26,65,0 ],13,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,65,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,65,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,65,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,65,0 ],13,'JsonName','').
+struct_dt_elem_i([ 26,65,0 ],13,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,65,0 ],14,name,'Attributes').
+struct_dt_elem_i([ 26,65,0 ],14,camelname,'Attributes').
+struct_dt_elem_i([ 26,65,0 ],14,type,[ [ 26,65,96 ],0,0 ]).
+struct_dt_elem_i([ 26,65,0 ],14,pic,'').
+struct_dt_elem_i([ 26,65,0 ],14,collection,'True').
+struct_dt_elem_i([ 26,65,0 ],14,'ObjName','Attributes').
+struct_dt_elem_i([ 26,65,0 ],14,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,65,0 ],14,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,65,0 ],14,'XmlName','Attributes').
+struct_dt_elem_i([ 26,65,0 ],14,'XmlCollectionItemName','Item').
+struct_dt_elem_i([ 26,65,0 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,0 ],14,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,65,0 ],14,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,0 ],14,'JsonName','Attributes').
+struct_dt_elem_i([ 26,65,0 ],14,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,0 ],14,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,65,96 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,65,96 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,65,96 ],1,length,128).
+struct_dt_elem_i([ 26,65,96 ],1,decimals,0).
+struct_dt_elem_i([ 26,65,96 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,65,96 ],1,pic,'').
+struct_dt_elem_i([ 26,65,96 ],1,collection,'False').
+struct_dt_elem_i([ 26,65,96 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,65,96 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,96 ],1,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,96 ],1,'XmlName','Name').
+struct_dt_elem_i([ 26,65,96 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,96 ],1,soaptype,'').
+struct_dt_elem_i([ 26,65,96 ],1,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,96 ],1,'JsonName','Name').
+struct_dt_elem_i([ 26,65,96 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,96 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,65,96 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,65,96 ],2,length,1000).
+struct_dt_elem_i([ 26,65,96 ],2,decimals,0).
+struct_dt_elem_i([ 26,65,96 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,65,96 ],2,pic,'').
+struct_dt_elem_i([ 26,65,96 ],2,collection,'False').
+struct_dt_elem_i([ 26,65,96 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,65,96 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,96 ],2,'XmlType','Attribute').
+struct_dt_elem_i([ 26,65,96 ],2,'XmlName','Value').
+struct_dt_elem_i([ 26,65,96 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,96 ],2,soaptype,'').
+struct_dt_elem_i([ 26,65,96 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,96 ],2,'JsonName','Value').
+struct_dt_elem_i([ 26,65,96 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,65,96 ],3,name,'Valuetype').
+struct_dt_elem_i([ 26,65,96 ],3,camelname,'ValueType').
+struct_dt_elem_i([ 26,65,96 ],3,basedon,139).
+struct_dt_elem_i([ 26,65,96 ],3,length,1).
+struct_dt_elem_i([ 26,65,96 ],3,decimals,0).
+struct_dt_elem_i([ 26,65,96 ],3,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,65,96 ],3,pic,'').
+struct_dt_elem_i([ 26,65,96 ],3,collection,'False').
+struct_dt_elem_i([ 26,65,96 ],3,'ExternalName','ValueType').
+struct_dt_elem_i([ 26,65,96 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,65,96 ],3,'XmlType','Value').
+struct_dt_elem_i([ 26,65,96 ],3,'XmlName','ValueType').
+struct_dt_elem_i([ 26,65,96 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,65,96 ],3,soaptype,'').
+struct_dt_elem_i([ 26,65,96 ],3,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,65,96 ],3,'JsonName','ValueType').
+struct_dt_elem_i([ 26,65,96 ],3,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,63,0 ],1,name,'Aftertrn').
+struct_dt_elem_i([ 26,63,0 ],1,camelname,'AfterTrn').
+struct_dt_elem_i([ 26,63,0 ],1,basedon,97).
+struct_dt_elem_i([ 26,63,0 ],1,length,4).
+struct_dt_elem_i([ 26,63,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],1,sign,0).
+struct_dt_elem_i([ 26,63,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,63,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,63,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],1,'ExternalName','AfterTrn').
+struct_dt_elem_i([ 26,63,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,63,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],2,name,'Objecttolink').
+struct_dt_elem_i([ 26,63,0 ],2,camelname,'ObjectToLink').
+struct_dt_elem_i([ 26,63,0 ],2,basedon,51).
+struct_dt_elem_i([ 26,63,0 ],2,length,256).
+struct_dt_elem_i([ 26,63,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,63,0 ],2,pic,'').
+struct_dt_elem_i([ 26,63,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],2,'ExternalName','ObjectToLink').
+struct_dt_elem_i([ 26,63,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,63,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],3,name,'Mode').
+struct_dt_elem_i([ 26,63,0 ],3,camelname,'Mode').
+struct_dt_elem_i([ 26,63,0 ],3,length,3).
+struct_dt_elem_i([ 26,63,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],3,type,[ 5,3,0 ]).
+struct_dt_elem_i([ 26,63,0 ],3,pic,'').
+struct_dt_elem_i([ 26,63,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],3,'ExternalName','Mode').
+struct_dt_elem_i([ 26,63,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,63,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],4,name,'Extraparameter').
+struct_dt_elem_i([ 26,63,0 ],4,camelname,'ExtraParameter').
+struct_dt_elem_i([ 26,63,0 ],4,length,20).
+struct_dt_elem_i([ 26,63,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,63,0 ],4,pic,'').
+struct_dt_elem_i([ 26,63,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],4,'ExternalName','ExtraParameter').
+struct_dt_elem_i([ 26,63,0 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,63,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,100 ],1,name,'Activity').
+struct_dt_elem_i([ 26,69,100 ],1,camelname,'Activity').
+struct_dt_elem_i([ 26,69,100 ],1,length,4).
+struct_dt_elem_i([ 26,69,100 ],1,decimals,0).
+struct_dt_elem_i([ 26,69,100 ],1,type,[ [ 26,68,0 ],4,0 ]).
+struct_dt_elem_i([ 26,69,100 ],1,pic,'').
+struct_dt_elem_i([ 26,69,100 ],1,collection,'False').
+struct_dt_elem_i([ 26,69,100 ],1,'ExternalName','Activity').
+struct_dt_elem_i([ 26,69,100 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,69,100 ],1,'XmlName','').
+struct_dt_elem_i([ 26,69,100 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,100 ],1,soaptype,'').
+struct_dt_elem_i([ 26,69,100 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,100 ],1,'JsonName','').
+struct_dt_elem_i([ 26,69,100 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,69,100 ],2,name,'Isauthorized').
+struct_dt_elem_i([ 26,69,100 ],2,camelname,'IsAuthorized').
+struct_dt_elem_i([ 26,69,100 ],2,length,4).
+struct_dt_elem_i([ 26,69,100 ],2,decimals,0).
+struct_dt_elem_i([ 26,69,100 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,69,100 ],2,pic,'').
+struct_dt_elem_i([ 26,69,100 ],2,collection,'False').
+struct_dt_elem_i([ 26,69,100 ],2,'ExternalName','IsAuthorized').
+struct_dt_elem_i([ 26,69,100 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,69,100 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,69,100 ],2,'XmlName','').
+struct_dt_elem_i([ 26,69,100 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,100 ],2,soaptype,'').
+struct_dt_elem_i([ 26,69,100 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,100 ],2,'JsonName','').
+struct_dt_elem_i([ 26,69,100 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],1,name,'Entityname').
+struct_dt_elem_i([ 26,68,0 ],1,camelname,'EntityName').
+struct_dt_elem_i([ 26,68,0 ],1,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],1,length,256).
+struct_dt_elem_i([ 26,68,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],1,pic,'').
+struct_dt_elem_i([ 26,68,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],1,'ExternalName','EntityName').
+struct_dt_elem_i([ 26,68,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],2,name,'Transactionname').
+struct_dt_elem_i([ 26,68,0 ],2,camelname,'TransactionName').
+struct_dt_elem_i([ 26,68,0 ],2,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],2,length,256).
+struct_dt_elem_i([ 26,68,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],2,pic,'').
+struct_dt_elem_i([ 26,68,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],2,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,68,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],3,name,'Pgmname').
+struct_dt_elem_i([ 26,68,0 ],3,camelname,'PgmName').
+struct_dt_elem_i([ 26,68,0 ],3,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],3,length,256).
+struct_dt_elem_i([ 26,68,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],3,pic,'').
+struct_dt_elem_i([ 26,68,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],3,'ExternalName','PgmName').
+struct_dt_elem_i([ 26,68,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],4,name,'Standardactivitytype').
+struct_dt_elem_i([ 26,68,0 ],4,camelname,'StandardActivityType').
+struct_dt_elem_i([ 26,68,0 ],4,basedon,105).
+struct_dt_elem_i([ 26,68,0 ],4,length,30).
+struct_dt_elem_i([ 26,68,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],4,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,68,0 ],4,pic,'').
+struct_dt_elem_i([ 26,68,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],4,'ExternalName','StandardActivityType').
+struct_dt_elem_i([ 26,68,0 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],5,name,'Useractivitytype').
+struct_dt_elem_i([ 26,68,0 ],5,camelname,'UserActivityType').
+struct_dt_elem_i([ 26,68,0 ],5,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],5,length,256).
+struct_dt_elem_i([ 26,68,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],5,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],5,pic,'').
+struct_dt_elem_i([ 26,68,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],5,'ExternalName','UserActivityType').
+struct_dt_elem_i([ 26,68,0 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],6,name,'Description').
+struct_dt_elem_i([ 26,68,0 ],6,camelname,'Description').
+struct_dt_elem_i([ 26,68,0 ],6,length,20).
+struct_dt_elem_i([ 26,68,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,68,0 ],6,pic,'').
+struct_dt_elem_i([ 26,68,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],6,'ExternalName','Description').
+struct_dt_elem_i([ 26,68,0 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,62,92 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,62,92 ],1,basedon,98).
+struct_dt_elem_i([ 26,62,92 ],1,length,128).
+struct_dt_elem_i([ 26,62,92 ],1,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,62,92 ],1,pic,'').
+struct_dt_elem_i([ 26,62,92 ],1,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,62,92 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,62,92 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],1,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],1,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,62,92 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,62,92 ],2,basedon,120).
+struct_dt_elem_i([ 26,62,92 ],2,length,1000).
+struct_dt_elem_i([ 26,62,92 ],2,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,62,92 ],2,pic,'').
+struct_dt_elem_i([ 26,62,92 ],2,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,62,92 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,62,92 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],2,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],2,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],2,'JsonInclude',idJsonEmpty).
+ 
+struct_dt_method_i([ 14,5,0 ],1,name,setoption).
+struct_dt_method_i([ 14,5,0 ],1,camelname,'SetOption').
+struct_dt_method_i([ 14,5,0 ],1,externalType,'').
+struct_dt_method_i([ 14,5,0 ],1,length,8).
+struct_dt_method_i([ 14,5,0 ],1,decimals,0).
+struct_dt_method_i([ 14,5,0 ],1,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,5,0 ],1,'IntName','SetOption').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemType','None').
+struct_dt_method_i([ 14,5,0 ],1,basedon,'').
+struct_dt_method_i([ 14,5,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,5,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,5,0 ],1,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,5,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,5,0 ],1,'ExoNameJS',setOption).
+struct_dt_method_i([ 14,5,0 ],2,name,clearoption).
+struct_dt_method_i([ 14,5,0 ],2,camelname,'ClearOption').
+struct_dt_method_i([ 14,5,0 ],2,externalType,'').
+struct_dt_method_i([ 14,5,0 ],2,length,8).
+struct_dt_method_i([ 14,5,0 ],2,decimals,0).
+struct_dt_method_i([ 14,5,0 ],2,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,5,0 ],2,'IntName','ClearOption').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemType','None').
+struct_dt_method_i([ 14,5,0 ],2,basedon,'').
+struct_dt_method_i([ 14,5,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,5,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,5,0 ],2,'ExoNameCSHARP','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,5,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,5,0 ],2,'ExoNameJS',clearOption).
+ 
+struct_dt_param_i([ 14,5,1 ],1,name,name).
+struct_dt_param_i([ 14,5,1 ],1,camelname,'Name').
+struct_dt_param_i([ 14,5,1 ],1,externalType,'').
+struct_dt_param_i([ 14,5,1 ],1,length,20).
+struct_dt_param_i([ 14,5,1 ],1,decimals,0).
+struct_dt_param_i([ 14,5,1 ],1,type,[ 5,20,0 ]).
+struct_dt_param_i([ 14,5,1 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,5,1 ],1,'IntName','Name').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,5,1 ],1,basedon,'').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,5,1 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,5,1 ],2,name,value).
+struct_dt_param_i([ 14,5,1 ],2,camelname,'Value').
+struct_dt_param_i([ 14,5,1 ],2,externalType,'').
+struct_dt_param_i([ 14,5,1 ],2,length,20).
+struct_dt_param_i([ 14,5,1 ],2,decimals,0).
+struct_dt_param_i([ 14,5,1 ],2,type,[ 5,20,0 ]).
+struct_dt_param_i([ 14,5,1 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,5,1 ],2,'IntName','Value').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,5,1 ],2,basedon,'').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,5,1 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,5,2 ],1,name,name).
+struct_dt_param_i([ 14,5,2 ],1,camelname,'Name').
+struct_dt_param_i([ 14,5,2 ],1,externalType,'').
+struct_dt_param_i([ 14,5,2 ],1,length,20).
+struct_dt_param_i([ 14,5,2 ],1,decimals,0).
+struct_dt_param_i([ 14,5,2 ],1,type,[ 5,20,0 ]).
+struct_dt_param_i([ 14,5,2 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,5,2 ],1,'IntName','Name').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,5,2 ],1,basedon,'').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,5,2 ],1,'ExoItemExtTypeNETCORE','').
+ 
+ 
+ 
+sub_info_i(146,'Start',2,10,[ [],[] ]).
+sub_info_i(146,'Refresh',14,21,[ [],[ 'Gotologin_action' ] ]).
+sub_info_i(146,'''E_GoToLogin''',46,50,[ [],[] ]).
+ 
+pgm_parm_i(web,128,'K2BFSG\LOGIN',[],[]).
+pgm_parm_i(proc,14,'K2BTOOLS\GETDESIGNSYSTEMOPTIONS',[ [ o(objectcollection('K2BAttributeValue.Item')),0,0,0 ] ],[ [ 'DesignSystemOptions',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,165,'K2BFSG\REGISTERUSERSUCCESS','INTERNAL','Secure').
+pgm_callprotocol_i(web,128,'K2BFSG\LOGIN','INTERNAL','Secure').
+pgm_callprotocol_i(proc,14,'K2BTOOLS\GETDESIGNSYSTEMOPTIONS','INTERNAL','Secure').
+ 
+ 
+pgm_main_info_i(web,128,'K2BFSG\LOGIN',[ 15,'K2BFSG\LOGIN','','','','','INTERNAL' ]).
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus\Common\UI','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common\UI','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

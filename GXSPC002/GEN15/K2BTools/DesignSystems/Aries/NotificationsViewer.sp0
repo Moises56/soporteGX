@@ -1,0 +1,1952 @@
+spec_i([ web,26,l('K2 BT_Notifications Viewer Aries'),'K2BTools\DesignSystems\Aries\NotificationsViewer',0,eng,'18_0_5-175581' ]).
+ 
+struct_i(2,1,[ 'Currentpage_notificationsgrid' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Notificationtext','Notificationisread','Notificationid','Eventtargeturl','Desktopnotificationspermission','' ] ]).
+ 
+lac_i(2,[ [ 'Notificationtext','Notificationisread','Notificationid','Eventtargeturl','Desktopnotificationspermission','','' ] ]).
+ 
+ 
+lits_i(l('K2BT_ViewAllNotifications'),5,10).
+lits_i(l('K2BT_Notif_EnableWebNotifications'),5,10).
+lits_i(l('K2BT_RefreshAction'),5,10).
+lits_i(l('K2BT_NoNotifications'),5,10).
+ 
+cls_i([ 0,0 ],[ 5,13071 ]).
+ 
+pos_i('Notificationicon',[ 1,2,0 ]).
+pos_i('Markasread_action',[ 1,2,1025 ]).
+pos_i('Notificationtext',[ 1,2,2050 ]).
+pos_i('Notificationisread',[ 1,2,12051 ]).
+pos_i('Notificationid',[ 1,2,12056 ]).
+pos_i('Eventtargeturl',[ 1,2,12072 ]).
+pos_i('Desktopnotificationspermission',[ 0,0,0 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Notificationicon','','Markasread_action','Notificationtext','Notificationisread','Notificationid','Eventtargeturl' ],[ '','Notificationtext','Notificationisread','Notificationid','Eventtargeturl' ] ]).
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('K2BTools_IsLayout','0')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BTools.DesignSystems.Aries.NotificationsViewer')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('URLAccess','No')).
+rule_i(0,prop('WEB_COMP','Yes')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('Folder',o(8,'K2BTools\DesignSystems\Aries\MasterPages'))).
+rule_i(0,prop('ObjDesc','K2 BT_Notifications Viewer Aries')).
+rule_i(0,prop('ObjName','NotificationsViewer')).
+rule_i(0,maingen(15)).
+rule_i(2,rule([ a(1,msg([ t('format(',1),t('getmessagetext(',1),t('"GXM_DoesNotMatchRegExp"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"Event Target Url"',3),t(')',4),t(')',4) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t([ t('Eventtargeturl',23),t('ismatch(',1) ],31),t('''^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$''',3),t(')',4),t(')',4) ],[ insert,update ],[ 'Eventtargeturl' ])).
+rule_i(0,rule([ a(22,[ '''E_ToggleNotifications''',[ t('getmessagetext(',1),t('"E_ToggleNotifications"',3),t(')',4) ],'' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''E_ViewNotification''',[ t('getmessagetext(',1),t('"E_ViewNotification"',3),t(')',4) ],'' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''E_ViewAll''',[ t('getmessagetext(',1),t('"E_ViewAll"',3),t(')',4) ],'' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''E_Refresh''',[ t('getmessagetext(',1),t('"E_Refresh"',3),t(')',4) ],'' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ 'Onmessage','"Onmessage"','' ]) ],[],[],[])).
+ 
+a_i(3,2,b,0,[],[ [],[ a(1,msg([ t('format(',1),t('getmessagetext(',1),t('"GXM_DoesNotMatchRegExp"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"Event Target Url"',3),t(')',4),t(')',4) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t([ t('Eventtargeturl',23),t('ismatch(',1) ],31),t('''^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$''',3),t(')',4),t(')',4) ] ]).
+ 
+v_i(b,i,3,'Eventtargeturl').
+v_i(b,o,3,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',42 ]).
+attri_i('Notificationicon_GXI',[ 'Notificationicon_GXI',svchar,2048,0,'',0,'',[],41 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',40 ]).
+attri_i('Markasread_action_GXI',[ 'Markasread_action_GXI',svchar,2048,0,'',0,'',[],39 ]).
+attri_i('Window',[ 'Window',o(windowdt),4,0,'',0,l('Window'),'',38 ]).
+attri_i('Viewnotification_action',[ 'ViewNotification_Action',bits,1024,0,'',0,l('View Notification_Action'),'',37 ]).
+attri_i('Viewall_action',[ 'ViewAll_Action',char,20,0,'',0,l('View All_Action'),'',36 ]).
+attri_i('Success',[ 'Success',boolean,4,0,'',0,l('Success'),'',35 ]).
+attri_i('Refresh_action',[ 'Refresh_Action',char,20,0,'',0,l('Refresh_Action'),'',34 ]).
+attri_i('Notificationtext',[ 'NotificationText',svchar,10000,100,'',0,l('Notification Text'),'',33 ]).
+attri_i('Notificationisread',[ 'NotificationIsRead',boolean,4,0,'',0,l('Notification Is Read'),'',32 ]).
+attri_i('Notificationinfo',[ 'NotificationInfo',o('GeneXus\Server\NotificationInfo'),0,0,'',0,l('Notification Info'),'',31 ]).
+attri_i('Notificationid',[ 'NotificationId',int,15,0,'ZZZZZZZZZZZZZZ9',0,l('Notification Id'),'',30 ]).
+attri_i('Notificationicon',[ 'NotificationIcon',bits,1024,0,'',0,l('Notification Icon'),'',29 ]).
+attri_i('Notification',[ 'Notification',o('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification'),0,0,'',0,l('Notification'),'',28 ]).
+attri_i('Newnotificationid',[ 'NewNotificationId',int,15,0,'ZZZZZZZZZZZZZZ9',0,l('New Notification Id'),'',27 ]).
+attri_i('Messages',[ 'Messages',o(objectcollection('GeneXus\Common\Messages.Message')),0,0,'',0,l('Messages'),'',26 ]).
+attri_i('Message',[ 'Message',o('GeneXus\Common\Messages.Message'),0,0,'',0,l('Message'),'',25 ]).
+attri_i('Markasread_action',[ 'MarkAsRead_Action',bits,1024,0,'',0,l('Mark As Read_Action'),'',24 ]).
+attri_i('Loadrow_notificationsgrid',[ 'LoadRow_NotificationsGrid',boolean,4,0,'',0,l('Load Row_Notifications Grid'),'',23 ]).
+attri_i('Loaded',[ 'Loaded',boolean,4,0,'',0,l('Loaded'),'',22 ]).
+attri_i('Layoutcontent_notificationicon',[ 'LayoutContent_NotificationIcon',bits,1024,0,'',0,l('Layout Content_Notification Icon'),'',21 ]).
+attri_i('Layoutcontent_eventtargeturl',[ 'LayoutContent_EventTargetUrl',svchar,1000,0,'',0,l('Event Target Url'),'',20 ]).
+attri_i('Latestnotifications',[ 'LatestNotifications',o(objectcollection('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification')),0,0,'',0,l('Latest Notifications'),'',19 ]).
+attri_i('I_loadcount_notificationsgrid',[ 'I_LoadCount_NotificationsGrid',int,4,0,'ZZZ9',0,l('I_Load Count_Notifications Grid'),'',18 ]).
+attri_i('Httprequest',[ 'HttpRequest',o(httprequest),4,0,'',0,l('Http Request'),'',17 ]).
+attri_i('Exit_notificationsgrid',[ 'Exit_NotificationsGrid',boolean,4,0,'',0,l('Exit_Notifications Grid'),'',16 ]).
+attri_i('Eventtargeturl',[ 'EventTargetUrl',svchar,1000,0,'',0,l('Event Target Url'),'',15 ]).
+attri_i('Eventcreationdatetime',[ 'EventCreationDateTime',dtime,8,12,'99/99/99 99:99:99.999',0,l('Event Creation Date Time'),'',14 ]).
+attri_i('Dp_sdt_notificationsgrid',[ 'DP_SDT_NotificationsGrid',o(objectcollection('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification')),0,0,'',0,l('DP_SDT_Notifications Grid'),'',13 ]).
+attri_i('Dp_sdt_item_notificationsgrid',[ 'DP_SDT_ITEM_NotificationsGrid',o('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification'),0,0,'',0,l('DP_SDT_ITEM_Notifications Grid'),'',12 ]).
+attri_i('Desktopnotificationtag',[ 'DesktopNotificationTag',char,20,0,'',0,l('Desktop Notification Tag'),'',11 ]).
+attri_i('Desktopnotificationspermission',[ 'DesktopNotificationsPermission',char,20,0,'',0,l('Desktop Notifications Permission'),'',10 ]).
+attri_i('Desktopnotificationinfosdt',[ 'DesktopNotificationInfoSDT',o('DesktopNotificationInfoSDT'),0,0,'',0,l('Desktop Notification Info SDT'),'',9 ]).
+attri_i('Currentpage_notificationsgrid',[ 'CurrentPage_NotificationsGrid',int,4,0,'ZZZ9',0,l('Current Page_Notifications Grid'),'',8 ]).
+attri_i('Activitylistitem',[ 'ActivityListItem',o('K2BActivityList.K2BActivityListItem'),0,0,'',0,l('Activity List Item'),'',7 ]).
+attri_i('Activitylist',[ 'ActivityList',o(objectcollection('K2BActivityList.K2BActivityListItem')),0,0,'',0,l('Activity List'),'',6 ]).
+attri_i('Url',[ 'Url',svchar,1000,0,'',0,l('Url'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,'Loaded',yes,udp,o(1,'K2BTools\IntegrationProcedures\GetDesktopNotificationInformation'),[],247,'Loaded',[ [ t('Newnotificationid',23),t(',',7),t('Desktopnotificationinfosdt',23) ] ]).
+function_i(2,[ t('Notificationsgrid_notificationdatetb',3),t('Caption',3) ],yes,udp,o(1,'GetDateFriendlyString'),[],129,[ t('Notificationsgrid_notificationdatetb',3),t('Caption',3) ],[ [ t('Eventcreationdatetime',23) ] ]).
+function_i(2,'Dp_sdt_notificationsgrid',yes,udp,o(33,'K2BTools\IntegrationProcedures\GetLatestNotificationsForCurrentUser'),[],103,'Dp_sdt_notificationsgrid',[ [] ]).
+function_i(2,[ t('K2bt_notificationsbutton1',3),t('Count',3) ],yes,udp,o(1,'K2BTools\IntegrationProcedures\GetWebNotificationsUnreadCount'),[],96,[ t('K2bt_notificationsbutton1',3),t('Count',3) ],[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Markasread_action_GXI','Markasread_action','Markasread_action_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Notificationicon_GXI','Notificationicon','Notificationicon_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(2,109,'"GET"','Get',l('Get'),[ none ]).
+enum_value_i(2,109,'"POST"','Post',l('Post'),[ none ]).
+enum_value_i(2,137,'"K2BTools.Notifications.Refresh"','Refresh',l('Refresh'),[ none ]).
+enum_value_i(2,137,'"K2BTools.Notifications.DesktopNotification"','DesktopNotification',l('Desktop Notification'),[ none ]).
+enum_value_i(2,129,'"granted"','Granted',l('Granted'),[ none ]).
+enum_value_i(2,129,'"denied"','Denied',l('Denied'),[ none ]).
+enum_value_i(2,129,'"default"','Default',l('Default'),[ none ]).
+ 
+enum_value_info_i(2,109,'K2BHttpMethod').
+enum_value_info_i(2,137,'K2BTools\K2BT_WebNotificationIds').
+enum_value_info_i(2,129,'K2BTools\K2BT_DesktopNotificationPermission').
+ 
+enum_type_i(2,109,char,4,0).
+enum_type_i(2,137,char,100,0).
+enum_type_i(2,129,char,20,0).
+ 
+dom_info_i(8,[ 'GeneXus\Url' ]).
+dom_info_i(128,[ 'K2BTools\K2BT_DatetimeWithMilliseconds' ]).
+dom_info_i(133,[ 'K2BTools\K2BT_LargeId' ]).
+dom_info_i(111,[ 'K2BImage' ]).
+dom_info_i(118,[ 'K2BTools\K2BT_Boolean' ]).
+dom_info_i(136,[ 'K2BTools\K2BT_NotificationMessage' ]).
+ 
+a_ctrl_i('Eventtargeturl',c,[ '''^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$''' ]).
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,28).
+b_group_i(2,3,lit,0,29,40).
+b_group_i(2,4,lit,0,41,51).
+b_group_i(2,5,lit,0,52,58).
+b_group_i(2,6,lit,0,59,69).
+b_group_i(2,7,lit,0,70,78).
+b_group_i(2,8,lit,0,79,82).
+b_group_i(2,9,lit,0,83,94).
+b_group_i(2,10,lit,0,95,100).
+b_group_i(2,11,lit,0,101,151).
+b_group_i(2,12,lit,0,152,156).
+b_group_i(2,13,lit,0,157,165).
+b_group_i(2,14,lit,0,166,181).
+b_group_i(2,15,lit,0,182,190).
+b_group_i(2,16,lit,0,191,197).
+b_group_i(2,17,lit,0,198,201).
+b_group_i(2,18,lit,0,202,209).
+b_group_i(2,19,lit,0,210,215).
+b_group_i(2,20,lit,0,216,224).
+b_group_i(2,21,lit,0,225,230).
+b_group_i(2,22,lit,0,231,239).
+b_group_i(2,23,lit,0,240,244).
+b_group_i(2,24,lit,0,245,262).
+b_group_i(2,25,lit,0,263,266).
+b_group_i(2,26,lit,0,267,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(4,2,2,cmd,2,[ t('',107,4,0),t([ t('Notificationsgrid',3,2,0),t('Backcolorstyle',3,2,0) ],29,2,0),t(=,10,2,0),t('3',3,2,0) ]).
+b_line_i(5,2,2,cmd,2,[ t('',109,5,0),t('null(',1,5,36),t('Currentpage_notificationsgrid',23,2,5),t(')',4,2,45) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,6,0),t('Currentpage_notificationsgrid',23,2,0),t(=,10,2,0),t('1',3,2,0) ]).
+b_line_i(7,2,2,cmd,2,[ t('',111,7,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',145,8,0),t('''REFRESHGRIDACTIONS(NOTIFICATIONSGRID)''',3,8,5) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,10,0),t([ t('Markasread_action',23,10,2),t('fromimage(',1,10,21) ],31,10,2),t(i(98,'dfbe6635-f23c-4133-8627-41bb5fc11325'),69,2,32),t(')',4,2,55) ]).
+b_line_i([ 10,1 ],2,2,cmd,2,[ t('',107,10,0),t('Markasread_action_GXI',23,2,0),t(=,10,2,0),t('urifromurl(',1,2,0),t(i(98,'dfbe6635-f23c-4133-8627-41bb5fc11325'),69,2,0),t(')',4,2,0) ]).
+b_line_i(11,2,2,cmd,3,[ t('',107,11,0),t([ t('Markasread_action',23,3,0),t('Tooltiptext',3,3,0) ],29,3,0),t(=,10,3,0),t('getmessagetext(',1,3,0),t('"K2BT_MarkAsRead"',3,3,0),t(')',4,3,0) ]).
+b_line_i(13,2,2,cmd,3,[ t('',109,13,0),t([ t('Httprequest',23,13,5),t('Method',3,13,18) ],29,13,18),t(=,10,3,25),t([ 109,'Get' ],44,13,27) ]).
+b_line_i(15,2,2,cmd,3,[ t('',145,15,0),t('''U_OPENPAGE''',3,15,6) ]).
+b_line_i(17,2,2,cmd,3,[ t('',111,17,0) ]).
+b_line_i(18,2,2,cmd,3,[ t('',145,18,0),t('''U_STARTPAGE''',3,18,5) ]).
+b_line_i(24,2,2,cmd,3,[ t('',147,24,0) ]).
+b_line_i(28,2,2,cmd,3,[ t('',146,28,0),t('Refresh',3,28,7) ]).
+b_line_i(30,2,3,cmd,3,[ t('',145,30,0),t('''U_REFRESHPAGE''',3,30,5) ]).
+b_line_i(36,2,3,cmd,3,[ t('',147,36,0) ]).
+b_line_i(40,2,3,cmd,3,[ t('',143,40,0),t('''U_OPENPAGE''',3,40,5) ]).
+b_line_i(43,2,4,cmd,3,[ t('',107,43,0),t([ t('Gridcomponentcontent_notificationsgrid',3,3,0),t('Class',3,3,0) ],29,3,0),t(=,10,3,0),t('"ControlBeautify_CollapsableTable"',3,3,0),t(+,5,3,0),t('" "',3,3,0),t(+,5,3,0),t('"K2BT_NotificationsTableContainer"',3,3,0) ]).
+b_line_i(44,2,4,cmd,3,[ t('',107,44,0),t([ t('Contenttable',3,3,0),t('Class',3,3,0) ],29,3,0),t(=,10,3,0),t('"ControlBeautify_ParentCollapsableTable"',3,3,0) ]).
+b_line_i(46,2,4,cmd,3,[ t('',107,46,0),t([ t('Gridcomponentcontent_notificationsgrid',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('FALSE',41,3,0) ]).
+b_line_i(47,2,4,cmd,3,[ t('',144,47,0) ]).
+b_line_i(51,2,4,cmd,3,[ t('',143,51,0),t('''U_STARTPAGE''',3,51,5) ]).
+b_line_i(54,2,5,cmd,3,[ t('',144,54,0) ]).
+b_line_i(58,2,5,cmd,3,[ t('',143,58,0),t('''U_REFRESHPAGE''',3,58,5) ]).
+b_line_i(61,2,6,cmd,3,[ t('',107,61,0),t([ t('Gridcomponentcontent_notificationsgrid',3,3,0),t('Class',3,3,0) ],29,3,0),t(=,10,3,0),t('"ControlBeautify_CollapsableTable"',3,3,0),t(+,5,3,0),t('" "',3,3,0),t(+,5,3,0),t('"K2BT_NotificationsTableContainer"',3,3,0) ]).
+b_line_i(62,2,6,cmd,3,[ t('',107,62,0),t([ t('Contenttable',3,3,0),t('Class',3,3,0) ],29,3,0),t(=,10,3,0),t('"ControlBeautify_ParentCollapsableTable"',3,3,0) ]).
+b_line_i(64,2,6,cmd,3,[ t('',107,64,0),t([ t('Gridcomponentcontent_notificationsgrid',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('FALSE',41,3,0) ]).
+b_line_i(65,2,6,cmd,3,[ t('',144,65,0) ]).
+b_line_i(69,2,6,cmd,3,[ t('',146,69,0),t('''E_ToggleNotifications''',3,69,7) ]).
+b_line_i(71,2,7,cmd,3,[ t('',145,71,0),t('''U_TOGGLENOTIFICATIONS''',3,71,5) ]).
+b_line_i(74,2,7,cmd,3,[ t('',147,74,0) ]).
+b_line_i(78,2,7,cmd,3,[ t('',143,78,0),t('''U_TOGGLENOTIFICATIONS''',3,78,5) ]).
+b_line_i(79,2,8,cmd,3,[ t('',107,79,0),t([ t('Gridcomponentcontent_notificationsgrid',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('.NOT.',8,3,0),t('(',0,3,0),t([ t('Gridcomponentcontent_notificationsgrid',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('TRUE',40,3,0),t(')',4,3,0) ]).
+b_line_i(80,2,8,cmd,3,[ t('',144,80,0) ]).
+b_line_i(82,2,8,cmd,3,[ t('',146,82,0),t([ t('Notificationsgrid',3,82,7),t('Refresh',3,82,25) ],29,82,25) ]).
+b_line_i(84,2,9,cmd,3,[ t('',107,84,0),t([ t('Notificationsgrid',3,3,0),t('Backcolorstyle',3,3,0) ],29,3,0),t(=,10,3,0),t('3',3,3,0) ]).
+b_line_i(86,2,9,cmd,3,[ t('',145,86,0),t('''REFRESHGRIDACTIONS(NOTIFICATIONSGRID)''',3,86,5) ]).
+b_line_i(88,2,9,cmd,3,[ t('',145,88,0),t('''U_GRIDREFRESH(NOTIFICATIONSGRID)''',3,88,5) ]).
+b_line_i(90,2,9,cmd,3,[ t('',147,90,0) ]).
+b_line_i(94,2,9,cmd,3,[ t('',143,94,0),t('''U_GRIDREFRESH(NOTIFICATIONSGRID)''',3,94,5) ]).
+b_line_i(95,2,10,cmd,3,[ t('',104,95,0),t(o(1,'K2BTools\IntegrationProcedures\RegisterClient'),28,3,41),t('udp(',1,3,76),t(o(1,'K2BGetUserCode'),28,3,62),t(')',4,3,77) ]).
+b_line_i(96,2,10,cmd,3,[ t('',107,96,0),t([ t('K2bt_notificationsbutton1',3,3,0),t('Count',3,3,0) ],29,3,0),t(=,10,3,0),t('udp(',1,3,0),t([ t('K2bt_notificationsbutton1',3),t('Count',3) ],3,3,0),t(96,3,3,0),t(')',4,3,0) ]).
+b_line_i(97,2,10,cmd,3,[ t('',144,97,0) ]).
+b_line_i(100,2,10,cmd,3,[ t('',146,100,0),t([ t('Notificationsgrid',3,100,7),t('Load',3,100,25) ],29,100,25) ]).
+b_line_i(102,2,11,cmd,3,[ t('',107,102,0),t('I_loadcount_notificationsgrid',23,3,0),t(=,10,3,0),t('0',3,3,0) ]).
+b_line_i(103,2,11,cmd,3,[ t('',107,103,0),t('Dp_sdt_notificationsgrid',23,3,0),t(=,10,3,0),t('udp(',1,3,0),t('Dp_sdt_notificationsgrid',3,3,0),t(103,3,3,0),t(')',4,3,0) ]).
+b_line_i(104,2,11,cmd,3,[ t('',109,104,0),t([ t('Dp_sdt_notificationsgrid',23,104,5),t('Count',3,104,31) ],29,104,31),t(=,10,3,37),t('0',3,3,39) ]).
+b_line_i(105,2,11,cmd,3,[ t('',107,105,0),t([ t('I_noresultsfoundtablename_notificationsgrid',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('TRUE',40,3,0) ]).
+b_line_i(106,2,11,cmd,3,[ t('',110,106,0) ]).
+b_line_i(107,2,11,cmd,3,[ t('',107,107,0),t([ t('I_noresultsfoundtablename_notificationsgrid',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('FALSE',41,3,0) ]).
+b_line_i(108,2,11,cmd,3,[ t('',111,108,0) ]).
+b_line_i(109,2,11,cmd,3,[ t('',107,109,0),t('GXV1',23,3,0),t(=,10,3,0),t(1,3,3,0) ]).
+b_line_i([ 109,2 ],2,11,cmd,3,[ t('',114,109,0),t('GXV1',23,3,0),t(<=,10,3,0),t([ t('Dp_sdt_notificationsgrid',23,109,40),t('Count',3,109,0) ],29,109,0) ]).
+b_line_i([ 109,3 ],2,11,cmd,3,[ t('',107,109,0),t('Dp_sdt_item_notificationsgrid',23,3,0),t(=,10,3,0),t([ t('Dp_sdt_notificationsgrid',23,3,0),t('item(',1,3,0) ],31,3,0),t('GXV1',23,3,0),t(')',4,3,0) ]).
+b_line_i(110,2,11,cmd,4,[ t('',107,110,0),t('I_loadcount_notificationsgrid',23,4,0),t(=,10,4,0),t('I_loadcount_notificationsgrid',23,4,0),t(+,5,4,0),t('1',3,4,0) ]).
+b_line_i(111,2,11,cmd,4,[ t('',107,111,0),t('Loadrow_notificationsgrid',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(114,2,11,cmd,4,[ t('',107,114,0),t('Notificationicon',23,4,0),t(=,10,4,0),t([ t('Dp_sdt_item_notificationsgrid',23,4,0),t('Notificationicon',3,4,0) ],29,4,0) ]).
+b_line_i([ 114,1 ],2,11,cmd,4,[ t('',107,114,0),t('Notificationicon_GXI',23,4,0),t(=,10,4,0),t([ t('Dp_sdt_item_notificationsgrid',23,4,0),t('Notificationicon_gxi',3,4,0) ],29,4,0) ]).
+b_line_i(115,2,11,cmd,5,[ t('',107,115,0),t('Notificationtext',23,5,0),t(=,10,5,0),t([ t('Dp_sdt_item_notificationsgrid',23,5,0),t('Notificationtext',3,5,0) ],29,5,0) ]).
+b_line_i(116,2,11,cmd,5,[ t('',107,116,0),t('Eventcreationdatetime',23,5,0),t(=,10,5,0),t([ t('Dp_sdt_item_notificationsgrid',23,5,0),t('Eventcreationdatetime',3,5,0) ],29,5,0) ]).
+b_line_i(117,2,11,cmd,5,[ t('',107,117,0),t('Notificationisread',23,5,0),t(=,10,5,0),t([ t('Dp_sdt_item_notificationsgrid',23,5,0),t('Notificationisread',3,5,0) ],29,5,0) ]).
+b_line_i(118,2,11,cmd,5,[ t('',107,118,0),t('Notificationid',23,5,0),t(=,10,5,0),t([ t('Dp_sdt_item_notificationsgrid',23,5,0),t('Notificationid',3,5,0) ],29,5,0) ]).
+b_line_i(119,2,11,cmd,5,[ t('',107,119,0),t('Eventtargeturl',23,5,0),t(=,10,5,0),t([ t('Dp_sdt_item_notificationsgrid',23,5,0),t('Eventtargeturl',3,5,0) ],29,5,0) ]).
+b_line_i(121,2,11,cmd,5,[ t('',107,121,0),t([ t('Markasread_action',23,121,3),t('fromimage(',1,121,22) ],31,121,3),t(i(98,'dfbe6635-f23c-4133-8627-41bb5fc11325'),69,5,33),t(')',4,5,56) ]).
+b_line_i([ 121,1 ],2,11,cmd,5,[ t('',107,121,0),t('Markasread_action_GXI',23,5,0),t(=,10,5,0),t('urifromurl(',1,5,0),t(i(98,'dfbe6635-f23c-4133-8627-41bb5fc11325'),69,5,0),t(')',4,5,0) ]).
+b_line_i(122,2,11,cmd,6,[ t('',107,122,0),t([ t('Markasread_action',23,6,0),t('Tooltiptext',3,6,0) ],29,6,0),t(=,10,6,0),t('getmessagetext(',1,6,0),t('"K2BT_MarkAsRead"',3,6,0),t(')',4,6,0) ]).
+b_line_i(128,2,11,cmd,6,[ t('',107,128,0),t([ t('Notificationsgrid_notificationtexttb',3,6,0),t('Caption',3,6,0) ],29,6,0),t(=,10,6,0),t('Notificationtext',23,6,0) ]).
+b_line_i(129,2,11,cmd,6,[ t('',107,129,0),t([ t('Notificationsgrid_notificationdatetb',3,6,0),t('Caption',3,6,0) ],29,6,0),t(=,10,6,0),t('udp(',1,6,0),t([ t('Notificationsgrid_notificationdatetb',3),t('Caption',3) ],3,6,0),t(129,3,6,0),t('Eventcreationdatetime',23,6,0),t(')',4,6,0) ]).
+b_line_i(131,2,11,cmd,6,[ t('',109,131,0),t('Notificationisread',23,6,6) ]).
+b_line_i(132,2,11,cmd,6,[ t('',107,132,0),t([ t('Markasread_action',23,6,0),t('Visible',3,6,0) ],29,6,0),t(=,10,6,0),t('FALSE',41,6,0) ]).
+b_line_i(133,2,11,cmd,6,[ t('',107,133,0),t([ t('Notificationsgrid_notificationcontainer',3,6,0),t('Class',3,6,0) ],29,6,0),t(=,10,6,0),t('"K2BT_NotificationContainer"',3,6,0) ]).
+b_line_i(134,2,11,cmd,6,[ t('',110,134,0) ]).
+b_line_i(135,2,11,cmd,6,[ t('',107,135,0),t([ t('Markasread_action',23,6,0),t('Visible',3,6,0) ],29,6,0),t(=,10,6,0),t('TRUE',40,6,0) ]).
+b_line_i(136,2,11,cmd,6,[ t('',107,136,0),t([ t('Notificationsgrid_notificationcontainer',3,6,0),t('Class',3,6,0) ],29,6,0),t(=,10,6,0),t('"K2BT_NotificationContainer"',3,6,0),t(+,5,6,0),t('" "',3,6,0),t(+,5,6,0),t('"K2BT_UnreadNotificationContainer"',3,6,0) ]).
+b_line_i(137,2,11,cmd,6,[ t('',111,137,0) ]).
+b_line_i(139,2,11,cmd,6,[ t('',145,139,0),t('''U_LOADROWVARS(NOTIFICATIONSGRID)''',3,139,6) ]).
+b_line_i(140,2,11,cmd,6,[ t('',109,140,0),t('Loadrow_notificationsgrid',23,6,6),t(=,10,6,33),t('TRUE',40,6,35) ]).
+b_line_i(141,2,11,cmd,6,[ t('',107,141,0),t([ t('Notificationsgrid',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(142,2,11,cmd,6,[ t('',110,142,0) ]).
+b_line_i(143,2,11,cmd,6,[ t('',107,143,0),t('I_loadcount_notificationsgrid',23,6,0),t(=,10,6,0),t('I_loadcount_notificationsgrid',23,6,0),t(-,5,6,0),t('1',3,6,0) ]).
+b_line_i(144,2,11,cmd,6,[ t('',111,144,0) ]).
+b_line_i([ 145,1 ],2,11,cmd,6,[ t('',107,145,0),t('GXV1',23,6,0),t(=,10,6,0),t('GXV1',23,6,0),t(+,5,6,0),t(1,3,6,0) ]).
+b_line_i([ 145,2 ],2,11,cmd,6,[ t('',115,145,0) ]).
+b_line_i(147,2,11,cmd,8,[ t('',147,147,0) ]).
+b_line_i(151,2,11,cmd,8,[ t('',143,151,0),t('''U_LOADROWVARS(NOTIFICATIONSGRID)''',3,151,5) ]).
+b_line_i(152,2,12,cmd,8,[ t('',107,152,0),t([ t('Viewnotification',3,8,0),t('Caption',3,8,0) ],29,8,0),t(=,10,8,0),t([ t('Dp_sdt_item_notificationsgrid',23,8,0),t('Notificationactioncaption',3,8,0) ],29,8,0) ]).
+b_line_i(153,2,12,cmd,8,[ t('',144,153,0) ]).
+b_line_i(156,2,12,cmd,8,[ t('',146,156,0),t([ t('Markasread_action',23,156,7),t('Click',3,156,26) ],29,156,26) ]).
+b_line_i(158,2,13,cmd,8,[ t('',145,158,0),t('''U_MARKASREAD''',3,158,5) ]).
+b_line_i(161,2,13,cmd,8,[ t('',147,161,0) ]).
+b_line_i(165,2,13,cmd,8,[ t('',143,165,0),t('''U_MARKASREAD''',3,165,5) ]).
+b_line_i(166,2,14,cmd,8,[ t('',104,166,0),t(o(1,'K2BTools\IntegrationProcedures\MarkWebNotificationAsRead'),28,8,41),t('Notificationid',23,8,67),t(',',7,8,0),t('Success',23,8,84),t(',',7,8,0),t('Messages',23,8,94) ]).
+b_line_i(168,2,14,cmd,8,[ t('',109,168,0),t('Success',23,8,5) ]).
+b_line_i(169,2,14,cmd,8,[ t('',132,169,0) ]).
+b_line_i(170,2,14,cmd,8,[ t('',110,170,0) ]).
+b_line_i(171,2,14,cmd,8,[ t('',107,171,0),t('GXV2',23,8,0),t(=,10,8,0),t(1,3,8,0) ]).
+b_line_i([ 171,2 ],2,14,cmd,8,[ t('',114,171,0),t('GXV2',23,8,0),t(<=,10,8,0),t([ t('Messages',23,171,19),t('Count',3,171,0) ],29,171,0) ]).
+b_line_i([ 171,3 ],2,14,cmd,8,[ t('',107,171,0),t('Message',23,8,0),t(=,10,8,0),t([ t('Messages',23,8,0),t('item(',1,8,0) ],31,8,0),t('GXV2',23,8,0),t(')',4,8,0) ]).
+b_line_i(172,2,14,cmd,9,[ t('',141,172,0),t([ t('Message',23,172,8),t('Description',3,172,17) ],29,172,17),t(')',4,9,28) ]).
+b_line_i([ 173,1 ],2,14,cmd,9,[ t('',107,173,0),t('GXV2',23,9,0),t(=,10,9,0),t('GXV2',23,9,0),t(+,5,9,0),t(1,3,9,0) ]).
+b_line_i([ 173,2 ],2,14,cmd,9,[ t('',115,173,0) ]).
+b_line_i(174,2,14,cmd,10,[ t('',111,174,0) ]).
+b_line_i(176,2,14,cmd,10,[ t('',107,176,0),t([ t('Notificationsgrid',3,176,2),t('refresh(',1,176,20) ],31,176,20),t(')',4,10,29) ]).
+b_line_i(177,2,14,cmd,10,[ t('',144,177,0) ]).
+b_line_i(181,2,14,cmd,10,[ t('',146,181,0),t('''E_ViewNotification''',3,181,7) ]).
+b_line_i(183,2,15,cmd,10,[ t('',145,183,0),t('''U_VIEWNOTIFICATION''',3,183,5) ]).
+b_line_i(186,2,15,cmd,10,[ t('',147,186,0) ]).
+b_line_i(190,2,15,cmd,10,[ t('',143,190,0),t('''U_VIEWNOTIFICATION''',3,190,5) ]).
+b_line_i(191,2,16,cmd,10,[ t('',107,191,0),t('Url',23,10,0),t(=,10,10,0),t('Eventtargeturl',23,10,0) ]).
+b_line_i(192,2,16,cmd,10,[ t('',145,192,0),t('''U_MARKASREAD''',3,192,5) ]).
+b_line_i(194,2,16,cmd,10,[ t('',171,194,0),t('Url',23,10,7) ]).
+b_line_i(195,2,16,cmd,10,[ t('',144,195,0) ]).
+b_line_i(197,2,16,cmd,10,[ t('',146,197,0),t([ t('Notificationsgrid_notificationcontainer',3,197,7),t('Click',3,197,47) ],29,197,47) ]).
+b_line_i(198,2,17,cmd,10,[ t('',145,198,0),t('''U_VIEWNOTIFICATION''',3,198,5) ]).
+b_line_i(199,2,17,cmd,10,[ t('',147,199,0) ]).
+b_line_i(201,2,17,cmd,10,[ t('',143,201,0),t('''REFRESHGRIDACTIONS(NOTIFICATIONSGRID)''',3,201,5) ]).
+b_line_i(203,2,18,cmd,10,[ t('',145,203,0),t('''DISPLAYPERSISTENTACTIONS(NOTIFICATIONSGRID)''',3,203,5) ]).
+b_line_i(205,2,18,cmd,10,[ t('',144,205,0) ]).
+b_line_i(209,2,18,cmd,10,[ t('',143,209,0),t('''DISPLAYPERSISTENTACTIONS(NOTIFICATIONSGRID)''',3,209,5) ]).
+b_line_i(211,2,19,cmd,10,[ t('',144,211,0) ]).
+b_line_i(215,2,19,cmd,10,[ t('',146,215,0),t('''E_ViewAll''',3,215,7) ]).
+b_line_i(217,2,20,cmd,10,[ t('',145,217,0),t('''U_VIEWALL''',3,217,5) ]).
+b_line_i(220,2,20,cmd,10,[ t('',147,220,0) ]).
+b_line_i(224,2,20,cmd,10,[ t('',143,224,0),t('''U_VIEWALL''',3,224,5) ]).
+b_line_i(225,2,21,cmd,10,[ t('',104,225,0),t(o(13,'K2BTools\DesignSystems\Aries\ViewAllNotifications'),28,10,2) ]).
+b_line_i(226,2,21,cmd,10,[ t('',144,226,0) ]).
+b_line_i(230,2,21,cmd,10,[ t('',146,230,0),t('''E_Refresh''',3,230,7) ]).
+b_line_i(232,2,22,cmd,10,[ t('',145,232,0),t('''U_REFRESH''',3,232,5) ]).
+b_line_i(235,2,22,cmd,10,[ t('',147,235,0) ]).
+b_line_i(239,2,22,cmd,10,[ t('',143,239,0),t('''U_REFRESH''',3,239,5) ]).
+b_line_i(240,2,23,cmd,10,[ t('',107,240,0),t([ t('Notificationsgrid',3,240,2),t('refresh(',1,240,20) ],31,240,20),t(')',4,10,29) ]).
+b_line_i(241,2,23,cmd,10,[ t('',144,241,0) ]).
+b_line_i(244,2,23,cmd,10,[ t('',146,244,0),t('Onmessage',3,244,7),t('(',0,10,16),t('Notificationinfo',23,10,17),t(')',4,10,34) ]).
+b_line_i(245,2,24,cmd,10,[ t('',109,245,0),t([ t('Notificationinfo',23,245,5),t('Id',3,245,23) ],29,245,23),t(=,10,10,26),t([ 137,'DesktopNotification' ],44,245,28) ]).
+b_line_i(246,2,24,cmd,10,[ t('',107,246,0),t('Newnotificationid',23,246,3),t(=,10,246,3),t('val(',1,246,3),t([ t('Notificationinfo',23,246,34),t('Message',3,246,52) ],29,246,52),t(')',4,10,59) ]).
+b_line_i(247,2,24,cmd,10,[ t('',107,247,0),t('Loaded',23,10,0),t(=,10,10,0),t('udp(',1,10,0),t('Loaded',3,10,0),t(247,3,10,0),t('Newnotificationid',23,10,0),t(',',7,10,0),t('Desktopnotificationinfosdt',23,10,0),t(')',4,10,0) ]).
+b_line_i(249,2,24,cmd,10,[ t('',109,249,0),t('Loaded',23,10,6) ]).
+b_line_i(250,2,24,cmd,10,[ t('',107,250,0),t([ t('K2bdesktopnotification',3,250,4),t('shownotification(',1,250,27) ],31,250,27),t('Desktopnotificationinfosdt',23,10,45),t(')',4,10,72) ]).
+b_line_i(251,2,24,cmd,10,[ t('',111,251,0) ]).
+b_line_i(253,2,24,cmd,10,[ t('',107,253,0),t([ t('Notificationsgrid',3,253,3),t('refresh(',1,253,21) ],31,253,21),t(')',4,10,30) ]).
+b_line_i(254,2,24,cmd,10,[ t('',110,254,0) ]).
+b_line_i(255,2,24,cmd,10,[ t('',109,255,0),t([ t('Notificationinfo',23,255,6),t('Id',3,255,24) ],29,255,24),t(=,10,10,27),t([ 137,'Refresh' ],44,255,29) ]).
+b_line_i(256,2,24,cmd,10,[ t('',107,256,0),t([ t('Notificationsgrid',3,256,4),t('refresh(',1,256,22) ],31,256,22),t(')',4,10,31) ]).
+b_line_i(257,2,24,cmd,10,[ t('',111,257,0) ]).
+b_line_i(258,2,24,cmd,10,[ t('',111,258,0) ]).
+b_line_i(259,2,24,cmd,10,[ t('',147,259,0) ]).
+b_line_i(262,2,24,cmd,10,[ t('',146,262,0),t([ t('Enablenotifications_action',3,262,7),t('Click',3,262,34) ],29,262,34) ]).
+b_line_i(263,2,25,cmd,10,[ t('',107,263,0),t([ t('K2bdesktopnotification',3,263,2),t('requestpermission(',1,263,25) ],31,263,25),t(')',4,10,44) ]).
+b_line_i(264,2,25,cmd,10,[ t('',147,264,0) ]).
+b_line_i(266,2,25,cmd,10,[ t('',146,266,0),t([ t('K2bdesktopnotification',3,266,7),t('Onpermissiongranted',3,266,30) ],29,266,30) ]).
+b_line_i(267,2,26,cmd,10,[ t('',109,267,0),t('Desktopnotificationspermission',23,10,5),t(=,10,10,37),t([ 129,'Granted' ],44,267,39) ]).
+b_line_i(268,2,26,cmd,10,[ t('',107,268,0),t([ t('Enablenotifications_action',3,10,0),t('Visible',3,10,0) ],29,10,0),t(=,10,10,0),t('FALSE',41,10,0) ]).
+b_line_i(269,2,26,cmd,10,[ t('',110,269,0) ]).
+b_line_i(270,2,26,cmd,10,[ t('',107,270,0),t([ t('Enablenotifications_action',3,10,0),t('Visible',3,10,0) ],29,10,0),t(=,10,10,0),t('TRUE',40,10,0) ]).
+b_line_i(271,2,26,cmd,10,[ t('',111,271,0) ]).
+b_line_i(272,2,26,cmd,10,[ t('',147,272,0) ]).
+ 
+sf_break_i(21,2).
+ 
+ 
+ 
+has_load_i(2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,usercontrol(7))).
+html_sub_i(5,8,html_i(1,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,t(l('K2BT_ViewAllNotifications'),3))).
+html_sub_i(11,14,html_i(1,div(14))).
+html_sub_i(14,15,html_i(0,t(l('K2BT_Notif_EnableWebNotifications'),3))).
+html_sub_i(11,16,html_i(2,div(16))).
+html_sub_i(16,17,html_i(0,t(l('K2BT_RefreshAction'),3))).
+html_sub_i(9,18,html_i(1,div(18))).
+html_sub_i(18,19,html_i(0,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,s(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,div(25))).
+html_sub_i(25,26,html_i(0,div(26))).
+html_sub_i(26,27,html_i(0,t('Notificationicon',23))).
+html_sub_i(25,28,html_i(1,div(28))).
+html_sub_i(28,29,html_i(0,div(29))).
+html_sub_i(29,30,html_i(0,t('',3))).
+html_sub_i(29,31,html_i(1,div(31))).
+html_sub_i(31,32,html_i(0,t('Markasread_action',23))).
+html_sub_i(28,33,html_i(1,t('',3))).
+html_sub_i(28,34,html_i(2,button('''E_ViewNotification'''))).
+html_sub_i(22,35,html_i(1,div(35))).
+html_sub_i(35,36,html_i(0,div(36))).
+html_sub_i(36,37,html_i(0,div(37))).
+html_sub_i(37,38,html_i(0,div(38))).
+html_sub_i(38,39,html_i(0,div(39))).
+html_sub_i(39,40,html_i(0,t('Notificationtext',23))).
+html_sub_i(37,41,html_i(1,div(41))).
+html_sub_i(41,42,html_i(0,div(42))).
+html_sub_i(42,43,html_i(0,t('Notificationisread',23))).
+html_sub_i(37,44,html_i(2,div(44))).
+html_sub_i(44,45,html_i(0,div(45))).
+html_sub_i(45,46,html_i(0,t('Notificationid',23))).
+html_sub_i(37,47,html_i(3,div(47))).
+html_sub_i(47,48,html_i(0,div(48))).
+html_sub_i(48,49,html_i(0,t('Eventtargeturl',23))).
+html_sub_i(19,50,html_i(1,div(50))).
+html_sub_i(50,51,html_i(0,div(51))).
+html_sub_i(51,52,html_i(0,t(l('K2BT_NoNotifications'),3))).
+html_sub_i(3,53,html_i(1,div(53))).
+html_sub_i(53,54,html_i(0,usercontrol(54))).
+html_sub_i(3,55,html_i(2,div(55))).
+html_sub_i(55,56,html_i(0,usercontrol(56))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(3,style,'flex-direction:column;').
+html_tags_i(3,'data-gx-flex','').
+html_tags_i(4,style,'flex-grow:1;').
+html_tags_i(5,style,'flex-direction:column;').
+html_tags_i(5,'data-gx-flex','').
+html_tags_i(6,style,'flex-grow:1;').
+html_tags_i(8,style,'flex-grow:1;').
+html_tags_i(9,style,'flex-direction:column;').
+html_tags_i(9,'data-gx-flex','').
+html_tags_i(10,style,'flex-grow:1;').
+html_tags_i(11,'data-gx-flex','').
+html_tags_i(13,'ControlType','').
+html_tags_i(14,style,'flex-grow:1;').
+html_tags_i(15,'ControlType','').
+html_tags_i(17,'ControlType','').
+html_tags_i(18,style,'flex-grow:1;').
+html_tags_i(19,style,'flex-direction:column;').
+html_tags_i(19,'data-gx-flex','').
+html_tags_i(20,style,'flex-grow:1;').
+html_tags_i(27,'data-gx-att','var:29').
+html_tags_i(30,'ControlType','').
+html_tags_i(32,'data-gx-att','var:24').
+html_tags_i(33,'ControlType','').
+html_tags_i(34,'ControlType','').
+html_tags_i(38,'data-gx-att','var:33').
+html_tags_i(40,'data-gx-att','var:33').
+html_tags_i(41,'data-gx-att','var:32').
+html_tags_i(43,'data-gx-att','var:32').
+html_tags_i(44,'data-gx-att','var:30').
+html_tags_i(46,'data-gx-att','var:30').
+html_tags_i(47,'data-gx-att','var:15').
+html_tags_i(49,'data-gx-att','var:15').
+html_tags_i(50,style,'flex-grow:1;').
+html_tags_i(52,'ControlType','').
+html_tags_i(53,style,'flex-grow:1;').
+html_tags_i(55,style,'flex-grow:1;').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','K2BT_HeaderNotificationsContainer',v,[ str ]).
+html_comp_i(3,'Id','Maintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class','',v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','Flex',v,[ str ]).
+html_comp_i(5,'Id','Contenttable',v,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','',v,[ str ]).
+html_comp_i(6,'Id','',d,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Usercontroltype','K2BTools.DesignSystems.Aries.NotificationsButton',d,[ str ]).
+html_comp_i(7,'Constructorname','K2BTools_DesignSystems_Aries_NotificationsButton',d,[ str ]).
+html_comp_i(7,'Showmethodname',show,d,[ str ]).
+html_comp_i(7,'Controlname','K2BT_NotificationsButton1',v,[ str ]).
+html_comp_i(7,'Buttonclass','',d,[ str ]).
+html_comp_i(7,'Count',0,d,[ num ]).
+html_comp_i(7,'Hidecounterifzero',-1,d,[ bool ]).
+html_comp_i(7,'Event','''E_ToggleNotifications''',v,[ str ]).
+html_comp_i(7,'Caption',l('E_Toggle Notifications'),d,[ str ]).
+html_comp_i(7,'Class','',d,[ str ]).
+html_comp_i(7,'Visible',-1,d,[ bool ]).
+html_comp_i(7,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(7,'Jssupportfiles',[ [ t('''UserControls/K2BTools.DesignSystems.Aries.NotificationsButtonRender.js''',3) ] ],d,[ params ]).
+html_comp_i(7,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(7,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','K2BToolsTable_GridControlsContainer',v,[ str ]).
+html_comp_i(9,'Id','Gridcomponentcontent_notificationsgrid',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class','',v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','K2BT_NotificationsComponentActions',v,[ str ]).
+html_comp_i(11,'Id','Table1',v,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','',v,[ str ]).
+html_comp_i(12,'Id','',d,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Caption',l('K2BT_ViewAllNotifications'),d,[ str ]).
+html_comp_i(13,'Id','Viewall_action',v,[ str ]).
+html_comp_i(13,'Class','K2BT_TextAction',v,[ str ]).
+html_comp_i(13,'Event','''E_ViewAll''',v,[ str ]).
+html_comp_i(13,'Returnonclick',0,d,[ bool ]).
+html_comp_i(13,'Gxformat',0,d,[ num ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(13,'Fill',-1,d,[ bool ]).
+html_comp_i(13,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(13,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Font','',d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Caption',l('K2BT_Notif_EnableWebNotifications'),d,[ str ]).
+html_comp_i(15,'Id','Enablenotifications_action',v,[ str ]).
+html_comp_i(15,'Class','K2BT_TextAction',v,[ str ]).
+html_comp_i(15,'Event','',d,[ str ]).
+html_comp_i(15,'Returnonclick',0,d,[ bool ]).
+html_comp_i(15,'Gxformat',0,d,[ num ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Fill',-1,d,[ bool ]).
+html_comp_i(15,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(15,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(15,'Font','',d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class','',v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Caption',l('K2BT_RefreshAction'),d,[ str ]).
+html_comp_i(17,'Id','Refresh_action',v,[ str ]).
+html_comp_i(17,'Class','K2BT_TextAction',v,[ str ]).
+html_comp_i(17,'Event','''E_Refresh''',v,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(17,'Font','',d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Class','',v,[ str ]).
+html_comp_i(18,'Id','',d,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Semanticcontent',div,d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Valign',top,d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','Flex',v,[ str ]).
+html_comp_i(19,'Id','Maingrid_responsivetable_notificationsgrid',v,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','',v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Controlname','Notificationsgrid',v,[ str ]).
+html_comp_i(21,'Renderingmode','Responsive',v,[ str ]).
+html_comp_i(21,'Save_state',0,d,[ bool ]).
+html_comp_i(21,'Class','FreeStyleGrid',v,[ str ]).
+html_comp_i(21,'Iddataselector','',d,[ str ]).
+html_comp_i(21,'Controlwhere','$[]$',v,[ str ]).
+html_comp_i(21,'Controlunique','',d,[ str ]).
+html_comp_i(21,'Allowdrop',0,d,[ bool ]).
+html_comp_i(21,'Allowdrag',0,d,[ bool ]).
+html_comp_i(21,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Backgroundgx','',d,[ str ]).
+html_comp_i(21,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(21,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Rules',none,d,[ str ]).
+html_comp_i(21,'Cellpadding','1',d,[ str ]).
+html_comp_i(21,'Cellspacing','2',d,[ str ]).
+html_comp_i(21,'Border','1',d,[ str ]).
+html_comp_i(21,'Sflrender','',d,[ str ]).
+html_comp_i(21,'Maxcols',1,d,[ num ]).
+html_comp_i(21,'Multi_columns_xs',1,d,[ num ]).
+html_comp_i(21,'Multi_columns_sm',1,d,[ num ]).
+html_comp_i(21,'Multi_columns_md',1,d,[ num ]).
+html_comp_i(21,'Multi_columns_lg',1,d,[ num ]).
+html_comp_i(21,'Prop_emptydatasettext','',d,[ str ]).
+html_comp_i(21,'Maxrows',0,v,[ num ]).
+html_comp_i(21,'Backcolorstyle',0,d,[ num ]).
+html_comp_i(21,'Linesbackcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(21,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class','K2BToolsSection_HoverActionContainer',v,[ str ]).
+html_comp_i(22,'Id','Notificationsgridtable1',v,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class',row,v,[ str ]).
+html_comp_i(23,'Id','',d,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class','col-xs-12',v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class','K2BT_NotificationContainer K2BT_UnreadNotificationContainer',v,[ str ]).
+html_comp_i(25,'Id','Notificationsgrid_notificationcontainer',v,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(26,'Id','',d,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Colcount',5,d,[ num ]).
+html_comp_i(27,'Attid',-29,v,[ num ]).
+html_comp_i(27,'Class','K2BT_NotificationIcon',v,[ str ]).
+html_comp_i(27,'Controlname','&Notificationicon',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,v,[ bool ]).
+html_comp_i(27,'Eventgx','',d,[ str ]).
+html_comp_i(27,'Captionclass','gx-form-item K2BT_NotificationIconLabel',v,[ str ]).
+html_comp_i(27,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(27,'Captionposition','None',v,[ str ]).
+html_comp_i(27,'Captionvalue','',d,[ str ]).
+html_comp_i(27,'Layoutclass','',v,[ str ]).
+html_comp_i(27,'Controltype',2,d,[ num ]).
+html_comp_i(27,'Inputtype',0,d,[ num ]).
+html_comp_i(27,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(27,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(27,'Autocomplete',0,d,[ bool ]).
+html_comp_i(27,'Autoresize',-1,d,[ bool ]).
+html_comp_i(27,'Ismultiline',0,d,[ bool ]).
+html_comp_i(27,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(27,'Border','0',d,[ str ]).
+html_comp_i(27,'Alt','',d,[ str ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Hspace',0,d,[ num ]).
+html_comp_i(27,'Vspace',0,d,[ num ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Class','K2BT_NotificationContentContainer',v,[ str ]).
+html_comp_i(28,'Id','Notificationsgrid_section1',v,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Semanticcontent',div,d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Valign',top,d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Class','Section',v,[ str ]).
+html_comp_i(29,'Id','Notificationsgrid_section2',v,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Semanticcontent',div,d,[ str ]).
+html_comp_i(29,'Align',left,d,[ str ]).
+html_comp_i(29,'Valign',top,d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Caption','',d,[ str ]).
+html_comp_i(30,'Id','Notificationsgrid_notificationtexttb',v,[ str ]).
+html_comp_i(30,'Class','K2BT_NotificationMessage',v,[ str ]).
+html_comp_i(30,'Event','',d,[ str ]).
+html_comp_i(30,'Returnonclick',0,d,[ bool ]).
+html_comp_i(30,'Gxformat',0,d,[ num ]).
+html_comp_i(30,'Title','',d,[ str ]).
+html_comp_i(30,'Fill',-1,d,[ bool ]).
+html_comp_i(30,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(30,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Font','',d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(31,'Id','',d,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(32,'Colcount',5,d,[ num ]).
+html_comp_i(32,'Attid',-24,v,[ num ]).
+html_comp_i(32,'Class','Image_Action Image_Action_OnSectionHover K2BT_NotificationMarkAsRead',v,[ str ]).
+html_comp_i(32,'Controlname','&Markasread_action',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,v,[ bool ]).
+html_comp_i(32,'Eventgx','',d,[ str ]).
+html_comp_i(32,'Captionclass','gx-form-item Image_ActionLabel Image_Action_OnSectionHoverLabel K2BT_NotificationMarkAsReadLabel',v,[ str ]).
+html_comp_i(32,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(32,'Captionposition','None',v,[ str ]).
+html_comp_i(32,'Captionvalue',l('MarkAsRead'),d,[ str ]).
+html_comp_i(32,'Layoutclass','',v,[ str ]).
+html_comp_i(32,'Controltype',2,d,[ num ]).
+html_comp_i(32,'Inputtype',0,d,[ num ]).
+html_comp_i(32,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(32,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(32,'Autocomplete',0,d,[ bool ]).
+html_comp_i(32,'Autoresize',-1,d,[ bool ]).
+html_comp_i(32,'Ismultiline',0,d,[ bool ]).
+html_comp_i(32,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(32,'Border','0',d,[ str ]).
+html_comp_i(32,'Alt','',d,[ str ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Hspace',0,d,[ num ]).
+html_comp_i(32,'Vspace',0,d,[ num ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Caption','',d,[ str ]).
+html_comp_i(33,'Id','Notificationsgrid_notificationdatetb',v,[ str ]).
+html_comp_i(33,'Class','K2BT_NotificationDate',v,[ str ]).
+html_comp_i(33,'Event','',d,[ str ]).
+html_comp_i(33,'Returnonclick',0,d,[ bool ]).
+html_comp_i(33,'Gxformat',0,d,[ num ]).
+html_comp_i(33,'Title','',d,[ str ]).
+html_comp_i(33,'Fill',-1,d,[ bool ]).
+html_comp_i(33,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(33,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(33,'Font','',d,[ str ]).
+html_comp_i(34,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(34,'Controlname','Viewnotification',v,[ str ]).
+html_comp_i(34,'Class','K2BToolsButton_MinimalAction',v,[ str ]).
+html_comp_i(34,'Event','''E_ViewNotification''',v,[ str ]).
+html_comp_i(34,'Caption','',d,[ str ]).
+html_comp_i(34,'Title','',v,[ str ]).
+html_comp_i(34,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(34,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(34,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(34,'Border','2',d,[ str ]).
+html_comp_i(34,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(34,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(35,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(35,'Class',row,v,[ str ]).
+html_comp_i(35,'Id','',d,[ str ]).
+html_comp_i(35,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Semanticcontent',div,d,[ str ]).
+html_comp_i(35,'Align',left,d,[ str ]).
+html_comp_i(35,'Valign',top,d,[ str ]).
+html_comp_i(36,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(36,'Class','col-xs-12',v,[ str ]).
+html_comp_i(36,'Id','',d,[ str ]).
+html_comp_i(36,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Semanticcontent',div,d,[ str ]).
+html_comp_i(36,'Align',left,d,[ str ]).
+html_comp_i(36,'Valign',top,d,[ str ]).
+html_comp_i(37,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(37,'Class','Section_Invisible',v,[ str ]).
+html_comp_i(37,'Id','Layoutcontent_invisiblecontrolssection',v,[ str ]).
+html_comp_i(37,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Semanticcontent',div,d,[ str ]).
+html_comp_i(37,'Align',left,d,[ str ]).
+html_comp_i(37,'Valign',top,d,[ str ]).
+html_comp_i(38,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(38,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(38,'Id','',d,[ str ]).
+html_comp_i(38,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Semanticcontent',div,d,[ str ]).
+html_comp_i(38,'Align',left,d,[ str ]).
+html_comp_i(38,'Valign',top,d,[ str ]).
+html_comp_i(39,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(39,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(39,'Id','',d,[ str ]).
+html_comp_i(39,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(39,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(39,'Semanticcontent',div,d,[ str ]).
+html_comp_i(39,'Align',left,d,[ str ]).
+html_comp_i(39,'Valign',top,d,[ str ]).
+html_comp_i(40,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(40,'Colcount',80,d,[ num ]).
+html_comp_i(40,'Attid',-33,v,[ num ]).
+html_comp_i(40,'Class','Attribute',v,[ str ]).
+html_comp_i(40,'Controlname','&Notificationtext',d,[ str ]).
+html_comp_i(40,'Returnonclick',0,v,[ bool ]).
+html_comp_i(40,'Captionclass','gx-form-item AttributeLabel',v,[ str ]).
+html_comp_i(40,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(40,'Captionposition','Top',v,[ str ]).
+html_comp_i(40,'Captionvalue',l('Notification Text'),d,[ str ]).
+html_comp_i(40,'Layoutclass','gx-form-item',v,[ str ]).
+html_comp_i(40,'Controltype',2,d,[ num ]).
+html_comp_i(40,'Inputtype',0,d,[ num ]).
+html_comp_i(40,'Editautocomplete',0,d,[ num ]).
+html_comp_i(40,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(40,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(40,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(40,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(40,'Readonly',0,v,[ bool ]).
+html_comp_i(40,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(40,'Ispassword',0,d,[ bool ]).
+html_comp_i(40,'Autoresize',-1,d,[ bool ]).
+html_comp_i(40,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(40,'Gxheight',measure(10,row),d,[ measure ]).
+html_comp_i(40,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(40,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(40,'Fill',-1,d,[ bool ]).
+html_comp_i(40,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(40,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(40,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(40,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(40,'Gxformat',0,d,[ num ]).
+html_comp_i(40,'Title','',d,[ str ]).
+html_comp_i(40,'Invitemsg','',v,[ str ]).
+html_comp_i(41,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(41,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(41,'Id','',d,[ str ]).
+html_comp_i(41,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(41,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(41,'Semanticcontent',div,d,[ str ]).
+html_comp_i(41,'Align',left,d,[ str ]).
+html_comp_i(41,'Valign',top,d,[ str ]).
+html_comp_i(42,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(42,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(42,'Id','',d,[ str ]).
+html_comp_i(42,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(42,'Semanticcontent',div,d,[ str ]).
+html_comp_i(42,'Align',left,d,[ str ]).
+html_comp_i(42,'Valign',top,d,[ str ]).
+html_comp_i(43,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(43,'Colcount',4,d,[ num ]).
+html_comp_i(43,'Attid',-32,v,[ num ]).
+html_comp_i(43,'Class','Attribute',v,[ str ]).
+html_comp_i(43,'Controlname','&Notificationisread',d,[ str ]).
+html_comp_i(43,'Returnonclick',0,v,[ bool ]).
+html_comp_i(43,'Captionclass','gx-form-item AttributeLabel',v,[ str ]).
+html_comp_i(43,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(43,'Captionposition','Top',v,[ str ]).
+html_comp_i(43,'Captionvalue',l('Notification Is Read'),d,[ str ]).
+html_comp_i(43,'Layoutclass','gx-form-item',v,[ str ]).
+html_comp_i(43,'Controltype',3,d,[ num ]).
+html_comp_i(43,'Controltitle','',d,[ str ]).
+html_comp_i(43,'Controlcheckvalue',true,d,[ str ]).
+html_comp_i(43,'Controluncheckvalue',false,d,[ str ]).
+html_comp_i(43,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(43,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(43,'Readonly',0,v,[ bool ]).
+html_comp_i(43,'Autocomplete',0,d,[ bool ]).
+html_comp_i(43,'Autoresize',-1,d,[ bool ]).
+html_comp_i(43,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(43,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(43,'Ismultiline',0,d,[ bool ]).
+html_comp_i(43,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(43,'Fill',-1,d,[ bool ]).
+html_comp_i(43,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(43,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(43,'Title','',d,[ str ]).
+html_comp_i(43,'Invitemsg','',v,[ str ]).
+html_comp_i(44,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(44,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(44,'Id','',d,[ str ]).
+html_comp_i(44,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(44,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(44,'Semanticcontent',div,d,[ str ]).
+html_comp_i(44,'Align',left,d,[ str ]).
+html_comp_i(44,'Valign',top,d,[ str ]).
+html_comp_i(45,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(45,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(45,'Id','',d,[ str ]).
+html_comp_i(45,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(45,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(45,'Semanticcontent',div,d,[ str ]).
+html_comp_i(45,'Align',left,d,[ str ]).
+html_comp_i(45,'Valign',top,d,[ str ]).
+html_comp_i(46,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(46,'Colcount',15,d,[ num ]).
+html_comp_i(46,'Attid',-30,v,[ num ]).
+html_comp_i(46,'Class','Attribute',v,[ str ]).
+html_comp_i(46,'Controlname','&Notificationid',d,[ str ]).
+html_comp_i(46,'Returnonclick',0,v,[ bool ]).
+html_comp_i(46,'Captionclass','gx-form-item AttributeLabel',v,[ str ]).
+html_comp_i(46,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(46,'Captionposition','Top',v,[ str ]).
+html_comp_i(46,'Captionvalue',l('Notification Id'),d,[ str ]).
+html_comp_i(46,'Layoutclass','gx-form-item',v,[ str ]).
+html_comp_i(46,'Controltype',2,d,[ num ]).
+html_comp_i(46,'Inputtype',0,d,[ num ]).
+html_comp_i(46,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(46,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(46,'Readonly',0,v,[ bool ]).
+html_comp_i(46,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(46,'Ispassword',0,d,[ bool ]).
+html_comp_i(46,'Autoresize',-1,d,[ bool ]).
+html_comp_i(46,'Gxwidth',measure(15,chr),d,[ measure ]).
+html_comp_i(46,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(46,'Ismultiline',0,d,[ bool ]).
+html_comp_i(46,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(46,'Fill',-1,d,[ bool ]).
+html_comp_i(46,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(46,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(46,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(46,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(46,'Gxformat',0,d,[ num ]).
+html_comp_i(46,'Title','',d,[ str ]).
+html_comp_i(46,'Invitemsg','',v,[ str ]).
+html_comp_i(47,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(47,'Class','form-group gx-form-group gx-default-form-group gx-label-top',v,[ str ]).
+html_comp_i(47,'Id','',d,[ str ]).
+html_comp_i(47,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(47,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(47,'Semanticcontent',div,d,[ str ]).
+html_comp_i(47,'Align',left,d,[ str ]).
+html_comp_i(47,'Valign',top,d,[ str ]).
+html_comp_i(48,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(48,'Class','gx-form-item gx-attribute',v,[ str ]).
+html_comp_i(48,'Id','',d,[ str ]).
+html_comp_i(48,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(48,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(48,'Semanticcontent',div,d,[ str ]).
+html_comp_i(48,'Align',left,d,[ str ]).
+html_comp_i(48,'Valign',top,d,[ str ]).
+html_comp_i(49,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(49,'Colcount',80,d,[ num ]).
+html_comp_i(49,'Attid',-15,v,[ num ]).
+html_comp_i(49,'Class','Attribute',v,[ str ]).
+html_comp_i(49,'Controlname','&Eventtargeturl',d,[ str ]).
+html_comp_i(49,'Returnonclick',0,v,[ bool ]).
+html_comp_i(49,'Captionclass','gx-form-item AttributeLabel',v,[ str ]).
+html_comp_i(49,'Captionstyle','width: 100%;',v,[ str ]).
+html_comp_i(49,'Captionposition','Top',v,[ str ]).
+html_comp_i(49,'Captionvalue',l('Event Target Url'),d,[ str ]).
+html_comp_i(49,'Layoutclass','gx-form-item',v,[ str ]).
+html_comp_i(49,'Controltype',2,d,[ num ]).
+html_comp_i(49,'Inputtype',0,d,[ num ]).
+html_comp_i(49,'Editautocomplete',0,d,[ num ]).
+html_comp_i(49,'Autocorrection',0,d,[ bool ]).
+html_comp_i(49,'Autocapitalization','None',d,[ str ]).
+html_comp_i(49,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(49,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(49,'Readonly',0,v,[ bool ]).
+html_comp_i(49,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(49,'Ispassword',0,d,[ bool ]).
+html_comp_i(49,'Autoresize',0,d,[ bool ]).
+html_comp_i(49,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(49,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(49,'Ismultiline',0,d,[ bool ]).
+html_comp_i(49,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(49,'Fill',-1,d,[ bool ]).
+html_comp_i(49,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(49,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(49,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(49,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(49,'Gxformat',0,d,[ num ]).
+html_comp_i(49,'Title','',d,[ str ]).
+html_comp_i(49,'Invitemsg','',v,[ str ]).
+html_comp_i(50,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(50,'Class','',v,[ str ]).
+html_comp_i(50,'Id','',d,[ str ]).
+html_comp_i(50,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Semanticcontent',div,d,[ str ]).
+html_comp_i(50,'Align',left,d,[ str ]).
+html_comp_i(50,'Valign',top,d,[ str ]).
+html_comp_i(51,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(51,'Class','K2BToolsTable_NoResultsFound',v,[ str ]).
+html_comp_i(51,'Id','I_noresultsfoundtablename_notificationsgrid',v,[ str ]).
+html_comp_i(51,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(51,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(51,'Semanticcontent',div,d,[ str ]).
+html_comp_i(51,'Align',left,d,[ str ]).
+html_comp_i(51,'Valign',top,d,[ str ]).
+html_comp_i(52,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(52,'Caption',l('K2BT_NoNotifications'),d,[ str ]).
+html_comp_i(52,'Id','I_noresultsfoundtextblock_notificationsgrid',v,[ str ]).
+html_comp_i(52,'Class','K2BToolsTextBlock_NoResultsFound',v,[ str ]).
+html_comp_i(52,'Event','',d,[ str ]).
+html_comp_i(52,'Returnonclick',0,d,[ bool ]).
+html_comp_i(52,'Gxformat',0,d,[ num ]).
+html_comp_i(52,'Title','',d,[ str ]).
+html_comp_i(52,'Fill',-1,d,[ bool ]).
+html_comp_i(52,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(52,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(52,'Font','',d,[ str ]).
+html_comp_i(53,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(53,'Class','',v,[ str ]).
+html_comp_i(53,'Id','',d,[ str ]).
+html_comp_i(53,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(53,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(53,'Semanticcontent',div,d,[ str ]).
+html_comp_i(53,'Align',left,d,[ str ]).
+html_comp_i(53,'Valign',top,d,[ str ]).
+html_comp_i(54,'Usercontroltype','K2BControlBeautify',d,[ str ]).
+html_comp_i(54,'Constructorname','K2BControlBeautify',d,[ str ]).
+html_comp_i(54,'Showmethodname',show,d,[ str ]).
+html_comp_i(54,'Controlname','K2BControlBeautify1',v,[ str ]).
+html_comp_i(54,'Updatecheckboxes',-1,d,[ bool ]).
+html_comp_i(54,'Visible',-1,d,[ bool ]).
+html_comp_i(54,'Csssupportfiles',[ [ t('''K2BControlBeautify\toastr-master/toastr.min.css''',3) ] ],d,[ params ]).
+html_comp_i(54,'Jssupportfiles',[ [ t('''K2BControlBeautify\toastr-master/toastr.min.js''',3) ],[ t('''K2BControlBeautify\K2BControlBeautifyRender.js''',3) ] ],d,[ params ]).
+html_comp_i(54,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(54,'Jssharedsupportfiles',[ [ t('''shared/K2BToolsCommon.js''',3) ] ],d,[ params ]).
+html_comp_i(55,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(55,'Class','',v,[ str ]).
+html_comp_i(55,'Id','',d,[ str ]).
+html_comp_i(55,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(55,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(55,'Semanticcontent',div,d,[ str ]).
+html_comp_i(55,'Align',left,d,[ str ]).
+html_comp_i(55,'Valign',top,d,[ str ]).
+html_comp_i(56,'Usercontroltype','K2BDesktopNotification',d,[ str ]).
+html_comp_i(56,'Constructorname','K2BDesktopNotification',d,[ str ]).
+html_comp_i(56,'Showmethodname',show,d,[ str ]).
+html_comp_i(56,'Controlname','K2BDesktopNotification',v,[ str ]).
+html_comp_i(56,'Permission',[ t('Desktopnotificationspermission',23) ],v,[ params ]).
+html_comp_i(56,'Clickednotificationtag',[ t('Desktopnotificationtag',23) ],v,[ params ]).
+html_comp_i(56,'Setpermission','SetPermission',d,[ str ]).
+html_comp_i(56,'Getpermission','GetPermission',d,[ str ]).
+html_comp_i(56,'Setclickednotificationtag','SetClickedNotificationTag',d,[ str ]).
+html_comp_i(56,'Getclickednotificationtag','GetClickedNotificationTag',d,[ str ]).
+html_comp_i(56,'Visible',-1,d,[ bool ]).
+html_comp_i(56,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(56,'Jssupportfiles',[ [ t('''K2BDesktopNotification\K2BDesktopNotificationRender.js''',3) ] ],d,[ params ]).
+html_comp_i(56,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(56,'Jssharedsupportfiles',[],d,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(7,1,usercontrol(7),[ ctlname('K2bt_notificationsbutton1'),ctrltype('k2btools.designsystems.aries.notificationsbutton'),el([]),containers([]) ]).
+lit_i(6,1,div(6),[ ctlname('') ]).
+lit_i(13,1,t(l('K2BT_ViewAllNotifications'),3),[ ctlname('Viewall_action') ]).
+lit_i(12,1,div(12),[ ctlname('') ]).
+lit_i(15,1,t(l('K2BT_Notif_EnableWebNotifications'),3),[ ctlname('Enablenotifications_action') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(17,1,t(l('K2BT_RefreshAction'),3),[ ctlname('Refresh_action') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(11,1,div(11),[ ctlname('Table1') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(27,21,s(t('Notificationicon',23),21),[ ctlname('&Notificationicon'),ctrltype(edit,27),pos(27),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,21,div(26),[ ctlname('') ]).
+lit_i(30,21,s(t('',3),21),[ ctlname('Notificationsgrid_notificationtexttb') ]).
+lit_i(32,21,s(t('Markasread_action',23),21),[ ctlname('&Markasread_action'),ctrltype(edit,32),pos(32),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(31,21,div(31),[ ctlname('') ]).
+lit_i(29,21,div(29),[ ctlname('Notificationsgrid_section2') ]).
+lit_i(33,21,s(t('',3),21),[ ctlname('Notificationsgrid_notificationdatetb') ]).
+lit_i(34,21,button('''E_ViewNotification'''),[ ctlname('Viewnotification'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(28,21,div(28),[ ctlname('Notificationsgrid_section1') ]).
+lit_i(25,21,div(25),[ ctlname('Notificationsgrid_notificationcontainer') ]).
+lit_i(24,21,div(24),[ ctlname('') ]).
+lit_i(23,21,div(23),[ ctlname('') ]).
+lit_i(40,21,s(t('Notificationtext',23),21),[ ctlname('&Notificationtext'),ctrltype(edit,40),pos(40),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(39,21,div(39),[ ctlname('') ]).
+lit_i(38,21,div(38),[ ctlname('') ]).
+lit_i(43,21,s(t('Notificationisread',23),21),[ ctlname('&Notificationisread'),ctrltype(checkbox,43),pos(43),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(42,21,div(42),[ ctlname('') ]).
+lit_i(41,21,div(41),[ ctlname('') ]).
+lit_i(46,21,s(t('Notificationid',23),21),[ ctlname('&Notificationid'),ctrltype(edit,46),pos(46),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(45,21,div(45),[ ctlname('') ]).
+lit_i(44,21,div(44),[ ctlname('') ]).
+lit_i(49,21,s(t('Eventtargeturl',23),21),[ ctlname('&Eventtargeturl'),ctrltype(edit,49),pos(49),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(48,21,div(48),[ ctlname('') ]).
+lit_i(47,21,div(47),[ ctlname('') ]).
+lit_i(37,21,div(37),[ ctlname('Layoutcontent_invisiblecontrolssection') ]).
+lit_i(36,21,div(36),[ ctlname('') ]).
+lit_i(35,21,div(35),[ ctlname('') ]).
+lit_i(22,21,div(22),[ ctlname('Notificationsgridtable1') ]).
+lit_i(21,1,s(21),[ ctlname('Notificationsgrid'),el([ t('Notificationicon',23),t('Markasread_action',23),t('Notificationtext',23),t('Notificationisread',23),t('Notificationid',23),t('Eventtargeturl',23) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(20,1,div(20),[ ctlname('') ]).
+lit_i(52,1,t(l('K2BT_NoNotifications'),3),[ ctlname('I_noresultsfoundtextblock_notificationsgrid') ]).
+lit_i(51,1,div(51),[ ctlname('I_noresultsfoundtablename_notificationsgrid') ]).
+lit_i(50,1,div(50),[ ctlname('') ]).
+lit_i(19,1,div(19),[ ctlname('Maingrid_responsivetable_notificationsgrid') ]).
+lit_i(18,1,div(18),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('Gridcomponentcontent_notificationsgrid') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(5,1,div(5),[ ctlname('Contenttable') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(54,1,usercontrol(54),[ ctlname('K2bcontrolbeautify1'),ctrltype(k2bcontrolbeautify),el([]),containers([]) ]).
+lit_i(53,1,div(53),[ ctlname('') ]).
+lit_i(56,1,usercontrol(56),[ ctlname('K2bdesktopnotification'),ctrltype(k2bdesktopnotification),el([ t('Desktopnotificationspermission',23),t('Desktopnotificationtag',23) ]),containers([]) ]).
+lit_i(55,1,div(55),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Maintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,27,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,32,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,43,[ [ true,false,'' ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Url',idBasedOn,8,v).
+var_prop_i(2,'Url','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(2,'Url','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(2,'Eventcreationdatetime',idBasedOn,128,v).
+var_prop_i(2,'Eventtargeturl',idBasedOn,8,v).
+var_prop_i(2,'Eventtargeturl','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(2,'Eventtargeturl','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(2,'Layoutcontent_eventtargeturl',idBasedOn,8,v).
+var_prop_i(2,'Layoutcontent_eventtargeturl','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(2,'Layoutcontent_eventtargeturl','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(2,'Newnotificationid',idBasedOn,133,v).
+var_prop_i(2,'Notificationicon',idBasedOn,111,v).
+var_prop_i(2,'Notificationid',idBasedOn,133,v).
+var_prop_i(2,'Notificationisread',idBasedOn,118,v).
+var_prop_i(2,'Notificationtext',idBasedOn,136,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,69,0 ],name,'K2BActivityList').
+struct_dt_i([ 26,69,0 ],namespace,test).
+struct_dt_i([ 26,69,0 ],'ObjName','K2BActivityList').
+struct_dt_i([ 26,69,0 ],'ObjDesc','K2 BActivity List').
+struct_dt_i([ 26,69,0 ],'ExternalName','K2BActivityList').
+struct_dt_i([ 26,69,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,69,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,69,0 ],collection,'True').
+struct_dt_i([ 26,69,0 ],datatype,[ 26,69,100 ]).
+struct_dt_i([ 26,69,0 ],'CollectionItemName','K2BActivityListItem').
+struct_dt_i([ 26,69,0 ],'XmlName','').
+struct_dt_i([ 26,69,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,69,0 ],'XmlNamespace','').
+struct_dt_i([ 26,69,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,69,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,69,0 ],'JsonName','').
+struct_dt_i([ 26,69,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,69,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,69,100 ],name,'K2BActivityListItem').
+struct_dt_i([ 26,69,100 ],namespace,'test.K2BActivityList').
+struct_dt_i([ 26,68,0 ],name,'K2BActivity').
+struct_dt_i([ 26,68,0 ],namespace,test).
+struct_dt_i([ 26,68,0 ],'ObjName','K2BActivity').
+struct_dt_i([ 26,68,0 ],'ObjDesc','K2 BActivity').
+struct_dt_i([ 26,68,0 ],'ExternalName','K2BActivity').
+struct_dt_i([ 26,68,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,68,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,68,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,77,0 ],name,'DesktopNotificationInfoSDT').
+struct_dt_i([ 26,77,0 ],namespace,test).
+struct_dt_i([ 26,77,0 ],'ObjName','DesktopNotificationInfoSDT').
+struct_dt_i([ 26,77,0 ],'ObjDesc','Desktop Notification Info SDT').
+struct_dt_i([ 26,77,0 ],'ExternalName','DesktopNotificationInfoSDT').
+struct_dt_i([ 26,77,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,77,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,77,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,80,0 ],name,'K2BTools\IntegrationProcedures\WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],namespace,test).
+struct_dt_i([ 26,80,0 ],'ObjName','WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],'ObjDesc','Web Notification SDT').
+struct_dt_i([ 26,80,0 ],'ExternalName','WebNotificationSDT').
+struct_dt_i([ 26,80,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,80,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,80,0 ],collection,'True').
+struct_dt_i([ 26,80,0 ],datatype,[ 26,80,111 ]).
+struct_dt_i([ 26,80,0 ],'CollectionItemName','Notification').
+struct_dt_i([ 26,80,0 ],'XmlName','').
+struct_dt_i([ 26,80,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,80,0 ],'XmlNamespace','').
+struct_dt_i([ 26,80,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,80,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,80,0 ],'JsonName','').
+struct_dt_i([ 26,80,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,80,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,80,111 ],name,'Notification').
+struct_dt_i([ 26,80,111 ],namespace,'test.WebNotificationSDT').
+struct_dt_i([ 26,1,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,1,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,1,0 ],'ObjName','Messages').
+struct_dt_i([ 26,1,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,1,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,1,0 ],collection,'True').
+struct_dt_i([ 26,1,0 ],datatype,[ 26,1,1 ]).
+struct_dt_i([ 26,1,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,1,0 ],'XmlName','').
+struct_dt_i([ 26,1,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,1,0 ],'XmlNamespace','').
+struct_dt_i([ 26,1,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,1,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,1,0 ],'JsonName','').
+struct_dt_i([ 26,1,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,1,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,1,0 ],isexternal,'True').
+struct_dt_i([ 26,1,1 ],name,'Message').
+struct_dt_i([ 26,1,1 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,23,0 ],name,'GeneXus\Server\NotificationInfo').
+struct_dt_i([ 26,23,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,23,0 ],'ObjName','NotificationInfo').
+struct_dt_i([ 26,23,0 ],'ObjDesc','Notification Info').
+struct_dt_i([ 26,23,0 ],'ExternalName','NotificationInfo').
+struct_dt_i([ 26,23,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,23,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,23,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,23,0 ],isexternal,'True').
+struct_dt_i([ 26,69,0 ],fullname,'K2BActivityList').
+struct_dt_i([ 26,69,100 ],fullname,'K2BActivityList.K2BActivityListItem').
+struct_dt_i([ 26,68,0 ],fullname,'K2BActivity').
+struct_dt_i([ 26,77,0 ],fullname,'DesktopNotificationInfoSDT').
+struct_dt_i([ 26,80,0 ],fullname,'K2BTools\IntegrationProcedures\WebNotificationSDT').
+struct_dt_i([ 26,80,111 ],fullname,'K2BTools\IntegrationProcedures\WebNotificationSDT.Notification').
+struct_dt_i([ 26,1,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,1,1 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,23,0 ],fullname,'GeneXus\Server\NotificationInfo').
+ 
+struct_dt_elem_i([ 26,69,100 ],1,name,'Activity').
+struct_dt_elem_i([ 26,69,100 ],1,camelname,'Activity').
+struct_dt_elem_i([ 26,69,100 ],1,length,4).
+struct_dt_elem_i([ 26,69,100 ],1,decimals,0).
+struct_dt_elem_i([ 26,69,100 ],1,type,[ [ 26,68,0 ],4,0 ]).
+struct_dt_elem_i([ 26,69,100 ],1,pic,'').
+struct_dt_elem_i([ 26,69,100 ],1,collection,'False').
+struct_dt_elem_i([ 26,69,100 ],1,'ExternalName','Activity').
+struct_dt_elem_i([ 26,69,100 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,69,100 ],1,'XmlName','').
+struct_dt_elem_i([ 26,69,100 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,100 ],1,soaptype,'').
+struct_dt_elem_i([ 26,69,100 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,100 ],1,'JsonName','').
+struct_dt_elem_i([ 26,69,100 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,69,100 ],2,name,'Isauthorized').
+struct_dt_elem_i([ 26,69,100 ],2,camelname,'IsAuthorized').
+struct_dt_elem_i([ 26,69,100 ],2,length,4).
+struct_dt_elem_i([ 26,69,100 ],2,decimals,0).
+struct_dt_elem_i([ 26,69,100 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,69,100 ],2,pic,'').
+struct_dt_elem_i([ 26,69,100 ],2,collection,'False').
+struct_dt_elem_i([ 26,69,100 ],2,'ExternalName','IsAuthorized').
+struct_dt_elem_i([ 26,69,100 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,69,100 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,69,100 ],2,'XmlName','').
+struct_dt_elem_i([ 26,69,100 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,100 ],2,soaptype,'').
+struct_dt_elem_i([ 26,69,100 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,100 ],2,'JsonName','').
+struct_dt_elem_i([ 26,69,100 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],1,name,'Entityname').
+struct_dt_elem_i([ 26,68,0 ],1,camelname,'EntityName').
+struct_dt_elem_i([ 26,68,0 ],1,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],1,length,256).
+struct_dt_elem_i([ 26,68,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],1,pic,'').
+struct_dt_elem_i([ 26,68,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],1,'ExternalName','EntityName').
+struct_dt_elem_i([ 26,68,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],2,name,'Transactionname').
+struct_dt_elem_i([ 26,68,0 ],2,camelname,'TransactionName').
+struct_dt_elem_i([ 26,68,0 ],2,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],2,length,256).
+struct_dt_elem_i([ 26,68,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],2,pic,'').
+struct_dt_elem_i([ 26,68,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],2,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,68,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],3,name,'Pgmname').
+struct_dt_elem_i([ 26,68,0 ],3,camelname,'PgmName').
+struct_dt_elem_i([ 26,68,0 ],3,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],3,length,256).
+struct_dt_elem_i([ 26,68,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],3,pic,'').
+struct_dt_elem_i([ 26,68,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],3,'ExternalName','PgmName').
+struct_dt_elem_i([ 26,68,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],4,name,'Standardactivitytype').
+struct_dt_elem_i([ 26,68,0 ],4,camelname,'StandardActivityType').
+struct_dt_elem_i([ 26,68,0 ],4,basedon,105).
+struct_dt_elem_i([ 26,68,0 ],4,length,30).
+struct_dt_elem_i([ 26,68,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],4,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,68,0 ],4,pic,'').
+struct_dt_elem_i([ 26,68,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],4,'ExternalName','StandardActivityType').
+struct_dt_elem_i([ 26,68,0 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],5,name,'Useractivitytype').
+struct_dt_elem_i([ 26,68,0 ],5,camelname,'UserActivityType').
+struct_dt_elem_i([ 26,68,0 ],5,basedon,51).
+struct_dt_elem_i([ 26,68,0 ],5,length,256).
+struct_dt_elem_i([ 26,68,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],5,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,68,0 ],5,pic,'').
+struct_dt_elem_i([ 26,68,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],5,'ExternalName','UserActivityType').
+struct_dt_elem_i([ 26,68,0 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,68,0 ],6,name,'Description').
+struct_dt_elem_i([ 26,68,0 ],6,camelname,'Description').
+struct_dt_elem_i([ 26,68,0 ],6,length,20).
+struct_dt_elem_i([ 26,68,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,68,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,68,0 ],6,pic,'').
+struct_dt_elem_i([ 26,68,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,68,0 ],6,'ExternalName','Description').
+struct_dt_elem_i([ 26,68,0 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,68,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,68,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,68,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,68,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,68,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,68,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,68,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,0 ],1,name,'Title').
+struct_dt_elem_i([ 26,77,0 ],1,camelname,'Title').
+struct_dt_elem_i([ 26,77,0 ],1,length,20).
+struct_dt_elem_i([ 26,77,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,77,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,77,0 ],1,pic,'').
+struct_dt_elem_i([ 26,77,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,77,0 ],1,'ExternalName','Title').
+struct_dt_elem_i([ 26,77,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,77,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,77,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,77,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,77,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,77,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,0 ],2,name,'Message').
+struct_dt_elem_i([ 26,77,0 ],2,camelname,'Message').
+struct_dt_elem_i([ 26,77,0 ],2,length,20).
+struct_dt_elem_i([ 26,77,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,77,0 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,77,0 ],2,pic,'').
+struct_dt_elem_i([ 26,77,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,77,0 ],2,'ExternalName','Message').
+struct_dt_elem_i([ 26,77,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,77,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,77,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,77,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,77,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,77,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,0 ],3,name,'Badge').
+struct_dt_elem_i([ 26,77,0 ],3,camelname,'Badge').
+struct_dt_elem_i([ 26,77,0 ],3,length,20).
+struct_dt_elem_i([ 26,77,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,77,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,77,0 ],3,pic,'').
+struct_dt_elem_i([ 26,77,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,77,0 ],3,'ExternalName','Badge').
+struct_dt_elem_i([ 26,77,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,77,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,77,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,77,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,77,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,77,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,0 ],4,name,'Icon').
+struct_dt_elem_i([ 26,77,0 ],4,camelname,'Icon').
+struct_dt_elem_i([ 26,77,0 ],4,length,20).
+struct_dt_elem_i([ 26,77,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,77,0 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,77,0 ],4,pic,'').
+struct_dt_elem_i([ 26,77,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,77,0 ],4,'ExternalName','Icon').
+struct_dt_elem_i([ 26,77,0 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,77,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,77,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,77,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,77,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,77,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,0 ],5,name,'Timeout').
+struct_dt_elem_i([ 26,77,0 ],5,camelname,'Timeout').
+struct_dt_elem_i([ 26,77,0 ],5,length,4).
+struct_dt_elem_i([ 26,77,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,77,0 ],5,sign,0).
+struct_dt_elem_i([ 26,77,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,77,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 26,77,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,77,0 ],5,'ExternalName','Timeout').
+struct_dt_elem_i([ 26,77,0 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,77,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,77,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,77,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,77,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,77,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,0 ],6,name,'Tag').
+struct_dt_elem_i([ 26,77,0 ],6,camelname,'Tag').
+struct_dt_elem_i([ 26,77,0 ],6,length,20).
+struct_dt_elem_i([ 26,77,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,77,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,77,0 ],6,pic,'').
+struct_dt_elem_i([ 26,77,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,77,0 ],6,'ExternalName','Tag').
+struct_dt_elem_i([ 26,77,0 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,77,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,77,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,77,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,77,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,77,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],1,name,'Notificationid').
+struct_dt_elem_i([ 26,80,111 ],1,camelname,'NotificationId').
+struct_dt_elem_i([ 26,80,111 ],1,basedon,133).
+struct_dt_elem_i([ 26,80,111 ],1,length,15).
+struct_dt_elem_i([ 26,80,111 ],1,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],1,sign,0).
+struct_dt_elem_i([ 26,80,111 ],1,type,[ 4,15,0 ]).
+struct_dt_elem_i([ 26,80,111 ],1,pic,'ZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,80,111 ],1,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],1,'ExternalName','NotificationId').
+struct_dt_elem_i([ 26,80,111 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],1,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],1,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],1,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],2,name,'Notificationicon').
+struct_dt_elem_i([ 26,80,111 ],2,camelname,'NotificationIcon').
+struct_dt_elem_i([ 26,80,111 ],2,length,4).
+struct_dt_elem_i([ 26,80,111 ],2,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],2,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,80,111 ],2,pic,'').
+struct_dt_elem_i([ 26,80,111 ],2,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],2,'ExternalName','NotificationIcon').
+struct_dt_elem_i([ 26,80,111 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],2,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],2,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],2,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],3,name,'Notificationicon_gxi').
+struct_dt_elem_i([ 26,80,111 ],3,camelname,'NotificationIcon_GXI').
+struct_dt_elem_i([ 26,80,111 ],3,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],3,isadd,'True').
+struct_dt_elem_i([ 26,80,111 ],3,length,2048).
+struct_dt_elem_i([ 26,80,111 ],3,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],3,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,80,111 ],4,name,'Notificationactioncaption').
+struct_dt_elem_i([ 26,80,111 ],4,camelname,'NotificationActionCaption').
+struct_dt_elem_i([ 26,80,111 ],4,basedon,110).
+struct_dt_elem_i([ 26,80,111 ],4,length,50).
+struct_dt_elem_i([ 26,80,111 ],4,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],4,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,80,111 ],4,pic,'').
+struct_dt_elem_i([ 26,80,111 ],4,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],4,'ExternalName','NotificationActionCaption').
+struct_dt_elem_i([ 26,80,111 ],4,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],4,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],4,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],4,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],5,name,'Notificationusercode').
+struct_dt_elem_i([ 26,80,111 ],5,camelname,'NotificationUserCode').
+struct_dt_elem_i([ 26,80,111 ],5,basedon,114).
+struct_dt_elem_i([ 26,80,111 ],5,length,100).
+struct_dt_elem_i([ 26,80,111 ],5,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,80,111 ],5,pic,'').
+struct_dt_elem_i([ 26,80,111 ],5,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],5,'ExternalName','NotificationUserCode').
+struct_dt_elem_i([ 26,80,111 ],5,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],5,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],5,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],5,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],6,name,'Notificationtext').
+struct_dt_elem_i([ 26,80,111 ],6,camelname,'NotificationText').
+struct_dt_elem_i([ 26,80,111 ],6,basedon,136).
+struct_dt_elem_i([ 26,80,111 ],6,length,10000).
+struct_dt_elem_i([ 26,80,111 ],6,decimals,100).
+struct_dt_elem_i([ 26,80,111 ],6,type,[ 13,10000,100 ]).
+struct_dt_elem_i([ 26,80,111 ],6,pic,'').
+struct_dt_elem_i([ 26,80,111 ],6,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],6,'ExternalName','NotificationText').
+struct_dt_elem_i([ 26,80,111 ],6,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],6,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],6,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],6,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],7,name,'Eventcreationdatetime').
+struct_dt_elem_i([ 26,80,111 ],7,camelname,'EventCreationDateTime').
+struct_dt_elem_i([ 26,80,111 ],7,length,8).
+struct_dt_elem_i([ 26,80,111 ],7,decimals,12).
+struct_dt_elem_i([ 26,80,111 ],7,type,[ 12,8,12 ]).
+struct_dt_elem_i([ 26,80,111 ],7,pic,'99/99/99 99:99:99.999').
+struct_dt_elem_i([ 26,80,111 ],7,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],7,'ExternalName','EventCreationDateTime').
+struct_dt_elem_i([ 26,80,111 ],7,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],7,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],7,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],7,'XmlDateSerialization',idXmlDateDefaultFormat).
+struct_dt_elem_i([ 26,80,111 ],7,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],8,name,'Eventtargeturl').
+struct_dt_elem_i([ 26,80,111 ],8,camelname,'EventTargetUrl').
+struct_dt_elem_i([ 26,80,111 ],8,basedon,8).
+struct_dt_elem_i([ 26,80,111 ],8,length,1000).
+struct_dt_elem_i([ 26,80,111 ],8,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],8,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,80,111 ],8,pic,'').
+struct_dt_elem_i([ 26,80,111 ],8,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],8,'ExternalName','EventTargetUrl').
+struct_dt_elem_i([ 26,80,111 ],8,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],8,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],8,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],8,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,80,111 ],9,name,'Notificationisread').
+struct_dt_elem_i([ 26,80,111 ],9,camelname,'NotificationIsRead').
+struct_dt_elem_i([ 26,80,111 ],9,length,6).
+struct_dt_elem_i([ 26,80,111 ],9,decimals,0).
+struct_dt_elem_i([ 26,80,111 ],9,type,[ 15,6,0 ]).
+struct_dt_elem_i([ 26,80,111 ],9,pic,'').
+struct_dt_elem_i([ 26,80,111 ],9,collection,'False').
+struct_dt_elem_i([ 26,80,111 ],9,'ExternalName','NotificationIsRead').
+struct_dt_elem_i([ 26,80,111 ],9,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,80,111 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,80,111 ],9,'XmlName','').
+struct_dt_elem_i([ 26,80,111 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,80,111 ],9,soaptype,'').
+struct_dt_elem_i([ 26,80,111 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,80,111 ],9,'JsonName','').
+struct_dt_elem_i([ 26,80,111 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],1,name,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,length,128).
+struct_dt_elem_i([ 26,1,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,1,1 ],1,pic,'').
+struct_dt_elem_i([ 26,1,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,1,1 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],1,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],1,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],2,name,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,basedon,7).
+struct_dt_elem_i([ 26,1,1 ],2,length,2).
+struct_dt_elem_i([ 26,1,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1,1 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,1,1 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,1,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,1,1 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],2,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],2,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1,1 ],3,name,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,length,256).
+struct_dt_elem_i([ 26,1,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,1,1 ],3,pic,'').
+struct_dt_elem_i([ 26,1,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,1,1 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,1,1 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],3,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,1,1 ],3,'JsonName','').
+struct_dt_elem_i([ 26,1,1 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,23,0 ],1,name,'Id').
+struct_dt_elem_i([ 26,23,0 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,23,0 ],1,length,100).
+struct_dt_elem_i([ 26,23,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,23,0 ],1,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,23,0 ],1,pic,'').
+struct_dt_elem_i([ 26,23,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,23,0 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,23,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,23,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,23,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,23,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,23,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,23,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,23,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,23,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,23,0 ],2,name,'Object').
+struct_dt_elem_i([ 26,23,0 ],2,camelname,'Object').
+struct_dt_elem_i([ 26,23,0 ],2,length,100).
+struct_dt_elem_i([ 26,23,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,23,0 ],2,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,23,0 ],2,pic,'').
+struct_dt_elem_i([ 26,23,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,23,0 ],2,'ExternalName','Object').
+struct_dt_elem_i([ 26,23,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,23,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,23,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,23,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,23,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,23,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,23,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,23,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,23,0 ],3,name,'Message').
+struct_dt_elem_i([ 26,23,0 ],3,camelname,'Message').
+struct_dt_elem_i([ 26,23,0 ],3,length,2097152).
+struct_dt_elem_i([ 26,23,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,23,0 ],3,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,23,0 ],3,pic,'').
+struct_dt_elem_i([ 26,23,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,23,0 ],3,'ExternalName','Message').
+struct_dt_elem_i([ 26,23,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,23,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,23,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,23,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,23,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,23,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,23,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,23,0 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,24,[ [ 'Currentpage_notificationsgrid',[ t('Httprequest',23),t('Method',3) ] ],[ [ t('Notificationsgrid',3),t('Backcolorstyle',3) ],'Currentpage_notificationsgrid','Markasread_action',[ t('Markasread_action',23),t('Tooltiptext',3) ],[ t('Gridcomponentcontent_notificationsgrid',3),t('Class',3) ],[ t('Contenttable',3),t('Class',3) ],[ t('Gridcomponentcontent_notificationsgrid',3),t('Visible',3) ] ] ]).
+sub_info_i(146,'Refresh',28,36,[ [],[ [ t('Gridcomponentcontent_notificationsgrid',3),t('Class',3) ],[ t('Contenttable',3),t('Class',3) ],[ t('Gridcomponentcontent_notificationsgrid',3),t('Visible',3) ] ] ]).
+sub_info_i(146,'''E_ToggleNotifications''',69,74,[ [ [ t('Gridcomponentcontent_notificationsgrid',3),t('Visible',3) ] ],[ [ t('Gridcomponentcontent_notificationsgrid',3),t('Visible',3) ] ] ]).
+sub_info_i(146,[ t('Notificationsgrid',3,82,7),t('Refresh',3,82,25) ],82,90,[ [],[ [ t('Notificationsgrid',3),t('Backcolorstyle',3) ],[ t('K2bt_notificationsbutton1',3),t('Count',3) ] ] ]).
+sub_info_i(146,[ t('Notificationsgrid',3,100,7),t('Load',3,100,25) ],100,147,[ [ 'Dp_sdt_item_notificationsgrid' ],[ [ t('I_noresultsfoundtablename_notificationsgrid',3),t('Visible',3) ],'Dp_sdt_item_notificationsgrid','Notificationicon','Notificationtext','Notificationisread','Notificationid','Eventtargeturl','Markasread_action',[ t('Markasread_action',23),t('Tooltiptext',3) ],[ t('Notificationsgrid_notificationtexttb',3),t('Caption',3) ],[ t('Notificationsgrid_notificationdatetb',3),t('Caption',3) ],[ t('Markasread_action',23),t('Visible',3) ],[ t('Notificationsgrid_notificationcontainer',3),t('Class',3) ],[ t('Viewnotification',3),t('Caption',3) ] ] ]).
+sub_info_i(146,[ t('Markasread_action',23,156,7),t('Click',3,156,26) ],156,161,[ [ ctrl('Notificationsgrid','refresh('),'Notificationid' ],[] ]).
+sub_info_i(146,'''E_ViewNotification''',181,186,[ [ 'Eventtargeturl',ctrl('Notificationsgrid','refresh('),'Notificationid' ],[] ]).
+sub_info_i(146,[ t('Notificationsgrid_notificationcontainer',3,197,7),t('Click',3,197,47) ],197,199,[ [ 'Eventtargeturl',ctrl('Notificationsgrid','refresh('),'Notificationid' ],[] ]).
+sub_info_i(146,'''E_ViewAll''',215,220,[ [],[] ]).
+sub_info_i(146,'''E_Refresh''',230,235,[ [ ctrl('Notificationsgrid','refresh(') ],[] ]).
+sub_info_i(146,'Onmessage',244,259,[ [ ctrl('Notificationsgrid','refresh('),'Notificationinfo',[ t('Notificationinfo',23),t('Message',3) ] ],[] ]).
+sub_info_i(146,[ t('Enablenotifications_action',3,262,7),t('Click',3,262,34) ],262,264,[ [],[] ]).
+sub_info_i(146,[ t('K2bdesktopnotification',3,266,7),t('Onpermissiongranted',3,266,30) ],266,272,[ [ 'Desktopnotificationspermission' ],[ [ t('Enablenotifications_action',3),t('Visible',3) ] ] ]).
+ 
+pgm_parm_i(web,36,'K2BTOOLS\DESIGNSYSTEMS\ARIES\VIEWALLNOTIFICATIONS',[],[]).
+pgm_parm_i(proc,52,'K2BTOOLS\INTEGRATIONPROCEDURES\MARKWEBNOTIFICATIONASREAD',[ [ int,4,0,0 ],[ boolean,4,0,0 ],[ o(objectcollection('GeneXus\Common\Messages.Message')),0,0,0 ] ],[ [ 'NotificationId',in,[] ],[ 'Success',out,[] ],[ 'Messages',out,[] ] ]).
+pgm_parm_i(proc,53,'K2BTOOLS\INTEGRATIONPROCEDURES\REGISTERCLIENT',[ [ svchar,100,0,0 ] ],[ [ 'UserCode',inout,[] ] ]).
+pgm_parm_i(proc,51,'K2BTOOLS\INTEGRATIONPROCEDURES\GETDESKTOPNOTIFICATIONINFORMATION',[ [ int,4,0,0 ],[ o('DesktopNotificationInfoSDT'),0,0,0 ],[ boolean,4,0,0 ] ],[ [ 'K2BT_NotificationId',in,[] ],[ 'DesktopNotificationInfoSDT',out,[] ],[ 'Loaded',out,[] ] ]).
+pgm_parm_i(proc,50,'GETDATEFRIENDLYSTRING',[ [ dtime,8,5,0 ],[ char,20,0,0 ] ],[ [ 'DateTime',in,[] ],[ 'String',out,[] ] ]).
+pgm_parm_i(mnproc,2,'K2BTOOLS\INTEGRATIONPROCEDURES\GETLATESTNOTIFICATIONSFORCURRENTUSER',[ [ o(objectcollection('K2BTools\IntegrationProcedures\WebNotificationSDT.Notification')),0,0,0 ] ],[ [ 'ReturnValue',out,[] ] ]).
+pgm_parm_i(proc,56,'K2BTOOLS\INTEGRATIONPROCEDURES\GETWEBNOTIFICATIONSUNREADCOUNT',[ [ int,4,0,0 ] ],[ [ 'Count',out,[] ] ]).
+pgm_parm_i(proc,36,'K2BGETUSERCODE',[ [ svchar,100,0,0 ] ],[ [ 'UserCode',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,26,'K2BTOOLS\DESIGNSYSTEMS\ARIES\NOTIFICATIONSVIEWER','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,36,'K2BTOOLS\DESIGNSYSTEMS\ARIES\VIEWALLNOTIFICATIONS','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,52,'K2BTOOLS\INTEGRATIONPROCEDURES\MARKWEBNOTIFICATIONASREAD','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,53,'K2BTOOLS\INTEGRATIONPROCEDURES\REGISTERCLIENT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,51,'K2BTOOLS\INTEGRATIONPROCEDURES\GETDESKTOPNOTIFICATIONINFORMATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,50,'GETDATEFRIENDLYSTRING','INTERNAL','Unsecure').
+pgm_callprotocol_i(mnproc,2,'K2BTOOLS\INTEGRATIONPROCEDURES\GETLATESTNOTIFICATIONSFORCURRENTUSER','INTERNAL','').
+pgm_callprotocol_i(proc,56,'K2BTOOLS\INTEGRATIONPROCEDURES\GETWEBNOTIFICATIONSUNREADCOUNT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,36,'K2BGETUSERCODE','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus\Server','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Server','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

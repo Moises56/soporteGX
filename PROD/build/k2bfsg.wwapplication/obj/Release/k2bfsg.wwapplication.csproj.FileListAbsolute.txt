@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.wwapplication.dll
+C:\KBs\test\PROD\build\k2bfsg.wwapplication\obj\Release\k2bfsg.wwapplication.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.wwapplication\obj\Release\k2bfsg.wwapplication.dll

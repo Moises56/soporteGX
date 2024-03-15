@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.otpauthentication.dll
+C:\KBs\test\PROD\build\k2bfsg.otpauthentication\obj\Release\k2bfsg.otpauthentication.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.otpauthentication\obj\Release\k2bfsg.otpauthentication.dll

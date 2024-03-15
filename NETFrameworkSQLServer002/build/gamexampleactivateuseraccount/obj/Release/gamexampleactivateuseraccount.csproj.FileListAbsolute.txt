@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\gamexampleactivateuseraccount.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexampleactivateuseraccount\obj\Release\gamexampleactivateuseraccount.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexampleactivateuseraccount\obj\Release\gamexampleactivateuseraccount.dll

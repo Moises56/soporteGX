@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\gamexampleidplogin.dll
+C:\KBs\test\PROD\build\gamexampleidplogin\obj\Release\gamexampleidplogin.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\gamexampleidplogin\obj\Release\gamexampleidplogin.dll

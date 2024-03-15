@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+.K2BT_LocationInBlueprintSelectorContainer {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.K2BT_LocationInBlueprintSelectorItem {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.K2BT_LocationInBlueprintSelectorItemName {
+  display: none;
+}
+
+.K2BT_LocationInBlueprintSelectorContainer .tooltip-inner {
+  white-space: pre-wrap;
+}
+
+.K2BT_LocationInBlueprintSelectorItemUnavailable {
+  cursor: initial;
+  pointer-events: none;
+}

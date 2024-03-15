@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "viewallnotifications_Execute",
+    "Description": "View All Notifications",
+    "ProgramName": "k2btools.designsystems.aries.viewallnotifications",
+    "IsGXAutomatic": true
+  }
+]

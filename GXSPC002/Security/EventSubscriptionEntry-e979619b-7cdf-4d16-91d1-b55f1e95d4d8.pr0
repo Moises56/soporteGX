@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "eventsubscriptionentry_Execute",
+    "Description": "Event Subscription Entry",
+    "ProgramName": "k2bfsg.eventsubscriptionentry",
+    "IsGXAutomatic": true
+  }
+]

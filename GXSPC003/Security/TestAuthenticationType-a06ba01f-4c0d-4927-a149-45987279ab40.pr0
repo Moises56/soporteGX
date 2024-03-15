@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bsecurity_Execute",
+    "Description": "Test Authentication Type",
+    "ProgramName": "k2bfsg.testauthenticationtype",
+    "IsGXAutomatic": true
+  }
+]

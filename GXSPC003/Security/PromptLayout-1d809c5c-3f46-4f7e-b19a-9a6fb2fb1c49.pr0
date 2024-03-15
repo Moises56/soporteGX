@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "promptlayoutflat_Execute",
+    "Description": "Default Prompt",
+    "ProgramName": "k2btools.designsystems.aries.promptlayout",
+    "IsGXAutomatic": true
+  }
+]

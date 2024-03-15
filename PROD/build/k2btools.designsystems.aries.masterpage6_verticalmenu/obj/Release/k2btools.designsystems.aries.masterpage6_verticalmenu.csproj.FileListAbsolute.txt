@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2btools.designsystems.aries.masterpage6_verticalmenu.dll
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.masterpage6_verticalmenu\obj\Release\k2btools.designsystems.aries.masterpage6_verticalmenu.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2btools.designsystems.aries.masterpage6_verticalmenu\obj\Release\k2btools.designsystems.aries.masterpage6_verticalmenu.dll

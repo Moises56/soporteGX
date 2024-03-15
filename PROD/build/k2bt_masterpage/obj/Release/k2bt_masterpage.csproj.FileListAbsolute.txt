@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bt_masterpage.dll
+C:\KBs\test\PROD\build\k2bt_masterpage\obj\Release\k2bt_masterpage.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bt_masterpage\obj\Release\k2bt_masterpage.dll

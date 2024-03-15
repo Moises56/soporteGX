@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "notificationlist_Execute",
+    "Description": "Notification List",
+    "ProgramName": "notificationlist",
+    "IsGXAutomatic": true
+  }
+]

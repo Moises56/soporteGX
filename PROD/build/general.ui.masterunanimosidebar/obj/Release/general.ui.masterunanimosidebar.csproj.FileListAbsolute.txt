@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\general.ui.masterunanimosidebar.dll
+C:\KBs\test\PROD\build\general.ui.masterunanimosidebar\obj\Release\general.ui.masterunanimosidebar.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\general.ui.masterunanimosidebar\obj\Release\general.ui.masterunanimosidebar.dll

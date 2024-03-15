@@ -1,0 +1,24 @@
+usercontrol_directory_i('k2bt_component', ['UserControls']).
+usercontrol_i('k2bt_component', ['K2BT_Component','K2bt_component']).
+usercontrol_method_i('k2bt_component', 'setisopen', [object], [[object]]).
+usercontrol_property_mapping_i('k2bt_component', 'Class', 'Class', 'Class', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'Enabled', 'Enabled', 'Enabled', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'UserControlType', 'Usercontroltype', 'Usercontroltype', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'ConstructorName', 'Constructorname', 'Constructorname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'ShowMethodName', 'Showmethodname', 'Showmethodname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'ControlName', 'Controlname', 'Controlname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'Icon', 'Icon', 'Icon', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'Title', 'Title', 'Title', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'TitleClass', 'Titleclass', 'Titleclass', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'Collapsible', 'Collapsible', 'Collapsible', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'Open', 'Open', 'Open', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'ShowBorders', 'Showborders', 'Showborders', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'ContainsEditableForm', 'Containseditableform', 'Containseditableform', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'Visible', 'Visible', 'Visible', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('k2bt_component', 'CssSupportFiles', 'Csssupportfiles', 'Csssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'JsSupportFiles', 'Jssupportfiles', 'Jssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'CssSharedSupportFiles', 'Csssharedsupportfiles', 'Csssharedsupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('k2bt_component', 'JsSharedSupportFiles', 'Jssharedsupportfiles', 'Jssharedsupportfiles', [char,1024,0,0], 1, any).
+usercontrol_method_mapping_i('k2bt_component', 'setisopen', 'SetIsOpen').
+usercontrol_event_mapping_i('k2bt_component', 'Onopen', 'OnOpen').
+usercontrol_event_mapping_i('k2bt_component', 'Oncollapse', 'OnCollapse').

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "selecteditem_Execute",
+    "Description": "Selected Item",
+    "ProgramName": "selecteditem",
+    "IsGXAutomatic": true
+  }
+]

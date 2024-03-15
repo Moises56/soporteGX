@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\developermenu.dll
+C:\KBs\test\PROD\build\developermenu\obj\Release\developermenu.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\developermenu\obj\Release\developermenu.dll

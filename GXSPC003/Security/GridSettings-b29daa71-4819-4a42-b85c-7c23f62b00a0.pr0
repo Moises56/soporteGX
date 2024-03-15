@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gridsettings_Execute",
+    "Description": "Grid Settings",
+    "ProgramName": "k2btools.designsystems.aries.gridsettings",
+    "IsGXAutomatic": true
+  }
+]

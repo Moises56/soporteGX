@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\soporte.dll
+C:\KBs\test\PROD\build\soporte\obj\Release\soporte.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\soporte\obj\Release\soporte.dll

@@ -1,0 +1,42 @@
+{ 
+    "Tokens" : [ ],
+    "Imports" : [ { 
+        "Name" : "GeneXusUnanimo.UnanimoMobile",
+        "Type" : "DSO",
+        "Part" : "all"
+    }, { 
+        "Name" : "GeneXusUnanimo.UnanimoControls",
+        "Type" : "DSO",
+        "Part" : "all"
+    } ],
+    "Styles" : [ { 
+        "Name" : "Application",
+        "background_color" : "$colors_surface",
+        "BackgroundColor" : "$colors_surface",
+        "SDPageControllerBackgroundColor" : "$colors_surface"
+    }, { 
+        "Name" : "ApplicationBars",
+        "background_color" : "$colors_header-bg",
+        "BackgroundColor" : "$colors_header-bg",
+        "SDPageControllerBackgroundColor" : "$colors_header-bg",
+        "font_family" : "$fonts_primary-bold",
+        "color" : "$colors_on-secondary",
+        "border-bottom" : "solid 2px $colors_header-separator-bg"
+    }, { 
+        "Name" : "ApplicationBars-1108347372",
+        "Selector" : ".ApplicationBars .Button",
+        "sd_height_withPercentage" : "auto",
+        "height" : "auto",
+        "color" : "$colors_on-secondary"
+    }, { 
+        "Name" : "Button",
+        "sd_height_withPercentage" : "auto",
+        "height" : "auto",
+        "color" : "$colors_surface-negative"
+    }, { 
+        "Name" : "TableDetail",
+        "background_color" : "$colors_alt-surface",
+        "BackgroundColor" : "$colors_alt-surface",
+        "SDPageControllerBackgroundColor" : "$colors_alt-surface"
+    } ]
+}

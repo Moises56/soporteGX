@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\gamsdnotauthorized.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\gamsdnotauthorized\obj\Release\gamsdnotauthorized.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\gamsdnotauthorized\obj\Release\gamsdnotauthorized.dll

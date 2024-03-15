@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>139</ObjId>
+<ObjName>K2BFSG.GetGAMPermissionNameForActivity</ObjName>
+<ObjDesc>Get GAMPermission Name For Activity</ObjDesc>
+<ObjPgmName>K2BFSG.GetGAMPermissionNameForActivity</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Activity</VarId>
+<VarName>&amp;activity</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Activitytocheck</VarId>
+<VarName>&amp;activityToCheck</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

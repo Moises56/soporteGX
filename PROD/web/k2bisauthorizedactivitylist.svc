@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.k2bisauthorizedactivitylist_services,k2bisauthorizedactivitylist" %>

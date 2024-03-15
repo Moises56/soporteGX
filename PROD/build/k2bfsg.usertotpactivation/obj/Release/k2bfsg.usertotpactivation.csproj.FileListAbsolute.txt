@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2bfsg.usertotpactivation.dll
+C:\KBs\test\PROD\build\k2bfsg.usertotpactivation\obj\Release\k2bfsg.usertotpactivation.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2bfsg.usertotpactivation\obj\Release\k2bfsg.usertotpactivation.dll

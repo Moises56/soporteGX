@@ -1,0 +1,30 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>K2BFSG.GAMApplicationMenuToK2BMultiLevelMenu</ObjName>
+<ObjDesc>GAMApplication Menu To K2 BMulti Level Menu</ObjDesc>
+<ObjPgmName>K2BFSG.GAMApplicationMenuToK2BMultiLevelMenu</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gammenuoptionlist</VarId>
+<VarName>&amp;GAMMenuOptionList</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>K2BMultiLevelMenu</Token></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

@@ -1,0 +1,61 @@
+{
+	"Name": "K2BTools.DesignSystems.Aries.NotificationsButton",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<div class=\"K2BT_NotificationsBellButton {{ButtonClass}}\" {{OnClickEvent}}>	<div class=\"K2BT_NotificationsBellCounter\">{{Count:Numeric}}</div></div>", 
+	"Events": [
+		{
+			"Name": "Event",
+			"On": "click",
+			"Parameters": ""
+		} 
+	],
+	"Properties": [
+		{
+			"Id": "ButtonClass",
+			"Name": "ButtonClass",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "Count",
+			"Name": "Count",
+			"Type": "numeric",
+			"Default": ""
+		} ,
+		{
+			"Id": "HideCounterIfZero",
+			"Name": "HideCounterIfZero",
+			"Type": "boolean",
+			"Default": "true"
+		} 
+	],
+	"Methods": {
+		"Public": [
+		],
+		"Private": [
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "_hideCounterIfNecessary",
+				"Source": "  	if(this.Count != \"9+\" && this.Count < 1){		$(this.getContainerControl()).find(\".K2BT_NotificationsBellCounter\").hide();	}else{		$(this.getContainerControl()).find(\".K2BT_NotificationsBellCounter\").show();	}  ",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+			{
+				"Name": "NormalizeCount",
+				"Source": "  	if(this.Count > 9) this.Count = \"9+\";  ",
+				"AngularLocation": ""
+			} 
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

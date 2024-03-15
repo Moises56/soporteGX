@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamhome_Execute",
+    "Description": "GAM home",
+    "ProgramName": "gamhome",
+    "IsGXAutomatic": true
+  }
+]

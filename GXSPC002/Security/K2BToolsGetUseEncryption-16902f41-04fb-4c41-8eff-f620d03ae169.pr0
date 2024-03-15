@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2btoolsgetuseencryption_Services_Execute",
+    "Description": "K2 BTools Get Use Encryption Services",
+    "ProgramName": "k2btoolsgetuseencryption",
+    "IsGXAutomatic": true
+  }
+]

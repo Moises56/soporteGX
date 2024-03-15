@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamexamplegamconfiguration_Execute",
+    "Description": "K2BT_GAM_GAMConfiguration",
+    "ProgramName": "k2bfsg.gamconfiguration",
+    "IsGXAutomatic": true
+  }
+]

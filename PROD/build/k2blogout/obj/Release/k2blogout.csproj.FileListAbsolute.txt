@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2blogout.dll
+C:\KBs\test\PROD\build\k2blogout\obj\Release\k2blogout.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2blogout\obj\Release\k2blogout.dll

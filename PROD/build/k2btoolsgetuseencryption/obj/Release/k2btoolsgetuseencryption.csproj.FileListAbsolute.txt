@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\k2btoolsgetuseencryption.dll
+C:\KBs\test\PROD\build\k2btoolsgetuseencryption\obj\Release\k2btoolsgetuseencryption.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\k2btoolsgetuseencryption\obj\Release\k2btoolsgetuseencryption.dll

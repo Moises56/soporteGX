@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\gamexampleotpauthentication.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexampleotpauthentication\obj\Release\gamexampleotpauthentication.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\gamexampleotpauthentication\obj\Release\gamexampleotpauthentication.dll

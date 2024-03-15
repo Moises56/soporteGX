@@ -1,0 +1,36 @@
+domain_i(100,'k2btools\transactionutils\gxdomainaftercanceleventname.cs').
+domain_i(101,'gxdomaink2bcomponenttype.cs').
+domain_i(103,'gxdomaink2bsesitem.cs').
+domain_i(105,'gxdomaink2bstandardactivitytype.cs').
+domain_i(107,'gxdomaink2btrnmode.cs').
+domain_i(108,'gxdomaink2btrnreturnmode.cs').
+domain_i(109,'gxdomaink2bhttpmethod.cs').
+domain_i(115,'gxdomaink2btoolsmessagetype.cs').
+domain_i(119,'k2btools\gxdomaingenexusgenerator.cs').
+domain_i(129,'k2btools\gxdomaink2bt_desktopnotificationpermission.cs').
+domain_i(137,'k2btools\gxdomaink2bt_webnotificationids.cs').
+domain_i(138,'gxdomaink2bfiltertype.cs').
+domain_i(139,'k2btools\gxdomainattributevaluetype.cs').
+domain_i(141,'gxdomaink2bt_overflowactionposition.cs').
+domain_i(142,'gxdomaink2bt_regionstatus.cs').
+domain_i(143,'k2btools\controls\calendar\gxdomaincontentviewoption.cs').
+domain_i(144,'k2btools\controls\calendar\gxdomainweekstartday.cs').
+domain_i(145,'gxdomaink2bbtntooltip.cs').
+domain_i(147,'gxdomaink2bpage.cs').
+domain_i(148,'gxdomaink2bsymbols.cs').
+domain_i(149,'gxdomaink2bthemeclasses.cs').
+domain_i(159,'gxdomaink2bt_blueprintregionstatus.cs').
+domain_i(160,'gxdomaink2bt_blueprinterrorcode.cs').
+domain_i(260,'gam\gxdomaingamactiontexts.cs').
+domain_i(262,'gxdomaink2bfsgconstants.cs').
+domain_i(95,'k2btools\gxdomaindesignsystemoptions.cs').
+domain_i(96,'k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs').
+domain_i(97,'gxdomaink2baftertrnnavigation.cs').
+domain_i(99,'k2btools\transactionutils\gxdomainafterconfirmeventname.cs').
+external_library_i('K2BToolsCaptchaProvider','K2BTools.Captcha.dll',[ 14,179,0 ]).
+sdt_map_i(15,'GAMSDChangePassword_Level_DetailSdt',[ 26,1000000,0 ]).
+sdt_map_i(15,'GAMSDLogin_Level_DetailSdt',[ 26,1000000,0 ]).
+sdt_map_i(15,'GAMSDNotAuthorized_Level_DetailSdt',[ 26,1000000,0 ]).
+sdt_map_i(15,'GAMSDRegisterUser_Level_DetailSdt',[ 26,1000000,0 ]).
+sdt_map_i(15,'GAMSDUpdateUser_Level_DetailSdt',[ 26,1000000,0 ]).
+sdt_map_i(15,'K2BToolsCaptchaProvider',[ 14,179,0 ]).

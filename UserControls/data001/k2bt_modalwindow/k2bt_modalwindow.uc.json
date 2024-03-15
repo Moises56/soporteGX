@@ -1,0 +1,44 @@
+{
+	"Name": "K2BT_ModalWindow",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<div class=\"Table_ConditionalConfirm\" style=\"display:none;\">	<div class=\"K2BT_ModalWindow\">		<div class=\"K2BT_ModalWindowHeader\">			<div class=\"K2BT_ModalWindowTitle\">{{ModalTitle}}</div>			<div class=\"K2BT_ModalWindowClose\" {{OnClose}}></div>		</div>		<div class=\"K2BT_ModalWindowContent\">			<slot name=\"ModalContent\" />		</div>	</div></div>", 
+	"Events": [
+		{
+			"Name": "OnClose",
+			"On": "click",
+			"Parameters": ""
+		} 
+	],
+	"Properties": [
+		{
+			"Id": "ModalTitle",
+			"Name": "ModalTitle",
+			"Type": "string",
+			"Default": ""
+		} 
+	],
+	"Methods": {
+		"Public": [
+		],
+		"Private": [
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "ButtonHandlers",
+				"Source": "  	var container = this.getContainerControl();	$(container).hide();	$(container).find(\".Table_ConditionalConfirm\").show();  ",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

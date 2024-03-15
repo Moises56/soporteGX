@@ -1,0 +1,6 @@
+
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>GAMSDLogin_Level_Detail</DataProvider></DataProviders></Section></WWSDSpec>

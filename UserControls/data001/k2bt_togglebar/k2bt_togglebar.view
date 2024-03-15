@@ -1,0 +1,6 @@
+<k2bt-toggle-bar data-gx-binding="value"  data-event="CreateItem" 
+	includeemptyitem="{{gxTpr_IncludeEmptyItem}}{{IncludeEmptyItem}}{{^IncludeEmptyItem}}False{{/IncludeEmptyItem}}"
+	emptyitemtext="{{gxTpr_EmptyItemText}}{{EmptyItemText}}"
+	noresultsfoundtext="{{gxTpr_NoResultsFoundText}}{{NoResultsFoundText}}"
+	additemcaption="{{gxTpr_AddItemCaption}}{{AddItemCaption}}"
+	togglestyle="{{gxTpr_ToggleStyle}}{{ToggleStyle}}" />

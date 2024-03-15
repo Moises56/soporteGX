@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "soporte_FullControl",
+    "Description": "soporte FullControl",
+    "ProgramName": "soporte",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "soporte_Execute",
+    "Description": "soporte",
+    "ProgramName": "soporte",
+    "IsGXAutomatic": true,
+    "Parent": "soporte_FullControl"
+  },
+  {
+    "Name": "soporte_Insert",
+    "Description": "soporte Insert",
+    "ProgramName": "soporte",
+    "IsGXAutomatic": true,
+    "Parent": "soporte_FullControl"
+  },
+  {
+    "Name": "soporte_Delete",
+    "Description": "soporte Delete",
+    "ProgramName": "soporte",
+    "IsGXAutomatic": true,
+    "Parent": "soporte_FullControl"
+  },
+  {
+    "Name": "soporte_Update",
+    "Description": "soporte Update",
+    "ProgramName": "soporte",
+    "IsGXAutomatic": true,
+    "Parent": "soporte_FullControl"
+  }
+]

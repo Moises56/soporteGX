@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.logout.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.logout\obj\Release\k2bfsg.logout.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.logout\obj\Release\k2bfsg.logout.dll

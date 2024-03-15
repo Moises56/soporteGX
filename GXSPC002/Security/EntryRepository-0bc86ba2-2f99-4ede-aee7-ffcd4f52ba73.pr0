@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "k2bsecurity_Execute",
+    "Description": "Entry Repository",
+    "ProgramName": "k2bfsg.entryrepository",
+    "IsGXAutomatic": true
+  }
+]

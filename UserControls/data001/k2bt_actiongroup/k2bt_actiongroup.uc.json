@@ -1,0 +1,45 @@
+{
+	"Name": "K2BT_ActionGroup",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<div>	<div class=\"K2BT_ActionGroupHeader\" tabindex=\"0\">		<img src=\"{{HeaderImageURI}}\" />		<span>{{HeaderCaption}}</span>	</div>	<div>		<div class=\"K2BT_ActionGroupContents\">			<slot name=\"Contents\" />		</div>	</div></div>", 
+	"Events": [
+	],
+	"Properties": [
+		{
+			"Id": "HeaderImageURI",
+			"Name": "HeaderImageURI",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "HeaderCaption",
+			"Name": "HeaderCaption",
+			"Type": "string",
+			"Default": ""
+		} 
+	],
+	"Methods": {
+		"Public": [
+		],
+		"Private": [
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+			{
+				"Name": "ButtonHandlers",
+				"Source": "  	var uc = this;	var container = this.getContainerControl();	var contents = $(container).find(\".K2BT_ActionGroupContents\");	$(contents).hide();	$(container).find(\".K2BT_ActionGroupHeader\").on(\"click\", function(){		$(contents).toggle();	});	$(container).find(\".K2BT_ActionGroupHeader\").on(\"keydown\", function(event){		if (event.key == \'Enter\')			$(contents).toggle();	});	if(uc.HeaderImageURI == \"\"){		$(container).find(\".K2BT_ActionGroupHeader img\").hide();	}	gx.fx.obs.addObserver(\'gx.onafterevent\', k2btools, function(){		$(contents).hide();	}, { single: false, unique: true });	k2btools.$(\'html\').on(\'click\', function(e){				if($(e.target).closest(container).length == 0){				$(contents).hide();				}	});	",
+				"AngularLocation": ""
+			} 
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

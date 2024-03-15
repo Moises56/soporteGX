@@ -1,0 +1,90 @@
+.sidebar {
+  display: block;
+  float: left;
+  max-width: 100%;
+}
+.content {
+  display: block;
+  overflow: hidden;
+  width: auto;
+}
+
+.sidebar-nav {
+  background-repeat: repeat-x;
+  background-image: none !important;
+}
+
+.sidebar-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-top: none !important;
+  box-shadow: none;
+}
+.sidebar-nav a,
+.sidebar-nav a:hover,
+.sidebar-nav a:focus,
+.sidebar-nav a:active {
+  outline: none;
+}
+.sidebar-nav ul a:hover,
+.sidebar-nav ul a:focus,
+.sidebar-nav ul a:active {
+  text-decoration: none;
+}
+.sidebar-nav ul ul a {
+  padding: 10px 30px;
+}
+
+.sidebar-nav-item-icon {
+  padding-right: 5px;
+}
+
+.sidebar input {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border: 1px solid;
+  outline: none;
+}
+
+.searchResults a {
+  text-decoration: none;
+}
+
+.searchResult {
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 49px;
+}
+
+.searchResultTitle {
+  color: black;
+  font-size: 15px;
+  float: left;
+}
+
+.searchResultPath {
+  clear: both;
+  float: left;
+  color: #777;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.searchResultHighlight {
+  font-weight: bold;
+}
+
+.sidebar-nav > .searchField {
+  height: 49px;
+  border-top: none;
+}

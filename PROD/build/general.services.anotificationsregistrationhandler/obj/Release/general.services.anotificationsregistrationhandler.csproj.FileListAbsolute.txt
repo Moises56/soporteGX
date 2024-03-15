@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\general.services.anotificationsregistrationhandler.dll
+C:\KBs\test\PROD\build\general.services.anotificationsregistrationhandler\obj\Release\general.services.anotificationsregistrationhandler.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\general.services.anotificationsregistrationhandler\obj\Release\general.services.anotificationsregistrationhandler.dll

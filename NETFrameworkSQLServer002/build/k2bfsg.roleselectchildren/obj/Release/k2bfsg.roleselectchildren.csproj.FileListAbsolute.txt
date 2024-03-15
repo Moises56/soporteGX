@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.roleselectchildren.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.roleselectchildren\obj\Release\k2bfsg.roleselectchildren.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.roleselectchildren\obj\Release\k2bfsg.roleselectchildren.dll

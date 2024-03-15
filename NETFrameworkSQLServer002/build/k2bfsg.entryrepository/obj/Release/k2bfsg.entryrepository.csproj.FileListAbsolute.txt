@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.entryrepository.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entryrepository\obj\Release\k2bfsg.entryrepository.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entryrepository\obj\Release\k2bfsg.entryrepository.dll

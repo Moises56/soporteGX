@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>16</ObjId>
+<ObjName>K2BTools.SetDesignSystemOptionValue</ObjName>
+<ObjDesc>Set Design System Option Value</ObjDesc>
+<ObjPgmName>K2BTools.SetDesignSystemOptionValue</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Optionname</VarId>
+<VarName>&amp;OptionName</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Optionvalue</VarId>
+<VarName>&amp;OptionValue</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

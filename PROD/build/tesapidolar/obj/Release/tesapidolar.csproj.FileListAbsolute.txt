@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\tesapidolar.dll
+C:\KBs\test\PROD\build\tesapidolar\obj\Release\tesapidolar.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\tesapidolar\obj\Release\tesapidolar.dll

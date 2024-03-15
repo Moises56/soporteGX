@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\products.dll
+C:\KBs\test\PROD\build\products\obj\Release\products.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\products\obj\Release\products.dll

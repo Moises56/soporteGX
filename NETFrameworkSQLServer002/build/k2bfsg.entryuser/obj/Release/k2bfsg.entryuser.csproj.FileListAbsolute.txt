@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.entryuser.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entryuser\obj\Release\k2bfsg.entryuser.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.entryuser\obj\Release\k2bfsg.entryuser.dll

@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.wcauthenticationtypeentrysaml20.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wcauthenticationtypeentrysaml20\obj\Release\k2bfsg.wcauthenticationtypeentrysaml20.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wcauthenticationtypeentrysaml20\obj\Release\k2bfsg.wcauthenticationtypeentrysaml20.dll

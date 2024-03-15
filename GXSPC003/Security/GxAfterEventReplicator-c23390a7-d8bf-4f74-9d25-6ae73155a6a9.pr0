@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gxaftereventreplicator_Services_Execute",
+    "Description": "Gx After Event Replicator Services",
+    "ProgramName": "general.services.gxaftereventreplicator",
+    "IsGXAutomatic": true
+  }
+]

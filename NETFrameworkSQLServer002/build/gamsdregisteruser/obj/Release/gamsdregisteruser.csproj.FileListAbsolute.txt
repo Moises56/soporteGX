@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\gamsdregisteruser.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\gamsdregisteruser\obj\Release\gamsdregisteruser.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\gamsdregisteruser\obj\Release\gamsdregisteruser.dll

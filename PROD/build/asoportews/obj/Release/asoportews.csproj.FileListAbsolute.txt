@@ -1,0 +1,3 @@
+C:\KBs\test\PROD\web\bin\asoportews.dll
+C:\KBs\test\PROD\build\asoportews\obj\Release\asoportews.csprojResolveAssemblyReference.cache
+C:\KBs\test\PROD\build\asoportews\obj\Release\asoportews.dll

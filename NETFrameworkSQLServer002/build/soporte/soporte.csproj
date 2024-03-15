@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>soporte</AssemblyName>
+		<ProjectGuid>{9768e28c-4170-4394-bc39-bad45244a436}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+		<Reference Include="GeneXusSecurity.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXusSecurity.dll</HintPath>
+		</Reference>
+		<Reference Include="K2BTools.Captcha.dll" > 
+			<HintPath>$(WebBinDirectory)\K2BTools.Captcha.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\k2btools\getdesignsystemoptions.cs" />
+		<Compile Include = "$(WebDirectory)\soporte.cs" />
+		<Compile Include = "$(WebDirectory)\k2btoolsgetuseencryption.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsettransactionpk.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivity.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivitylist.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsessionset.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgetcontext.cs" />
+		<Compile Include = "$(WebDirectory)\k2btoolsmessagequeueadd.cs" />
+		<Compile Include = "$(WebDirectory)\k2bremovetrncontextbyname.cs" />
+		<Compile Include = "$(WebDirectory)\k2bisauthorizedactivityname.cs" />
+		<Compile Include = "$(WebDirectory)\k2bfsg\getgampermissionnameforactivity.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsessionget.cs" />
+		<Compile Include = "$(WebDirectory)\k2bsessionremove.cs" />
+		<Compile Include = "$(WebDirectory)\k2bgettrncontextbyname.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

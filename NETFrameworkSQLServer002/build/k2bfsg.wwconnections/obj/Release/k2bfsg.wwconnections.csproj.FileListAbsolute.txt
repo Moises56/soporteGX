@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\k2bfsg.wwconnections.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwconnections\obj\Release\k2bfsg.wwconnections.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\k2bfsg.wwconnections\obj\Release\k2bfsg.wwconnections.dll

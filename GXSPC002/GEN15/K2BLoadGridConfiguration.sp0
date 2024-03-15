@@ -1,0 +1,459 @@
+spec_i([ proc,47,l('K2 BLoad Grid Configuration'),'K2BLoadGridConfiguration',78,eng,'18_0_5-175581' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(2,'CS_DBNAME',testUser)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','asd‘,Ù5“ø')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','GIS-MAVILES-LPT\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',test)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BLoadGridConfiguration')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'K2BGridConfiguration'))).
+rule_i(0,prop('ObjDesc','K2 BLoad Grid Configuration')).
+rule_i(0,prop('ObjName','K2BLoadGridConfiguration')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Programname','Gridname','Gridconfiguration' ],[])).
+rule_i(0,parmio([ [ 'Programname',in ],[ 'Gridname',in ],[ 'Gridconfiguration',inout ] ])).
+rule_i(0,output('FIL')).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',23 ]).
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',22 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',21 ]).
+attri_i('Gridconfigurationdb',[ 'GridConfigurationDB',o('K2BGridConfiguration'),0,0,'',0,l('Grid Configuration DB'),'',20 ]).
+attri_i('Gridconfiguration',[ 'GridConfiguration',o('K2BGridConfiguration'),0,0,'',0,l('Grid Configuration'),'',19 ]).
+attri_i('Showattribute',[ 'ShowAttribute',boolean,4,0,'',0,l('Show Attribute'),'',18 ]).
+attri_i('Sessionstring',[ 'SessionString',char,1000,0,'',0,l('Session String'),'',17 ]).
+attri_i('Session',[ 'Session',o(websession),0,0,'',0,l('Session'),'',16 ]).
+attri_i('Programname',[ 'ProgramName',char,20,0,'',0,l('Program Name'),'',15 ]).
+attri_i('Gridname',[ 'GridName',char,150,0,'',0,l('Grid Name'),'',14 ]).
+attri_i('Gridcolumnsdb',[ 'GridColumnsDB',o(objectcollection('K2BGridColumns.K2BGridColumnsItem')),0,0,'',0,l('Grid Columns DB'),'',13 ]).
+attri_i('Gridcolumns',[ 'GridColumns',o(objectcollection('K2BGridColumns.K2BGridColumnsItem')),0,0,'',0,l('Grid Columns'),'',12 ]).
+attri_i('Gridcolumndb',[ 'GridColumnDB',o('K2BGridColumns.K2BGridColumnsItem'),0,0,'',0,l('Grid Column DB'),'',11 ]).
+attri_i('Gridcolumn',[ 'GridColumn',o('K2BGridColumns.K2BGridColumnsItem'),0,0,'',0,l('Grid Column'),'',10 ]).
+attri_i('Found',[ 'Found',boolean,4,0,'',0,l('Found'),'',9 ]).
+attri_i('Attributename',[ 'AttributeName',char,20,0,'',0,l('Attribute Name'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,'Sessionstring',yes,udp,o(1,'K2BGetGridConfigurationSessionKey'),[],1,'Sessionstring',[ [ t('Programname',23),t(',',7),t('Gridname',23) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,21).
+b_group_i(1,2,lit,0,22,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Sessionstring',23,0,0),t(=,10,0,0),t([ t('Session',23,0,0),t('get(',1,0,0) ],31,0,0),t('udp(',1,0,0),t('Sessionstring',3,0,0),t(1,3,0,0),t('Programname',23,0,0),t(',',7,0,0),t('Gridname',23,0,0),t(')',4,0,0),t(')',4,0,0) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[ t('',109,3,0),t('.NOT.',8,0,4),t('null(',1,3,25),t('Sessionstring',23,0,10),t(')',4,0,34) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t([ t('Gridconfiguration',23,4,2),t('fromjson(',1,4,21) ],31,4,2),t('Sessionstring',23,0,31),t(')',4,0,45) ]).
+b_line_i(5,1,1,cmd,0,[ t('',110,5,0) ]).
+b_line_i(6,1,1,cmd,0,[]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t([ t('Gridconfigurationdb',23,7,2),t('fromjson(',1,7,23) ],31,7,2),t([ t('Gridconfiguration',23,0,33),t('tojson(',1,0,52) ],31,7,52),t(')',4,0,60),t(')',4,0,61) ]).
+b_line_i(8,1,1,cmd,0,[ t('',104,8,0),t(o(1,'K2BRetrieveGridConfiguration'),28,0,2),t('Programname',23,0,37),t(',',7,0,0),t('Gridname',23,0,51),t(',',7,0,0),t('Gridconfigurationdb',23,0,62) ]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t([ t('Gridconfiguration',23,0,0),t('Gridcolumnsorder',3,0,0) ],29,0,0),t(=,10,0,0),t([ t('Gridconfigurationdb',23,0,0),t('Gridcolumnsorder',3,0,0) ],29,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 10,2 ],1,1,cmd,0,[ t('',114,10,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Gridconfiguration',23,10,21),t('Gridcolumns',3,10,40),t('Count',3,10,0) ],29,10,0) ]).
+b_line_i([ 10,3 ],1,1,cmd,0,[ t('',107,10,0),t('Gridcolumn',23,0,0),t(=,10,0,0),t([ t([ t('Gridconfiguration',23,0,0),t('Gridcolumns',3,0,0) ],29,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(11,1,1,cmd,1,[ t('',107,11,0),t('Attributename',23,1,0),t(=,10,1,0),t([ t('Gridcolumn',23,1,0),t('Attributename',3,1,0) ],29,1,0) ]).
+b_line_i(12,1,1,cmd,1,[ t('',145,12,0),t('''FINDGRIDCOLUMNDB''',3,12,6) ]).
+b_line_i(13,1,1,cmd,1,[ t('',109,13,0),t('Found',23,1,6) ]).
+b_line_i(14,1,1,cmd,1,[ t('',107,14,0),t([ t('Gridcolumn',23,1,0),t('Showattribute',3,1,0) ],29,1,0),t(=,10,1,0),t('Showattribute',23,1,0) ]).
+b_line_i(15,1,1,cmd,1,[ t('',111,15,0) ]).
+b_line_i([ 16,1 ],1,1,cmd,1,[ t('',107,16,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 16,2 ],1,1,cmd,1,[ t('',115,16,0) ]).
+b_line_i(17,1,1,cmd,2,[ t('',107,17,0),t([ t('Gridconfiguration',23,2,0),t('Freezecolumntitles',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Gridconfigurationdb',23,2,0),t('Freezecolumntitles',3,2,0) ],29,2,0) ]).
+b_line_i(18,1,1,cmd,2,[ t('',111,18,0) ]).
+b_line_i(19,1,1,cmd,2,[]).
+b_line_i(20,1,1,cmd,2,[]).
+b_line_i(21,1,1,cmd,2,[ t('',143,21,0),t('''FINDGRIDCOLUMNDB''',3,21,5) ]).
+b_line_i(22,1,2,cmd,2,[ t('',107,22,0),t('Found',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(23,1,2,cmd,2,[ t('',107,23,0),t('GXV2',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 23,2 ],1,2,cmd,2,[ t('',114,23,0),t('GXV2',23,2,0),t(<=,10,2,0),t([ t('Gridconfigurationdb',23,23,23),t('Gridcolumns',3,23,44),t('Count',3,23,0) ],29,23,0) ]).
+b_line_i([ 23,3 ],1,2,cmd,2,[ t('',107,23,0),t('Gridcolumndb',23,2,0),t(=,10,2,0),t([ t([ t('Gridconfigurationdb',23,2,0),t('Gridcolumns',3,2,0) ],29,2,0),t('item(',1,2,0) ],31,2,0),t('GXV2',23,2,0),t(')',4,2,0) ]).
+b_line_i(24,1,2,cmd,3,[ t('',109,24,0),t([ t('Gridcolumndb',23,24,6),t('Attributename',3,24,20) ],29,24,20),t(=,10,3,34),t('Attributename',23,3,36) ]).
+b_line_i(25,1,2,cmd,3,[ t('',107,25,0),t('Found',23,3,0),t(=,10,3,0),t('TRUE',40,3,0) ]).
+b_line_i(26,1,2,cmd,3,[ t('',107,26,0),t('Showattribute',23,3,0),t(=,10,3,0),t([ t('Gridcolumndb',23,3,0),t('Showattribute',3,3,0) ],29,3,0) ]).
+b_line_i(27,1,2,cmd,3,[ t('',140,27,0) ]).
+b_line_i(28,1,2,cmd,3,[ t('',111,28,0) ]).
+b_line_i([ 29,1 ],1,2,cmd,3,[ t('',107,29,0),t('GXV2',23,3,0),t(=,10,3,0),t('GXV2',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 29,2 ],1,2,cmd,3,[ t('',115,29,0) ]).
+b_line_i(30,1,2,cmd,4,[]).
+b_line_i(31,1,2,cmd,4,[ t('',144,31,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,9,'',11909,16834,0,0,1814,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,71,0 ],name,'K2BGridColumns').
+struct_dt_i([ 26,71,0 ],namespace,test).
+struct_dt_i([ 26,71,0 ],'ObjName','K2BGridColumns').
+struct_dt_i([ 26,71,0 ],'ObjDesc','K2 BGrid Columns').
+struct_dt_i([ 26,71,0 ],'ExternalName','K2BGridColumns').
+struct_dt_i([ 26,71,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,71,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,71,0 ],collection,'True').
+struct_dt_i([ 26,71,0 ],datatype,[ 26,71,102 ]).
+struct_dt_i([ 26,71,0 ],'CollectionItemName','K2BGridColumnsItem').
+struct_dt_i([ 26,71,0 ],'XmlName','').
+struct_dt_i([ 26,71,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,71,0 ],'XmlNamespace','').
+struct_dt_i([ 26,71,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,71,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,71,0 ],'JsonName','').
+struct_dt_i([ 26,71,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,71,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,71,102 ],name,'K2BGridColumnsItem').
+struct_dt_i([ 26,71,102 ],namespace,'test.K2BGridColumns').
+struct_dt_i([ 26,76,0 ],name,'K2BGridConfiguration').
+struct_dt_i([ 26,76,0 ],namespace,test).
+struct_dt_i([ 26,76,0 ],'ObjName','K2BGridConfiguration').
+struct_dt_i([ 26,76,0 ],'ObjDesc','K2 BGrid Configuration').
+struct_dt_i([ 26,76,0 ],'ExternalName','K2BGridConfiguration').
+struct_dt_i([ 26,76,0 ],'ExternalNamespace',test).
+struct_dt_i([ 26,76,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,76,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,71,0 ],fullname,'K2BGridColumns').
+struct_dt_i([ 26,71,102 ],fullname,'K2BGridColumns.K2BGridColumnsItem').
+struct_dt_i([ 26,76,0 ],fullname,'K2BGridConfiguration').
+ 
+struct_dt_elem_i([ 26,71,102 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,71,102 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,71,102 ],1,length,20).
+struct_dt_elem_i([ 26,71,102 ],1,decimals,0).
+struct_dt_elem_i([ 26,71,102 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,71,102 ],1,pic,'').
+struct_dt_elem_i([ 26,71,102 ],1,collection,'False').
+struct_dt_elem_i([ 26,71,102 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,71,102 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,71,102 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,71,102 ],1,'XmlName','').
+struct_dt_elem_i([ 26,71,102 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,71,102 ],1,soaptype,'').
+struct_dt_elem_i([ 26,71,102 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,71,102 ],1,'JsonName','').
+struct_dt_elem_i([ 26,71,102 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,71,102 ],2,name,'Showattribute').
+struct_dt_elem_i([ 26,71,102 ],2,camelname,'ShowAttribute').
+struct_dt_elem_i([ 26,71,102 ],2,length,4).
+struct_dt_elem_i([ 26,71,102 ],2,decimals,0).
+struct_dt_elem_i([ 26,71,102 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,71,102 ],2,pic,'').
+struct_dt_elem_i([ 26,71,102 ],2,collection,'False').
+struct_dt_elem_i([ 26,71,102 ],2,'ExternalName','ShowAttribute').
+struct_dt_elem_i([ 26,71,102 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,71,102 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,71,102 ],2,'XmlName','').
+struct_dt_elem_i([ 26,71,102 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,71,102 ],2,soaptype,'').
+struct_dt_elem_i([ 26,71,102 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,71,102 ],2,'JsonName','').
+struct_dt_elem_i([ 26,71,102 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,71,102 ],3,name,'Columntitle').
+struct_dt_elem_i([ 26,71,102 ],3,camelname,'ColumnTitle').
+struct_dt_elem_i([ 26,71,102 ],3,length,100).
+struct_dt_elem_i([ 26,71,102 ],3,decimals,0).
+struct_dt_elem_i([ 26,71,102 ],3,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,71,102 ],3,pic,'').
+struct_dt_elem_i([ 26,71,102 ],3,collection,'False').
+struct_dt_elem_i([ 26,71,102 ],3,'ExternalName','ColumnTitle').
+struct_dt_elem_i([ 26,71,102 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,71,102 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,71,102 ],3,'XmlName','').
+struct_dt_elem_i([ 26,71,102 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,71,102 ],3,soaptype,'').
+struct_dt_elem_i([ 26,71,102 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,71,102 ],3,'JsonName','').
+struct_dt_elem_i([ 26,71,102 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,76,0 ],1,name,'Freezecolumntitles').
+struct_dt_elem_i([ 26,76,0 ],1,camelname,'FreezeColumnTitles').
+struct_dt_elem_i([ 26,76,0 ],1,length,4).
+struct_dt_elem_i([ 26,76,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,76,0 ],1,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,76,0 ],1,pic,'').
+struct_dt_elem_i([ 26,76,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,76,0 ],1,'ExternalName','FreezeColumnTitles').
+struct_dt_elem_i([ 26,76,0 ],1,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,76,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,76,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,76,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,76,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,76,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,76,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,76,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,76,0 ],2,name,'Gridcolumns').
+struct_dt_elem_i([ 26,76,0 ],2,camelname,'GridColumns').
+struct_dt_elem_i([ 26,76,0 ],2,length,4).
+struct_dt_elem_i([ 26,76,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,76,0 ],2,type,[ [ 26,71,0 ],4,0 ]).
+struct_dt_elem_i([ 26,76,0 ],2,pic,'').
+struct_dt_elem_i([ 26,76,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,76,0 ],2,'ExternalName','GridColumns').
+struct_dt_elem_i([ 26,76,0 ],2,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,76,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,76,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,76,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,76,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,76,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,76,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,76,0 ],3,name,'Gridcolumnsorder').
+struct_dt_elem_i([ 26,76,0 ],3,camelname,'GridColumnsOrder').
+struct_dt_elem_i([ 26,76,0 ],3,basedon,51).
+struct_dt_elem_i([ 26,76,0 ],3,length,256).
+struct_dt_elem_i([ 26,76,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,76,0 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,76,0 ],3,pic,'').
+struct_dt_elem_i([ 26,76,0 ],3,collection,'True').
+struct_dt_elem_i([ 26,76,0 ],3,'ExternalName','GridColumnsOrder').
+struct_dt_elem_i([ 26,76,0 ],3,'ExternalNamespace',test).
+struct_dt_elem_i([ 26,76,0 ],3,'CollectionItemName','Item').
+struct_dt_elem_i([ 26,76,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,76,0 ],3,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,76,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,76,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,76,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,76,0 ],3,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,76,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,76,0 ],3,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,76,0 ],3,'JsonCollectionSerialization',idXmlCollectionWrapped).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,48,'K2BRETRIEVEGRIDCONFIGURATION',[ [ char,20,0,0 ],[ char,150,0,0 ],[ o('K2BGridConfiguration'),0,0,0 ] ],[ [ 'ProgramName',in,[] ],[ 'GridName',in,[] ],[ 'GridConfiguration',out,[] ] ]).
+pgm_parm_i(proc,45,'K2BGETGRIDCONFIGURATIONSESSIONKEY',[ [ char,20,0,0 ],[ char,20,0,0 ],[ char,20,0,0 ] ],[ [ 'ProgramName',in,[] ],[ 'GridName',in,[] ],[ 'SessionString',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,47,'K2BLOADGRIDCONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,48,'K2BRETRIEVEGRIDCONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,45,'K2BGETGRIDCONFIGURATIONSESSIONKEY','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

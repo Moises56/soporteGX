@@ -1,0 +1,27 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_5-175581</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>K2BGetContext</ObjName>
+<ObjDesc>Gets the application's context data</ObjDesc>
+<ObjPgmName>K2BGetContext</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Context</VarId>
+<VarName>&amp;Context</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

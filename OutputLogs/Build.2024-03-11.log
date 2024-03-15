@@ -1,0 +1,1617 @@
+2024-03-11 14:35:28,479: INFO  – ========== Build All started ==========
+2024-03-11 14:35:29,708: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 14:35:29,754: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 14:35:30,066: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 14:35:30,083: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 14:35:30,338: INFO  – ========== Database Impact Analysis started ==========
+2024-03-11 14:35:31,038: INFO  – Processing ... 
+2024-03-11 14:35:31,081: INFO  – Subtype groups were validated...
+2024-03-11 14:35:31,087: INFO  – Searching for new or changed tables ...
+2024-03-11 14:35:31,172: INFO  – Analyzing   soporte ...
+2024-03-11 14:35:31,174: INFO  – Removing specification files ...
+2024-03-11 14:35:31,174: INFO  – Specification files removed.
+2024-03-11 14:35:31,719: INFO  – Searching for deleted tables ...
+2024-03-11 14:35:31,721: INFO  – Loading table and attribute properties ...
+2024-03-11 14:35:31,721: INFO  – Saving specifications.
+2024-03-11 14:35:32,373: INFO  – Success: Database Impact Analysis
+2024-03-11 14:35:34,864: INFO  – Generating Resources...
+2024-03-11 14:35:37,546: INFO  – Success
+2024-03-11 14:35:37,555: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 14:35:46,727: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-11 14:35:47,277: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-11 14:35:47,296: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 14:35:47,431: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 14:35:47,823: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 14:35:47,833: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-11 14:35:47,834: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-11 14:35:47,834: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-11 14:35:47,838: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-11 14:35:47,839: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 14:35:49,263: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 14:35:50,533: INFO  – ========== Reorganization started ==========
+2024-03-11 14:35:50,548: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 14:35:52,884: INFO  – "C:\KBs\test\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-11 14:35:54,455: INFO  – Creating table soporte .
+2024-03-11 14:35:54,988: INFO  – Creating table soporte . Started
+2024-03-11 14:35:55,498: INFO  – Creating table soporte . Ended
+2024-03-11 14:35:55,505: INFO  – The reorganization process was successfully completed.
+2024-03-11 14:35:57,169: INFO  – Success: Reorganization
+2024-03-11 14:35:57,310: INFO  – ========== Target Environment update started ==========
+2024-03-11 14:35:59,320: INFO  – Success: Target Environment update
+2024-03-11 14:36:00,465: INFO  – ========== Specification started ==========
+2024-03-11 14:36:04,646: INFO  –  Specifying test ...
+2024-03-11 14:36:07,308: INFO  –  Specifying tesApiDolar ...
+2024-03-11 14:36:07,369: INFO  –  Specifying Gx0010 ...
+2024-03-11 14:36:07,621: INFO  –  Specifying  stub test ...
+2024-03-11 14:36:07,681: INFO  – Generating Resources...
+2024-03-11 14:36:07,969: INFO  – Success
+2024-03-11 14:36:12,952: INFO  –  Specifying products ...
+2024-03-11 14:36:13,059: INFO  –  Specifying soporte ...
+2024-03-11 14:36:13,533: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 14:36:13,657: INFO  – Creating prompt 'Gx0020' (for table 'soporte')...
+2024-03-11 14:36:16,024: INFO  – Generating to NETFrameworkSQLServer002\web\products.cs
+2024-03-11 14:36:16,546: INFO  – Generating to NETFrameworkSQLServer002\web\products.js
+2024-03-11 14:36:24,855: INFO  –  Specifying Gx0020 ...
+2024-03-11 14:36:29,073: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.cs
+2024-03-11 14:36:29,473: INFO  – Processing inferred calls...
+2024-03-11 14:36:29,646: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.js
+2024-03-11 14:36:30,675: INFO  – Success: Specification
+2024-03-11 14:36:30,880: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.cs
+2024-03-11 14:36:31,512: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.js
+2024-03-11 14:36:32,011: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 14:36:32,026: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 14:36:32,069: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 14:36:32,385: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 14:36:32,486: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 14:36:32,574: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 14:36:32,575: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 14:36:32,577: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 14:36:32,601: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-11 14:36:33,244: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 14:36:34,343: INFO  – Compressing static files...
+2024-03-11 14:36:36,075: INFO  – Success
+2024-03-11 14:36:36,095: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 14:36:38,111: INFO  – Generating metadata files...
+2024-03-11 14:36:41,299: INFO  – Angular Success
+2024-03-11 14:36:41,305: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 14:36:41,830: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 14:36:41,835: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 14:36:55,304: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 14:36:55,307: INFO  – ========== Web config update started ==========
+2024-03-11 14:36:55,946: INFO  – Updating web config ...
+2024-03-11 14:36:56,114: INFO  – Success: Web config update
+2024-03-11 14:36:56,135: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 14:36:56,138: INFO  – ========== Angular Compilation started ==========
+2024-03-11 14:36:56,238: INFO  – Success: Angular Compilation
+2024-03-11 14:36:56,270: INFO  – Success: Build All
+2024-03-11 14:41:30,237: INFO  – ========== Run Developer Menu started ==========
+2024-03-11 14:41:30,609: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 14:41:30,610: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 14:41:30,912: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 14:41:30,914: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 14:41:31,120: INFO  – ========== Target Environment update started ==========
+2024-03-11 14:41:31,511: INFO  – Success: Target Environment update
+2024-03-11 14:41:31,515: INFO  – Building changed objects list
+2024-03-11 14:41:31,813: INFO  – No objects to Specify
+2024-03-11 14:41:31,822: INFO  – Generating Resources...
+2024-03-11 14:41:32,108: INFO  – Success
+2024-03-11 14:41:32,110: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 14:41:32,751: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 14:41:32,774: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 14:41:32,792: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 14:41:32,862: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 14:41:32,933: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 14:41:32,985: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 14:41:32,986: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 14:41:32,987: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 14:41:33,569: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 14:41:33,595: INFO  – Compressing static files...
+2024-03-11 14:41:33,678: INFO  – Success
+2024-03-11 14:41:33,678: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 14:41:42,400: INFO  – Generating metadata files...
+2024-03-11 14:41:43,655: INFO  – Angular Success
+2024-03-11 14:41:43,661: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 14:41:43,766: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 14:41:43,769: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 14:41:44,795: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 14:41:44,795: INFO  – ========== Web config update started ==========
+2024-03-11 14:41:44,931: INFO  – Updating web config ...
+2024-03-11 14:41:44,962: INFO  – Success: Web config update
+2024-03-11 14:41:45,143: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 14:41:45,144: INFO  – ========== Angular Execution started ==========
+2024-03-11 14:41:45,144: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-03-11 14:41:45,144: INFO  – Success: Angular Execution
+2024-03-11 14:41:45,147: INFO  – Success: Run Developer Menu
+2024-03-11 14:41:49,639: INFO  – ========== Run soporte Without Building started ==========
+2024-03-11 14:41:49,680: INFO  – ========== Execution started ==========
+2024-03-11 14:41:49,771: INFO  – Success: Execution
+2024-03-11 14:41:49,780: INFO  – Success: Run soporte Without Building
+2024-03-11 22:17:39,942: INFO  – ========== Build All started ==========
+2024-03-11 22:17:40,375: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:17:40,582: INFO  – Refreshing instance 'K2BTrnFormsoporte'
+2024-03-11 22:17:47,841: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:17:47,967: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:17:48,000: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:17:48,172: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:17:48,188: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:17:48,357: INFO  – ========== Database Impact Analysis started ==========
+2024-03-11 22:17:49,916: INFO  – Processing ... 
+2024-03-11 22:17:49,970: INFO  – Subtype groups were validated...
+2024-03-11 22:17:49,977: INFO  – Searching for new or changed tables ...
+2024-03-11 22:17:50,110: INFO  – Analyzing   soporte ...
+2024-03-11 22:17:50,114: INFO  – Removing specification files ...
+2024-03-11 22:17:50,118: INFO  – Specification files removed.
+2024-03-11 22:17:50,529: INFO  –  Specifying soporteConversion ...
+2024-03-11 22:17:50,724: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-11 22:17:50,902: INFO  – Searching for deleted tables ...
+2024-03-11 22:17:50,903: INFO  – Loading table and attribute properties ...
+2024-03-11 22:17:50,903: INFO  – Saving specifications.
+2024-03-11 22:17:51,304: INFO  – Processing enumerated domains...
+2024-03-11 22:17:52,259: INFO  – Success: Database Impact Analysis
+2024-03-11 22:17:54,373: INFO  – Generating Resources...
+2024-03-11 22:18:01,753: INFO  – Success
+2024-03-11 22:18:01,759: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:18:06,067: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-11 22:18:06,201: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-11 22:18:06,212: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2baftertrnnavigation.cs
+2024-03-11 22:18:06,231: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bcomponenttype.cs
+2024-03-11 22:18:06,249: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bfiltertype.cs
+2024-03-11 22:18:06,313: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bhttpmethod.cs
+2024-03-11 22:18:06,406: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsesitem.cs
+2024-03-11 22:18:06,431: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bstandardactivitytype.cs
+2024-03-11 22:18:06,472: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btoolsmessagetype.cs
+2024-03-11 22:18:06,510: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnmode.cs
+2024-03-11 22:18:06,543: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnreturnmode.cs
+2024-03-11 22:18:06,698: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_overflowactionposition.cs
+2024-03-11 22:18:06,731: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_regionstatus.cs
+2024-03-11 22:18:06,832: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomainattributevaluetype.cs
+2024-03-11 22:18:06,871: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptions.cs
+2024-03-11 22:18:06,902: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs
+2024-03-11 22:18:06,940: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaingenexusgenerator.cs
+2024-03-11 22:18:07,028: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_desktopnotificationpermission.cs
+2024-03-11 22:18:07,065: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_webnotificationids.cs
+2024-03-11 22:18:07,095: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomaincontentviewoption.cs
+2024-03-11 22:18:07,127: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomainweekstartday.cs
+2024-03-11 22:18:07,158: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainaftercanceleventname.cs
+2024-03-11 22:18:07,193: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainafterconfirmeventname.cs
+2024-03-11 22:18:07,227: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:18:07,241: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:18:07,305: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:18:07,313: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-11 22:18:07,314: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-11 22:18:07,315: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-11 22:18:07,318: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-11 22:18:07,318: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:18:07,785: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:18:08,051: INFO  – ========== Reorganization started ==========
+2024-03-11 22:18:08,061: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:18:09,319: INFO  – "C:\KBs\test\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-11 22:18:10,146: INFO  – Table soporte has 0 records
+2024-03-11 22:18:10,147: INFO  – Updating table soporte .
+2024-03-11 22:18:10,670: INFO  – Updating table soporte . Started
+2024-03-11 22:18:11,178: INFO  – Updating table soporte . Ended
+2024-03-11 22:18:11,181: INFO  – The reorganization process was successfully completed.
+2024-03-11 22:18:12,853: INFO  – Success: Reorganization
+2024-03-11 22:18:12,895: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:18:14,154: INFO  – Success: Target Environment update
+2024-03-11 22:18:14,645: INFO  – Generating User Control K2BT_Stepper
+2024-03-11 22:18:14,894: INFO  – Generating User Control K2BT_ModalWindow
+2024-03-11 22:18:15,012: INFO  – Generating User Control K2BT_ConfirmDialog
+2024-03-11 22:18:15,108: INFO  – Generating User Control K2BT_ActionGroup
+2024-03-11 22:18:15,510: INFO  – Generating User Control K2BT_Component
+2024-03-11 22:18:15,802: INFO  – Generating User Control K2BT_ExtendedCombobox
+2024-03-11 22:18:16,165: INFO  – Generating User Control K2BT_ToggleBar
+2024-03-11 22:18:16,347: INFO  – Generating User Control K2BTools.DesignSystems.Aries.NotificationsButton
+2024-03-11 22:18:16,832: INFO  – ========== Specification started ==========
+2024-03-11 22:18:17,939: INFO  – Processing enumerated domains...
+2024-03-11 22:18:18,401: INFO  – Loading objects to specify ...10
+2024-03-11 22:18:18,421: INFO  – Loading objects to specify ...20
+2024-03-11 22:18:18,445: INFO  – Loading objects to specify ...30
+2024-03-11 22:18:18,458: INFO  – Loading objects to specify ...40
+2024-03-11 22:18:18,595: INFO  – Loading objects to specify ...50
+2024-03-11 22:18:18,612: INFO  – Loading objects to specify ...60
+2024-03-11 22:18:18,640: INFO  – Loading objects to specify ...70
+2024-03-11 22:18:18,818: INFO  –  Specifying K2BTools.GetDesignSystemOptions ...
+2024-03-11 22:18:20,382: INFO  –  Specifying K2BTools.DesignSystems.Aries.UIConfiguration ...
+2024-03-11 22:18:20,952: INFO  –  Specifying K2BTools.DesignSystems.Aries.SearchResultEntityWC ...
+2024-03-11 22:18:20,978: INFO  –  Specifying K2BTools.DesignSystems.Aries.NotificationsViewer ...
+2024-03-11 22:18:21,001: INFO  –  Specifying K2BTools.DesignSystems.Aries.TabbedViewForUniversalSearch ...
+2024-03-11 22:18:21,002: INFO  –  Specifying K2BTools.DesignSystems.Aries.SampleFooterComponent ...
+2024-03-11 22:18:21,075: INFO  –  Specifying K2BToolsTabsTitleComponent ...
+2024-03-11 22:18:21,392: INFO  – Generating Resources...
+2024-03-11 22:18:21,555: INFO  –  Specifying K2BTools.GetDesignSystemOptionValue ...
+2024-03-11 22:18:22,083: INFO  –  Specifying K2BTools.SetDesignSystemOptionValue ...
+2024-03-11 22:18:22,442: INFO  –  Specifying K2BGetContext ...
+2024-03-11 22:18:22,843: INFO  –  Specifying K2BSessionGet ...
+2024-03-11 22:18:23,173: INFO  –  Specifying K2BIsAuthorizedActivity ...
+2024-03-11 22:18:23,707: INFO  –  Specifying K2BIsAuthorizedActivityList ...
+2024-03-11 22:18:24,065: INFO  –  Specifying K2BIsAuthorizedActivityName ...
+2024-03-11 22:18:24,529: INFO  –  Specifying K2BListPrograms ...
+2024-03-11 22:18:24,769: WARN  – warning src0306: Subroutine ''AddProgram'' is defined but never used. (Procedure 'K2BListPrograms' Source, Line: 13, Char: 5, , Details, )
+2024-03-11 22:18:25,517: INFO  –  Specifying K2BRemoveExcelDocument ...
+2024-03-11 22:18:25,878: INFO  –  Specifying K2BGetSearchableEntities ...
+2024-03-11 22:18:26,310: INFO  –  Specifying K2BGetSearchResultFromData ...
+2024-03-11 22:18:26,739: INFO  –  Specifying K2BListProgramsToMultiLevelMenuSDT ...
+2024-03-11 22:18:27,145: INFO  –  Specifying K2BSessionRemove ...
+2024-03-11 22:18:27,385: INFO  –  Specifying K2BGetUserCaption ...
+2024-03-11 22:18:27,527: INFO  –  Specifying K2BToolsGetSearchResults ...
+2024-03-11 22:18:27,695: INFO  –  Specifying K2BIsAuthenticated ...
+2024-03-11 22:18:28,032: INFO  –  Specifying K2BGetUserMenu ...
+2024-03-11 22:18:28,423: INFO  –  Specifying K2BGetUserCode ...
+2024-03-11 22:18:28,544: INFO  –  Specifying K2BSaveRowsPerPage ...
+2024-03-11 22:18:28,731: INFO  –  Specifying K2BPersistRowsPerPage ...
+2024-03-11 22:18:29,100: INFO  –  Specifying K2BGetUserAvatar ...
+2024-03-11 22:18:29,549: INFO  –  Specifying K2BGetUserEmail ...
+2024-03-11 22:18:29,578: INFO  –  Specifying K2BToolsMsg ...
+2024-03-11 22:18:29,579: INFO  –  Specifying K2BLogoutImplementation ...
+2024-03-11 22:18:29,603: INFO  –  Specifying K2BSaveGridConfiguration ...
+2024-03-11 22:18:29,616: INFO  –  Specifying K2BGetGridConfigurationSessionKey ...
+2024-03-11 22:18:29,934: INFO  –  Specifying K2BPersistGridConfiguration ...
+2024-03-11 22:18:30,163: INFO  –  Specifying K2BT_ReturnFileInHttpResponse ...
+2024-03-11 22:18:30,179: INFO  –  Specifying K2BRetrieveGridConfiguration ...
+2024-03-11 22:18:30,194: INFO  –  Specifying GetDateFriendlyString ...
+2024-03-11 22:18:30,941: INFO  –  Specifying K2BTools.IntegrationProcedures.GetDesktopNotificationInformation ...
+2024-03-11 22:18:30,948: INFO  –  Specifying K2BTools.IntegrationProcedures.MarkWebNotificationAsRead ...
+2024-03-11 22:18:30,949: INFO  –  Specifying K2BTools.TabbedView.GetTabsMarkup ...
+2024-03-11 22:18:30,978: INFO  –  Specifying K2BTools.DesignSystems.Common.FormatNumericByMagnitude ...
+2024-03-11 22:18:31,436: INFO  –  Specifying K2BToolsMessageQueueAdd ...
+2024-03-11 22:18:31,450: INFO  –  Specifying K2BRetrieveRowsPerPage ...
+2024-03-11 22:18:31,451: INFO  –  Specifying K2BLoadRowsPerPage ...
+2024-03-11 22:18:31,531: INFO  –  Specifying K2BToolsGetUseEncryption ...
+2024-03-11 22:18:31,800: INFO  –  Specifying K2BSCJoinString ...
+2024-03-11 22:18:31,807: INFO  –  Specifying K2BSCAddItem ...
+2024-03-11 22:18:31,809: INFO  –  Specifying K2BSCRemoveItem ...
+2024-03-11 22:18:31,916: INFO  –  Specifying SoporteWS ...
+2024-03-11 22:18:31,953: INFO  –  Specifying K2BLoadGridConfiguration ...
+2024-03-11 22:18:32,113: WARN  – warning spc0030: Line 3. Attribute soporteID should not be assigned in an insert group. It has the Autonumber property set to on. (Procedure 'SoporteWS', , Details, )
+2024-03-11 22:18:32,149: INFO  –  Specifying  stub SoporteWS ...
+2024-03-11 22:18:32,216: INFO  –  Specifying tesApiDolar ...
+2024-03-11 22:18:32,347: INFO  –  Specifying K2BChangePassword ...
+2024-03-11 22:18:32,580: INFO  –  Specifying K2BNotAuthorized ...
+2024-03-11 22:18:32,780: INFO  –  Specifying K2BHome ...
+2024-03-11 22:18:32,931: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage1_VerticalMenu ...
+2024-03-11 22:18:32,981: INFO  –  Specifying K2BTools.IntegrationProcedures.RegisterClient ...
+2024-03-11 22:18:33,189: INFO  –  Specifying K2BTools.DesignSystems.Aries.SearchResult ...
+2024-03-11 22:18:33,297: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage2_HorizontalMenu ...
+2024-03-11 22:18:33,435: INFO  –  Specifying K2BTools.IntegrationProcedures.GetWebNotificationsUnreadCount ...
+2024-03-11 22:18:33,744: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage5_VerticalMenu ...
+2024-03-11 22:18:33,914: INFO  –  Specifying products ...
+2024-03-11 22:18:34,092: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage3_VerticalMenu ...
+2024-03-11 22:18:34,433: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage4_VerticalMenu ...
+2024-03-11 22:18:35,115: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage6_VerticalMenu ...
+2024-03-11 22:18:35,687: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage7_VerticalMenu ...
+2024-03-11 22:18:36,087: INFO  –  Specifying K2BTools.DesignSystems.Aries.ViewAllNotifications ...
+2024-03-11 22:18:36,323: INFO  –  Specifying K2BT_MasterPage ...
+2024-03-11 22:18:36,365: INFO  –  Specifying K2BTools.IntegrationProcedures.GetLatestNotificationsForCurrentUser ...
+2024-03-11 22:18:36,578: INFO  –  Specifying K2BTools.IntegrationProcedures.GetAllNotificationsForCurrentUserDP ...
+2024-03-11 22:18:36,795: INFO  –  Specifying soporte ...
+2024-03-11 22:18:37,263: WARN  – warning spc0156: Event 'DoCancel' for control 'Cancel' is not defined. (Transaction 'soporte', , Details, )
+2024-03-11 22:18:37,576: INFO  – Success
+2024-03-11 22:18:37,607: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:18:37,666: INFO  – Creating prompt 'Gx0020' (for table 'soporte')...
+2024-03-11 22:18:39,626: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getdesignsystemoptions.cs
+2024-03-11 22:18:39,731: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getdesignsystemoptionvalue.cs
+2024-03-11 22:18:39,815: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\setdesignsystemoptionvalue.cs
+2024-03-11 22:18:39,891: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcontext.cs
+2024-03-11 22:18:39,961: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionget.cs
+2024-03-11 22:18:40,025: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivity.cs
+2024-03-11 22:18:40,123: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivitylist.cs
+2024-03-11 22:18:40,231: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivityname.cs
+2024-03-11 22:18:40,332: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprograms.cs
+2024-03-11 22:18:40,560: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\uiconfiguration.cs
+2024-03-11 22:18:41,114: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\uiconfiguration.js
+2024-03-11 22:18:41,291: INFO  – Generating to NETFrameworkSQLServer002\web\k2bremoveexceldocument.cs
+2024-03-11 22:18:41,352: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetsearchableentities.cs
+2024-03-11 22:18:41,416: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetsearchresultfromdata.cs
+2024-03-11 22:18:41,493: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprogramstomultilevelmenusdt.cs
+2024-03-11 22:18:41,601: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionremove.cs
+2024-03-11 22:18:41,663: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusercaption.cs
+2024-03-11 22:18:41,724: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthenticated.cs
+2024-03-11 22:18:41,787: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetsearchresults.cs
+2024-03-11 22:18:41,923: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\samplefootercomponent.cs
+2024-03-11 22:18:42,068: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\samplefootercomponent.js
+2024-03-11 22:18:42,142: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusermenu.cs
+2024-03-11 22:18:42,263: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\tabbedviewforuniversalsearch.cs
+2024-03-11 22:18:42,508: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\tabbedviewforuniversalsearch.js
+2024-03-11 22:18:42,588: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusercode.cs
+2024-03-11 22:18:42,649: INFO  – Generating to NETFrameworkSQLServer002\web\k2bpersistrowsperpage.cs
+2024-03-11 22:18:42,718: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsaverowsperpage.cs
+2024-03-11 22:18:42,790: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolstabstitlecomponent.cs
+2024-03-11 22:18:43,001: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolstabstitlecomponent.js
+2024-03-11 22:18:43,076: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetuseravatar.cs
+2024-03-11 22:18:43,147: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetuseremail.cs
+2024-03-11 22:18:43,213: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogoutimplementation.cs
+2024-03-11 22:18:43,282: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetgridconfigurationsessionkey.cs
+2024-03-11 22:18:43,349: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmsg.cs
+2024-03-11 22:18:43,438: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsavegridconfiguration.cs
+2024-03-11 22:18:43,535: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresultentitywc.cs
+2024-03-11 22:18:44,213: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresultentitywc.js
+2024-03-11 22:18:44,330: INFO  –  Specifying Gx0020 ...
+2024-03-11 22:18:44,331: INFO  – Generating to NETFrameworkSQLServer002\web\k2bpersistgridconfiguration.cs
+2024-03-11 22:18:44,416: INFO  – Generating to NETFrameworkSQLServer002\web\getdatefriendlystring.cs
+2024-03-11 22:18:44,514: INFO  – Generating to NETFrameworkSQLServer002\web\k2bretrievegridconfiguration.cs
+2024-03-11 22:18:44,595: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_returnfileinhttpresponse.cs
+2024-03-11 22:18:44,701: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\notificationsviewer.cs
+2024-03-11 22:18:46,002: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\markwebnotificationasread.cs
+2024-03-11 22:18:46,018: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\notificationsviewer.js
+2024-03-11 22:18:46,240: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\common\formatnumericbymagnitude.cs
+2024-03-11 22:18:46,243: INFO  – Generating to NETFrameworkSQLServer002\web\k2bretrieverowsperpage.cs
+2024-03-11 22:18:46,301: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetuseencryption.cs
+2024-03-11 22:18:46,322: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetuseencryption.svc
+2024-03-11 22:18:46,383: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscremoveitem.cs
+2024-03-11 22:18:46,441: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscjoinstring.cs
+2024-03-11 22:18:46,474: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadrowsperpage.cs
+2024-03-11 22:18:46,516: INFO  – Generating to NETFrameworkSQLServer002\web\soportews.cs
+2024-03-11 22:18:46,583: INFO  – Generating to NETFrameworkSQLServer002\web\asoportews.cs
+2024-03-11 22:18:46,763: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadgridconfiguration.cs
+2024-03-11 22:18:46,864: INFO  – Generating to NETFrameworkSQLServer002\web\k2bnotauthorized.cs
+2024-03-11 22:18:46,966: INFO  – Generating to NETFrameworkSQLServer002\web\k2bnotauthorized.js
+2024-03-11 22:18:47,021: INFO  – Generating to NETFrameworkSQLServer002\web\k2bhome.cs
+2024-03-11 22:18:47,085: INFO  – Generating to NETFrameworkSQLServer002\web\k2bhome.js
+2024-03-11 22:18:47,136: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\registerclient.cs
+2024-03-11 22:18:47,188: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getwebnotificationsunreadcount.cs
+2024-03-11 22:18:47,251: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresult.cs
+2024-03-11 22:18:47,415: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresult.js
+2024-03-11 22:18:47,468: INFO  – Processing inferred calls...
+2024-03-11 22:18:47,489: INFO  – Generating to NETFrameworkSQLServer002\web\products.cs
+2024-03-11 22:18:48,020: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getdesktopnotificationinformation.cs
+2024-03-11 22:18:48,081: INFO  – Generating to NETFrameworkSQLServer002\web\products.js
+2024-03-11 22:18:48,173: INFO  – Generating to NETFrameworkSQLServer002\web\k2bchangepassword.cs
+2024-03-11 22:18:48,258: INFO  – Generating to NETFrameworkSQLServer002\web\k2bchangepassword.js
+2024-03-11 22:18:48,271: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\tabbedview\gettabsmarkup.cs
+2024-03-11 22:18:48,319: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage2_horizontalmenu.cs
+2024-03-11 22:18:48,658: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmessagequeueadd.cs
+2024-03-11 22:18:48,751: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage4_verticalmenu.cs
+2024-03-11 22:18:48,960: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage2_horizontalmenu.js
+2024-03-11 22:18:49,001: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscadditem.cs
+2024-03-11 22:18:49,058: INFO  – Success: Specification
+2024-03-11 22:18:49,087: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage5_verticalmenu.cs
+2024-03-11 22:18:49,110: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage6_verticalmenu.cs
+2024-03-11 22:18:49,270: INFO  – Generating to NETFrameworkSQLServer002\web\tesapidolar.cs
+2024-03-11 22:18:49,384: INFO  – Generating to NETFrameworkSQLServer002\web\tesapidolar.js
+2024-03-11 22:18:49,475: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getlatestnotificationsforcurrentuser.cs
+2024-03-11 22:18:49,495: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage4_verticalmenu.js
+2024-03-11 22:18:49,577: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getallnotificationsforcurrentuserdp.cs
+2024-03-11 22:18:49,671: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage7_verticalmenu.cs
+2024-03-11 22:18:49,692: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_masterpage.cs
+2024-03-11 22:18:49,749: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage5_verticalmenu.js
+2024-03-11 22:18:49,819: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage6_verticalmenu.js
+2024-03-11 22:18:49,933: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\viewallnotifications.cs
+2024-03-11 22:18:49,961: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.cs
+2024-03-11 22:18:50,326: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage7_verticalmenu.js
+2024-03-11 22:18:50,349: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_masterpage.js
+2024-03-11 22:18:50,487: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.cs
+2024-03-11 22:18:50,509: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.js
+2024-03-11 22:18:50,937: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.js
+2024-03-11 22:18:50,978: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage1_verticalmenu.cs
+2024-03-11 22:18:51,250: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage3_verticalmenu.cs
+2024-03-11 22:18:51,442: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage1_verticalmenu.js
+2024-03-11 22:18:51,605: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\viewallnotifications.js
+2024-03-11 22:18:51,679: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage3_verticalmenu.js
+2024-03-11 22:18:52,528: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2baftertrnnavigation.cs
+2024-03-11 22:18:52,566: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bcomponenttype.cs
+2024-03-11 22:18:52,585: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bfiltertype.cs
+2024-03-11 22:18:52,606: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bhttpmethod.cs
+2024-03-11 22:18:52,626: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsesitem.cs
+2024-03-11 22:18:52,789: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bstandardactivitytype.cs
+2024-03-11 22:18:52,810: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btoolsmessagetype.cs
+2024-03-11 22:18:52,834: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnmode.cs
+2024-03-11 22:18:52,860: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnreturnmode.cs
+2024-03-11 22:18:52,878: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_overflowactionposition.cs
+2024-03-11 22:18:52,896: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_regionstatus.cs
+2024-03-11 22:18:52,923: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomainattributevaluetype.cs
+2024-03-11 22:18:52,944: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptions.cs
+2024-03-11 22:18:52,965: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs
+2024-03-11 22:18:52,990: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaingenexusgenerator.cs
+2024-03-11 22:18:53,013: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_desktopnotificationpermission.cs
+2024-03-11 22:18:53,040: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_webnotificationids.cs
+2024-03-11 22:18:53,060: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomaincontentviewoption.cs
+2024-03-11 22:18:53,083: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomainweekstartday.cs
+2024-03-11 22:18:53,104: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainaftercanceleventname.cs
+2024-03-11 22:18:53,124: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainafterconfirmeventname.cs
+2024-03-11 22:18:53,173: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:18:53,187: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:18:53,248: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:18:53,260: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bcoloroptionpicker to NETFrameworkSQLServer002\web...
+2024-03-11 22:18:55,454: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2btogglebar to NETFrameworkSQLServer002\web...
+2024-03-11 22:18:56,317: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bcontrolbeautify to NETFrameworkSQLServer002\web...
+2024-03-11 22:18:57,308: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bdesktopnotification to NETFrameworkSQLServer002\web...
+2024-03-11 22:18:57,328: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bhorizontalmenu to NETFrameworkSQLServer002\web...
+2024-03-11 22:19:09,553: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2baccordionmenu to NETFrameworkSQLServer002\web...
+2024-03-11 22:19:21,007: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:19:21,207: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:19:21,269: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:19:21,269: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:19:21,270: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:19:21,807: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:19:21,836: INFO  – File 'K2BToolsCommon.dll' copied to "C:\KBs\test\NETFrameworkSQLServer002\web\bin\K2BToolsCommon.dll"
+2024-03-11 22:19:21,943: INFO  – Compressing static files...
+2024-03-11 22:19:22,478: INFO  – Success
+2024-03-11 22:19:22,502: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:19:23,379: INFO  – Generating metadata files...
+2024-03-11 22:19:24,201: INFO  – Angular Success
+2024-03-11 22:19:24,204: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:19:24,821: INFO  – ========== SDT Generation started ==========
+2024-03-11 22:19:24,840: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtDesktopNotificationInfoSDT.cs
+2024-03-11 22:19:24,925: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtFileUploadData.cs
+2024-03-11 22:19:24,940: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BActivity.cs
+2024-03-11 22:19:24,958: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BActivityList_K2BActivityListItem.cs
+2024-03-11 22:19:24,974: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BAttributeValue_Item.cs
+2024-03-11 22:19:24,991: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BContext.cs
+2024-03-11 22:19:25,004: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridColumns_K2BGridColumnsItem.cs
+2024-03-11 22:19:25,023: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridConfiguration.cs
+2024-03-11 22:19:25,041: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BMultiLevelMenu_K2BMultiLevelMenuItem.cs
+2024-03-11 22:19:25,054: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BProgramNames_ProgramName.cs
+2024-03-11 22:19:25,067: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BSearchResult_Item.cs
+2024-03-11 22:19:25,090: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTabOptions_K2BTabOptionsItem.cs
+2024-03-11 22:19:25,106: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controltypes\coloroptionpicker\type_SdtColorOptions_Color.cs
+2024-03-11 22:19:25,122: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\type_SdtWebNotificationSDT_Notification.cs
+2024-03-11 22:19:25,135: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnContext.cs
+2024-03-11 22:19:25,155: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnContext_Attribute.cs
+2024-03-11 22:19:25,159: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnNavigation.cs
+2024-03-11 22:19:25,177: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_CSVImportParameters.cs
+2024-03-11 22:19:25,196: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedControlValues_Item.cs
+2024-03-11 22:19:25,213: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BWizardSteps_K2BWizardStepsItem.cs
+2024-03-11 22:19:25,228: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtSearchableTransactions_SearchableTransactionsItem.cs
+2024-03-11 22:19:25,252: INFO  – Success: SDT Generation
+2024-03-11 22:19:25,362: INFO  – ========== Rest API Documentation Generation started ==========
+2024-03-11 22:19:25,435: INFO  – Success: Rest API Documentation Generation
+2024-03-11 22:19:26,116: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:19:26,120: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:19:47,777: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:19:47,779: INFO  – ========== Web config update started ==========
+2024-03-11 22:19:47,979: INFO  – Updating web config ...
+2024-03-11 22:19:48,031: INFO  – Success: Web config update
+2024-03-11 22:19:48,047: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:19:48,049: INFO  – ========== Angular Compilation started ==========
+2024-03-11 22:19:48,051: INFO  – Success: Angular Compilation
+2024-03-11 22:19:48,071: INFO  – Success: Build All
+2024-03-11 22:21:50,940: INFO  – ========== Build All started ==========
+2024-03-11 22:21:51,054: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:21:51,066: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:21:51,830: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:21:51,931: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:21:51,932: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:21:52,109: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:21:52,111: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:21:52,226: INFO  – ========== Database Impact Analysis started ==========
+2024-03-11 22:21:52,900: INFO  – Processing ... 
+2024-03-11 22:21:52,916: INFO  – Subtype groups were validated...
+2024-03-11 22:21:52,921: INFO  – Searching for new or changed tables ...
+2024-03-11 22:21:52,943: INFO  – Analyzing   soporte ...
+2024-03-11 22:21:52,943: INFO  – Removing specification files ...
+2024-03-11 22:21:52,943: INFO  – Specification files removed.
+2024-03-11 22:21:53,061: INFO  –  Specifying soporteConversion ...
+2024-03-11 22:21:53,099: WARN  – warning: rgz0007: Attribute serie does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-11 22:21:53,101: WARN  – warning: rgz0007: Attribute ipv4 does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-11 22:21:53,104: WARN  – warning: rgz0007: Attribute mac does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-11 22:21:53,107: WARN  – warning: rgz0007: Attribute modelo does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-11 22:21:53,108: WARN  – warning: rgz0007: Attribute nombreUsuario does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-11 22:21:53,115: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-11 22:21:53,236: INFO  – Searching for deleted tables ...
+2024-03-11 22:21:53,236: INFO  – Loading table and attribute properties ...
+2024-03-11 22:21:53,236: INFO  – Saving specifications.
+2024-03-11 22:21:53,278: INFO  – Processing enumerated domains...
+2024-03-11 22:21:54,202: INFO  – Success: Database Impact Analysis
+2024-03-11 22:21:56,207: INFO  – Generating Resources...
+2024-03-11 22:21:58,080: INFO  – Success
+2024-03-11 22:21:58,081: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:21:58,194: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-11 22:21:58,235: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-11 22:21:58,236: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-11 22:21:58,243: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2baftertrnnavigation.cs
+2024-03-11 22:21:58,261: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bcomponenttype.cs
+2024-03-11 22:21:58,293: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bfiltertype.cs
+2024-03-11 22:21:58,335: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bhttpmethod.cs
+2024-03-11 22:21:58,367: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsesitem.cs
+2024-03-11 22:21:58,517: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bstandardactivitytype.cs
+2024-03-11 22:21:58,536: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btoolsmessagetype.cs
+2024-03-11 22:21:58,564: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnmode.cs
+2024-03-11 22:21:58,599: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnreturnmode.cs
+2024-03-11 22:21:58,633: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_overflowactionposition.cs
+2024-03-11 22:21:58,655: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_regionstatus.cs
+2024-03-11 22:21:58,679: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomainattributevaluetype.cs
+2024-03-11 22:21:58,714: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptions.cs
+2024-03-11 22:21:58,736: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs
+2024-03-11 22:21:58,754: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaingenexusgenerator.cs
+2024-03-11 22:21:58,774: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_desktopnotificationpermission.cs
+2024-03-11 22:21:58,792: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_webnotificationids.cs
+2024-03-11 22:21:58,809: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomaincontentviewoption.cs
+2024-03-11 22:21:58,836: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomainweekstartday.cs
+2024-03-11 22:21:58,871: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainaftercanceleventname.cs
+2024-03-11 22:21:58,904: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainafterconfirmeventname.cs
+2024-03-11 22:21:58,948: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:21:58,966: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:21:58,995: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:21:59,003: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-11 22:21:59,004: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-11 22:21:59,004: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-11 22:21:59,006: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-11 22:21:59,006: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:21:59,007: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-03-11 22:21:59,507: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:21:59,564: INFO  – ========== Reorganization started ==========
+2024-03-11 22:21:59,575: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:22:00,014: INFO  – "C:\KBs\test\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-11 22:22:00,740: INFO  – Table soporte has 0 records
+2024-03-11 22:22:00,741: INFO  – Updating table soporte .
+2024-03-11 22:22:01,271: INFO  – Updating table soporte . Started
+2024-03-11 22:22:01,777: INFO  – Updating table soporte . Ended
+2024-03-11 22:22:01,786: INFO  – The reorganization process was successfully completed.
+2024-03-11 22:22:03,456: INFO  – Success: Reorganization
+2024-03-11 22:22:03,483: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:22:03,844: INFO  – Success: Target Environment update
+2024-03-11 22:22:04,772: INFO  – ========== Specification started ==========
+2024-03-11 22:22:06,461: INFO  –  Specifying SoporteWS ...
+2024-03-11 22:22:06,624: WARN  – warning spc0030: Line 3. Attribute soporteID should not be assigned in an insert group. It has the Autonumber property set to on. (Procedure 'SoporteWS', , Details, )
+2024-03-11 22:22:06,670: INFO  –  Specifying  stub SoporteWS ...
+2024-03-11 22:22:06,719: INFO  – Generating Resources...
+2024-03-11 22:22:07,214: INFO  – Success
+2024-03-11 22:22:07,239: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:22:07,984: INFO  – Generating to NETFrameworkSQLServer002\web\asoportews.cs
+2024-03-11 22:22:09,781: INFO  –  Specifying soporte ...
+2024-03-11 22:22:09,870: WARN  – warning spc0156: Event 'DoCancel' for control 'Cancel' is not defined. (Transaction 'soporte', , Details, )
+2024-03-11 22:22:09,948: INFO  – Creating prompt 'Gx0020' (for table 'soporte')...
+2024-03-11 22:22:12,367: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.cs
+2024-03-11 22:22:12,674: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.js
+2024-03-11 22:22:12,739: INFO  –  Specifying Gx0020 ...
+2024-03-11 22:22:14,419: INFO  – Processing inferred calls...
+2024-03-11 22:22:14,933: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.cs
+2024-03-11 22:22:15,475: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.js
+2024-03-11 22:22:15,499: INFO  – Success: Specification
+2024-03-11 22:22:16,337: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:22:16,349: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:22:16,431: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:22:16,489: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:22:16,589: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:22:16,627: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:22:16,627: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:22:16,628: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:22:17,100: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:22:17,132: INFO  – Compressing static files...
+2024-03-11 22:22:17,222: INFO  – Success
+2024-03-11 22:22:17,233: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:22:17,530: INFO  – Generating metadata files...
+2024-03-11 22:22:18,998: INFO  – Angular Success
+2024-03-11 22:22:19,004: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:22:19,387: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:22:19,389: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:22:39,084: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:22:39,084: INFO  – ========== Web config update started ==========
+2024-03-11 22:22:39,187: INFO  – Updating web config ...
+2024-03-11 22:22:39,222: INFO  – Success: Web config update
+2024-03-11 22:22:39,224: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:22:39,224: INFO  – ========== Angular Compilation started ==========
+2024-03-11 22:22:39,226: INFO  – Success: Angular Compilation
+2024-03-11 22:22:39,233: INFO  – Success: Build All
+2024-03-11 22:26:17,095: INFO  – ========== Build All started ==========
+2024-03-11 22:26:17,142: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:26:17,278: INFO  – Refreshing instance 'K2BEntityServicessoporte'
+2024-03-11 22:26:32,334: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:26:32,335: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:26:32,460: INFO  – Refreshing instance 'K2BTrnFormsoporte'
+2024-03-11 22:26:37,141: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:26:37,212: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:26:37,212: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:26:37,381: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:26:37,381: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:26:37,469: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:26:37,790: INFO  – Success: Target Environment update
+2024-03-11 22:26:37,793: INFO  – Building changed objects list
+2024-03-11 22:26:38,678: INFO  – ========== Specification started ==========
+2024-03-11 22:26:39,647: INFO  – Processing enumerated domains...
+2024-03-11 22:26:39,894: INFO  – Loading objects to specify ...10
+2024-03-11 22:26:39,916: INFO  – Loading objects to specify ...20
+2024-03-11 22:26:39,936: INFO  – Loading objects to specify ...30
+2024-03-11 22:26:40,060: INFO  –  Specifying K2BListPrograms ...
+2024-03-11 22:26:40,761: INFO  – Generating Resources...
+2024-03-11 22:26:40,837: INFO  –  Specifying K2BGetSearchableEntities ...
+2024-03-11 22:26:40,979: INFO  –  Specifying soporteGeneral ...
+2024-03-11 22:26:40,981: INFO  –  Specifying K2BToolsComponentPlaceHolder ...
+2024-03-11 22:26:41,089: INFO  –  Specifying K2BTools.GetObjectNameFromScriptName ...
+2024-03-11 22:26:41,090: INFO  –  Specifying K2BSessionSet ...
+2024-03-11 22:26:41,118: INFO  –  Specifying K2BGetSearchResultFromData ...
+2024-03-11 22:26:41,223: INFO  – Success
+2024-03-11 22:26:41,253: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:26:41,472: INFO  –  Specifying K2BSaveGridState ...
+2024-03-11 22:26:41,474: INFO  –  Specifying K2BLoadGridState ...
+2024-03-11 22:26:41,795: INFO  –  Specifying K2BGetCallerUrl ...
+2024-03-11 22:26:42,078: INFO  –  Specifying K2BToolsMessageQueueGetAllMessages ...
+2024-03-11 22:26:42,091: INFO  –  Specifying K2BGetStandardFilterValueSummary ...
+2024-03-11 22:26:42,267: INFO  –  Specifying K2BGetDateTimeRangeFilterValueSummary ...
+2024-03-11 22:26:42,508: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprograms.cs
+2024-03-11 22:26:42,583: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionset.cs
+2024-03-11 22:26:42,631: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetstandardfiltervaluesummary.cs
+2024-03-11 22:26:42,640: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmessagequeuegetallmessages.cs
+2024-03-11 22:26:42,698: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetdatetimerangefiltervaluesummary.cs
+2024-03-11 22:26:42,794: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getobjectnamefromscriptname.cs
+2024-03-11 22:26:42,815: INFO  –  Specifying K2BGetNumericRangeFilterValueSummary ...
+2024-03-11 22:26:42,993: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetnumericrangefiltervaluesummary.cs
+2024-03-11 22:26:43,045: INFO  –  Specifying K2BTools.GetGeneXusGenerator ...
+2024-03-11 22:26:43,146: INFO  –  Specifying K2BGetTagCollectionForFilterValues ...
+2024-03-11 22:26:43,252: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsavegridstate.cs
+2024-03-11 22:26:43,304: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadgridstate.cs
+2024-03-11 22:26:43,430: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolscomponentplaceholder.cs
+2024-03-11 22:26:43,561: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getgenexusgenerator.cs
+2024-03-11 22:26:43,570: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolscomponentplaceholder.js
+2024-03-11 22:26:43,623: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcallerurl.cs
+2024-03-11 22:26:43,824: INFO  –  Specifying K2BT_IsInExternalStorage ...
+2024-03-11 22:26:43,828: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgettagcollectionforfiltervalues.cs
+2024-03-11 22:26:44,040: INFO  –  Specifying K2BGetComponentContext ...
+2024-03-11 22:26:44,065: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_isinexternalstorage.cs
+2024-03-11 22:26:44,218: INFO  –  Specifying K2BSetObjectContainerName ...
+2024-03-11 22:26:44,532: INFO  –  Specifying K2BGetDateRangeFilterValueSummary ...
+2024-03-11 22:26:44,567: INFO  – Generating to NETFrameworkSQLServer002\web\soportegeneral.cs
+2024-03-11 22:26:44,714: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcomponentcontext.cs
+2024-03-11 22:26:44,730: INFO  –  Specifying soporte ...
+2024-03-11 22:26:44,735: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsetobjectcontainername.cs
+2024-03-11 22:26:44,799: INFO  –  Specifying K2BGetMultipleFilterValueSummary ...
+2024-03-11 22:26:44,932: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetdaterangefiltervaluesummary.cs
+2024-03-11 22:26:44,949: INFO  – Generating to NETFrameworkSQLServer002\web\soportegeneral.js
+2024-03-11 22:26:44,978: INFO  –  Specifying K2BRemoveTrnContextByName ...
+2024-03-11 22:26:44,984: INFO  –  Specifying K2BGetTrnContextByName ...
+2024-03-11 22:26:45,093: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetmultiplefiltervaluesummary.cs
+2024-03-11 22:26:45,127: INFO  –  Specifying K2BSetTransactionPK ...
+2024-03-11 22:26:45,253: INFO  – Generating to NETFrameworkSQLServer002\web\k2bremovetrncontextbyname.cs
+2024-03-11 22:26:45,318: INFO  –  Specifying K2BGetNextComponentCode ...
+2024-03-11 22:26:45,400: INFO  –  Specifying ExportWWsoporte ...
+2024-03-11 22:26:45,440: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgettrncontextbyname.cs
+2024-03-11 22:26:45,474: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsettransactionpk.cs
+2024-03-11 22:26:45,590: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetnextcomponentcode.cs
+2024-03-11 22:26:45,632: INFO  –  Specifying K2BLogout ...
+2024-03-11 22:26:45,763: INFO  –  Specifying EntityManagersoporte ...
+2024-03-11 22:26:46,062: INFO  –  Specifying K2BSetComponentContext ...
+2024-03-11 22:26:46,356: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsetcomponentcontext.cs
+2024-03-11 22:26:46,473: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.cs
+2024-03-11 22:26:46,513: INFO  –  Specifying WWsoporte ...
+2024-03-11 22:26:46,522: INFO  – Generating to NETFrameworkSQLServer002\web\exportwwsoporte.cs
+2024-03-11 22:26:47,091: INFO  –  Specifying K2BSetTrnContextByName ...
+2024-03-11 22:26:47,647: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsettrncontextbyname.cs
+2024-03-11 22:26:47,706: INFO  –  Specifying ReportWWsoporte ...
+2024-03-11 22:26:47,780: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.js
+2024-03-11 22:26:48,525: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogout.cs
+2024-03-11 22:26:48,604: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogout.js
+2024-03-11 22:26:49,293: INFO  – Generating to NETFrameworkSQLServer002\web\reportwwsoporte.cs
+2024-03-11 22:26:49,495: INFO  – Generating to NETFrameworkSQLServer002\web\entitymanagersoporte.cs
+2024-03-11 22:26:50,130: INFO  – Generating to NETFrameworkSQLServer002\web\entitymanagersoporte.js
+2024-03-11 22:26:52,551: INFO  – Processing inferred calls...
+2024-03-11 22:26:52,580: INFO  – Generating to NETFrameworkSQLServer002\web\wwsoporte.cs
+2024-03-11 22:26:53,760: INFO  – Success: Specification
+2024-03-11 22:26:57,472: INFO  – Generating to NETFrameworkSQLServer002\web\wwsoporte.js
+2024-03-11 22:27:00,000: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bbtntooltip.cs
+2024-03-11 22:27:00,193: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bpage.cs
+2024-03-11 22:27:00,217: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsymbols.cs
+2024-03-11 22:27:00,249: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bthemeclasses.cs
+2024-03-11 22:27:00,274: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprinterrorcode.cs
+2024-03-11 22:27:00,300: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprintregionstatus.cs
+2024-03-11 22:27:00,375: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:27:00,395: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:27:00,497: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:27:00,511: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2btagsviewer to NETFrameworkSQLServer002\web...
+2024-03-11 22:27:00,538: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bgridextensions to NETFrameworkSQLServer002\web...
+2024-03-11 22:27:00,647: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:27:00,729: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:27:00,770: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:27:00,770: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:27:00,771: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:27:01,270: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:27:01,313: INFO  – Compressing static files...
+2024-03-11 22:27:01,431: INFO  – Success
+2024-03-11 22:27:01,448: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:27:01,761: INFO  – Generating metadata files...
+2024-03-11 22:27:02,767: INFO  – Angular Success
+2024-03-11 22:27:02,772: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:27:02,982: INFO  – ========== SDT Generation started ==========
+2024-03-11 22:27:03,006: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BComponentContext.cs
+2024-03-11 22:27:03,022: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem.cs
+2024-03-11 22:27:03,038: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem_MultipleValuesItem.cs
+2024-03-11 22:27:03,040: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridOrders_K2BGridOrdersItem.cs
+2024-03-11 22:27:03,053: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridState.cs
+2024-03-11 22:27:03,065: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridState_FilterValue.cs
+2024-03-11 22:27:03,069: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\type_SdtTransactionEventArgs.cs
+2024-03-11 22:27:03,086: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata.cs
+2024-03-11 22:27:03,096: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_Column.cs
+2024-03-11 22:27:03,104: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_Column_Aggregation.cs
+2024-03-11 22:27:03,105: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_ActionGroup.cs
+2024-03-11 22:27:03,106: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_ColumnGroup.cs
+2024-03-11 22:27:03,109: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BValueDescriptionCollection_Item.cs
+2024-03-11 22:27:03,184: INFO  – Success: SDT Generation
+2024-03-11 22:27:03,739: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:27:03,741: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:27:30,402: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:27:30,403: INFO  – ========== Web config update started ==========
+2024-03-11 22:27:30,530: INFO  – Updating web config ...
+2024-03-11 22:27:30,544: INFO  – Success: Web config update
+2024-03-11 22:27:30,548: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:27:30,549: INFO  – ========== Angular Compilation started ==========
+2024-03-11 22:27:30,549: INFO  – Success: Angular Compilation
+2024-03-11 22:27:30,556: INFO  – Success: Build All
+2024-03-11 22:31:22,581: INFO  – ========== Build All started ==========
+2024-03-11 22:31:22,612: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:31:22,636: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-11 22:31:23,393: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:31:23,395: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:31:23,410: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:31:24,173: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:31:24,264: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:31:24,265: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:31:24,417: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:31:24,418: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:31:24,434: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:31:24,879: INFO  – Success: Target Environment update
+2024-03-11 22:31:24,882: INFO  – Building changed objects list
+2024-03-11 22:31:25,933: INFO  – ========== Specification started ==========
+2024-03-11 22:31:27,607: INFO  –  Specifying SoporteWS (already specified) ...
+2024-03-11 22:31:27,661: INFO  – Generating Resources...
+2024-03-11 22:31:28,046: INFO  – Success
+2024-03-11 22:31:28,475: INFO  – Success: Specification
+2024-03-11 22:31:28,560: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:31:29,231: INFO  – Generating to NETFrameworkSQLServer002\web\asoportews.cs
+2024-03-11 22:31:29,380: INFO  – Generating to NETFrameworkSQLServer002\web\soportews.cs
+2024-03-11 22:31:29,417: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:31:29,431: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:31:29,505: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:31:29,610: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:31:29,761: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:31:29,813: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:31:29,813: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:31:29,814: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:31:29,835: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-03-11 22:31:30,367: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:31:30,405: INFO  – Compressing static files...
+2024-03-11 22:31:30,469: INFO  – Success
+2024-03-11 22:31:30,489: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:31:38,931: INFO  – Generating metadata files...
+2024-03-11 22:31:39,672: INFO  – Angular Success
+2024-03-11 22:31:39,676: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:31:40,060: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:31:40,063: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:32:05,095: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:32:05,095: INFO  – ========== Web config update started ==========
+2024-03-11 22:32:05,200: INFO  – Updating web config ...
+2024-03-11 22:32:05,238: INFO  – Success: Web config update
+2024-03-11 22:32:05,243: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:32:05,244: INFO  – ========== Angular Compilation started ==========
+2024-03-11 22:32:05,246: INFO  – Success: Angular Compilation
+2024-03-11 22:32:05,248: INFO  – Success: Build All
+2024-03-11 22:32:19,188: INFO  – ========== Rebuild All started ==========
+2024-03-11 22:32:19,233: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:32:19,247: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-11 22:32:20,014: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:32:20,016: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:32:20,024: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:32:20,794: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:32:20,882: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:32:21,114: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:32:21,235: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:32:21,281: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:32:21,442: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:32:21,750: INFO  – Success: Target Environment update
+2024-03-11 22:32:21,754: INFO  – Building changed objects list
+2024-03-11 22:32:21,867: INFO  – Generating User Control GeneXusUnanimo.Dropdown
+2024-03-11 22:32:21,918: INFO  – Generating User Control GeneXusUnanimo.DropdownAngular
+2024-03-11 22:32:21,975: INFO  – Generating User Control GeneXusUnanimo.Select
+2024-03-11 22:32:22,017: INFO  – Generating User Control GeneXusUnanimo.SelectAngular
+2024-03-11 22:32:22,061: INFO  – Generating User Control GeneXusUnanimo.Sidebar
+2024-03-11 22:32:22,110: INFO  – Generating User Control GeneXusUnanimo.SidebarAngular
+2024-03-11 22:32:22,174: INFO  – Generating User Control GeneXusUnanimo.Treeview
+2024-03-11 22:32:22,224: INFO  – Generating User Control GeneXusUnanimo.TreeviewAngular
+2024-03-11 22:32:22,275: INFO  – Generating User Control GeneXusUnanimo.Step
+2024-03-11 22:32:22,318: INFO  – Generating User Control GeneXusUnanimo.StepAngular
+2024-03-11 22:32:22,349: INFO  – Generating User Control GeneXusUnanimo.Alert
+2024-03-11 22:32:22,401: INFO  – Generating User Control GeneXusUnanimo.AlertAngular
+2024-03-11 22:32:22,442: INFO  – Generating User Control GeneXusUnanimo.Icon
+2024-03-11 22:32:22,487: INFO  – Generating User Control GeneXusUnanimo.IconAngular
+2024-03-11 22:32:22,524: INFO  – Generating User Control GeneXusUnanimo.Switch
+2024-03-11 22:32:22,591: INFO  – Generating User Control GeneXusUnanimo.Slider
+2024-03-11 22:32:22,659: INFO  – Generating User Control GeneXusUnanimo.Button
+2024-03-11 22:32:22,710: INFO  – Generating User Control K2BT_Stepper
+2024-03-11 22:32:22,777: INFO  – Generating User Control K2BT_ModalWindow
+2024-03-11 22:32:22,812: INFO  – Generating User Control K2BT_ConfirmDialog
+2024-03-11 22:32:22,850: INFO  – Generating User Control K2BT_ActionGroup
+2024-03-11 22:32:22,885: INFO  – Generating User Control K2BT_Component
+2024-03-11 22:32:22,918: INFO  – Generating User Control K2BT_ExtendedCombobox
+2024-03-11 22:32:22,987: INFO  – Generating User Control K2BT_ToggleBar
+2024-03-11 22:32:23,061: INFO  – Generating User Control K2BTools.DesignSystems.Aries.NotificationsButton
+2024-03-11 22:32:23,885: INFO  – ========== Specification started ==========
+2024-03-11 22:32:25,388: INFO  – Searching redundancy in products
+2024-03-11 22:32:25,388: INFO  – Updating redundancy in products
+2024-03-11 22:32:25,399: INFO  – Searching redundancy in soporte
+2024-03-11 22:32:25,401: INFO  – Updating redundancy in soporte
+2024-03-11 22:32:25,408: INFO  – Removing specification files ...
+2024-03-11 22:32:25,409: INFO  – Specification files removed.
+2024-03-11 22:32:25,409: INFO  –  Specifying GXLRED ...
+2024-03-11 22:32:25,501: INFO  – Processing enumerated domains...
+2024-03-11 22:32:26,473: INFO  – Loading objects to specify ...10
+2024-03-11 22:32:26,522: INFO  – Loading objects to specify ...20
+2024-03-11 22:32:26,552: INFO  – Loading objects to specify ...30
+2024-03-11 22:32:26,592: INFO  – Loading objects to specify ...40
+2024-03-11 22:32:26,618: INFO  – Loading objects to specify ...50
+2024-03-11 22:32:26,644: INFO  – Loading objects to specify ...60
+2024-03-11 22:32:26,689: INFO  – Loading objects to specify ...70
+2024-03-11 22:32:26,714: INFO  – Loading objects to specify ...80
+2024-03-11 22:32:26,741: INFO  – Loading objects to specify ...90
+2024-03-11 22:32:26,767: INFO  – Loading objects to specify ...100
+2024-03-11 22:32:26,796: INFO  – Loading objects to specify ...110
+2024-03-11 22:32:26,830: INFO  – Loading objects to specify ...120
+2024-03-11 22:32:26,989: INFO  – Loading objects to specify ...130
+2024-03-11 22:32:27,023: INFO  – Loading objects to specify ...140
+2024-03-11 22:32:27,059: INFO  – Loading objects to specify ...150
+2024-03-11 22:32:27,093: INFO  – Loading objects to specify ...160
+2024-03-11 22:32:27,137: INFO  – Loading objects to specify ...170
+2024-03-11 22:32:27,174: INFO  – Loading objects to specify ...180
+2024-03-11 22:32:27,200: INFO  – Loading objects to specify ...190
+2024-03-11 22:32:27,227: INFO  – Loading objects to specify ...200
+2024-03-11 22:32:27,260: INFO  – Loading objects to specify ...210
+2024-03-11 22:32:27,310: INFO  – Loading objects to specify ...220
+2024-03-11 22:32:27,317: INFO  – Objects to specify loaded.
+2024-03-11 22:32:27,707: INFO  – Generating Resources...
+2024-03-11 22:32:27,768: INFO  –  Specifying K2BToolsTabsTitleComponent ...
+2024-03-11 22:32:28,342: INFO  –  Specifying K2BToolsComponentPlaceHolder ...
+2024-03-11 22:32:28,380: INFO  –  Specifying K2BTools.DesignSystems.Aries.SampleFooterComponent ...
+2024-03-11 22:32:28,399: INFO  –  Specifying K2BTools.DesignSystems.Aries.TabbedViewForUniversalSearch ...
+2024-03-11 22:32:28,415: INFO  –  Specifying K2BTools.DesignSystems.Aries.UIConfiguration ...
+2024-03-11 22:32:28,432: INFO  –  Specifying K2BTools.DesignSystems.Aries.SearchResultEntityWC ...
+2024-03-11 22:32:30,456: INFO  –  Specifying K2BTools.DesignSystems.Aries.NotificationsViewer ...
+2024-03-11 22:32:31,148: INFO  –  Specifying soporteGeneral ...
+2024-03-11 22:32:31,719: INFO  –  Specifying K2BTools.IntegrationProcedures.GetAllNotificationsForCurrentUserDP ...
+2024-03-11 22:32:32,148: INFO  –  Specifying K2BToolsNumericRangeProviderSample ...
+2024-03-11 22:32:32,149: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BToolsNumericRangeProviderSample', , Details, )
+2024-03-11 22:32:32,268: INFO  –  Specifying K2BT_ImageRegionSelectorTheaterSample ...
+2024-03-11 22:32:32,300: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_ImageRegionSelectorTheaterSample', , Details, )
+2024-03-11 22:32:32,426: INFO  –  Specifying K2BT_CalendarPeriodFutureDatetimeRangeProvider ...
+2024-03-11 22:32:32,429: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_CalendarPeriodFutureDatetimeRangeProvider', , Details, )
+2024-03-11 22:32:32,450: INFO  –  Specifying K2BT_CalendarPeriodPastDatetimeRangeProvider ...
+2024-03-11 22:32:32,468: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_CalendarPeriodPastDatetimeRangeProvider', , Details, )
+2024-03-11 22:32:32,637: INFO  –  Specifying K2BT_DaysPeriodsForwardsDatetimeRangeProvider ...
+2024-03-11 22:32:32,647: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_DaysPeriodsForwardsDatetimeRangeProvider', , Details, )
+2024-03-11 22:32:32,733: INFO  –  Specifying K2BT_Next5YearsDatetimeRangeProvider ...
+2024-03-11 22:32:32,735: INFO  –  Specifying K2BT_Last5YearsDatetimeRangeProvider ...
+2024-03-11 22:32:32,736: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_Next5YearsDatetimeRangeProvider', , Details, )
+2024-03-11 22:32:32,737: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_Last5YearsDatetimeRangeProvider', , Details, )
+2024-03-11 22:32:33,003: INFO  –  Specifying K2BT_DaysPeriodsBackwardsDatetimeRangeProvider ...
+2024-03-11 22:32:33,005: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BT_DaysPeriodsBackwardsDatetimeRangeProvider', , Details, )
+2024-03-11 22:32:33,016: INFO  –  Specifying K2BTools.ControlTypes.ColorOptionPicker.Sample ...
+2024-03-11 22:32:33,022: WARN  – warning spc0217: Object is unreachable. (Data Provider 'K2BTools.ControlTypes.ColorOptionPicker.Sample', , Details, )
+2024-03-11 22:32:33,037: INFO  –  Specifying test ...
+2024-03-11 22:32:33,150: INFO  –  Specifying General.UI.SidebarItemsDP ...
+2024-03-11 22:32:33,274: INFO  –  Specifying K2BTools.GetDesignSystemOptionValue ...
+2024-03-11 22:32:33,294: INFO  –  Specifying K2BTools.GetDesignSystemOptions ...
+2024-03-11 22:32:33,341: INFO  –  Specifying  stub test ...
+2024-03-11 22:32:33,626: INFO  –  Specifying K2BTools.SetDesignSystemOptionValue ...
+2024-03-11 22:32:33,816: INFO  –  Specifying K2BTools.GetGeneXusGenerator ...
+2024-03-11 22:32:33,954: INFO  –  Specifying K2BGetContext ...
+2024-03-11 22:32:34,187: INFO  –  Specifying K2BSessionSet ...
+2024-03-11 22:32:34,189: INFO  –  Specifying K2BSessionGet ...
+2024-03-11 22:32:34,339: INFO  –  Specifying K2BIsAuthorizedActivity ...
+2024-03-11 22:32:34,536: INFO  –  Specifying K2BIsAuthorizedActivityList ...
+2024-03-11 22:32:34,557: INFO  –  Specifying K2BIsAuthorizedActivityName ...
+2024-03-11 22:32:34,704: INFO  –  Specifying K2BListPrograms ...
+2024-03-11 22:32:34,714: INFO  –  Specifying soporte ...
+2024-03-11 22:32:34,836: INFO  –  Specifying K2BRemoveExcelDocument ...
+2024-03-11 22:32:34,996: INFO  –  Specifying K2BToolsGetSearchResults ...
+2024-03-11 22:32:35,120: INFO  –  Specifying K2BGetSearchableEntities ...
+2024-03-11 22:32:35,170: INFO  –  Specifying K2BTools.IntegrationProcedures.GetLatestNotificationsForCurrentUser ...
+2024-03-11 22:32:35,327: INFO  –  Specifying K2BGetSearchResultFromData ...
+2024-03-11 22:32:35,477: INFO  –  Specifying K2BSessionRemove ...
+2024-03-11 22:32:35,629: INFO  –  Specifying K2BTools.GetObjectNameFromScriptName ...
+2024-03-11 22:32:35,665: INFO  –  Specifying K2BIsAuthenticated ...
+2024-03-11 22:32:35,669: INFO  –  Specifying K2BGetUserCaption ...
+2024-03-11 22:32:35,924: INFO  –  Specifying K2BGetUserMenu ...
+2024-03-11 22:32:35,934: INFO  –  Specifying K2BGetUserCode ...
+2024-03-11 22:32:36,204: INFO  –  Specifying K2BGetUserAvatar ...
+2024-03-11 22:32:36,390: INFO  –  Specifying K2BGetUserEmail ...
+2024-03-11 22:32:36,408: INFO  –  Specifying K2BToolsMsg ...
+2024-03-11 22:32:36,630: INFO  –  Specifying K2BLogoutImplementation ...
+2024-03-11 22:32:36,856: INFO  –  Specifying K2BSaveGridConfiguration ...
+2024-03-11 22:32:36,877: INFO  –  Specifying K2BGetGridConfigurationSessionKey ...
+2024-03-11 22:32:37,002: INFO  –  Specifying K2BPersistGridConfiguration ...
+2024-03-11 22:32:37,318: INFO  –  Specifying K2BListProgramsToMultiLevelMenuSDT ...
+2024-03-11 22:32:38,199: INFO  –  Specifying K2BPersistRowsPerPage ...
+2024-03-11 22:32:38,642: INFO  –  Specifying K2BTools.IsValidURL ...
+2024-03-11 22:32:38,669: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.IsValidURL', , Details, )
+2024-03-11 22:32:39,148: INFO  –  Specifying K2BLoadGridConfiguration ...
+2024-03-11 22:32:39,239: INFO  –  Specifying K2BT_ReturnFileInHttpResponse ...
+2024-03-11 22:32:39,448: INFO  –  Specifying K2BTools.IntegrationProcedures.GetDesktopNotificationInformation ...
+2024-03-11 22:32:39,457: INFO  –  Specifying GetDateFriendlyString ...
+2024-03-11 22:32:39,464: INFO  –  Specifying K2BTools.IntegrationProcedures.MarkWebNotificationAsRead ...
+2024-03-11 22:32:39,660: INFO  –  Specifying K2BTools.IntegrationProcedures.RegisterClient ...
+2024-03-11 22:32:39,868: INFO  –  Specifying K2BTools.IntegrationProcedures.GetWebNotificationsUnreadCount ...
+2024-03-11 22:32:39,887: INFO  –  Specifying K2BLoadGridState ...
+2024-03-11 22:32:40,035: INFO  –  Specifying K2BSaveGridState ...
+2024-03-11 22:32:40,185: INFO  –  Specifying K2BTools.IntegrationProcedures.SaveCurrentGridView ...
+2024-03-11 22:32:40,194: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.IntegrationProcedures.SaveCurrentGridView', , Details, )
+2024-03-11 22:32:40,201: INFO  –  Specifying K2BTools.IntegrationProcedures.LoadGridView ...
+2024-03-11 22:32:40,210: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.IntegrationProcedures.LoadGridView', , Details, )
+2024-03-11 22:32:40,229: INFO  –  Specifying K2BSaveRowsPerPage ...
+2024-03-11 22:32:40,449: INFO  –  Specifying K2BTools.IntegrationProcedures.GetGridViews ...
+2024-03-11 22:32:40,455: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.IntegrationProcedures.GetGridViews', , Details, )
+2024-03-11 22:32:40,462: INFO  –  Specifying K2BTools.IntegrationProcedures.LoadGridViewByName ...
+2024-03-11 22:32:40,464: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.IntegrationProcedures.LoadGridViewByName', , Details, )
+2024-03-11 22:32:40,468: INFO  –  Specifying K2BTools.IntegrationProcedures.DeleteGridView ...
+2024-03-11 22:32:40,469: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.IntegrationProcedures.DeleteGridView', , Details, )
+2024-03-11 22:32:40,685: INFO  –  Specifying K2BGetCallerUrl ...
+2024-03-11 22:32:40,730: INFO  –  Specifying K2BUrlGetProgramName ...
+2024-03-11 22:32:40,734: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BUrlGetProgramName', , Details, )
+2024-03-11 22:32:40,937: INFO  –  Specifying K2BToolsMessageQueueAdd ...
+2024-03-11 22:32:41,145: INFO  –  Specifying K2BGetFiltersSummary ...
+2024-03-11 22:32:41,147: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetFiltersSummary', , Details, )
+2024-03-11 22:32:41,179: INFO  –  Specifying K2BRetrieveGridConfiguration ...
+2024-03-11 22:32:41,307: INFO  –  Specifying K2BGetStandardFilterValueSummary ...
+2024-03-11 22:32:41,425: INFO  –  Specifying K2BGetDateTimeRangeFilterValueSummary ...
+2024-03-11 22:32:41,523: INFO  –  Specifying K2BGetDateRangeFilterValueSummary ...
+2024-03-11 22:32:41,678: INFO  –  Specifying K2BGetMultipleFilterValueSummary ...
+2024-03-11 22:32:41,679: INFO  –  Specifying K2BTools.TabbedView.GetTabsMarkup ...
+2024-03-11 22:32:41,776: INFO  –  Specifying K2BGetNumericRangeFilterValueSummary ...
+2024-03-11 22:32:41,890: INFO  –  Specifying K2BTools.DesignSystems.Common.FormatNumericByMagnitude ...
+2024-03-11 22:32:42,024: INFO  –  Specifying K2BJoinFilterValues ...
+2024-03-11 22:32:42,027: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BJoinFilterValues', , Details, )
+2024-03-11 22:32:42,054: INFO  –  Specifying K2BLoadRowsPerPage ...
+2024-03-11 22:32:42,248: INFO  –  Specifying K2BToolsEncodeForHtml ...
+2024-03-11 22:32:42,252: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BToolsEncodeForHtml', , Details, )
+2024-03-11 22:32:42,258: INFO  –  Specifying K2BToolsMessageQueueAddWithType ...
+2024-03-11 22:32:42,260: INFO  –  Specifying K2BRetrieveRowsPerPage ...
+2024-03-11 22:32:42,262: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BToolsMessageQueueAddWithType', , Details, )
+2024-03-11 22:32:42,462: INFO  –  Specifying K2BToolsEncodeForHtmlAttribute ...
+2024-03-11 22:32:42,464: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BToolsEncodeForHtmlAttribute', , Details, )
+2024-03-11 22:32:42,473: INFO  –  Specifying K2BGetCurrentDateTime ...
+2024-03-11 22:32:42,475: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetCurrentDateTime', , Details, )
+2024-03-11 22:32:42,635: INFO  –  Specifying K2BGetEndOfDay ...
+2024-03-11 22:32:42,643: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetEndOfDay', , Details, )
+2024-03-11 22:32:42,688: INFO  –  Specifying K2BToolsGetUseEncryption ...
+2024-03-11 22:32:42,700: INFO  –  Specifying K2BGetTagCollectionForFilterValues ...
+2024-03-11 22:32:42,755: INFO  –  Specifying K2BSetContext ...
+2024-03-11 22:32:42,756: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BSetContext', , Details, )
+2024-03-11 22:32:42,912: INFO  –  Specifying K2BSCJoinString ...
+2024-03-11 22:32:42,922: INFO  –  Specifying K2BSCAddItem ...
+2024-03-11 22:32:42,970: INFO  –  Specifying K2BToolsMessageQueueGetAllMessages ...
+2024-03-11 22:32:43,042: INFO  –  Specifying K2BSCRemoveItem ...
+2024-03-11 22:32:43,208: INFO  –  Specifying K2BT_GetValueFromExtendedControlValuesSDT ...
+2024-03-11 22:32:43,208: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BT_GetValueFromExtendedControlValuesSDT', , Details, )
+2024-03-11 22:32:43,464: INFO  –  Specifying K2BT_DateFromString ...
+2024-03-11 22:32:43,467: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BT_DateFromString', , Details, )
+2024-03-11 22:32:43,467: INFO  –  Specifying K2BT_ExtendedControlValuesAddRange ...
+2024-03-11 22:32:43,468: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BT_ExtendedControlValuesAddRange', , Details, )
+2024-03-11 22:32:43,481: INFO  –  Specifying K2BT_GetCollectionDescriptionsFromExtendedControlValuesSDT ...
+2024-03-11 22:32:43,485: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BT_GetCollectionDescriptionsFromExtendedControlValuesSDT', , Details, )
+2024-03-11 22:32:43,502: INFO  –  Specifying K2BTools.ControlTypes.ColorOptionPicker.GetColorDescription ...
+2024-03-11 22:32:43,505: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BTools.ControlTypes.ColorOptionPicker.GetColorDescription', , Details, )
+2024-03-11 22:32:43,780: INFO  –  Specifying K2BSetComponentContext ...
+2024-03-11 22:32:43,782: INFO  –  Specifying K2BGetComponentContext ...
+2024-03-11 22:32:43,800: INFO  –  Specifying K2BSetObjectContainerName ...
+2024-03-11 22:32:44,114: INFO  –  Specifying K2BGetLocalizedPageCountCaption ...
+2024-03-11 22:32:44,115: INFO  –  Specifying K2BSetTrnContext ...
+2024-03-11 22:32:44,118: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetLocalizedPageCountCaption', , Details, )
+2024-03-11 22:32:44,119: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BSetTrnContext', , Details, )
+2024-03-11 22:32:44,151: INFO  –  Specifying K2BSetTrnContextByName ...
+2024-03-11 22:32:44,329: INFO  –  Specifying K2BGetTrnContextByName ...
+2024-03-11 22:32:44,334: INFO  –  Specifying K2BRemoveTrnContextByName ...
+2024-03-11 22:32:44,473: INFO  –  Specifying K2BGetCurrentDate ...
+2024-03-11 22:32:44,476: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetCurrentDate', , Details, )
+2024-03-11 22:32:44,511: INFO  –  Specifying K2BGetTransactionPK ...
+2024-03-11 22:32:44,515: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetTransactionPK', , Details, )
+2024-03-11 22:32:44,696: INFO  –  Specifying K2BRemoveTransactionPK ...
+2024-03-11 22:32:44,700: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BRemoveTransactionPK', , Details, )
+2024-03-11 22:32:44,721: INFO  –  Specifying K2BSetTransactionPK ...
+2024-03-11 22:32:44,758: INFO  –  Specifying K2BGetPageCountCaption ...
+2024-03-11 22:32:44,761: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetPageCountCaption', , Details, )
+2024-03-11 22:32:44,865: INFO  –  Specifying K2BGetNextTabItem ...
+2024-03-11 22:32:44,868: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetNextTabItem', , Details, )
+2024-03-11 22:32:44,932: INFO  –  Specifying K2BGetCurrentTabItem ...
+2024-03-11 22:32:44,934: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetCurrentTabItem', , Details, )
+2024-03-11 22:32:44,998: INFO  –  Specifying K2BGetNextComponentCode ...
+2024-03-11 22:32:45,064: INFO  –  Specifying K2BGetSearchDataCustomImplementation ...
+2024-03-11 22:32:45,066: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetSearchDataCustomImplementation', , Details, )
+2024-03-11 22:32:45,186: INFO  –  Specifying K2BGetButtonCaption ...
+2024-03-11 22:32:45,187: INFO  –  Specifying K2BGetSearchableEntitiesCustomImplementation ...
+2024-03-11 22:32:45,187: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetButtonCaption', , Details, )
+2024-03-11 22:32:45,189: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetSearchableEntitiesCustomImplementation', , Details, )
+2024-03-11 22:32:45,236: INFO  –  Specifying K2BT_IsInExternalStorage ...
+2024-03-11 22:32:45,244: INFO  –  Specifying K2BLoadActivityList ...
+2024-03-11 22:32:45,247: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BLoadActivityList', , Details, )
+2024-03-11 22:32:45,337: INFO  –  Specifying K2BGetPromptDA ...
+2024-03-11 22:32:45,339: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BGetPromptDA', , Details, )
+2024-03-11 22:32:45,577: INFO  –  Specifying K2BSetPromptDA ...
+2024-03-11 22:32:45,579: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BSetPromptDA', , Details, )
+2024-03-11 22:32:45,580: INFO  –  Specifying ReportWWsoporte ...
+2024-03-11 22:32:45,595: INFO  –  Specifying ExportWWsoporte ...
+2024-03-11 22:32:45,695: INFO  –  Specifying General.UI.MasterUnanimoSidebar ...
+2024-03-11 22:32:45,782: INFO  –  Specifying SoporteWS ...
+2024-03-11 22:32:45,796: INFO  –  Specifying General.UI.MasterPrompt ...
+2024-03-11 22:32:45,872: ERROR – error spc0010: Type mismatch in assignment: nombreUsuario = &Nombreusuari (Varchar=Numeric). (Procedure 'SoporteWS' Source, Line: 9, , Details, )
+2024-03-11 22:32:45,965: WARN  – warning spc0030: Line 3. Attribute soporteID should not be assigned in an insert group. It has the Autonumber property set to on. (Procedure 'SoporteWS', , Details, )
+2024-03-11 22:32:45,971: WARN  – warning spc0047: Variable Nombreusuari not defined; N(10.2) assumed. (Procedure 'SoporteWS', , Details, )
+2024-03-11 22:32:46,070: INFO  –  Specifying products ...
+2024-03-11 22:32:46,255: INFO  –  Specifying Gx0010 ...
+2024-03-11 22:32:46,266: INFO  –  Specifying tesApiDolar ...
+2024-03-11 22:32:46,473: INFO  –  Specifying K2BChangePassword ...
+2024-03-11 22:32:47,347: INFO  –  Specifying K2BRemovePromptDA ...
+2024-03-11 22:32:47,350: WARN  – warning spc0217: Object is unreachable. (Procedure 'K2BRemovePromptDA', , Details, )
+2024-03-11 22:32:47,649: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage1_VerticalMenu ...
+2024-03-11 22:32:47,649: INFO  –  Specifying K2BHome ...
+2024-03-11 22:32:47,654: INFO  –  Specifying K2BTools.DesignSystems.Aries.SearchResult ...
+2024-03-11 22:32:47,832: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage2_HorizontalMenu ...
+2024-03-11 22:32:47,844: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage5_VerticalMenu ...
+2024-03-11 22:32:47,947: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage3_VerticalMenu ...
+2024-03-11 22:32:48,209: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage4_VerticalMenu ...
+2024-03-11 22:32:48,480: INFO  –  Specifying K2BNotAuthorized ...
+2024-03-11 22:32:48,764: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage6_VerticalMenu ...
+2024-03-11 22:32:48,939: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage7_VerticalMenu ...
+2024-03-11 22:32:49,201: INFO  –  Specifying K2BTools.DesignSystems.Aries.ViewAllNotifications ...
+2024-03-11 22:32:50,261: INFO  – Success
+2024-03-11 22:32:50,298: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:32:51,809: INFO  – Generating to NETFrameworkSQLServer002\web\GxWebStd.cs
+2024-03-11 22:32:51,820: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolscomponentplaceholder.cs
+2024-03-11 22:32:51,862: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolstabstitlecomponent.cs
+2024-03-11 22:32:51,893: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\tabbedviewforuniversalsearch.cs
+2024-03-11 22:32:51,954: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolscomponentplaceholder.js
+2024-03-11 22:32:51,996: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\uiconfiguration.cs
+2024-03-11 22:32:52,068: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolstabstitlecomponent.js
+2024-03-11 22:32:52,108: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresultentitywc.cs
+2024-03-11 22:32:52,130: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getallnotificationsforcurrentuserdp.cs
+2024-03-11 22:32:52,167: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\tabbedviewforuniversalsearch.js
+2024-03-11 22:32:52,219: INFO  – Generating to NETFrameworkSQLServer002\web\soportegeneral.cs
+2024-03-11 22:32:52,379: INFO  – Generating to NETFrameworkSQLServer002\web\test.cs
+2024-03-11 22:32:52,407: INFO  – Generating to NETFrameworkSQLServer002\web\atest.cs
+2024-03-11 22:32:52,496: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\uiconfiguration.js
+2024-03-11 22:32:52,500: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\sidebaritemsdp.cs
+2024-03-11 22:32:52,569: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getdesignsystemoptionvalue.cs
+2024-03-11 22:32:52,642: INFO  – Generating to NETFrameworkSQLServer002\web\soportegeneral.js
+2024-03-11 22:32:52,644: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getdesignsystemoptions.cs
+2024-03-11 22:32:52,659: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\setdesignsystemoptionvalue.cs
+2024-03-11 22:32:52,701: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresultentitywc.js
+2024-03-11 22:32:52,727: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getgenexusgenerator.cs
+2024-03-11 22:32:52,740: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcontext.cs
+2024-03-11 22:32:52,741: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionget.cs
+2024-03-11 22:32:52,784: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionset.cs
+2024-03-11 22:32:52,801: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivity.cs
+2024-03-11 22:32:52,819: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivitylist.cs
+2024-03-11 22:32:52,824: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivityname.cs
+2024-03-11 22:32:52,861: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\notificationsviewer.cs
+2024-03-11 22:32:52,878: INFO  – Generating to NETFrameworkSQLServer002\web\k2bremoveexceldocument.cs
+2024-03-11 22:32:52,913: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprograms.cs
+2024-03-11 22:32:52,914: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetsearchableentities.cs
+2024-03-11 22:32:52,952: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetsearchresults.cs
+2024-03-11 22:32:52,974: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getlatestnotificationsforcurrentuser.cs
+2024-03-11 22:32:53,020: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetsearchresultfromdata.cs
+2024-03-11 22:32:53,077: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionremove.cs
+2024-03-11 22:32:53,087: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthenticated.cs
+2024-03-11 22:32:53,102: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusercaption.cs
+2024-03-11 22:32:53,141: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getobjectnamefromscriptname.cs
+2024-03-11 22:32:53,166: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusercode.cs
+2024-03-11 22:32:53,181: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.cs
+2024-03-11 22:32:53,212: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetuseravatar.cs
+2024-03-11 22:32:53,243: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusermenu.cs
+2024-03-11 22:32:53,288: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetuseremail.cs
+2024-03-11 22:32:53,323: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmsg.cs
+2024-03-11 22:32:53,364: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogoutimplementation.cs
+2024-03-11 22:32:53,412: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetgridconfigurationsessionkey.cs
+2024-03-11 22:32:53,415: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsavegridconfiguration.cs
+2024-03-11 22:32:53,471: INFO  – Generating to NETFrameworkSQLServer002\web\k2bpersistgridconfiguration.cs
+2024-03-11 22:32:53,491: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprogramstomultilevelmenusdt.cs
+2024-03-11 22:32:53,534: INFO  – Generating to NETFrameworkSQLServer002\web\k2bpersistrowsperpage.cs
+2024-03-11 22:32:53,595: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadgridconfiguration.cs
+2024-03-11 22:32:53,619: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_returnfileinhttpresponse.cs
+2024-03-11 22:32:53,701: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getdesktopnotificationinformation.cs
+2024-03-11 22:32:53,718: INFO  – Generating to NETFrameworkSQLServer002\web\getdatefriendlystring.cs
+2024-03-11 22:32:53,765: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\markwebnotificationasread.cs
+2024-03-11 22:32:53,803: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\registerclient.cs
+2024-03-11 22:32:53,836: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getwebnotificationsunreadcount.cs
+2024-03-11 22:32:53,857: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadgridstate.cs
+2024-03-11 22:32:53,900: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsavegridstate.cs
+2024-03-11 22:32:53,913: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\samplefootercomponent.cs
+2024-03-11 22:32:53,922: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsaverowsperpage.cs
+2024-03-11 22:32:53,986: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcallerurl.cs
+2024-03-11 22:32:54,007: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmessagequeueadd.cs
+2024-03-11 22:32:54,025: INFO  – Generating to NETFrameworkSQLServer002\web\k2bretrievegridconfiguration.cs
+2024-03-11 22:32:54,045: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetstandardfiltervaluesummary.cs
+2024-03-11 22:32:54,086: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetdatetimerangefiltervaluesummary.cs
+2024-03-11 22:32:54,093: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetdaterangefiltervaluesummary.cs
+2024-03-11 22:32:54,102: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\samplefootercomponent.js
+2024-03-11 22:32:54,123: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetmultiplefiltervaluesummary.cs
+2024-03-11 22:32:54,155: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\tabbedview\gettabsmarkup.cs
+2024-03-11 22:32:54,166: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetnumericrangefiltervaluesummary.cs
+2024-03-11 22:32:54,183: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\common\formatnumericbymagnitude.cs
+2024-03-11 22:32:54,222: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\notificationsviewer.js
+2024-03-11 22:32:54,239: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadrowsperpage.cs
+2024-03-11 22:32:54,262: INFO  – Generating to NETFrameworkSQLServer002\web\k2bretrieverowsperpage.cs
+2024-03-11 22:32:54,319: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetuseencryption.cs
+2024-03-11 22:32:54,320: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscadditem.cs
+2024-03-11 22:32:54,329: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscjoinstring.cs
+2024-03-11 22:32:54,341: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetuseencryption.svc
+2024-03-11 22:32:54,380: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgettagcollectionforfiltervalues.cs
+2024-03-11 22:32:54,436: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscremoveitem.cs
+2024-03-11 22:32:54,478: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmessagequeuegetallmessages.cs
+2024-03-11 22:32:54,774: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcomponentcontext.cs
+2024-03-11 22:32:54,810: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsetcomponentcontext.cs
+2024-03-11 22:32:54,836: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsetobjectcontainername.cs
+2024-03-11 22:32:54,991: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsettrncontextbyname.cs
+2024-03-11 22:32:55,105: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgettrncontextbyname.cs
+2024-03-11 22:32:55,153: INFO  – Generating to NETFrameworkSQLServer002\web\k2bremovetrncontextbyname.cs
+2024-03-11 22:32:55,154: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.js
+2024-03-11 22:32:55,277: INFO  –  Specifying K2BLogout ...
+2024-03-11 22:32:55,279: INFO  –  Specifying K2BT_MasterPage ...
+2024-03-11 22:32:55,335: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsettransactionpk.cs
+2024-03-11 22:32:55,419: INFO  –  Specifying EntityManagersoporte ...
+2024-03-11 22:32:55,437: INFO  –  Specifying WWsoporte ...
+2024-03-11 22:32:55,454: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetnextcomponentcode.cs
+2024-03-11 22:32:55,766: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_isinexternalstorage.cs
+2024-03-11 22:32:55,800: INFO  –  Specifying Gx0020 ...
+2024-03-11 22:32:55,857: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterprompt.cs
+2024-03-11 22:32:55,899: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterprompt.js
+2024-03-11 22:32:55,920: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterunanimosidebar.cs
+2024-03-11 22:32:55,939: INFO  – Generating to NETFrameworkSQLServer002\web\products.cs
+2024-03-11 22:32:55,973: INFO  – Generating to NETFrameworkSQLServer002\web\reportwwsoporte.cs
+2024-03-11 22:32:56,001: INFO  – Generating to NETFrameworkSQLServer002\web\tesapidolar.cs
+2024-03-11 22:32:56,057: INFO  – Generating to NETFrameworkSQLServer002\web\exportwwsoporte.cs
+2024-03-11 22:32:56,061: INFO  – Generating to NETFrameworkSQLServer002\web\k2bchangepassword.cs
+2024-03-11 22:32:56,105: INFO  – Generating to NETFrameworkSQLServer002\web\tesapidolar.js
+2024-03-11 22:32:56,136: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterunanimosidebar.js
+2024-03-11 22:32:56,172: INFO  – Generating to NETFrameworkSQLServer002\web\k2bchangepassword.js
+2024-03-11 22:32:56,303: INFO  – Generating to NETFrameworkSQLServer002\web\gx0010.cs
+2024-03-11 22:32:56,424: INFO  – Generating to NETFrameworkSQLServer002\web\k2bhome.cs
+2024-03-11 22:32:56,469: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresult.cs
+2024-03-11 22:32:56,508: INFO  – Generating to NETFrameworkSQLServer002\web\k2bnotauthorized.cs
+2024-03-11 22:32:56,533: INFO  – Generating to NETFrameworkSQLServer002\web\k2bhome.js
+2024-03-11 22:32:56,601: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage1_verticalmenu.cs
+2024-03-11 22:32:56,624: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage5_verticalmenu.cs
+2024-03-11 22:32:56,653: INFO  – Generating to NETFrameworkSQLServer002\web\k2bnotauthorized.js
+2024-03-11 22:32:56,718: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresult.js
+2024-03-11 22:32:56,732: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage2_horizontalmenu.cs
+2024-03-11 22:32:56,798: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage3_verticalmenu.cs
+2024-03-11 22:32:56,828: INFO  – Generating to NETFrameworkSQLServer002\web\products.js
+2024-03-11 22:32:56,984: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage4_verticalmenu.cs
+2024-03-11 22:32:57,186: INFO  – Generating to NETFrameworkSQLServer002\web\gx0010.js
+2024-03-11 22:32:57,345: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage5_verticalmenu.js
+2024-03-11 22:32:57,440: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage7_verticalmenu.cs
+2024-03-11 22:32:57,451: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage1_verticalmenu.js
+2024-03-11 22:32:57,502: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage2_horizontalmenu.js
+2024-03-11 22:32:57,553: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage6_verticalmenu.cs
+2024-03-11 22:32:57,636: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage3_verticalmenu.js
+2024-03-11 22:32:57,769: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage4_verticalmenu.js
+2024-03-11 22:32:57,833: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\viewallnotifications.cs
+2024-03-11 22:32:57,971: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogout.cs
+2024-03-11 22:32:58,009: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_masterpage.cs
+2024-03-11 22:32:58,023: INFO  – Generating to NETFrameworkSQLServer002\web\entitymanagersoporte.cs
+2024-03-11 22:32:58,129: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogout.js
+2024-03-11 22:32:58,207: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.cs
+2024-03-11 22:32:58,219: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage7_verticalmenu.js
+2024-03-11 22:32:58,255: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage6_verticalmenu.js
+2024-03-11 22:32:58,604: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_masterpage.js
+2024-03-11 22:32:58,957: INFO  – Generating to NETFrameworkSQLServer002\web\entitymanagersoporte.js
+2024-03-11 22:32:59,133: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.js
+2024-03-11 22:32:59,514: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\viewallnotifications.js
+2024-03-11 22:33:01,040: INFO  – Processing inferred calls...
+2024-03-11 22:33:01,085: INFO  – Generating to NETFrameworkSQLServer002\web\wwsoporte.cs
+2024-03-11 22:33:02,671: INFO  – Failed: Specification
+2024-03-11 22:33:06,203: INFO  – Generating to NETFrameworkSQLServer002\web\wwsoporte.js
+2024-03-11 22:33:08,923: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2baftertrnnavigation.cs
+2024-03-11 22:33:08,961: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bbtntooltip.cs
+2024-03-11 22:33:09,166: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bcomponenttype.cs
+2024-03-11 22:33:09,203: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bfiltertype.cs
+2024-03-11 22:33:09,238: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bhttpmethod.cs
+2024-03-11 22:33:09,266: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bpage.cs
+2024-03-11 22:33:09,290: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsesitem.cs
+2024-03-11 22:33:09,324: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bstandardactivitytype.cs
+2024-03-11 22:33:09,351: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsymbols.cs
+2024-03-11 22:33:09,380: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bthemeclasses.cs
+2024-03-11 22:33:09,421: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btoolsmessagetype.cs
+2024-03-11 22:33:09,444: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnmode.cs
+2024-03-11 22:33:09,467: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnreturnmode.cs
+2024-03-11 22:33:09,496: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprinterrorcode.cs
+2024-03-11 22:33:09,526: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprintregionstatus.cs
+2024-03-11 22:33:09,554: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_overflowactionposition.cs
+2024-03-11 22:33:09,576: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_regionstatus.cs
+2024-03-11 22:33:09,595: INFO  – Generating to NETFrameworkSQLServer002\web\gxlred.cs
+2024-03-11 22:33:09,607: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtDolarAPI.cs
+2024-03-11 22:33:09,633: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomainattributevaluetype.cs
+2024-03-11 22:33:09,660: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptions.cs
+2024-03-11 22:33:09,685: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs
+2024-03-11 22:33:09,712: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaingenexusgenerator.cs
+2024-03-11 22:33:09,736: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_desktopnotificationpermission.cs
+2024-03-11 22:33:09,767: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_webnotificationids.cs
+2024-03-11 22:33:09,810: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomaincontentviewoption.cs
+2024-03-11 22:33:09,837: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomainweekstartday.cs
+2024-03-11 22:33:09,861: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainaftercanceleventname.cs
+2024-03-11 22:33:09,883: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainafterconfirmeventname.cs
+2024-03-11 22:33:09,916: INFO  – Generating to NETFrameworkSQLServer002\web\GxModelInfoProvider.cs
+2024-03-11 22:33:09,917: INFO  – Generating to NETFrameworkSQLServer002\web\GxObjectCollection.cs
+2024-03-11 22:33:09,922: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:33:09,937: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:33:10,024: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:33:10,092: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:33:10,197: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:33:10,238: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:33:10,239: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:33:10,240: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:33:10,255: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-11 22:33:10,256: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-03-11 22:33:10,765: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:33:10,800: INFO  – Compressing static files...
+2024-03-11 22:33:11,352: INFO  – Success
+2024-03-11 22:33:11,374: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:33:11,737: INFO  – Generating metadata files...
+2024-03-11 22:33:13,966: INFO  – Angular Success
+2024-03-11 22:33:13,969: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:33:13,975: INFO  – Specifying Structure Data Types...
+2024-03-11 22:33:14,566: INFO  – ========== SDT Generation started ==========
+2024-03-11 22:33:14,567: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtDesktopNotificationInfoSDT.cs
+2024-03-11 22:33:14,582: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtFileUploadData.cs
+2024-03-11 22:33:14,598: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BActivity.cs
+2024-03-11 22:33:14,609: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BActivityList_K2BActivityListItem.cs
+2024-03-11 22:33:14,623: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BAttributeValue_Item.cs
+2024-03-11 22:33:14,637: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BComponentContext.cs
+2024-03-11 22:33:14,650: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BContext.cs
+2024-03-11 22:33:14,662: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem.cs
+2024-03-11 22:33:14,677: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem_MultipleValuesItem.cs
+2024-03-11 22:33:14,680: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridColumns_K2BGridColumnsItem.cs
+2024-03-11 22:33:14,695: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridConfiguration.cs
+2024-03-11 22:33:14,705: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridOrders_K2BGridOrdersItem.cs
+2024-03-11 22:33:14,717: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridState.cs
+2024-03-11 22:33:14,732: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridState_FilterValue.cs
+2024-03-11 22:33:14,734: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BMultiLevelMenu_K2BMultiLevelMenuItem.cs
+2024-03-11 22:33:14,750: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BProgramNames_ProgramName.cs
+2024-03-11 22:33:14,766: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BSearchResult_Item.cs
+2024-03-11 22:33:14,779: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTabOptions_K2BTabOptionsItem.cs
+2024-03-11 22:33:14,795: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controltypes\coloroptionpicker\type_SdtColorOptions_Color.cs
+2024-03-11 22:33:14,810: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\type_SdtWebNotificationSDT_Notification.cs
+2024-03-11 22:33:14,824: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\type_SdtTransactionEventArgs.cs
+2024-03-11 22:33:14,838: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnContext.cs
+2024-03-11 22:33:14,856: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnContext_Attribute.cs
+2024-03-11 22:33:14,859: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnNavigation.cs
+2024-03-11 22:33:14,877: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_CSVImportParameters.cs
+2024-03-11 22:33:14,894: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedControlValues_Item.cs
+2024-03-11 22:33:14,909: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata.cs
+2024-03-11 22:33:14,922: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_Column.cs
+2024-03-11 22:33:14,924: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_Column_Aggregation.cs
+2024-03-11 22:33:14,925: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_ActionGroup.cs
+2024-03-11 22:33:14,926: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedGridMetadata_ColumnGroup.cs
+2024-03-11 22:33:14,927: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BValueDescriptionCollection_Item.cs
+2024-03-11 22:33:14,945: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BWizardSteps_K2BWizardStepsItem.cs
+2024-03-11 22:33:15,003: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtSearchableTransactions_SearchableTransactionsItem.cs
+2024-03-11 22:33:15,004: INFO  – Success: SDT Generation
+2024-03-11 22:33:15,894: INFO  – ========== Rest API Documentation Generation started ==========
+2024-03-11 22:33:15,910: INFO  – Success: Rest API Documentation Generation
+2024-03-11 22:33:16,780: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:33:16,785: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:33:42,514: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:33:42,514: INFO  – ========== Web config update started ==========
+2024-03-11 22:33:42,621: INFO  – Updating web config ...
+2024-03-11 22:33:42,663: INFO  – Success: Web config update
+2024-03-11 22:33:42,665: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:33:42,666: INFO  – ========== Angular Compilation started ==========
+2024-03-11 22:33:42,675: INFO  – Success: Angular Compilation
+2024-03-11 22:33:42,681: INFO  – Failed: Rebuild All
+2024-03-11 22:35:26,254: INFO  – ========== Run SoporteWS started ==========
+2024-03-11 22:35:26,299: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:35:26,314: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-11 22:35:27,081: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:35:27,104: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:35:27,125: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:35:27,891: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:35:27,990: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:35:27,991: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:35:28,155: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:35:28,156: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:35:28,174: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:35:28,615: INFO  – Success: Target Environment update
+2024-03-11 22:35:28,618: INFO  – Building changed objects list
+2024-03-11 22:35:29,521: INFO  – ========== Specification started ==========
+2024-03-11 22:35:31,425: INFO  –  Specifying SoporteWS (already specified) ...
+2024-03-11 22:35:31,499: INFO  – Generating Resources...
+2024-03-11 22:35:31,857: INFO  – Success
+2024-03-11 22:35:32,244: INFO  – Success: Specification
+2024-03-11 22:35:32,358: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:35:33,034: INFO  – Generating to NETFrameworkSQLServer002\web\asoportews.cs
+2024-03-11 22:35:33,144: INFO  – Generating to NETFrameworkSQLServer002\web\soportews.cs
+2024-03-11 22:35:33,177: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:35:33,195: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:35:33,265: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:35:33,372: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:35:33,513: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:35:33,570: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:35:33,571: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:35:33,571: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:35:33,593: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-11 22:35:33,594: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-03-11 22:35:34,118: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:35:34,147: INFO  – Compressing static files...
+2024-03-11 22:35:34,220: INFO  – Success
+2024-03-11 22:35:34,281: INFO  – ========== SoporteWS Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:35:34,284: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:35:35,130: INFO  – Success: SoporteWS Compilation for Default (.NET Framework)
+2024-03-11 22:35:35,131: INFO  – ========== Web config update started ==========
+2024-03-11 22:35:35,230: INFO  – Updating web config ...
+2024-03-11 22:35:35,262: INFO  – Success: Web config update
+2024-03-11 22:35:35,292: INFO  – ========== Execution started ==========
+2024-03-11 22:35:35,354: INFO  – Success: Execution
+2024-03-11 22:35:35,357: INFO  – Success: Run SoporteWS
+2024-03-11 22:40:05,309: INFO  – ========== Build All started ==========
+2024-03-11 22:40:05,386: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:40:05,522: INFO  – Refreshing instance 'K2BEntityServicessoporte'
+2024-03-11 22:40:28,486: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:40:28,513: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:40:28,635: INFO  – Refreshing instance 'K2BTrnFormsoporte'
+2024-03-11 22:40:31,916: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:40:32,005: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:40:32,008: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:40:32,193: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:40:32,196: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:40:32,415: INFO  – ========== Database Impact Analysis started ==========
+2024-03-11 22:40:33,375: INFO  – Processing ... 
+2024-03-11 22:40:33,414: INFO  – Subtype groups were validated...
+2024-03-11 22:40:33,422: INFO  – Searching for new or changed tables ...
+2024-03-11 22:40:33,462: INFO  – Analyzing   soporte ...
+2024-03-11 22:40:33,463: INFO  – Removing specification files ...
+2024-03-11 22:40:33,463: INFO  – Specification files removed.
+2024-03-11 22:40:33,695: INFO  –  Specifying soporteConversion ...
+2024-03-11 22:40:33,775: WARN  – warning: rgz0007: Attribute nombreDepartamento does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-11 22:40:33,804: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-11 22:40:33,992: INFO  – Searching for deleted tables ...
+2024-03-11 22:40:33,993: INFO  – Loading table and attribute properties ...
+2024-03-11 22:40:33,993: INFO  – Saving specifications.
+2024-03-11 22:40:34,059: INFO  – Processing enumerated domains...
+2024-03-11 22:40:35,674: INFO  – Success: Database Impact Analysis
+2024-03-11 22:40:37,518: INFO  – Generating Resources...
+2024-03-11 22:40:38,786: INFO  – Success
+2024-03-11 22:40:38,793: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:40:39,989: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-11 22:40:40,108: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-11 22:40:40,109: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-11 22:40:40,121: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2baftertrnnavigation.cs
+2024-03-11 22:40:40,134: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bbtntooltip.cs
+2024-03-11 22:40:40,200: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bcomponenttype.cs
+2024-03-11 22:40:40,233: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bfiltertype.cs
+2024-03-11 22:40:40,266: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bhttpmethod.cs
+2024-03-11 22:40:40,297: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bpage.cs
+2024-03-11 22:40:40,330: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsesitem.cs
+2024-03-11 22:40:40,367: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bstandardactivitytype.cs
+2024-03-11 22:40:40,406: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsymbols.cs
+2024-03-11 22:40:40,440: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bthemeclasses.cs
+2024-03-11 22:40:40,485: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btoolsmessagetype.cs
+2024-03-11 22:40:40,509: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnmode.cs
+2024-03-11 22:40:40,536: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnreturnmode.cs
+2024-03-11 22:40:40,571: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprinterrorcode.cs
+2024-03-11 22:40:40,608: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprintregionstatus.cs
+2024-03-11 22:40:40,644: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_overflowactionposition.cs
+2024-03-11 22:40:40,674: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_regionstatus.cs
+2024-03-11 22:40:40,697: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomainattributevaluetype.cs
+2024-03-11 22:40:40,724: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptions.cs
+2024-03-11 22:40:40,755: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs
+2024-03-11 22:40:40,782: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaingenexusgenerator.cs
+2024-03-11 22:40:40,802: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_desktopnotificationpermission.cs
+2024-03-11 22:40:40,830: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_webnotificationids.cs
+2024-03-11 22:40:40,851: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomaincontentviewoption.cs
+2024-03-11 22:40:40,887: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomainweekstartday.cs
+2024-03-11 22:40:40,913: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainaftercanceleventname.cs
+2024-03-11 22:40:41,053: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainafterconfirmeventname.cs
+2024-03-11 22:40:41,163: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:40:41,193: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:40:42,047: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:40:42,154: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-11 22:40:42,157: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-11 22:40:42,163: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-11 22:40:42,163: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-11 22:40:42,164: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:40:43,976: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:40:44,111: INFO  – ========== Reorganization started ==========
+2024-03-11 22:40:44,115: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:40:45,691: INFO  – "C:\KBs\test\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-11 22:40:47,253: INFO  – Table soporte has 0 records
+2024-03-11 22:40:47,257: INFO  – Updating table soporte .
+2024-03-11 22:40:47,809: INFO  – Updating table soporte . Started
+2024-03-11 22:40:48,319: INFO  – Updating table soporte . Ended
+2024-03-11 22:40:48,330: INFO  – The reorganization process was successfully completed.
+2024-03-11 22:40:50,020: INFO  – Success: Reorganization
+2024-03-11 22:40:50,057: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:40:50,547: INFO  – Success: Target Environment update
+2024-03-11 22:40:51,315: INFO  – Generating User Control GeneXusUnanimo.Dropdown
+2024-03-11 22:40:51,370: INFO  – Generating User Control GeneXusUnanimo.DropdownAngular
+2024-03-11 22:40:51,411: INFO  – Generating User Control GeneXusUnanimo.Select
+2024-03-11 22:40:51,462: INFO  – Generating User Control GeneXusUnanimo.SelectAngular
+2024-03-11 22:40:51,497: INFO  – Generating User Control GeneXusUnanimo.Sidebar
+2024-03-11 22:40:51,544: INFO  – Generating User Control GeneXusUnanimo.SidebarAngular
+2024-03-11 22:40:51,574: INFO  – Generating User Control GeneXusUnanimo.Treeview
+2024-03-11 22:40:51,620: INFO  – Generating User Control GeneXusUnanimo.TreeviewAngular
+2024-03-11 22:40:51,645: INFO  – Generating User Control GeneXusUnanimo.Step
+2024-03-11 22:40:51,691: INFO  – Generating User Control GeneXusUnanimo.StepAngular
+2024-03-11 22:40:51,714: INFO  – Generating User Control GeneXusUnanimo.Alert
+2024-03-11 22:40:51,756: INFO  – Generating User Control GeneXusUnanimo.AlertAngular
+2024-03-11 22:40:51,787: INFO  – Generating User Control GeneXusUnanimo.Icon
+2024-03-11 22:40:51,835: INFO  – Generating User Control GeneXusUnanimo.IconAngular
+2024-03-11 22:40:51,863: INFO  – Generating User Control GeneXusUnanimo.Switch
+2024-03-11 22:40:51,942: INFO  – Generating User Control GeneXusUnanimo.Slider
+2024-03-11 22:40:52,032: INFO  – Generating User Control GeneXusUnanimo.Button
+2024-03-11 22:40:52,086: INFO  – Generating User Control K2BT_Stepper
+2024-03-11 22:40:52,160: INFO  – Generating User Control K2BT_ModalWindow
+2024-03-11 22:40:52,202: INFO  – Generating User Control K2BT_ConfirmDialog
+2024-03-11 22:40:52,237: INFO  – Generating User Control K2BT_ActionGroup
+2024-03-11 22:40:52,270: INFO  – Generating User Control K2BT_Component
+2024-03-11 22:40:52,306: INFO  – Generating User Control K2BT_ExtendedCombobox
+2024-03-11 22:40:52,391: INFO  – Generating User Control K2BT_ToggleBar
+2024-03-11 22:40:52,464: INFO  – Generating User Control K2BTools.DesignSystems.Aries.NotificationsButton
+2024-03-11 22:40:52,560: INFO  – ========== Specification started ==========
+2024-03-11 22:40:54,303: INFO  – Loading objects to specify ...10
+2024-03-11 22:40:54,584: INFO  –  Specifying ExportWWsoporte ...
+2024-03-11 22:40:55,860: INFO  –  Specifying K2BListPrograms ...
+2024-03-11 22:40:55,876: INFO  –  Specifying K2BGetSearchResultFromData ...
+2024-03-11 22:40:55,881: INFO  –  Specifying SoporteWS ...
+2024-03-11 22:40:55,936: INFO  –  Specifying K2BGetSearchableEntities ...
+2024-03-11 22:40:56,092: WARN  – warning spc0030: Line 3. Attribute soporteID should not be assigned in an insert group. It has the Autonumber property set to on. (Procedure 'SoporteWS', , Details, )
+2024-03-11 22:40:56,256: INFO  – Generating Resources...
+2024-03-11 22:40:56,481: INFO  –  Specifying ReportWWsoporte ...
+2024-03-11 22:40:56,489: INFO  –  Specifying  stub SoporteWS ...
+2024-03-11 22:40:56,701: INFO  –  Specifying EntityManagersoporte ...
+2024-03-11 22:40:57,270: INFO  –  Specifying WWsoporte ...
+2024-03-11 22:40:58,067: INFO  –  Specifying soporteGeneral ...
+2024-03-11 22:41:00,124: INFO  – Success
+2024-03-11 22:41:00,245: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:41:02,031: INFO  – Generating to NETFrameworkSQLServer002\web\asoportews.cs
+2024-03-11 22:41:02,082: INFO  – Generating to NETFrameworkSQLServer002\web\reportwwsoporte.cs
+2024-03-11 22:41:02,108: INFO  – Generating to NETFrameworkSQLServer002\web\exportwwsoporte.cs
+2024-03-11 22:41:04,415: INFO  –  Specifying soporte ...
+2024-03-11 22:41:05,332: INFO  – Creating prompt 'Gx0020' (for table 'soporte')...
+2024-03-11 22:41:09,236: INFO  – Generating to NETFrameworkSQLServer002\web\wwsoporte.cs
+2024-03-11 22:41:09,317: INFO  –  Specifying Gx0020 ...
+2024-03-11 22:41:12,048: INFO  – Processing inferred calls...
+2024-03-11 22:41:13,107: INFO  – Success: Specification
+2024-03-11 22:41:16,055: INFO  – Generating to NETFrameworkSQLServer002\web\wwsoporte.js
+2024-03-11 22:41:18,196: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.cs
+2024-03-11 22:41:19,461: INFO  – Generating to NETFrameworkSQLServer002\web\soporte.js
+2024-03-11 22:41:19,596: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:41:19,613: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:41:19,708: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:41:19,814: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:41:20,055: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:41:20,114: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:41:20,115: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:41:20,116: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:41:20,149: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-11 22:41:20,838: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:41:20,889: INFO  – Compressing static files...
+2024-03-11 22:41:21,104: INFO  – Success
+2024-03-11 22:41:21,123: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:41:29,636: INFO  – Generating metadata files...
+2024-03-11 22:41:31,018: INFO  – Angular Success
+2024-03-11 22:41:31,024: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:41:31,747: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:41:31,755: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:41:58,344: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:41:58,345: INFO  – ========== Web config update started ==========
+2024-03-11 22:41:58,469: INFO  – Updating web config ...
+2024-03-11 22:41:58,524: INFO  – Success: Web config update
+2024-03-11 22:41:58,529: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:41:58,530: INFO  – ========== Angular Compilation started ==========
+2024-03-11 22:41:58,536: INFO  – Success: Angular Compilation
+2024-03-11 22:41:58,540: INFO  – Success: Build All
+2024-03-11 22:43:14,995: INFO  – ========== Run SoporteWS started ==========
+2024-03-11 22:43:15,048: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:43:15,068: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-11 22:43:15,830: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:43:15,845: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:43:15,875: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:43:16,645: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:43:16,750: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:43:16,754: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:43:16,948: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:43:16,950: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:43:17,094: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:43:17,489: INFO  – Success: Target Environment update
+2024-03-11 22:43:17,509: INFO  – Building changed objects list
+2024-03-11 22:43:17,763: INFO  – No objects to Specify
+2024-03-11 22:43:17,765: INFO  – Generating Resources...
+2024-03-11 22:43:18,429: INFO  – Success
+2024-03-11 22:43:18,441: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:43:19,332: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:43:19,376: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:43:19,482: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:43:19,578: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:43:19,671: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:43:19,727: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:43:19,728: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:43:19,731: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:43:20,455: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:43:20,508: INFO  – Compressing static files...
+2024-03-11 22:43:20,601: INFO  – Success
+2024-03-11 22:43:20,669: INFO  – ========== SoporteWS Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:43:20,677: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:43:21,132: INFO  – Success: SoporteWS Compilation for Default (.NET Framework)
+2024-03-11 22:43:21,133: INFO  – ========== Web config update started ==========
+2024-03-11 22:43:21,235: INFO  – Updating web config ...
+2024-03-11 22:43:21,281: INFO  – Success: Web config update
+2024-03-11 22:43:21,319: INFO  – ========== Execution started ==========
+2024-03-11 22:43:21,358: INFO  – Success: Execution
+2024-03-11 22:43:21,365: INFO  – Success: Run SoporteWS
+2024-03-11 22:46:13,753: INFO  – ========== Run SoporteWS started ==========
+2024-03-11 22:46:13,790: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:46:13,803: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-11 22:46:14,573: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:46:14,581: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:46:14,602: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:46:15,369: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:46:15,475: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:46:15,478: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:46:15,677: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:46:15,678: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:46:15,814: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:46:16,145: INFO  – Success: Target Environment update
+2024-03-11 22:46:16,152: INFO  – Building changed objects list
+2024-03-11 22:46:16,522: INFO  – ========== Specification started ==========
+2024-03-11 22:46:18,917: INFO  –  Specifying SoporteWS (already specified) ...
+2024-03-11 22:46:19,162: INFO  – Generating Resources...
+2024-03-11 22:46:19,844: INFO  – Success
+2024-03-11 22:46:20,156: INFO  – Success: Specification
+2024-03-11 22:46:20,260: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:46:21,239: INFO  – Generating to NETFrameworkSQLServer002\web\asoportews.cs
+2024-03-11 22:46:21,393: INFO  – Generating to NETFrameworkSQLServer002\web\soportews.cs
+2024-03-11 22:46:21,451: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:46:21,467: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:46:21,572: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:46:21,669: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:46:21,794: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:46:21,881: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:46:21,882: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:46:21,884: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:46:21,921: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-03-11 22:46:22,612: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:46:22,661: INFO  – Compressing static files...
+2024-03-11 22:46:22,770: INFO  – Success
+2024-03-11 22:46:22,837: INFO  – ========== SoporteWS Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:46:22,843: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:46:23,986: INFO  – Success: SoporteWS Compilation for Default (.NET Framework)
+2024-03-11 22:46:23,987: INFO  – ========== Web config update started ==========
+2024-03-11 22:46:24,151: INFO  – Updating web config ...
+2024-03-11 22:46:24,193: INFO  – Success: Web config update
+2024-03-11 22:46:24,197: INFO  – ========== Execution started ==========
+2024-03-11 22:46:24,253: INFO  – Success: Execution
+2024-03-11 22:46:24,254: INFO  – Success: Run SoporteWS
+2024-03-11 22:49:11,905: INFO  – ========== Run Developer Menu started ==========
+2024-03-11 22:49:11,940: INFO  – ========== Pattern generation (Entity Services) started ==========
+2024-03-11 22:49:11,953: INFO  – Instance 'K2BEntityServicessoporte' is up to date.
+2024-03-11 22:49:12,714: INFO  – Success: Pattern generation (Entity Services)
+2024-03-11 22:49:12,717: INFO  – ========== Pattern generation (Trn Form) started ==========
+2024-03-11 22:49:12,724: INFO  – Instance 'K2BTrnFormsoporte' is up to date.
+2024-03-11 22:49:13,490: INFO  – Success: Pattern generation (Trn Form)
+2024-03-11 22:49:13,613: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-11 22:49:13,616: INFO  – Success: Copy Module 'GeneXus'
+2024-03-11 22:49:13,775: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-11 22:49:13,776: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-11 22:49:13,917: INFO  – ========== Target Environment update started ==========
+2024-03-11 22:49:14,078: INFO  – Success: Target Environment update
+2024-03-11 22:49:14,080: INFO  – Building changed objects list
+2024-03-11 22:49:14,804: INFO  – No objects to Specify
+2024-03-11 22:49:14,806: INFO  – Generating Resources...
+2024-03-11 22:49:15,550: INFO  – Success
+2024-03-11 22:49:15,552: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-11 22:49:16,553: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-11 22:49:16,573: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-11 22:49:16,670: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-11 22:49:16,777: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-11 22:49:16,901: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-11 22:49:16,980: INFO  – Generating to NETFrameworkSQLServer002\web\library.bld
+2024-03-11 22:49:16,981: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-11 22:49:17,052: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-11 22:49:17,949: INFO  – Success: Default (.NET Framework) Generation
+2024-03-11 22:49:17,998: INFO  – Compressing static files...
+2024-03-11 22:49:18,081: INFO  – Success
+2024-03-11 22:49:18,092: INFO  – ========== Frontend (Front end) Generation started ==========
+2024-03-11 22:49:19,021: INFO  – Generating metadata files...
+2024-03-11 22:49:20,503: INFO  – Angular Success
+2024-03-11 22:49:20,508: INFO  – Success: Frontend (Front end) Generation
+2024-03-11 22:49:21,102: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-11 22:49:21,106: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\test\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-11 22:49:59,237: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-11 22:49:59,238: INFO  – ========== Web config update started ==========
+2024-03-11 22:49:59,387: INFO  – Updating web config ...
+2024-03-11 22:49:59,445: INFO  – Success: Web config update
+2024-03-11 22:49:59,791: INFO  – Calculating Mobile Targets for Frontend (Front end)
+2024-03-11 22:49:59,792: INFO  – ========== Angular Execution started ==========
+2024-03-11 22:49:59,792: WARN  – warning: SD application cannot be launched because no SD main objects are present in the Knowledge Base.
+At least one should have its "Main program" property set to True.
+2024-03-11 22:49:59,792: INFO  – Success: Angular Execution
+2024-03-11 22:49:59,795: INFO  – Success: Run Developer Menu
+2024-03-11 22:50:51,889: INFO  – ========== Run WWsoporte Without Building started ==========
+2024-03-11 22:50:51,913: INFO  – ========== Execution started ==========
+2024-03-11 22:50:51,952: INFO  – Success: Execution
+2024-03-11 22:50:51,960: INFO  – Success: Run WWsoporte Without Building

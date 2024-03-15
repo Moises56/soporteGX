@@ -1,0 +1,3 @@
+<div class="K2BT_NotificationsBellButton {{gxTpr_ButtonClass}}{{ButtonClass}}"  data-event="Event" >
+	<div class="K2BT_NotificationsBellCounter">{{gxTpr_Count}}{{Count}}</div>
+</div>

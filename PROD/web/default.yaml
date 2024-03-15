@@ -1,0 +1,1010 @@
+openapi: 3.0.0
+info:
+  title: "test"
+  version: "20240313142316"
+servers:
+  - url: https://localhost/testPROD/rest
+paths:
+  /GAMSDChangePasswordUser:
+    post:
+      tags:
+        - GAMSDChangePasswordUser
+      operationId: "GAMSDChangePasswordUser"
+      summary: "GAMSDChange Password User"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GAMSDChangePasswordUserInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDChangePasswordUserOutput"
+        404:
+          description: "Not found"
+  /GAMSDNewUser:
+    post:
+      tags:
+        - GAMSDNewUser
+      operationId: "GAMSDNewUser"
+      summary: "Register New User"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GAMSDNewUserInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDNewUserOutput"
+        404:
+          description: "Not found"
+  /GAMSDUpdateRegisterUser:
+    post:
+      tags:
+        - GAMSDUpdateRegisterUser
+      operationId: "GAMSDUpdateRegisterUser"
+      summary: "Update Register User"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GAMSDUpdateRegisterUserInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDUpdateRegisterUserOutput"
+        404:
+          description: "Not found"
+  /General/Services/DirectionsServiceRequest:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.DirectionsServiceRequest"
+      summary: "Directions Service Request"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.DirectionsServiceRequestInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/General.Services.DirectionsServiceRequestOutput"
+        404:
+          description: "Not found"
+  /General/Services/GxAfterEventReplicator:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.GxAfterEventReplicator"
+      summary: "Gx After Event Replicator"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.GxAfterEventReplicatorInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /General/Services/GxBeforeEventReplicator:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.GxBeforeEventReplicator"
+      summary: "Gx Before Event Replicator"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.GxBeforeEventReplicatorInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/General.Services.GxBeforeEventReplicatorOutput"
+        404:
+          description: "Not found"
+  /General/Services/GxOnPendingEventFailed:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.GxOnPendingEventFailed"
+      summary: "Gx On Pending Event Failed"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.GxOnPendingEventFailedInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/General.Services.GxOnPendingEventFailedOutput"
+        404:
+          description: "Not found"
+  /General/Services/NotificationsRegistrationHandler:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.NotificationsRegistrationHandler"
+      summary: "Notifications Registration Handler"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.NotificationsRegistrationHandlerInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /K2BIsAuthorizedActivityList:
+    post:
+      tags:
+        - K2BIsAuthorizedActivityList
+      operationId: "K2BIsAuthorizedActivityList"
+      summary: "K2 BIs Authorized Activity List"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/K2BIsAuthorizedActivityListInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/K2BIsAuthorizedActivityListOutput"
+        404:
+          description: "Not found"
+  /K2BToolsGetUseEncryption:
+    post:
+      tags:
+        - K2BToolsGetUseEncryption
+      operationId: "K2BToolsGetUseEncryption"
+      summary: "K2 BTools Get Use Encryption"
+      security: 
+        - oAuthGXGAM: []
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/K2BToolsGetUseEncryptionOutput"
+        404:
+          description: "Not found"
+  /GAMSDChangePassword_Level_Detail:
+    get:
+      tags:
+        - GAMSDChangePassword_Level_Detail
+      operationId: "GAMSDChangePassword_Level_Detail"
+      summary: "GAMSDChangePassword_Level_Detail"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDChangePassword_Level_DetailSdt"  
+
+        404:
+          description: "Not found"
+  /GAMSDLogin_Level_Detail:
+    get:
+      tags:
+        - GAMSDLogin_Level_Detail
+      operationId: "GAMSDLogin_Level_Detail"
+      summary: "GAMSDLogin_Level_Detail"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDLogin_Level_DetailSdt"  
+
+        404:
+          description: "Not found"
+  /GAMSDNotAuthorized_Level_Detail:
+    get:
+      tags:
+        - GAMSDNotAuthorized_Level_Detail
+      operationId: "GAMSDNotAuthorized_Level_Detail"
+      summary: "GAMSDNotAuthorized_Level_Detail"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDNotAuthorized_Level_DetailSdt"  
+
+        404:
+          description: "Not found"
+  /GAMSDRegisterUser_Level_Detail:
+    get:
+      tags:
+        - GAMSDRegisterUser_Level_Detail
+      operationId: "GAMSDRegisterUser_Level_Detail"
+      summary: "GAMSDRegisterUser_Level_Detail"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDRegisterUser_Level_DetailSdt"  
+
+        404:
+          description: "Not found"
+  /GAMSDUpdateUser_Level_Detail:
+    get:
+      tags:
+        - GAMSDUpdateUser_Level_Detail
+      operationId: "GAMSDUpdateUser_Level_Detail"
+      summary: "GAMSDUpdateUser_Level_Detail"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GAMSDUpdateUser_Level_DetailSdt"  
+
+        404:
+          description: "Not found"
+  /oauth/access_token:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.access_token"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/logout:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.logout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/userinfo:
+    get:
+      tags:
+        - oauth
+      operationId: "oauth.userinfo"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /gx_valid_service:
+    post:
+      tags:
+        - GXValidService
+      operationId: "gx_valid_service"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/signin:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.signin"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/callback:
+    get:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.callback"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/access_token:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.access_token"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/userinfo:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.userinfo"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/signout:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.signout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/RequestTokenService:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.RequestTokenService"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/QueryAccessToken:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.QueryAccessToken"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /saml/gam/signout:
+    post:
+      tags:
+        - saml.gam
+      operationId: "saml.gam.signout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /saml/gam/signin:
+    post:
+      tags:
+        - saml.gam
+      operationId: "saml.gam.signin"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /gxmulticall:
+    post:
+      tags:
+        - GeneXusSDMulticall
+      operationId: "gxmulticall"
+      summary: "GeneXus Multicall Service for Smart Devices Application"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+components:
+  securitySchemes:
+    oAuthGXGAM:
+      type: oauth2
+      description: GAM OAuth 2
+      flows:
+        password:          
+          tokenUrl: https://localhost/testPROD/oauth/gam/v2.0/access_token
+          scopes: 
+            fullcontrol: Full access
+
+  schemas:
+    GAMSDChangePasswordUserOutput:
+      properties:
+        Messages:
+          description: "Messages"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Messages_Message"
+    GAMSDNewUserOutput:
+      properties:
+        Messages:
+          description: "Messages"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Messages_Message"
+    GAMSDUpdateRegisterUserOutput:
+      properties:
+        Messages:
+          description: "Messages"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Messages_Message"
+    General.Services.DirectionsServiceRequestOutput:
+      properties:
+        Routes:
+          description: "Route"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Route"
+        errorMessages:
+          description: "Messages"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Messages_Message"
+    General.Services.GxBeforeEventReplicatorOutput:
+      properties:
+        GxPendingEvents:
+          description: "Synchronization Event List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem"
+        EventResults:
+          description: "Synchronization Event Result List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+    General.Services.GxOnPendingEventFailedOutput:
+      properties:
+        Continue:
+          type: "boolean"
+    K2BIsAuthorizedActivityListOutput:
+      properties:
+        activityList:
+          description: "K2 BActivity List"
+          type: array
+          items:
+            $ref: "#/components/schemas/K2BActivityList_K2BActivityListItem"
+    K2BToolsGetUseEncryptionOutput:
+      properties:
+        encrypt:
+          type: "string"
+
+    GAMSDChangePasswordUserInput:
+      properties:
+        isPasswordExpires:
+          type: "boolean"
+        UserName:
+          type: "string"
+        UserPassword:
+          type: "string"
+        UserPasswordNew:
+          type: "string"
+        UserPasswordNewConf:
+          type: "string"
+    GAMSDNewUserInput:
+      properties:
+        UserName:
+          type: "string"
+        Email:
+          type: "string"
+        FirstName:
+          type: "string"
+        LastName:
+          type: "string"
+        Password:
+          type: "string"
+        ConfirmPassword:
+          type: "string"
+    GAMSDUpdateRegisterUserInput:
+      properties:
+        UserGUID:
+          type: "string"
+        UserName:
+          type: "string"
+        Email:
+          type: "string"
+        FirstName:
+          type: "string"
+        LastName:
+          type: "string"
+    General.Services.DirectionsServiceRequestInput:
+      properties:
+        DirectionsServiceProvider:
+          type: "string"
+        DirectionsRequestParameters:
+          description: "Directions Request Parameters"
+          $ref: "#/components/schemas/GeneXus.Common.DirectionsRequestParameters"
+    General.Services.GxAfterEventReplicatorInput:
+      properties:
+        EventResults:
+          description: "Synchronization Event Result List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+        GxSynchroInfo:
+          description: "Synchronization Info"
+          $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationInfo"
+    General.Services.GxBeforeEventReplicatorInput:
+      properties:
+        GxPendingEvents:
+          description: "Synchronization Event List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem"
+        GxSyncroInfo:
+          description: "Synchronization Info"
+          $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationInfo"
+        EventResults:
+          description: "Synchronization Event Result List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+    General.Services.GxOnPendingEventFailedInput:
+      properties:
+        PendingEvent:
+          description: "Synchronization Event List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem"
+        BCName:
+          type: "string"
+        BCJson:
+          type: "string"
+        EventResult:
+          description: "Synchronization Event Result List"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+        GxSyncroInfo:
+          description: "Synchronization Info"
+          $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationInfo"
+    General.Services.NotificationsRegistrationHandlerInput:
+      properties:
+        DeviceType:
+          type: "integer"
+          format: "int32"
+        DeviceId:
+          type: "string"
+        DeviceToken:
+          type: "string"
+        DeviceName:
+          type: "string"
+    K2BIsAuthorizedActivityListInput:
+      properties:
+        activityList:
+          description: "K2 BActivity List"
+          type: array
+          items:
+            $ref: "#/components/schemas/K2BActivityList_K2BActivityListItem"
+
+  
+    GeneXus.Common.DirectionsRequestParameters:
+      properties:
+        sourceLocation:
+          description: "Source Location"
+          type: "string"
+        destinationLocation:
+          description: "Destination Location"
+          type: "string"
+        waypoints:
+          description: "Intermediate waypoints"
+          type: array
+          items:
+            type: "string"
+        optimizeWaypoints:
+          description: "optimize Waypoints"
+          type: "boolean"
+        transportType:
+          description: "transport Type"
+          type: "string"
+        requestAlternateRoutes:
+          description: "request Alternate Routes"
+          type: "boolean"
+        additionalParameters:
+          description: "Configuration Property"
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Notifications.ConfigurationProperty"
+
+
+
+    GeneXus.Common.Messages_Message:
+      properties:
+        Id:
+          description: "Id"
+          type: "string"
+        Type:
+          description: "Type"
+          type: "integer"
+          format: "int32"
+        Description:
+          description: "Description"
+          type: "string"
+
+
+
+    GeneXus.Common.Notifications.ConfigurationProperty:
+      properties:
+        PropertyName:
+          description: "Property Name"
+          type: "string"
+        PropertyValue:
+          description: "Property Value"
+          type: "string"
+
+
+
+    GeneXus.Common.Route:
+      properties:
+        name:
+          description: "The expected travel time in seconds"
+          type: "string"
+        advisoryNotices:
+          description: "A collection of advisory notice strings for the route"
+          type: array
+          items:
+            type: "string"
+        distance:
+          description: "The route distance in meters"
+          type: "number"
+          format: "double"
+        expectedTravelTime:
+          description: "The expected travel time in seconds"
+          type: "number"
+          format: "double"
+        transportType:
+          description: "The overall route transport type"
+          type: "string"
+        geoline:
+          description: "The route geometry"
+          type: "string"
+
+
+
+    GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem:
+      properties:
+        EventId:
+          description: "Pending Event Id"
+          type: "string"
+          format: "uuid"
+        EventTimestamp:
+          description: "Pending Event Timestamp"
+          type: "string"
+          format: "date-time"
+        EventBC:
+          description: "Pending Event BC"
+          type: "string"
+        EventAction:
+          description: "Pending Event Action"
+          type: "integer"
+          format: "int32"
+        EventData:
+          description: "Pending Event Data"
+          type: "string"
+        EventStatus:
+          description: "Pending Event Status"
+          type: "integer"
+          format: "int32"
+        EventErrors:
+          description: "Pending Event Extras"
+          type: "string"
+
+
+
+    GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem:
+      properties:
+        EventId:
+          description: "Pending Event Id"
+          type: "string"
+          format: "uuid"
+        EventTimestamp:
+          description: "Pending Event Timestamp"
+          type: "string"
+          format: "date-time"
+        EventStatus:
+          description: "Pending Event Status"
+          type: "integer"
+          format: "int32"
+        EventErrors:
+          description: "Pending Event Errors"
+          type: "string"
+
+        Mappings:
+          type: array
+          items:
+            description: MappingsItem
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList.Mappings_MappingsItem"
+
+
+    GeneXus.SD.Synchronization.SynchronizationEventResultList.Mappings_MappingsItem:
+      properties:
+        Table:
+          description: "Table"
+          type: "string"
+        Updates:
+          description: "Updates"
+          type: "string"
+        Conditions:
+          description: "Conditions"
+          type: "string"
+
+
+      x-gx-level: "SynchronizationEventResultList"
+
+    GeneXus.SD.Synchronization.SynchronizationInfo:
+      properties:
+        GxAppVersion:
+          description: "Application Version"
+          type: "string"
+        Synchronizer:
+          description: "Synchronizer"
+          type: "string"
+
+
+
+    K2BActivity:
+      properties:
+        EntityName:
+          description: "Entity Name"
+          type: "string"
+        TransactionName:
+          description: "Transaction Name"
+          type: "string"
+        PgmName:
+          description: "Pgm Name"
+          type: "string"
+        StandardActivityType:
+          description: "Standard Activity Type"
+          type: "string"
+        UserActivityType:
+          description: "User Activity Type"
+          type: "string"
+        Description:
+          description: "Description"
+          type: "string"
+
+
+
+    K2BActivityList_K2BActivityListItem:
+      properties:
+        Activity:
+          description: "K2 BActivity"
+          $ref: "#/components/schemas/K2BActivity"
+        IsAuthorized:
+          description: "Is Authorized"
+          type: "boolean"
+
+
+
+    GAMSDChangePassword_Level_DetailSdt:
+      properties:
+        Username:
+          description: "Username"
+          type: "string"
+        Userpassword:
+          description: "Userpassword"
+          type: "string"
+        Userpasswordnew:
+          description: "Userpasswordnew"
+          type: "string"
+        Userpasswordnewconf:
+          description: "Userpasswordnewconf"
+          type: "string"
+        Ispasswordexpires:
+          description: "Ispasswordexpires"
+          type: "boolean"
+        Gxdynprop:
+          description: "Gxdynprop"
+          type: "string"
+
+
+
+    GAMSDLogin_Level_DetailSdt:
+      properties:
+        Username:
+          description: "Username"
+          type: "string"
+        Password:
+          description: "Password"
+          type: "string"
+        Gxdynprop:
+          description: "Gxdynprop"
+          type: "string"
+
+
+
+    GAMSDNotAuthorized_Level_DetailSdt:
+      properties:
+        Username:
+          description: "Username"
+          type: "string"
+        Password:
+          description: "Password"
+          type: "string"
+        Gxdynprop:
+          description: "Gxdynprop"
+          type: "string"
+
+
+
+    GAMSDRegisterUser_Level_DetailSdt:
+      properties:
+        Username:
+          description: "Username"
+          type: "string"
+        Email:
+          description: "Email"
+          type: "string"
+        Firstname:
+          description: "Firstname"
+          type: "string"
+        Lastname:
+          description: "Lastname"
+          type: "string"
+        Password:
+          description: "Password"
+          type: "string"
+        Confirmpassword:
+          description: "Confirmpassword"
+          type: "string"
+        Gxdynprop:
+          description: "Gxdynprop"
+          type: "string"
+
+
+
+    GAMSDUpdateUser_Level_DetailSdt:
+      properties:
+        Username:
+          description: "Username"
+          type: "string"
+        Email:
+          description: "Email"
+          type: "string"
+        Firstname:
+          description: "Firstname"
+          type: "string"
+        Lastname:
+          description: "Lastname"
+          type: "string"
+        Userguid:
+          description: "Userguid"
+          type: "string"
+        Gxdynprop:
+          description: "Gxdynprop"
+          type: "string"
+
+
+
+ 

@@ -1,0 +1,3 @@
+C:\KBs\test\NETFrameworkSQLServer002\web\bin\developermenu.dll
+C:\KBs\test\NETFrameworkSQLServer002\build\developermenu\obj\Release\developermenu.csprojResolveAssemblyReference.cache
+C:\KBs\test\NETFrameworkSQLServer002\build\developermenu\obj\Release\developermenu.dll

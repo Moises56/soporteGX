@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "addpermissionchildren_Execute",
+    "Description": "K2BT_GAM_AddPermissionChildren",
+    "ProgramName": "k2bfsg.addpermissionchildren",
+    "IsGXAutomatic": true
+  }
+]
